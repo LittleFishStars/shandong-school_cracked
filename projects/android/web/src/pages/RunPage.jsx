@@ -12,8 +12,12 @@ export default function RunPage({ mapProps, walk, params, planDistance, actions,
   useEffect(() => { setPaceDraft((params && params.pace) || ''); }, [params && params.pace]);
   const st = (walk && walk.state) || {};
   const dist = Number(st.dist_m) || 0;
-  const dur = Number(st.elapsed_sec || st.move_sec) || 0;
-  // 配速 = 用时 / 距离（平均配速，和记录页口径一致）；刚起步距离太小时不显示
+  const elapsed = Number(st.elapsed_sec) || 0;
+  // 「配速」= 移动均速（只计真正在动的时间 move_sec）：与设定配速直接可比。
+  // 之前用 elapsed_sec（含松杆站立时间，原版记录页口径）——中途停几分钟
+  // 配速就被稀释到 20'/km，没法对照设定值。记录页/结算仍是 elapsed 口径（协议不动）。
+  const move = Number(st.move_sec) || 0;
+  const dur = move > 5 ? move : elapsed;
   const pace = (dist > 5 && dur > 0) ? dur / (dist / 1000) : 0;
   // 实时配速 = 当前速度换算（1 km 需要多少秒）
   const speed = Number(st.speed_mps) || 0;
