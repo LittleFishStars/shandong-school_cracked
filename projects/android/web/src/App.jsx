@@ -292,21 +292,31 @@ export default function App() {
       const lat = Number(w.state.lat), lng = Number(w.state.lng);
       if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
       const cosLat = Math.cos(lat * Math.PI / 180);
-      // 跳过「已经站在上面」或「已经越过（目标在前进方向后方，内积 < 0）」的路径点
-      const dir = sentDirRef.current;
+      // 跳过「已经站在上面」或「已经越过」的路径点。
+      // 越过判定用**该点的进入方向**（path[i]-path[i-1]，路线局部方向），
+      // 而不是全局发送方向——折返/急弯处，返程点全部落在去程方向的反侧，
+      // 旧判定会把整段返程连环跳光 → 直接「走完」停下（2026-10-25 实测：
+      // 137m 路线 60s 后全停，配速 20'/km）。局部方向下最多误跳弯后 1-2 点。
+      // 另加单周期跳跃上限，异常时宁可原地纠偏。
       let idx = ghostIdxRef.current;
-      while (idx < path.length) {
+      let jumps = 0;
+      while (idx < path.length && jumps < 4) {
         const east = (path[idx][1] - lng) * cosLat;
         const north = path[idx][0] - lat;
         const d = Math.hypot(east * 111320, north * 111320);
-        if (d < 0.5) { idx += 1; continue; }             // 已在点上
-        if (dir && east * dir[0] + north * dir[1] < 0) { idx += 1; continue; }  // 已越过
+        if (d < 0.5) { idx += 1; jumps += 1; continue; }          // 已在点上
+        const pe = (path[idx][1] - path[Math.max(0, idx - 1)][1]) * cosLat;
+        const pn = path[idx][0] - path[Math.max(0, idx - 1)][0];
+        if (idx > 0 && east * pe + north * pn < 0) { idx += 1; jumps += 1; continue; }  // 已越过（进入方向反侧）
         break;
       }
       ghostIdxRef.current = idx;
       // 没有下一个路径点：停下等待（继续拖动/摇杆再动）
       if (ghostIdxRef.current >= path.length) {
         Bridge.call('walk_joystick', 0, 0, 0).catch(() => {});
+        if (planRemainRef.current > 0) {
+          toast('拖动路线已走完，继续拖动地图可延长路线', 'info');
+        }
         setPlanRemain(0);
         return;
       }
@@ -966,7 +976,7 @@ export default function App() {
       )}
       {view === 'pick' && <PickPage mapProps={mapProps} actions={actions} />}
       {view === 'run' && (
-        <RunPage mapProps={mapProps} walk={walk} params={params} planDistance={Number(params.distance) || 0} actions={actions} dragMode={dragMode} />
+        <RunPage mapProps={mapProps} walk={walk} params={params} planDistance={dragMode ? ((Number(walk && walk.state && walk.state.dist_m) || 0) + planRemain || (Number(params.distance) || 0)) : (Number(params.distance) || 0)} actions={actions} dragMode={dragMode} />
       )}
       {view === 'account' && (
         <AccountPage status={status} runs={runs} actions={actions} />

@@ -633,12 +633,12 @@ SPEED_DRIFT_AMP = 0.13          # 1/f 慢漂移幅度（±10%，体能状态自�
 SPEED_MICRO_AMP = 0.012
 SPEED_OU_AMP = 0.20             # 中频节奏波动 σ（步频摆动，10s 窗配速波动主源）         # 逐点真速度微抖
 SPEED_WARMUP_FRAC = 0.12        # 热身段占比（速度从 85% 爬到 100%）
-SPEED_WARMUP_FROM = 0.78
+SPEED_WARMUP_FROM = 0.85
 SPEED_FATIGUE_FRAC = 0.35       # 疲劳段占比（末段线性衰减到 92%）
 SPEED_FATIGUE_TO = 0.86
 GPS_BIAS_SIGMA_M = 1.5          # GPS 慢偏置游走 σ（米）：时间相关噪声（多径/滤波）
 GPS_BIAS_DECAY = 0.90           # 每采样点衰减（τ≈10 点 ≈ 30 秒）
-GPS_WHITE_SIGMA_M = 0.34         # GPS 白噪声 σ（米）：逐点速度噪声的主要来源
+GPS_WHITE_SIGMA_M = 0.45         # GPS 白噪声 σ（米）：逐点速度噪声的主要来源
 
 
 class SpeedDynamics:
@@ -680,10 +680,14 @@ class SpeedDynamics:
     def _advance_events(self) -> None:
         if self.t >= self._next_event_at:
             if self._event_until < self.t:
-                if self.rng.random() < 0.8:        # 减速为主，偶有冲刺
-                    self._event_f = self.rng.uniform(0.72, 0.90)
+                # 减速/加速**期望配平**：0.6×0.86 + 0.4×1.11 ≈ 1.0。
+                # 旧参数（0.8 概率减速 0.72-0.90 / 0.2 加速 1.05-1.12）期望 0.865，
+                # 与热身/漂移/节奏相乘后系统性偏慢 ~30%（2026-10-25 实走实测
+                # 移动均速因子 0.69，配速 20'/km vs 设定 6'00"）。
+                if self.rng.random() < 0.6:
+                    self._event_f = self.rng.uniform(0.80, 0.92)
                 else:
-                    self._event_f = self.rng.uniform(1.05, 1.12)
+                    self._event_f = self.rng.uniform(1.08, 1.14)
                 self._event_until = self.t + self.rng.uniform(24.0, 66.0)
             self._next_event_at = self._schedule_event()
         if self._event_until >= 0 and self.t > self._event_until:
@@ -712,11 +716,17 @@ class SpeedDynamics:
         self._advance_events()
 
     def factor(self) -> float:
-        """当前时刻的乘性速度因子（≈1.0，含热身/漂移/节奏/事件）"""
+        """当前时刻的乘性速度因子（期望 ≈1.0，硬夹限 [0.82, 1.22]）
+
+        各分量独立看都合理，但相乘后热身(0.78)×漂移(-0.13)×节奏(-0.2σ)×
+        事件(0.72) 可以同相叠到 ~0.37——实走速度被拉到设定值的一半以下。
+        真人速度波动是对称的（围绕设定配速），所以总因子必须夹限。
+        """
         warm = 1.0
         if self.t < self.warmup_s:
             warm = SPEED_WARMUP_FROM + (1.0 - SPEED_WARMUP_FROM) * self.t / self.warmup_s
-        return warm * (1.0 + self._drift + self._ou) * self._event_f
+        f = warm * (1.0 + self._drift + self._ou) * self._event_f
+        return max(0.82, min(1.22, f))
 
     def noise(self) -> Tuple[float, float]:
         """当前时刻的 GPS 噪声（米，两分量：慢偏置 + 白噪声）"""
