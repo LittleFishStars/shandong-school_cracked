@@ -50,7 +50,7 @@ def _install_gtk_log_filter() -> None:
     """
     import threading as _th
 
-    MUTE = ("Error writing selection data", "写入文件描述符时出错", "Broken pipe")
+    from .stderr_filter import StderrNoiseFilter, is_muted
 
     # ① 进程级：fd 2 → 管道 → 过滤 → 原 stderr（覆盖 WebKit 子进程的输出）
     try:
@@ -61,25 +61,29 @@ def _install_gtk_log_filter() -> None:
             os.close(write_fd)
 
             def _pump() -> None:
-                buf = b""
+                # 过滤规则见 stderr_filter 模块（噪音行 + 其自带的尾随空行）
+                flt = StderrNoiseFilter()
                 while True:
                     try:
                         chunk = os.read(read_fd, 8192)
                     except OSError:
                         return
                     if not chunk:
+                        tail = flt.flush()
+                        if tail:
+                            try:
+                                os.write(saved_fd, tail)
+                            except OSError:
+                                pass
                         return
-                    buf += chunk
-                    while b"\n" in buf:
-                        line, buf = buf.split(b"\n", 1)
-                        text = line.decode("utf-8", "replace")
-                        if "selection" in text and any(m in text for m in MUTE):
-                            continue                  # 只吞这一条
-                        try:
-                            # 必须写到 saved_fd：写回 fd 2 会自环（fd 2 已是管道）
-                            os.write(saved_fd, (text + "\n").encode("utf-8"))
-                        except OSError:
-                            pass
+                    out = flt.feed(chunk)
+                    if not out:
+                        continue
+                    try:
+                        # 必须写到 saved_fd：写回 fd 2 会自环（fd 2 已是管道）
+                        os.write(saved_fd, out)
+                    except OSError:
+                        pass
 
             _th.Thread(target=_pump, name="stderr-filter", daemon=True).start()
             _install_gtk_log_filter._stderr_hooked = True
@@ -121,7 +125,7 @@ def _install_gtk_log_filter() -> None:
                     if isinstance(message, (bytes, bytearray)) else str(message))
         except Exception:  # noqa: BLE001
             text = ""
-        if "selection" in text and any(m in text for m in MUTE):
+        if is_muted(text):
             return
         if native is not None:
             try:
