@@ -979,7 +979,7 @@ export default function App() {
       )}
       {view === 'pick' && <PickPage mapProps={mapProps} actions={actions} />}
       {view === 'run' && (
-        <RunPage mapProps={mapProps} walk={walk} params={params} planDistance={dragMode ? ((Number(walk && walk.state && walk.state.dist_m) || 0) + planRemain || (Number(params.distance) || 0)) : (Number(params.distance) || 0)} actions={actions} dragMode={dragMode} />
+        <RunPage mapProps={mapProps} walk={walk} params={params} planDistance={(planRemain > 0 ? (Number(walk && walk.state && walk.state.dist_m) || 0) + planRemain : (Number(params.distance) || 0))} actions={actions} dragMode={dragMode} />
       )}
       {view === 'account' && (
         <AccountPage status={status} runs={runs} actions={actions} />
