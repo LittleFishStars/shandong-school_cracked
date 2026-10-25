@@ -22,39 +22,78 @@ from . import constants as C
 from .app import App
 
 
-# ══════════════════ GTK/Wayland 剪贴板警告过滤 ══════════════════
+# ══════════════════ GDK 日志噪声过滤 ══════════════════
 def _install_gtk_log_filter() -> None:
     """吞掉复制文本时的无害 GDK 警告（Wayland 惰性剪贴板的固有现象）
 
-    现象：
-        (__main__.py:PID): Gdk-WARNING **: 15:42:07.487:
-        Error writing selection data: 写入文件描述符时出错：断开的管道
+    现象：Ctrl+C 复制界面文字时终端刷
+        (__main__.py:PID): Gdk-WARNING **: Error writing selection data:
+        写入文件描述符时出错：断开的管道
 
-    机制（不是程序的 bug）：Wayland 的剪贴板是**惰性传输**——复制时不复制
-    数据，只在接收方 paste 时才通过 pipe 现取。WebKitGTK 在 GTK 的
-    selection_get 回调里往 pipe 写；此时接收方（或剪贴板管理器/中间代理）
-    已经关闭读端，write 拿到 EPIPE，GTK 就把 errno 打成 Gdk-WARNING。
-    数据其实**已经进剪贴板**（粘贴正常），这条警告是计时竞态留下的噪音，
-    在 Wayland + GTK3 + WebKitGTK 组合下几乎每次复制都会出现。
-    上游同类问题：wl-clip-persist#7（Inkscape 一样刷屏）。
+    机制（不是程序的 bug）：Wayland 剪贴板是**惰性传输**——复制时不搬运数据，
+    只在接收方 paste 时才通过 pipe 现取。持有内容的 WebKit 进程在 GTK 的
+    selection 回调里写 pipe；若对端已关闭读端就拿到 EPIPE，GTK 把 errno 打成
+    Gdk-WARNING。数据其实**已进剪贴板**（粘贴正常），该警告是计时竞态的噪音。
+    上游同类：wl-clip-persist#7（Inkscape 一样刷屏）。
 
-    实现要点（都是踩过的坑）：
-      · PyGObject **没有** GLib.log_set_default_handler；
-      · LogLevelFlags **没有** ALL，要用各 LEVEL 按位或（=252）；
-      · log_set_handler 的 domain 传 None **不会**成为默认域，
-        必须显式注册 "Gdk"/"Gtk" 等真实域名才生效；
-      · 回调里回落原处理器要用 ctypes 调 g_log_default_handler，
-        且 domain 要显式转成 bytes（PyGObject 给的是 str）。
-    只过滤这一条，其余 GTK 警告照常输出，不掩盖真问题。
+    ★ 为什么单靠 GLib.log_set_handler 不够（踩过的坑，2026-10-25 实测）：
+      WebKitGTK 会把渲染拆到**子进程**（WebKitWebProcess / WebKitNetworkProcess，
+      见 ps 的进程树）。这条警告由持有剪贴板内容的 WebProcess 打印，**不在
+      Python 主进程里**——主进程注册的 GLib handler 管不到它（cython 也没法在
+      子进程里装东西）。所以必须进程级接管：把 fd 2（stderr）换成管道，
+      由主进程读出来逐行过滤——子进程继承同一个 stderr，输出就一起被过滤。
+
+      另外三个坑：PyGObject 没有 log_set_default_handler；LogLevelFlags 没有
+      ALL（要用各 LEVEL 按位或）；log_set_handler 的 domain 传 None 不是默认域。
+
+    只过滤这一条，其余 stderr 照常输出。
     """
+    import threading as _th
+
+    MUTE = ("Error writing selection data", "写入文件描述符时出错", "Broken pipe")
+
+    # ① 进程级：fd 2 → 管道 → 过滤 → 原 stderr（覆盖 WebKit 子进程的输出）
+    try:
+        if not getattr(_install_gtk_log_filter, "_stderr_hooked", False):
+            saved_fd = os.dup(2)          # 原 stderr 的副本（过滤后写回它）
+            read_fd, write_fd = os.pipe()
+            os.dup2(write_fd, 2)          # 之后 fd 2（含子进程继承的）都进管道
+            os.close(write_fd)
+
+            def _pump() -> None:
+                buf = b""
+                while True:
+                    try:
+                        chunk = os.read(read_fd, 8192)
+                    except OSError:
+                        return
+                    if not chunk:
+                        return
+                    buf += chunk
+                    while b"\n" in buf:
+                        line, buf = buf.split(b"\n", 1)
+                        text = line.decode("utf-8", "replace")
+                        if "selection" in text and any(m in text for m in MUTE):
+                            continue                  # 只吞这一条
+                        try:
+                            # 必须写到 saved_fd：写回 fd 2 会自环（fd 2 已是管道）
+                            os.write(saved_fd, (text + "\n").encode("utf-8"))
+                        except OSError:
+                            pass
+
+            _th.Thread(target=_pump, name="stderr-filter", daemon=True).start()
+            _install_gtk_log_filter._stderr_hooked = True
+    except Exception:  # noqa: BLE001
+        pass
+
+    # ② 主进程内：GLib 域过滤（GTK/WebKit 直接走 g_log 的部分）
     try:
         import gi  # type: ignore
         gi.require_version("Gtk", "3.0")
         from gi.repository import GLib  # type: ignore
-    except Exception:  # noqa: BLE001  没有 GTK（--browser 模式等）就什么都不做
+    except Exception:  # noqa: BLE001  没有 GTK（--browser 模式等）就到此为止
         return
 
-    MUTE = ("Error writing selection data", "写入文件描述符时出错", "Broken pipe")
     ALL = 0
     for name in ("LEVEL_ERROR", "LEVEL_CRITICAL", "LEVEL_WARNING",
                  "LEVEL_MESSAGE", "LEVEL_INFO", "LEVEL_DEBUG"):
@@ -63,7 +102,6 @@ def _install_gtk_log_filter() -> None:
         except Exception:  # noqa: BLE001
             continue
 
-    # ctypes 回落：把未过滤的消息交回 GLib 默认处理器
     native = None
     try:
         import ctypes
@@ -84,7 +122,7 @@ def _install_gtk_log_filter() -> None:
         except Exception:  # noqa: BLE001
             text = ""
         if "selection" in text and any(m in text for m in MUTE):
-            return                          # 只吞这一条
+            return
         if native is not None:
             try:
                 dom = domain.encode() if isinstance(domain, str) else (domain or b"")
@@ -93,10 +131,6 @@ def _install_gtk_log_filter() -> None:
                 return
             except Exception:  # noqa: BLE001
                 pass
-        try:                                # 最后兜底：至少打到 stderr，不静默丢弃
-            sys.stderr.write(f"{domain or ''}-WARNING: {text}\n")
-        except Exception:  # noqa: BLE001
-            pass
 
     for domain in ("Gdk", "Gtk", "GLib", "GLib-GObject"):
         try:
