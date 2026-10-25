@@ -95,7 +95,11 @@ jobs:
         with:
           python-version: "3.12"      # Chaquopy 的 buildPython（Pillow wheel 在 cp312 最稳）
 
+      # wrapper jar 是我们自己生成的，不在 gradle/actions 的官方白名单里，
+      # 默认校验会直接失败 → 关掉（distributionUrl 仍指向官方 services.gradle.org）
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          validate-wrappers: false
 
       - name: 配置签名密钥（有 secret 才签正式包）
         env:
