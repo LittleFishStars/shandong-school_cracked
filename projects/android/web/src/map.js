@@ -52,11 +52,26 @@ export function initMap(el, onClickRef, ghostRef, dragModeRef) {
 
   /* ────────────────── 移动端：拖动模式（§4）──────────────────
      桌面版用鼠标右键；移动端无右键，改为「拖动模式下任意单指按住拖动」。
-     拖动期间禁用地图平移（m.dragging.disable()），结束后恢复。 */
+
+     ★ 与双指缩放的共存规则（2026-10-25 修复地图无法缩放）：
+       旧实现在 pointerdown 就 preventDefault + 禁用地图拖动 + 在 touchmove
+       里无条件 preventDefault —— 第二根手指落下时事件流已被掐断，Leaflet
+       的 touchZoom（依赖 touchstart 双指 + touchmove）永远收不到，于是
+       规划路径模式下地图完全没法缩放。
+
+       新规则：
+         ① 单指按下时**只记录候选**，不立刻 preventDefault、不禁用拖动；
+         ② 确认是「单指移动」后才进入拖动（超过 8px 阈值），此时才禁平移；
+         ③ 只要检测到第二根手指（touchstart.touches.length >= 2 或
+            pointerdown 时已有活跃指针），**立即放弃拖动**并把控制权交还
+            Leaflet（恢复 m.dragging），且此后不再拦截 touchmove；
+         ④ touchmove 只在「拖动已激活且仍是单指」时 preventDefault。 */
   let dragging = false;
+  let pending = false;          // 单指按下、尚未确认是拖动
+  let startXY = null;
+  const activePointers = new Set();
 
   const getLatLng = (ev) => {
-    // 兼容 touch 与 mouse（Leaflet 的 mouseEventToLatLng 也能吃 PointerEvent）
     try {
       return m.mouseEventToLatLng(ev);
     } catch (_) { return null; }
@@ -67,49 +82,99 @@ export function initMap(el, onClickRef, ghostRef, dragModeRef) {
     return !!(d && d.dragMode);
   };
 
-  const onPointerDown = (ev) => {
+  const canDrag = () => {
     const g = ghostRef && ghostRef.current;
-    if (!g || !g.enabled || !isDragMode()) return;
-    // 只响应单指触摸（或多指中的第一指），避免干扰双指缩放
-    if (ev.pointerType === 'touch' && ev.isPrimary === false) return;
-    if (ev.button !== undefined && ev.button !== 0) return;  // 非左键
+    return !!(g && g.enabled && isDragMode());
+  };
+
+  const beginDrag = (ev) => {
     dragging = true;
-    ev.preventDefault();
+    pending = false;
     try { m.dragging.disable(); } catch (_) { /* 忽略 */ }
-    const ll = getLatLng(ev);
-    if (ll && g.onStart) g.onStart(ll.lat, ll.lng);
-  };
-
-  const onPointerMove = (ev) => {
-    if (!dragging) return;
     const g = ghostRef && ghostRef.current;
-    if (!g) return;
     const ll = getLatLng(ev);
-    if (ll && g.onMove) g.onMove(ll.lat, ll.lng);
+    if (ll && g && g.onStart) g.onStart(ll.lat, ll.lng);
   };
 
-  const endDrag = () => {
+  const endDrag = (notify = true) => {
+    pending = false;
+    startXY = null;
     if (!dragging) return;
     dragging = false;
     try { m.dragging.enable(); } catch (_) { /* 忽略 */ }
     const g = ghostRef && ghostRef.current;
-    if (g && g.onEnd) {
-      // onGhostEnd 桌面版直接设 active=false；这里加防抖避免 touchend 触发两次
-      g.onEnd();
+    if (notify && g && g.onEnd) g.onEnd();
+  };
+
+  /* 双指介入：立刻让位给 Leaflet 的 touchZoom */
+  const yieldToZoom = () => {
+    endDrag(true);              // 结束并复位已画路径段（保持已有 ghostPath 不变）
+    activePointers.clear();
+  };
+
+  const onPointerDown = (ev) => {
+    if (ev.pointerType === 'touch' || ev.pointerType === 'pen') {
+      activePointers.add(ev.pointerId);
+      // 第二根手指：让路，不做任何 preventDefault
+      if (activePointers.size >= 2 || ev.isPrimary === false) {
+        yieldToZoom();
+        return;
+      }
+    } else if (ev.button !== undefined && ev.button !== 0) {
+      return;                   // 只认左键
     }
+    if (!canDrag()) return;
+    // 不在这里 preventDefault / disable：先观察是否真的移动
+    pending = true;
+    startXY = { x: ev.clientX, y: ev.clientY };
+  };
+
+  const onPointerMove = (ev) => {
+    if (ev.pointerType === 'touch' && ev.isPrimary === false) return;
+    // 双指（或在拖动中新增手指）→ 让位
+    if (activePointers.size >= 2) { yieldToZoom(); return; }
+    if (pending && !dragging) {
+      if (!canDrag()) { pending = false; return; }
+      const dx = ev.clientX - startXY.x;
+      const dy = ev.clientY - startXY.y;
+      if (Math.hypot(dx, dy) < 8) return;      // 阈值内：还可能是点击/缩放
+      beginDrag(ev);
+      return;
+    }
+    if (!dragging) return;
+    const g = ghostRef && ghostRef.current;
+    const ll = getLatLng(ev);
+    if (ll && g && g.onMove) g.onMove(ll.lat, ll.lng);
+  };
+
+  const onPointerUp = (ev) => {
+    if (ev && ev.pointerId !== undefined) activePointers.delete(ev.pointerId);
+    if (activePointers.size >= 2) return;
+    endDrag(true);
+  };
+
+  /* touch 层：双指时必须完全放行，否则 Leaflet touchZoom 收不到事件 */
+  const onTouchStart = (ev) => {
+    if (ev.touches && ev.touches.length >= 2) yieldToZoom();
   };
 
   container.addEventListener('pointerdown', onPointerDown);
   container.addEventListener('pointermove', onPointerMove);
-  container.addEventListener('pointerup', endDrag);
-  container.addEventListener('pointercancel', endDrag);
-  // 也为鼠标保留（浏览器调试拖动也可用）
-  container.addEventListener('mousedown', (ev) => { if (ev.button !== 2) onPointerDown(ev); });
-  container.addEventListener('mousemove', (ev) => { if (dragging) onPointerMove(ev); });
-  window.addEventListener('mouseup', endDrag);
-  window.addEventListener('touchend', endDrag);
-  // 拖动期间阻止默认防止页面滚动
-  container.addEventListener('touchmove', (ev) => { if (dragging) ev.preventDefault(); }, { passive: false });
+  container.addEventListener('pointerup', onPointerUp);
+  container.addEventListener('pointercancel', onPointerUp);
+  container.addEventListener('touchstart', onTouchStart, { passive: true });
+  // 鼠标（浏览器调试/桌面壳拖动）
+  container.addEventListener('mousedown', (ev) => { if (ev.button === 0) onPointerDown(ev); });
+  container.addEventListener('mousemove', (ev) => { if (dragging || pending) onPointerMove(ev); });
+  window.addEventListener('mouseup', () => onPointerUp());
+  window.addEventListener('touchend', (ev) => {
+    if (ev.touches && ev.touches.length >= 1) return;   // 还有手指在屏幕上
+    onPointerUp();
+  });
+  // 只有「拖动已真正激活且仍是单指」才阻止默认（防页面滚动）
+  container.addEventListener('touchmove', (ev) => {
+    if (dragging && (!ev.touches || ev.touches.length === 1)) ev.preventDefault();
+  }, { passive: false });
 
   return m;
 }
