@@ -396,9 +396,50 @@ def run_full_flow() -> None:
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+
+def _check_build_mode() -> None:
+    """构建类型 → 默认运行模式的映射（debug=mock / release=real）"""
+    section("0. 构建类型 → 默认运行模式（debug 包不碰真实服务端）")
+    sys.path.insert(0, str(PY_ROOT))
+    import android_env
+
+    class FakeHost:
+        def __init__(self, debug: bool) -> None:
+            self.debug = debug
+
+        def isDebugBuild(self) -> bool:
+            return self.debug
+
+    android_env.set_host(FakeHost(True))
+    check(android_env.default_mode() == "mock",
+          "debug 包 → 默认 mock（不连真实服务端）",
+          f"got={android_env.default_mode()}")
+
+    android_env.set_host(FakeHost(False))
+    check(android_env.default_mode() == "real",
+          "release 包 → 默认 real",
+          f"got={android_env.default_mode()}")
+
+    # 老宿主（无 isDebugBuild 方法）/ 无宿主 → 回落 DEFAULT_MODE
+    class OldHost:
+        pass
+
+    android_env.set_host(OldHost())
+    from shandong_school_cracked.bus import DEFAULT_MODE
+    check(android_env.default_mode() == DEFAULT_MODE,
+          "老宿主（无 isDebugBuild）→ 回落 DEFAULT_MODE",
+          f"got={android_env.default_mode()} want={DEFAULT_MODE}")
+
+    android_env.set_host(None)
+    check(android_env.default_mode() == DEFAULT_MODE,
+          "无宿主（桌面/测试）→ 回落 DEFAULT_MODE",
+          f"got={android_env.default_mode()}")
+
+
 def main() -> int:
     print("\033[1m闪动校园 · 安卓桥（android_api.dispatch）免手机自检\033[0m")
     print(f"Python {sys.version.split()[0]} | {PY_ROOT}")
+    _check_build_mode()
     run_smoke()
     run_full_flow()
 

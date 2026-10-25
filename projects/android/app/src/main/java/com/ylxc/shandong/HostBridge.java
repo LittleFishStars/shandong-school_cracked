@@ -20,4 +20,7 @@ public interface HostBridge {
 
     /** 返回设备指纹 JSON 字符串 {manufacturer, model, brand, release, sdkInt}。 */
     String deviceInfoJson();
+
+    /** 是否调试包（BuildConfig.DEBUG）——Python 侧据此决定默认 real / mock */
+    boolean isDebugBuild();
 }
