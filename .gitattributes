@@ -4,6 +4,11 @@
 *.so    filter=lfs diff=lfs merge=lfs -text
 *.bin   filter=lfs diff=lfs merge=lfs -text
 *.jar   filter=lfs diff=lfs merge=lfs -text
+# gradle wrapper jar 是构建必需的小文件（~46 KB），不能走 LFS：
+# CI 若未启用 LFS 检出，拿到的是指针文件，gradle 直接报
+#   Invalid or corrupt jarfile .../gradle-wrapper.jar
+# （2026-10-25 实际踩过）
+projects/android/gradle/wrapper/gradle-wrapper.jar -filter -diff -merge -text binary
 *.a     filter=lfs diff=lfs merge=lfs -text
 *.xz    filter=lfs diff=lfs merge=lfs -text
 *.zip   filter=lfs diff=lfs merge=lfs -text
