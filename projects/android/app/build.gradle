@@ -76,9 +76,30 @@ chaquopy {
         // 固定 Python 3.12（Chaquopy 17.x 的 Pillow wheel 在 cp312 最稳）
         version = '3.12'
         // 注意：Chaquopy 17.x 的 buildPython 是 List<String>（用于命令+参数），
-        // 不能用 String 直接赋值，需包一层列表。可通过 -PbuildPython=/path 覆盖。
-        def bp = (project.findProperty('buildPython') ?: '/home/ylxc/.local/bin/python3.12')
-        buildPython = [bp]
+        // 不能用 String 直接赋值，需包一层列表。
+        //
+        // 不能写死开发者本机路径（曾硬编码 /home/ylxc/.local/bin/python3.12，
+        // 导致 CI 报 "does not exist"）。解析顺序：
+        //   ① -PbuildPython=/path（显式覆盖）
+        //   ② 环境变量 BUILD_PYTHON
+        //   ③ 常见位置里真实存在的 python3.12（本机 venv/pyenv 等）
+        //   ④ 回落到 "python3"（CI 用 actions/setup-python 装好后就在 PATH 里）
+        def pyCandidates = []
+        if (project.hasProperty('buildPython')) {
+            pyCandidates << project.property('buildPython').toString()
+        }
+        if (System.getenv('BUILD_PYTHON')) {
+            pyCandidates << System.getenv('BUILD_PYTHON')
+        }
+        pyCandidates += ['/home/ylxc/.local/bin/python3.12',
+                         "${System.getProperty('user.home')}/.local/bin/python3.12",
+                         '/usr/bin/python3.12']
+        def pyPick = pyCandidates.find { new File(it).canExecute() }
+        if (pyPick == null) {
+            pyPick = 'python3'          // CI：setup-python 已把 3.12 放进 PATH
+        }
+        logger.lifecycle("[chaquopy] buildPython = ${pyPick}")
+        buildPython = [pyPick]
         pip {
             // 显式指定 Pillow 版本 + Chaquopy 预编译 wheel 源（默认已配，保险起见显式写出）
             options "--index-url", "https://pypi.org/simple/",
