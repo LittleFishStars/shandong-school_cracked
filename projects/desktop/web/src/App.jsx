@@ -744,7 +744,7 @@ export default function App() {
       )}
       {view === 'pick' && <PickPage mapProps={mapProps} actions={actions} />}
       {view === 'run' && (
-        <RunPage mapProps={mapProps} walk={walk} params={params} planDistance={(Number(walk && walk.state && walk.state.dist_m) || 0) + planRemain} actions={actions} />
+        <RunPage mapProps={mapProps} walk={walk} params={params} planDistance={Number(params.distance) || 0} actions={actions} />
       )}
       {view === 'account' && (
         <AccountPage status={status} runs={runs} actions={actions} />
