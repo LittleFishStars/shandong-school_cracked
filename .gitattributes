@@ -9,6 +9,9 @@
 #   Invalid or corrupt jarfile .../gradle-wrapper.jar
 # （2026-10-25 实际踩过）
 projects/android/gradle/wrapper/gradle-wrapper.jar -filter -diff -merge -text binary
+
+#   AAPT: error: file failed to compile.（图标/资源全是 130 字节指针）
+# 这些文件都很小，没必要 LFS。（2026-10-25 实际踩过）
 *.a     filter=lfs diff=lfs merge=lfs -text
 *.xz    filter=lfs diff=lfs merge=lfs -text
 *.zip   filter=lfs diff=lfs merge=lfs -text
@@ -23,3 +26,10 @@ projects/android/gradle/wrapper/gradle-wrapper.jar -filter -diff -merge -text bi
 
 # frida-server 没有扩展名，单独指定
 work/toolchain/frida-server-* filter=lfs diff=lfs merge=lfs -text
+
+
+# Android 资源目录整体不走 LFS：AAPT 直接读原始字节，拿到 LFS 指针会报
+#   AAPT: error: file failed to compile.（图标全是 130 字节指针）
+# 必须放在 *.png 等规则**之后**——gitattributes 后出现的规则优先。
+# （2026-10-25 实际踩过）
+projects/android/app/src/main/res/** -filter -diff -merge -text binary
