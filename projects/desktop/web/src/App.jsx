@@ -39,6 +39,9 @@ export default function App() {
   const [serverPoints, setServerPoints] = useState(null);
   const [ghostPath, setGhostPath] = useState([]);
   const [planRemain, setPlanRemain] = useState(0);
+  // 定时器闭包需要读到最新值（toast 只在该段路线真走完时响一次）
+  const planRemainRef = useRef(0);
+  planRemainRef.current = planRemain;
   const [params, setParams] = useState({
     distance: 2000, fence: 0, cadAvg: 177, cadVar: 5, stride: 0.85,
     pace: `6'40"`, autoSettle: true, auto: false, mode: 'real',

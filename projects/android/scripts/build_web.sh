@@ -13,6 +13,13 @@ echo "    产物目录: $OUT"
 
 cd "$WEB"
 
+# 0) 前端静态自检（未定义 Ref 会在运行时 ReferenceError 白屏，构建不报）
+echo "==> 前端静态自检 ..."
+if ! python3 "$ROOT/../scripts/web_lint.py" "$WEB/src"; then
+  echo "✗ 前端静态自检未通过，构建中止"
+  exit 1
+fi
+
 # 1) 安装依赖（有 node_modules 就跳过）
 if [ ! -d node_modules ]; then
   echo "==> npm install ..."
