@@ -1,7 +1,8 @@
 name: 打包可执行文件
 
 # 触发方式：
-#   · push tag v*  → 构建 Linux / Windows 两个单文件可执行程序，并发布到 GitHub Release
+#   · push tag v*  → 构建 Linux / Windows / Android，并发布到 GitHub Release
+#                    标签含 -pre / -beta / -rc / -alpha 时自动标记为预发布
 #   · 手动运行    → 只构建，产物在 Actions 的 Artifacts 里（不发 Release）
 on:
   push:
@@ -20,10 +21,10 @@ env:
   PYTHONUTF8: "1"
   PYTHONIOENCODING: "utf-8"
 
-
 jobs:
-  build:
-    name: build · ${{ matrix.label }}
+  # ────────────────── 桌面：Linux / Windows 单文件 ──────────────────
+  desktop:
+    name: desktop · ${{ matrix.label }}
     runs-on: ${{ matrix.os }}
     defaults:
       run:
@@ -75,9 +76,75 @@ jobs:
           path: projects/desktop/dist/*
           if-no-files-found: error
 
+  # ────────────────── Android：release + debug APK ──────────────────
+  android:
+    name: android · apk
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/android
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"          # AGP 8.13 要求 JDK 17+，Chaquopy 17 在 21 上验证过
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"      # Chaquopy 的 buildPython（Pillow wheel 在 cp312 最稳）
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: 配置签名密钥（有 secret 才签正式包）
+        env:
+          KS_B64: ${{ secrets.SHANDONG_KEYSTORE_B64 }}
+          STORE_PW: ${{ secrets.SHANDONG_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.SHANDONG_KEY_ALIAS }}
+          KEY_PW: ${{ secrets.SHANDONG_KEY_PASSWORD }}
+        run: |
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/shandong-release.jks"
+            {
+              echo "shandong.storeFile=$RUNNER_TEMP/shandong-release.jks"
+              echo "shandong.storePassword=$STORE_PW"
+              echo "shandong.keyAlias=$KEY_ALIAS"
+              echo "shandong.keyPassword=$KEY_PW"
+            } >> local.properties
+            echo "✓ 已配置正式签名"
+          else
+            echo "· 无签名 secret，release 包将未签名（仅用于测试安装）"
+          fi
+
+      - name: 前端构建（lint + 手势测试 + esbuild）
+        working-directory: projects/android/web
+        run: |
+          npm ci || npm install
+          npm run build
+
+      - name: 构建 APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease assembleDebug --no-daemon
+
+      - name: 整理产物
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/release/*.apk dist/ 2>/dev/null || true
+          cp app/build/outputs/apk/debug/*.apk dist/ 2>/dev/null || true
+          ls -lh dist/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shandong-school_cracked-android
+          path: projects/android/dist/*.apk
+          if-no-files-found: error
+
+  # ────────────────── 发布 ──────────────────
   release:
     name: 发布 Release
-    needs: build
+    needs: [desktop, android]
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     steps:
@@ -90,8 +157,22 @@ jobs:
         working-directory: artifacts
         run: |
           rm -f SHA256SUMS-*
-          sha256sum shandong-school_cracked-* > SHA256SUMS
+          sha256sum shandong-school_cracked-* *.apk > SHA256SUMS 2>/dev/null || \
+            sha256sum shandong-school_cracked-* > SHA256SUMS
           cat SHA256SUMS
+
+      # 标签里带预发布标记就按预发布发（GitHub 显示 Pre-release，不进 latest）
+      - name: 判定是否预发布
+        id: pre
+        run: |
+          TAG="${{ github.ref_name }}"
+          if [[ "$TAG" =~ -(pre|beta|rc|alpha) ]]; then
+            echo "flag=--prerelease" >> "$GITHUB_OUTPUT"
+            echo "kind=预发布" >> "$GITHUB_OUTPUT"
+          else
+            echo "flag=" >> "$GITHUB_OUTPUT"
+            echo "kind=正式版" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: 创建 / 更新 Release
         working-directory: .
@@ -100,11 +181,13 @@ jobs:
           GH_REPO: ${{ github.repository }}   # 这层没有 checkout，gh 找不到 .git，必须显式给仓库
           TAG: ${{ github.ref_name }}
         run: |
+          NOTES="Linux / Windows 单文件可执行程序 + Android APK（release/debug）。校验和见 SHA256SUMS。"
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" artifacts/* --clobber
           else
             gh release create "$TAG" artifacts/* \
               --title "shandong-school_cracked ${TAG#v}" \
-              --notes "Linux / Windows 单文件可执行程序。校验和见 SHA256SUMS。" \
+              --notes "$NOTES" \
+              ${{ steps.pre.outputs.flag }} \
               --generate-notes
           fi

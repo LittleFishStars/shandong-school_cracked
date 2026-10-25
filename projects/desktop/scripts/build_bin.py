@@ -67,7 +67,18 @@ def exe_name() -> str:
 # ── Windows 文件属性 ──────────────────────────────────────────
 def write_version_info() -> None:
     """生成 PyInstaller 的版本资源（只在 Windows 上有意义，但生成无害）"""
-    nums = [int(x) for x in (VERSION.split(".") + ["0", "0", "0", "0"])[:4]]
+    # 版本号可能是预发布（3.0.0-pre1）：数字段只取纯数字部分，
+    # Windows 文件属性的 4 元组不接受字母后缀
+    parts = []
+    for seg in VERSION.split("."):
+        digits = ""
+        for ch in seg:
+            if ch.isdigit():
+                digits += ch
+            else:
+                break
+        parts.append(int(digits) if digits else 0)
+    nums = (parts + [0, 0, 0, 0])[:4]
     tuple_str = "(" + ", ".join(str(n) for n in nums) + ")"
     text = f"""# UTF-8
 VSVersionInfo(
