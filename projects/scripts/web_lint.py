@@ -9,10 +9,12 @@
 
 检查项：
   1. 所有 `xxxRef` 引用必须有 `const xxxRef = useRef(` 或 `= useRef(`
-     （Allowlist：React 自带 ref 转发 `ref.current` 这种属性访问不算）。
-  2. 被 `useCallback`/`useEffect` 引用的裸标识符做一次粗筛：源码中出现的
-     `planXxx` 之类自定义前缀变量，若只有引用没有声明就报错。
-  3. JSX 花括号里的表达式做括号平衡检查（粗筛语法错）。
+     （Allowlist：ref 转发、函数形参）。
+  2. 括号平衡（粗筛，仅提示）。
+
+说明：更全面的「未定义变量」检查交给 eslint（no-undef，AST 级零误报）：
+    cd web && npm run lint        # eslint src && web_lint src
+本脚本是零依赖兜底，用于没有 node_modules 的环境。
 
 用法：
     python3 scripts/web_lint.py            # 检查 desktop + android 两端
@@ -50,6 +52,8 @@ def check_refs(src: str, name: str) -> list[str]:
     for u in sorted(used - declared - REF_ALLOW):
         errs.append(f"{name}: `{u}` 被引用但没有 `const {u} = useRef(...)` 声明")
     return errs
+
+
 
 
 def check_balance(src: str, name: str) -> list[str]:
