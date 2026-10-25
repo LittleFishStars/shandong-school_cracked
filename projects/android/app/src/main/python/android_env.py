@@ -19,7 +19,8 @@ from __future__ import annotations
 
 import json
 from typing import Any, Dict, Optional
-__all__ = ["set_host", "get_host", "device_info", "configure_app"]
+__all__ = ["set_host", "get_host", "device_info", "configure_app",
+           "is_debug_build", "default_mode"]
 
 
 # ── 模块级单例：Java 侧注入的宿主桥 ──
@@ -73,6 +74,39 @@ def _platform_code() -> str:
         return str(DEFAULT_PLATFORM)
     except Exception:  # noqa: BLE001
         return "2"
+
+
+def is_debug_build() -> Optional[bool]:
+    """宿主是否 debug 包（BuildConfig.DEBUG）。
+
+    返回 None 表示无法判断（无宿主 / 老版本宿主没有该方法），
+    调用方应回落到自己的默认值。
+    """
+    host = get_host()
+    if host is None:
+        return None
+    fn = getattr(host, "isDebugBuild", None)
+    if fn is None:
+        return None
+    try:
+        return bool(fn())
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def default_mode() -> str:
+    """按构建类型决定默认运行模式。
+
+    · debug 包   → "mock"（调试不碰真实服务端，避免误产生真实跑步记录）
+    · release 包 → "real"
+    · 判断不了（桌面 / 老宿主）→ 回落到 DEFAULT_MODE（real）
+    用户仍可在界面里手动切换。
+    """
+    dbg = is_debug_build()
+    if dbg is None:
+        from shandong_school_cracked.bus import DEFAULT_MODE
+        return DEFAULT_MODE
+    return "mock" if dbg else "real"
 
 
 def _device_patch() -> Dict[str, Any]:

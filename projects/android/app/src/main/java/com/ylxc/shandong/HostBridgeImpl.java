@@ -53,6 +53,13 @@ public class HostBridgeImpl implements HostBridge {
     }
 
     @Override
+    public boolean isDebugBuild() {
+        // debug 包 → Python 侧默认 mode=mock（不碰真实服务端）；
+        // release 包 → 默认 real。用户仍可在界面手动切换。
+        return BuildConfig.DEBUG;
+    }
+
+    @Override
     public String deviceInfoJson() {
         try {
             JSONObject o = new JSONObject();

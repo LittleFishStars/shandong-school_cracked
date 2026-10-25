@@ -37,13 +37,18 @@ _dispatch_state: Dict[str, Any] = {"app": None}   # 懒建单例 App（mode=None
 
 
 def ensure_app():
-    """懒建单例 App（mode=None，默认 real，与桌面 App() 一致），再注入设备指纹。
+    """懒建单例 App，再注入设备指纹。
+
+    默认运行模式按**构建类型**决定（android_env.default_mode）：
+      · debug 包   → mock（调试不碰真实服务端，避免误产生真实跑步记录）
+      · release 包 → real
+    用户仍可在界面里手动切换（switch_mode）。
 
     返回 App 实例；已建过则直接复用。
     """
     app = _dispatch_state["app"]
     if app is None:
-        app = App()
+        app = App(mode=android_env.default_mode())
         android_env.configure_app(app)
         _dispatch_state["app"] = app
     return app
