@@ -3,7 +3,8 @@
   "private": true,
   "version": "1.2.0",
   "scripts": {
-    "build": "esbuild src/main.jsx --bundle --minify --format=iife --target=es2018 --loader:.js=jsx --outfile=app.bundle.js"
+    "build": "python3 ../../scripts/web_lint.py src && esbuild src/main.jsx --bundle --minify --format=iife --target=es2018 --loader:.js=jsx --outfile=app.bundle.js",
+    "lint": "python3 ../../scripts/web_lint.py src"
   },
   "dependencies": {
     "antd": "4.24.16",

@@ -86,6 +86,9 @@ export default function App() {
   const [serverPoints, setServerPoints] = useState(null);
   const [ghostPath, setGhostPath] = useState([]);
   const [planRemain, setPlanRemain] = useState(0);
+  // 定时器闭包需要读到最新值（toast 只在该段路线真走完时响一次）
+  const planRemainRef = useRef(0);
+  planRemainRef.current = planRemain;
   /* 移动端唯一交互改动：摇杆 / 拖动 切换（§4），默认摇杆 */
   const [dragMode, setDragMode] = useState(false);
   const [params, setParams] = useState({
