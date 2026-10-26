@@ -33,3 +33,16 @@ work/toolchain/frida-server-* filter=lfs diff=lfs merge=lfs -text
 # 必须放在 *.png 等规则**之后**——gitattributes 后出现的规则优先。
 # （2026-10-25 实际踩过）
 projects/android/app/src/main/res/** -filter -diff -merge -text binary
+# 桌面 web 静态资源同理：浏览器 <img> 直接读原始字节，LFS 指针会显示成破图
+# （2026-10-27 实测：Windows 版 logo 显示为损坏图标）
+projects/desktop/web/assets/** -filter -diff -merge -text binary
+projects/android/web/assets/** -filter -diff -merge -text binary
+# vendor 里的 Leaflet 图标同理（地图标记破图）
+projects/desktop/web/vendor/** -filter -diff -merge -text binary
+projects/android/web/vendor/** -filter -diff -merge -text binary
+projects/android/app/src/main/assets/** -filter -diff -merge -text binary
+projects/desktop/packaging/icon.png -filter -diff -merge -text binary
+# 文档截图与图标素材：预览/文档要看得到图，同样不能是指针
+docs/**/screenshots/** -filter -diff -merge -text binary
+work/icons/** -filter -diff -merge -text binary
+work/dumps/shots/** -filter -diff -merge -text binary
