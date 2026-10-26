@@ -30,10 +30,16 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from . import __version__
+from . import stdio
 from .constants import APP_VERSION
 
+# Windows GUI 打包（console=False）双击启动时 sys.stdout/stderr 是 None，
+# 任何直接触碰都会像 3.0.0-pre1 那样在导入期崩（'NoneType' has no isatty）。
+# 先兜底成可用流，再求值着色开关；stream_tty 对 None/异常一律按非 TTY。
+stdio.ensure_streams()
+
 # ── 终端着色（管道里自动退化为无色） ──────────────────────────────
-_TTY = sys.stdout.isatty()
+_TTY = stdio.stream_tty(sys.stdout)
 
 
 def _c(text: str, code: str) -> str:
@@ -622,7 +628,7 @@ def _harden_stdio() -> None:
     """
     for stream in (sys.stdout, sys.stderr):
         try:
-            if not stream.isatty():
+            if not stdio.stream_tty(stream):
                 # 被重定向/管道捕获时统一吐 UTF-8，日志和 CI 都好处理
                 stream.reconfigure(encoding="utf-8", errors="replace")
             else:
