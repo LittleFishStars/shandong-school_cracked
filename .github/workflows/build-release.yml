@@ -186,12 +186,26 @@ jobs:
           TAG: ${{ github.ref_name }}
         run: |
           NOTES="Linux / Windows 单文件可执行程序 + Android APK（release/debug）。校验和见 SHA256SUMS。"
-          if gh release view "$TAG" >/dev/null 2>&1; then
+          # 注意：gh release create 在"已存在同名 tag 但无 release"时会建**草稿**，
+          # 且后续 upload 也只更新草稿——发布件对外不可见（2026-10-27 实测踩坑：
+          # 每次 CI 跑完 Release 又变回 Draft）。所以创建后必须显式 --draft=false。
+          if gh release view "$TAG" --json isDraft -q .isDraft 2>/dev/null | grep -q true; then
+            echo "· 已存在草稿，先转正式发布"
+            gh release edit "$TAG" --draft=false ${{ steps.pre.outputs.flag }}
             gh release upload "$TAG" artifacts/* --clobber
+          elif gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" artifacts/* --clobber
+            # 同步预发布标记（防止历史状态不一致）
+            gh release edit "$TAG" --prerelease=${{
+              contains(github.ref_name, '-pre') ||
+              contains(github.ref_name, '-beta') ||
+              contains(github.ref_name, '-rc') ||
+              contains(github.ref_name, '-alpha') }}
           else
             gh release create "$TAG" artifacts/* \
               --title "shandong-school_cracked ${TAG#v}" \
               --notes "$NOTES" \
+              --draft=false \
               ${{ steps.pre.outputs.flag }} \
               --generate-notes
           fi
