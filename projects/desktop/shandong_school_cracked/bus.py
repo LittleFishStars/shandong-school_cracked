@@ -116,7 +116,7 @@ DEFAULT_CONFIG: Dict[str, Any] = {
         "channel": "other",
         "app_code": "SD001",
     },
-    "device_id": "",                # 空则按 deviceId 三层降级算法生成
+    "device_id": "",                # 留空 = 首次启动随机生成一个并写回本文件（之后固定用）
     # 跑步默认参数
     "run": {
         "target_distance_m": 2000,
