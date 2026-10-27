@@ -64,6 +64,19 @@ class App:
         self.bus = EventBus(log_file=self.data_dir / "app.log")
         self.cfg_store = ConfigStore(config_path)
         self.cfg: Dict[str, Any] = self.cfg_store.as_dict()
+        # 设备码：首次启动（配置里 device_id 为空）随机生成一个并**写回配置**，
+        # 之后每次启动固定用它——「一台机器一个随机码」。
+        # 旧逻辑回落 Build 指纹定值（所有电脑都是 9a35c7a900000662），没有区分度；
+        # 写盘失败（目录只读）时本轮仍生效，下次启动会重新生成（save_error 有记录）。
+        if not str(self.cfg.get("device_id") or "").strip():
+            from .simulator import random_device_id
+            _did = random_device_id()
+            self.cfg_store.set("device_id", _did)
+            self.cfg_store.save()
+            self.cfg = self.cfg_store.as_dict()
+            self.bus.emit("log", "首次启动：已生成设备码 " + _did
+                          + ("" if self.cfg_store.save_error is None
+                             else "（⚠ 配置写盘失败，仅本次生效）"))
         self.store = RecordStore(self.data_dir / "records.db")
         # 运行模式：只有显式传 --mode mock 才用本地 Mock；其余一律真实服务端（不持久化）
         _m = str(mode or DEFAULT_MODE).lower()
