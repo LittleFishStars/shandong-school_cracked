@@ -39,6 +39,21 @@ class EngineError(RuntimeError):
     pass
 
 
+class _Host:
+    """behavior 模块的轻量宿主视图：client/cfg/store，mock 判定走 transport"""
+
+    def __init__(self, client, cfg):
+        self.client = client
+        self.cfg = cfg
+        self.store = client.store
+
+    @property
+    def _mock(self):
+        # mock 判定：transport 指向本地 Mock（base_url 含 127.0.0.1 的 token 口）时
+        # behavior 无意义。client._mock_host 在 App 里由 use_mock 维护。
+        return getattr(self.client, "_mock_host", None)
+
+
 class RunEngine:
     """阳光跑全流程编排"""
 
@@ -483,6 +498,20 @@ class RunEngine:
         self._step(100, f"结算完成：{res.get('message')}")
         self._emit("run_finished", f"跑步结束：{run_code}", run_code=run_code,
                    result=res, summary=self.last)
+        # 跑后行为链：真机结算完会看成绩/排行榜/红点，0 请求下线是行为缺口。
+        # 后台线程真实时间跑，不阻塞结算返回；失败静默。
+        if res.get("code") == CODE_OK:
+            import threading as _th
+            from . import behavior as _behavior
+
+            def _post() -> None:
+                try:
+                    _behavior.post_run_browse(_Host(self.client, self.cfg),
+                                              run_code, int(run.get("sport_type", 1)))
+                except Exception:  # noqa: BLE001
+                    pass
+
+            _th.Thread(target=_post, name="shandong-post-run", daemon=True).start()
         return res
 
     # ══════════════════ 一键全流程 ══════════════════

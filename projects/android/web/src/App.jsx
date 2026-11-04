@@ -947,7 +947,7 @@ export default function App() {
         <div className="loading-page">
           <img className="app-icon" src="assets/app-icon.png" alt="闪动校园" />
           <Spin size="large" />
-          <div className="loading-text">正在登录上次的账号…</div>
+          <div className="loading-text">正在进入闪动校园…<br /><span className="loading-sub">同步账号、社区与学校数据</span></div>
         </div>
       )}
 

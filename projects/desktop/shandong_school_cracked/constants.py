@@ -304,6 +304,15 @@ EP = {
     # 原版 k66.f()=""（OSS 上传）/ ml2.f()="1"（facebody 比对）
     "oss_token":        Endpoint("aliyun/oss/getToken",      "getToken",          "aliyun"),
 
+    # ── 行为链（原版首页/社区：登录后→进跑步前的真实浏览路径）──
+    # 路径与入参全部按反编译 @POST 注解核实（AppApi.c / WorksApi / CompatApi.e）
+    "message_red_dot":  Endpoint("api/message/redDot",          "redDot",            "api"),
+    "works_recommend":  Endpoint("api/works/recommend/pool/list", "recommend",       "api"),
+    "works_detail":     Endpoint("api/works/details",           "details",           "api"),
+    "works_visit":      Endpoint("api/works/updateVisit",       "updateVisit",       "api"),
+    "account_personal": Endpoint("account/personal",            "personal",          "account"),
+    "my_school_info":   Endpoint("mySchool/simpleInfo",         "simpleInfo",        "mySchool"),
+
     # ── 验证码（AJ-Captcha）──
     # 原版 20 个 *Api.java 里没有 captcha 路由，它由 H5/WebView 侧发起；
     # 这里保留同源直连（run-front/captcha/* + Origin/Referer=mh5），实测可用。

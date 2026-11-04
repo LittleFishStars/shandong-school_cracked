@@ -304,6 +304,12 @@ button { font-family: inherit; }
 }
 .loading-text { color: #8c8c8c; font-size: 13px; }
 
+.loading-sub {
+  font-size: 12px;
+  opacity: 0.55;
+  margin-top: 6px;
+}
+
 /* 新版本提醒 */
 .update-body p { margin: 0 0 10px; color: #1f1f1f; }
 .update-notes {

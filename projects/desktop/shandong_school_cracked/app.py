@@ -185,6 +185,10 @@ class App:
                                fail_rate=float(self.cfg.get("mock_fail_rate", 0.0)))
         self._mock = MockServer(self.world, port=int(self.cfg.get("mock_port", 0)))
         url = self._mock.start()
+        # client 可能尚未创建（_build 先起 mock 再建 client）——挂在实例上即可，
+        # client 构造参数 base_url 同源，_mock_host 主要给 behavior 判定用
+        if self.client is not None:
+            self.client._mock_host = url
         self.bus.emit("state", f"本地 Mock 服务端：{url}")
         return url
 
@@ -192,6 +196,8 @@ class App:
         if self._mock:
             self._mock.stop()
             self._mock = None
+            if getattr(self, "client", None) is not None:
+                self.client._mock_host = None
             self.bus.emit("state", "Mock 服务端已停止")
 
     def switch_mode(self, mode: str) -> Dict[str, Any]:
@@ -256,9 +262,27 @@ class App:
         return res
 
     def refresh_user(self) -> Dict[str, Any]:
-        """重新拉一次用户资料（昵称 nickname / 头像 avatar）：账户页用"""
+        """重新拉一次用户资料（昵称 nickname / 头像 avatar）：账户页用
+
+        会话恢复（冷启动自动登录）时这里就是"进入首页"：行为链（消息红点/
+        社区流/排行榜/个人资料/本校信息，真实时间 ~8s）挂在这一步——前端
+        view='loading' 显示"正在登录上次的账号…"，正好覆盖这段时间。
+        6 小时节流在 behavior 内部处理，账户页手动刷新不会反复跑。
+        """
         if not getattr(self.client, "logged_in", False):
             return {"code": -1, "message": "未登录", "data": None}
+        # 行为链仅真实服务端（mock 无这些路由）；失败静默不影响资料拉取
+        try:
+            from . import behavior as _behavior
+            if _behavior.enabled(self.cfg) and self._mock is None:
+                _steps = _behavior.post_login_browse(self)
+                ok_n = sum(1 for _, good in _steps if good)
+                if _steps and _steps[0][0] not in ("mock 模式跳过（本地仿真无风控语义）",
+                                                   "冷却期内跳过", "未登录",
+                                                   "behavior 配置关闭"):
+                    self.bus.emit("log", f"首页行为链：{ok_n}/{len(_steps)} 步成功")
+        except Exception:  # noqa: BLE001
+            pass
         try:
             res = self.client.load_user()
         except Exception as e:  # noqa: BLE001

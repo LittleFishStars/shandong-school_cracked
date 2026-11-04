@@ -373,6 +373,7 @@ button { font-family: inherit; }
   padding-top: env(safe-area-inset-top, 0px);
 }
 .loading-text { color: #8c8c8c; font-size: 13px; }
+.loading-sub { font-size: 12px; opacity: 0.55; margin-top: 6px; }
 
 /* ═══ 全局加载遮罩（耗时操作反馈）═══
    z-index 需高于模态框(2000)与底部面板(1000)，否则会被盖住看不到；

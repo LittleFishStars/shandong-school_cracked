@@ -162,6 +162,20 @@ def _oss_put_stdlib(endpoint: str, bucket: str, key: str, data: bytes,
             raise RuntimeError(f"OSS PUT 失败：HTTP {resp.status}")
 
 
+class _LoginHost:
+    """behavior 的轻量宿主（登录场景）：暴露 client/cfg/store/_mock"""
+
+    def __init__(self, client: "ShandongClient") -> None:
+        self.client = client
+        self.cfg = client.cfg
+        self.store = client.store
+
+    @property
+    def _mock(self):
+        # App 在 use_mock/stop_mock 时维护 client._mock_host
+        return getattr(self.client, "_mock_host", None)
+
+
 class ShandongClient:
     """闪动校园业务客户端（mock / real 双模）"""
 
@@ -196,6 +210,8 @@ class ShandongClient:
         # 会被带到真实模式里发给 api.huachenjie.com，一直莫名其妙的 1516。
         self.local_mode = bool(local_mode)
         self.kv_token_key = KV_TOKEN + ("_mock" if self.local_mode else "")
+        # behavior 模块的 mock 判定源：local_mode（App 起了本地 Mock）即为 mock
+        self._mock_host: Optional[str] = base_url if local_mode else None
         self._load_session()
 
     # ══════════════════ 会话 ══════════════════
@@ -435,6 +451,16 @@ class ShandongClient:
             except Exception as _e:      # noqa: BLE001
                 if self.bus:
                     self.bus.emit("log", f"时间校准失败（不影响登录）：{_e}", level="warn")
+            # 行为链：真机登录后不会直奔跑步模块——消息红点/社区流/排行榜/
+            # 个人资料/本校信息按真实时序走一遍（真实时间，失败静默，6h 节流）
+            try:
+                from . import behavior as _behavior
+                _steps = _behavior.post_login_browse(_LoginHost(self))
+                if self.bus:
+                    ok_n = sum(1 for _, good in _steps if good)
+                    self.bus.emit("log", f"行为链完成：{ok_n}/{len(_steps)} 步")
+            except Exception:            # noqa: BLE001
+                pass
             if self.bus:
                 self.bus.emit("state", f"登录成功：{self.user.get('userName', '')}"
                                       f"（{self.user.get('schoolName', '')}）")
@@ -1308,6 +1334,49 @@ class ShandongClient:
             "sex": sex, "scope": scope, "rankCycle": cycle,
             "type": rank_type, "runPlanCode": run_plan_code,
         }))
+
+    # ══════════════════ 行为链（原版首页/社区浏览） ══════════════════
+    # 真机用户进 App 不会直奔跑步模块：首页红点/社区流/排行榜/个人资料是
+    # 登录后的真实路径。服务端若比对「起跑前 N 分钟的行为序列」，一个只有
+    # startSunRun 而没有首页痕迹的账号本身就是异常（ShandongTool 同款思路）。
+
+    def message_red_dot(self) -> Dict[str, Any]:
+        """消息未读红点（AppApi.c()，无业务参数）——真机进 App 第一件事"""
+        return self.transport.post("message_red_dot", self.transport.base_payload())
+
+    def works_recommend(self, page_num: int = 1, page_size: int = 10,
+                        keyword: str = "", refresh_time: str = "",
+                        works_type: Optional[int] = None) -> Dict[str, Any]:
+        """社区推荐流（WorksApi：keyword?/pageNum/pageSize/refreshTime?/type?）"""
+        payload: Dict[str, Any] = {"pageNum": page_num, "pageSize": page_size}
+        if keyword:
+            payload["keyword"] = keyword
+        if refresh_time:
+            payload["refreshTime"] = refresh_time
+        if works_type is not None:
+            payload["type"] = works_type
+        return self.transport.post("works_recommend", self.transport.base_payload(payload))
+
+    def works_detail(self, works_no: str) -> Dict[str, Any]:
+        """帖子图文详情（WorksApi：worksNo）"""
+        return self.transport.post("works_detail",
+                                   self.transport.base_payload({"worksNo": works_no}))
+
+    def works_visit(self, works_no: str, visit: int = 1) -> Dict[str, Any]:
+        """上报帖子浏览（WorksApi.w()，@Headers("e:1")：worksNo + visit）"""
+        return self.transport.post("works_visit",
+                                   self.transport.base_payload({"worksNo": works_no,
+                                                                "visit": int(visit)}))
+
+    def personal_info(self, extra: Optional[Dict[str, str]] = None) -> Dict[str, Any]:
+        """个人资料页（CompatApi.e()，@FieldMap Map<String,String>）"""
+        payload = dict(extra or {})
+        return self.transport.post("account_personal", self.transport.base_payload(payload))
+
+    def my_school_info(self, school_code: str = "") -> Dict[str, Any]:
+        """本校官方频道与基础信息（WorksApi.G()：schoolCode）"""
+        return self.transport.post("my_school_info", self.transport.base_payload(
+            {"schoolCode": school_code or self.transport.school_code}))
 
     def unfinished(self) -> List[Dict[str, Any]]:
         return self.store.unfinished_runs()
