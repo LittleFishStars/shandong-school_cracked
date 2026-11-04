@@ -217,6 +217,11 @@ def _dispatch_impl(name: str, args: List[Any]):
         if host is not None:
             if app is not None:
                 try:
+                    # 先收尾进行中的跑步（stop → 上传 → 结算），再关 Mock
+                    app.finalize_pending_run("Android 退出")
+                except Exception:  # noqa: BLE001
+                    pass
+                try:
                     app.close()
                 except Exception:  # noqa: BLE001
                     pass

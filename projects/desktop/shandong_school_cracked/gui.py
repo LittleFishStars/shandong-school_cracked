@@ -452,6 +452,11 @@ def run_desktop(config_path: Optional[Path] = None, debug: bool = False,
             raise
         print(f"[warn] 桌面窗口启动失败（{e}），降级为浏览器模式", file=sys.stderr)
         return run_browser(app)
+    # 窗口已关：自动结束进行中的跑步（stop → 上传 → 结算），再退进程
+    try:
+        app.finalize_pending_run("窗口关闭")
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] 退出收尾失败（数据已保留，可下次续传）：{e}", file=sys.stderr)
     app.close()
     return 0
 

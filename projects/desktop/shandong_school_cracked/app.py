@@ -96,10 +96,15 @@ class App:
         self._thread: Optional[threading.Thread] = None
         self._last_result: Dict[str, Any] = {}
         self._progress: Dict[str, Any] = {"percent": 0, "message": "就绪", "running": False}
+        self._finalized = False                  # finalize_pending_run 防重入
 
         self._build()
         self.bus.emit("state", f"运行模式：{'本地 Mock（离线可跑）' if self.is_local else '真实服务端'}")
         self._restore_session_bg()
+        # 进程退出兜底：GUI 走 run_desktop 的显式调用，浏览器/CLI 靠这里；
+        # finalize 内部有防重入标志，两处共存安全
+        import atexit
+        atexit.register(self.finalize_pending_run, "进程退出")
 
     # ══════════════════ 组装 ══════════════════
     def _build(self) -> None:
@@ -986,7 +991,62 @@ class App:
         # ★ 这里不能 logout：原版只在用户主动「退出登录」时清掉本地 token，
         # 进程退出（命令行跑完一条命令也算）时不清。之前 close() 顺手登出，
         # 导致每次启动都要重新登录，登录数据持久化的意义就没了。
+        self.finalize_pending_run("程序退出")
         self.stop_mock()
+
+    # ══════════════════ 退出时自动结束进行中的跑步 ══════════════════
+    def finalize_pending_run(self, reason: str = "程序退出") -> Dict[str, Any]:
+        """关闭软件时自动结束正在进行的跑步：停止 → 上传 → 结算
+
+        场景：摇杆实走到一半直接关窗口（原行为是 daemon 线程随进程死掉，
+        数据留在库里既没上传也没结算——就是那趟"废记录"的来源）。
+
+        行为：
+          · walk 实走进行中 → stop()（停线程/写汇总/尾段）→ resume_run()
+            （resume = 补传未上传的点/步频/配速 + 结算，失败可之后手动续传）
+          · 一键跑线程进行中 → 等它自然完成（默认非 realtime 模式几秒内完；
+            realtime 调试模式上限 120s）——不打断模拟，避免 points 与
+            steps/paces 数据不自洽
+          · 全程 try/except：收尾失败不影响退出，本地数据保留可手动续传
+        开关：cfg.auto_finish_on_exit（默认开）。
+        """
+        out: Dict[str, Any] = {}
+        if getattr(self, "_finalized", False):
+            return out
+        self._finalized = True
+        try:
+            if not bool(self.cfg.get("auto_finish_on_exit", True)):
+                out["skipped"] = "auto_finish_on_exit=false"
+                return out
+        except Exception:  # noqa: BLE001
+            pass
+
+        # ① 摇杆实走进行中（主场景）。注意 running 是方法（返回 walker 状态）
+        w = getattr(self, "walk", None)
+        w_running = (w.running() if w and callable(getattr(w, "running", None))
+                     else False)
+        if w and w_running and getattr(w, "run_code", ""):
+            rc = w.run_code
+            try:
+                w.stop(emit=False)
+                r = self.client.resume_run(rc)
+                fin = (r.get("data") or {}).get("finish") or {}
+                out["walk"] = {"run_code": rc, "code": fin.get("code"),
+                               "message": fin.get("message")}
+                self.bus.emit("log", f"[{reason}] 已自动结束并结算实跑：{rc}"
+                              f"（{fin.get('message', '')}）")
+            except Exception as e:  # noqa: BLE001
+                out["walk"] = {"run_code": rc, "error": str(e)}
+                self.bus.emit("log", f"[{reason}] 实跑自动结算失败（数据已保留，"
+                              f"下次可续传）：{e}", level="error")
+
+        # ② 一键跑线程进行中：等待自然完成（不打断，见 docstring）
+        t = getattr(self, "_thread", None)
+        if t is not None and t.is_alive():
+            self.bus.emit("log", f"[{reason}] 一键跑仍在进行，等待其完成（最长 120s）…")
+            t.join(timeout=120)
+            out["auto_waited"] = not t.is_alive()
+        return out
 
 
 def _version() -> str:
