@@ -37,6 +37,15 @@ ROUTE_KEYS = [
     ("finishSunRun_v2", "阳光跑结算"),
     ("getUserFaceImg", "人脸底图"),
     ("oss/getToken", "OSS令牌"),
+    # ── 行为链（登录 → 首页浏览 → 跑后）──
+    ("api/message/redDot", "消息红点"),
+    ("api/works/recommend/pool/list", "社区推荐流"),
+    ("api/works/details", "帖子详情"),
+    ("api/works/updateVisit", "上报浏览"),
+    ("account/personal", "个人资料"),
+    ("mySchool/simpleInfo", "本校信息"),
+    ("rank/distance", "里程排行榜"),
+    ("run/runRecordDetail", "跑单详情"),
 ]
 
 
