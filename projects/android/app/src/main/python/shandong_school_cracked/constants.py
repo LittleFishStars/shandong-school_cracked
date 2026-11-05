@@ -73,7 +73,9 @@ DEFAULT_CHANNEL = "other"
 #   platform="4"（鸿蒙）、appVersion 8.7.1 / buildVersion 26101314、
 #   deviceId 为 UUID v4、UA 由 App 另拼（ HM 版前缀不同，保持 ShanDong 前缀即可）。
 HM_PROFILE = {
-    "model": "huawei|ALN-AL80",
+    # 鸿蒙版 modelName 是**纯 MODEL**（抓包实证 "ALN-AL80"），
+    # 与 Android 版的 Build.MANUFACTURER + "|" + Build.MODEL 不同
+    "model": "ALN-AL80",
     "brand": "huawei",
     "system_version": "7.0.0",
     "platform": "4",

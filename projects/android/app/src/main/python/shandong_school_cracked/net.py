@@ -216,9 +216,10 @@ class Transport:
         if not brand:
             brand = model.split("|")[0].split("-")[0].lower()
         app_ver = str(dev.get("app_version", APP_VERSION))
-        # --hm：鸿蒙真机 UA（截图 REDACTED，按同构拼法；系统串不带 "Android " 前缀）
+        # 鸿蒙版 UA 抓包实证：`shandong/8.7.1` —— 全小写、**没有括号段**
+        # （Android 版是 `ShanDong/<ver> (<brand>;Android <rel>)`，r24.c() 拼法）
         if str(dev.get("platform", DEFAULT_PLATFORM)) == "4":
-            return f"{USER_AGENT_PREFIX}/{app_ver} ({brand};HarmonyOS {dev.get('system_version', DEFAULT_SYS_VER)})"
+            return f"shandong/{app_ver}"
         return (f"{USER_AGENT_PREFIX}/{app_ver} "
                 f"({brand};Android {dev.get('system_version', DEFAULT_SYS_VER)})")
 
