@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="59.0dip" android:layout_height="17.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0dip" android:textColor="#9c9c9c" android:ellipsize="3" android:gravity="0x00000013" android:id="@2131363950" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    <FrameLayout android:gravity="0x00000005" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="10.0dip" android:textColor="@2131100152" android:gravity="0x00000011" android:id="@2131363952" android:background="@2131232191" android:layout_width="-1" android:layout_height="-1" />
+        <com.kwad.sdk.widget.KsView android:id="@2131363953" android:background="@2131232376" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+</LinearLayout>

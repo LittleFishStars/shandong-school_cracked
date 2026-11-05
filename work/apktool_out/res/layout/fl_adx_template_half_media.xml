@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fl.saas.adx.base.widget.RoundedFrameLayout android:id="@2131363079" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" app:fl_radius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

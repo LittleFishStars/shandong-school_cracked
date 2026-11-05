@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zj.adx.sdk.lz.component.QlickDislikeListView android:id="@2131365473" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

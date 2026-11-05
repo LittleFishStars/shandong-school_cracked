@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131365024" android:layout_width="52.0dip" android:layout_height="52.0dip" android:tint="#ffffff" />
+</merge>

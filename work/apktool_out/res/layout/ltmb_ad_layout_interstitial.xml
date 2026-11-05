@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131365310" android:background="#45000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131365315" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="80.0dip" android:layout_marginStart="@2131165788" android:layout_marginEnd="@2131165788">
+        <com.ltmb.ltsdk.gt.api.base.view.RoundFrameLayout android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@2131365314" android:background="@2131232870" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="1" />
+        </com.ltmb.ltsdk.gt.api.base.view.RoundFrameLayout>
+        <com.ltmb.ltsdk.gt.api.base.view.RoundFrameLayout android:layout_gravity="0x00000030" android:id="@2131365323" android:background="#45000000" android:layout_width="-1" android:layout_height="-2" android:minHeight="320.0dip">
+            <FrameLayout android:layout_gravity="0x00000030" android:id="@2131365325" android:layout_width="-1" android:layout_height="-2" />
+            <com.ltmb.ltsdk.gt.api.base.view.gif.GifImageView2 android:id="@2131365324" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" />
+        </com.ltmb.ltsdk.gt.api.base.view.RoundFrameLayout>
+        <ImageView android:id="@2131365322" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="10.0dip" android:src="@2131232754" android:scaleType="6" android:layout_alignBottom="@2131365323" android:layout_marginEnd="10.0dip" android:layout_alignEnd="@2131365323" />
+        <View android:id="@2131365330" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginBottom="15.0dip" android:scaleType="6" android:layout_alignBottom="@2131365323" android:layout_marginStart="15.0dip" android:layout_alignStart="@2131365323" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131365312" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="-6.0dip" android:layout_alignBottom="@2131365323" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131365313" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="3.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+            <com.ltmb.ltsdk.gt.api.base.view.gif.GifImageView2 android:layout_gravity="0x00000011" android:id="@2131365311" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="6" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="0x00000011" android:id="@2131365327" android:background="@17170445" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="110.0dip" android:layout_alignTop="@2131365323" android:layout_alignStart="@2131365323" android:layout_alignEnd="@2131365323" />
+        <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@2131365323">
+            <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000001" android:orientation="1" android:id="@2131365321" android:background="@2131232874" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" android:minHeight="50.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365318" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365319" android:layout_width="-2" android:layout_height="-2" />
+            </LinearLayout>
+            <com.ltmb.ltsdk.gt.api.base.view.TbLightingAnimationView android:layout_gravity="0x00000011" android:id="@2131365320" android:visibility="2" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        </FrameLayout>
+        <include android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/ltmb_ad_layout_native_privacy" />
+    </RelativeLayout>
+</RelativeLayout>

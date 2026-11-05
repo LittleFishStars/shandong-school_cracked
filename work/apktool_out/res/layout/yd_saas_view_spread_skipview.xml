@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="70.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fl.saas.common.widget.CountDownTextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368570" android:visibility="2" android:layout_width="70.0dip" android:layout_height="30.0dip" android:text="" app:yd_bg_color="#70000000" app:yd_bg_radius="15.0dip" app:yd_count="5" />
+    <com.fl.saas.common.widget.CircularCountDownView android:id="@2131362432" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" app:yd_centerBackgroundColor="#66000000" app:yd_progressbarBackgroundColor="#33ffffff" app:yd_progressbarColor="#bfffffff" app:yd_strokeWidth="2.0dip" app:yd_textColor="#ffffffff" />
+    <View android:id="@2131368847" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

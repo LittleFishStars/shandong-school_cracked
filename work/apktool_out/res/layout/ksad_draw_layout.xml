@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBasePvFrameLayout android:orientation="1" android:id="@2131364262" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.core.video.DetailVideoView android:id="@2131364413" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="14.0dip" android:textColor="#dadada" android:layout_gravity="0x00000011" android:id="@2131364403" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <ImageButton android:layout_gravity="0x00000011" android:id="@2131364390" android:background="@2131232276" android:visibility="2" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364404" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <com.kwad.sdk.widget.KsView android:layout_gravity="0x00000050" android:background="@2131232172" android:layout_width="-1" android:layout_height="400.0dip" />
+    <LinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131363789" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="24.0dip">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="15.0dip" android:textStyle="0x00000001" android:textColor="#fad700" android:ellipsize="3" android:id="@2131363793" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:maxLines="1" />
+            <com.kwad.components.core.widget.KsLogoView android:id="@2131363792" android:background="@2131232346" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:textColor="#ffffff" android:ellipsize="3" android:id="@2131363791" android:layout_width="-1" android:layout_height="-2" android:maxLines="3" />
+        <TextView android:textSize="16.0dip" android:textColor="#b3ffffff" android:gravity="0x00000011" android:id="@2131363790" android:background="@2131232178" android:visibility="2" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="15.0dip" android:text="" />
+        <com.kwad.components.ad.draw.view.DrawDownloadProgressBar android:id="@2131363788" android:visibility="2" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="15.0dip" />
+    </LinearLayout>
+    <com.kwad.components.ad.draw.view.playcard.DrawCardApp android:layout_gravity="0x00000050" android:id="@2131363835" android:visibility="2" android:layout_width="-1" android:layout_height="156.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="24.0dip" />
+    <com.kwad.components.ad.draw.view.playcard.DrawCardH5 android:layout_gravity="0x00000050" android:id="@2131363844" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="24.0dip" />
+    <com.kwad.sdk.core.webview.KsAdWebView android:scrollbarStyle="0x00000000" android:layout_gravity="0x00000050" android:id="@2131364098" android:background="#00000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <com.kwad.components.ad.draw.view.playend.DrawVideoTailFrame android:id="@2131364417" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@2131364094" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131363873" android:padding="8.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" />
+</com.kwad.sdk.core.view.AdBasePvFrameLayout>

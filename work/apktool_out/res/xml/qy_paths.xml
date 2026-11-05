@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="qy_download_file" path="com_qy_dl" />
+    <external-cache-path name="qy_download_file1" path="com_qy_dl" />
+    <external-files-path name="qy_download_file2" path="com_qy_dl" />
+    <cache-path name="qy_download_file3" path="com_qy_dl" />
+</paths>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <com.flyco.tablayout.SlidingTabLayout2 android:id="@2131367472" android:background="@2131101240" android:layout_width="-1" android:layout_height="40.0dip" app:tl_indicator_color="#ff0bd3ff" app:tl_indicator_corner_radius="2.0dip" app:tl_indicator_height="4.0dip" app:tl_indicator_width="20.0dip" app:tl_selectTextSize="15.0sp" app:tl_tab_padding="18.0dip" app:tl_tab_space_equal="false" app:tl_textBold="SELECT" app:tl_textSelectColor="#ff191f20" app:tl_textUnselectColor="#ff191f20" app:tl_textsize="15.0sp" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@2131368915" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+</LinearLayout>

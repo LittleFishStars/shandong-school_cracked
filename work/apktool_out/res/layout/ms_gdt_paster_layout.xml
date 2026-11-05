@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qq.e.ads.nativ.widget.NativeAdContainer android:id="@2131365756" android:layout_width="-1" android:layout_height="280.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:padding="24.0dip" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:id="@2131365607" android:background="#fff" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@2131365685" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <Button android:textSize="14.0sp" android:textColor="@17170443" android:id="@2131365626" android:background="#80000000" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignTop="@2131365685" android:layout_alignParentRight="true" />
+            <TextView android:textColor="#e0000000" android:ellipsize="3" android:id="@2131365802" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:singleLine="true" android:layout_toLeftOf="@2131365626" android:layout_toRightOf="@2131365685" android:layout_alignTop="@2131365685" />
+            <TextView android:textColor="#a0000000" android:ellipsize="3" android:id="@2131365799" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:maxLines="2" android:layout_toLeftOf="@2131365626" android:layout_toRightOf="@2131365685" android:layout_below="@2131365802" android:layout_alignBottom="@2131365685" />
+        </RelativeLayout>
+        <FrameLayout android:id="@2131365633" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+            <com.qq.e.ads.nativ.MediaView android:id="@2131365677" android:background="#000" android:layout_width="-1" android:layout_height="-2" />
+            <ImageView android:id="@2131365687" android:layout_width="-1" android:layout_height="-2" android:scaleType="1" />
+            <LinearLayout android:orientation="1" android:id="@2131365753" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textColor="@17170444" android:ellipsize="3" android:id="@2131365754" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5.0dip" />
+                <LinearLayout android:orientation="0" android:id="@2131365752" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5.0dip" android:weightSum="3.0">
+                    <ImageView android:id="@2131365679" android:layout_width="-1" android:layout_height="-1" android:layout_margin="3.0dip" android:scaleType="1" android:adjustViewBounds="true" android:layout_weight="1.0" />
+                    <ImageView android:id="@2131365680" android:layout_width="-1" android:layout_height="-1" android:layout_margin="3.0dip" android:scaleType="1" android:adjustViewBounds="true" android:layout_weight="1.0" />
+                    <ImageView android:id="@2131365681" android:layout_width="-1" android:layout_height="-1" android:layout_margin="3.0dip" android:scaleType="1" android:adjustViewBounds="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <TextView android:textColor="@17170444" android:id="@2131365755" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageButton android:id="@2131365625" android:background="@2131233159" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</com.qq.e.ads.nativ.widget.NativeAdContainer>

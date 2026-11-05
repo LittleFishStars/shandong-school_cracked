@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="#1a000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="0x00000050" android:id="@2131362375" android:layout_width="-1" android:layout_height="-2" app:cardBackgroundColor="@color/white" app:cardElevation="8.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2">
+            <com.noober.background.view.BLRelativeLayout android:id="@2131366667" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#fff5f5f5" app:bl_stroke_color="#ff2c3e50" app:bl_stroke_width="1.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/tv_send" app:layout_constraintTop_toTopOf="parent">
+                <com.huachenjie.works.widget.PubWorkContentEditView android:textSize="14.0sp" android:textColor="#2c3e50" android:textColorHint="#c1c1c1" android:id="@2131362832" android:tag="" android:background="@0" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2" android:minHeight="44.0dip" android:maxLength="200" android:inputType="0x00020001" android:imeOptions="0x00000004" />
+                <ImageView android:id="@2131363493" android:tag="" android:layout_width="36.0dip" android:layout_height="44.0dip" android:src="@2131234210" android:paddingStart="12.0dip" android:layout_toStartOf="@2131363584" />
+                <ImageView android:id="@2131363584" android:tag="" android:layout_width="36.0dip" android:layout_height="44.0dip" android:src="@2131234216" android:paddingStart="12.0dip" android:layout_toStartOf="@2131363375" />
+                <ImageView android:id="@2131363375" android:tag="" android:layout_width="36.0dip" android:layout_height="44.0dip" android:src="@2131234207" android:paddingStart="12.0dip" android:layout_toStartOf="@2131363465" />
+                <ImageView android:id="@2131363465" android:tag="" android:layout_width="36.0dip" android:layout_height="44.0dip" android:paddingStart="12.0dip" android:layout_alignParentEnd="true" />
+            </com.noober.background.view.BLRelativeLayout>
+            <TextView android:textSize="16.0sp" android:gravity="0x00000001" android:id="@2131368539" android:tag="" android:layout_width="56.0dip" android:layout_height="-2" android:text="@2131954073" app:layout_constraintBottom_toBottomOf="@id/rl_comment_input" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/rl_comment_input" />
+            <androidx.cardview.widget.CardView android:id="@2131362594" android:tag="" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/rl_comment_input">
+                <ImageView android:tag="" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+                <TextView android:textSize="10.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:layout_gravity="0x00000050" android:background="#80000000" android:layout_width="-1" android:layout_height="18.0dip" android:text="@2131954068" />
+                <ImageView android:layout_gravity="0x00800005" android:tag="" android:paddingTop="4.0dip" android:paddingBottom="10.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@2131234217" android:paddingStart="10.0dip" android:paddingEnd="4.0dip" />
+            </androidx.cardview.widget.CardView>
+            <FrameLayout android:id="@2131362799" android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/cv_pic" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

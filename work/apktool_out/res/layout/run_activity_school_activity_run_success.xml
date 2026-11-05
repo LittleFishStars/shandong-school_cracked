@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLFrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1" app:bl_gradient_endColor="#ffa261bb" app:bl_gradient_startColor="#ff4a00bc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-1" android:layout_height="-2" android:src="@2131755277" android:scaleType="1" android:adjustViewBounds="true" />
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <include android:id="@2131367567" layout="@layout/layout_toolbar_binding" />
+        <androidx.core.widget.NestedScrollView android:id="@2131367064" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.noober.background.view.BLConstraintLayout android:layout_width="-1" android:layout_height="-1">
+                <TextView android:textSize="32.0sp" android:textColor="@2131101240" android:id="@2131367895" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <com.noober.background.view.BLConstraintLayout android:paddingBottom="30.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="23.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvName">
+                    <TextView android:textSize="14.0sp" android:textColor="#ff2c3e50" android:id="@2131367852" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.0dip" android:text="" android:layout_marginStart="54.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@2131363179" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131755280" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/tvGoalName1" app:layout_constraintEnd_toStartOf="@id/tvGoalName1" app:layout_constraintTop_toTopOf="@id/tvGoalName1" />
+                    <TextView android:textSize="24.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:id="@2131367836" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/tvGoalName1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvGoalName1" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff2c3e50" android:id="@2131367960" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.0dip" android:text="" android:layout_marginStart="54.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvGoalName1" />
+                    <ImageView android:id="@2131367958" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131755281" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/tvTimeTitle" app:layout_constraintEnd_toStartOf="@id/tvTimeTitle" app:layout_constraintTop_toTopOf="@id/tvTimeTitle" />
+                    <TextView android:textSize="24.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:id="@2131367957" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="10.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/tvTimeTitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tvTimeTitle" />
+                </com.noober.background.view.BLConstraintLayout>
+            </com.noober.background.view.BLConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:layout_gravity="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="54.0dip">
+            <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textColor="#5b4e40" android:gravity="0x00800015" android:layout_gravity="0x00000050" android:layout_width="205.0dip" android:layout_height="56.0dip" android:text="" android:paddingEnd="20.0dip" app:bl_corners_radius="28.0dip" app:bl_solid_color="#ffdfcaff" />
+            <ImageView android:layout_gravity="0x00000050" android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginBottom="10.0dip" android:src="@2131755286" android:layout_marginStart="8.0dip" />
+        </FrameLayout>
+    </com.noober.background.view.BLLinearLayout>
+</com.noober.background.view.BLFrameLayout>

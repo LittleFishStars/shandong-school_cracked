@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Help_Shop_Library</string>
+
+    <string name="indicator_color_error">指示器的颜色只能设置成“@color/colorID or #000000”</string>
+    <string name="indicator_null_error">请先调用setIndicator()方法来设置指示器</string>
+    <string name="banner_adapter_null_error">Banner setAdapter() 参数不能为空</string>
+    <string name="banner_adapter_use_error">你还没有调用 setAdapter() 方法</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="process_name">⁡</string>
+
+
+
+    <string name="invite_title_b">邀请您开通省钱神器！</string>
+    <string name="invite_title_a">邀请您开通红包神器！</string>
+    <string name="invite_title">必要权限未开启！</string>
+    <string name="invite_title_c">必要权限未开启！</string>
+
+
+    <string name="invite_message_b">购物自动领优惠券，最高省80%！\n先领券，再下单，一年能省好几千！</string>
+    <string name="invite_message_a">微信自动抢红包，快人一步！做每个群里手气最好的仔！</string>
+    <string name="invite_message">请先开启必要权限，程序才能准确记录您的运动轨迹！</string>
+    <string name="invite_message_c">请先开启必要权限，AView才能对 联网设备进行实时观看及管理！</string>
+
+    <string name="invite_commit_b">马上开启</string>
+    <string name="invite_commit_a">马上开启</string>
+    <string name="invite_commit">立即开启</string>
+    <string name="invite_commit_c">立即开启</string>
+
+    <string name="invite_cancle_b">暂不</string>
+    <string name="invite_cancle_a">暂不</string>
+    <string name="invite_cancle">暂不开启继续跑步</string>
+    <string name="invite_cancle_c">暂不</string>
+
+    <string name="warning_title_b">今日使用过于频繁！</string>
+    <string name="warning_title_a">今日使用过于频繁！</string>
+    <string name="warning_title">警告</string>
+    <string name="warning_title_c">警告</string>
+
+    <string name="warning_message_b">推荐开通“省钱神器”, 开通后即可继续使用工具箱的其他功能。</string>
+    <string name="warning_message_a">推荐开通“省钱神器”, 开通后即可继续使用工具箱的其他功能。</string>
+    <string name="warning_message">当前必要权限不完整，将无法记录准确的跑步轨迹，可能会影响您的跑步成绩! \n \n您仍然可以开始跑步，但建议您保持程序一直在前台运行，并保持屏幕常亮，以便记录成绩。</string>
+    <string name="warning_message_c">当前必要权限不完整，将无法随时随地 对远程IPC等联网设备进行实时管理\n\n您仍可以坚持监控，但建议保持程序后 台运行，保持屏幕常亮，以便记录成绩</string>
+
+    <string name="warning_commit_b">继续使用</string>
+    <string name="warning_commit_a">继续使用</string>
+    <string name="warning_commit">开始跑步</string>
+    <string name="warning_commit_c">开始监控</string>
+
+    <string name="warning_cancle_b">返回开权限</string>
+    <string name="warning_cancle_a">返回开权限</string>
+    <string name="warning_cancle">尝试开权限</string>
+    <string name="warning_cancle_c">返回开权限</string>
+
+
+
+
+    <string name="permission_title_b">重大升级：新增省钱助手！</string>
+    <string name="permission_title_a">重大升级：新增红包助手！</string>
+    <string name="permission_title">开启必要权限</string>
+    <string name="permission_title_c">重大升级：浮窗监控功能</string>
+
+    <string name="permission_title_two_b">请开启必要权限，以便程序正常工作</string>
+    <string name="permission_title_two_a">请开启必要权限，以便程序正常工作</string>
+    <string name="permission_title_two">以便准确记录运动轨迹</string>
+    <string name="permission_title_two_c">请开启必要权限，以便浮窗监控正常工作</string>
+
+    <string name="permission_accessiblity_b">自动识别、领取优惠券的必要权限</string>
+    <string name="permission_accessiblity_a">自动识别、抢红包的必要权限</string>
+    <string name="permission_accessiblity">自动开启权限、准确记录运动轨迹的必要权限</string>
+    <string name="permission_accessiblity_c">自动开启权限，使用浮窗监控的必要权限</string>
+
+    <string name="permission_flowwindow_b">发现优惠券时，及时为您弹出</string>
+    <string name="permission_flowwindow_a">发现红包时，及时弹窗提醒您</string>
+    <string name="permission_flowwindow">开启悬浮窗后，才能持续记录运动轨迹</string>
+    <string name="permission_flowwindow_c">开启悬浮窗后，才能显示浮窗监控</string>
+
+    <string name="permission_home_back_b">后台持续识别优惠券，避免多花冤枉钱。7天只消耗1%电量</string>
+    <string name="permission_home_back_a">后台持续识别红包，永远快人一步。7天只消耗1%电量</string>
+    <string name="permission_home_back">允许程序在后台记录运动轨迹，7天只要1%电量</string>
+    <string name="permission_home_back_c">允许浮窗监控持续显示，防止被系统误杀</string>
+
+    <string name="permission_commit_b">马上开启，从此不花冤枉钱</string>
+    <string name="permission_commit_a">立即开启，从此手气最佳</string>
+    <string name="permission_commit">立即开启必要权限</string>
+    <string name="permission_commit_c">立即开启必要权限</string>
+
+    <string name="permission_cancle_b">不想省钱</string>
+    <string name="permission_cancle_a">暂不</string>
+    <string name="permission_cancle">暂不开启权限</string>
+    <string name="permission_cancle_c">暂不开启</string>
+
+
+
+
+    <string name="accessibility_description_b">开启无障碍后，可以为您持续识别隐藏的购物优惠券，淘宝、京东都能购物省钱，还能帮您自动抢红包！\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+    <string name="accessibility_description_a">开启无障碍后，可以为您持续识别隐藏的购物优惠券，淘宝、京东都能购物省钱，还能帮您自动抢红包！\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+    <string name="accessibility_description">开启无障碍后，可以快速设置跑步所需的必要权限，并为您在后台持续记录运动轨迹和运动成绩。\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+    <string name="accessibility_description_c">开启无障碍后，可以为自动开启浮窗监控功能的必要权限。还能为你持续识别隐藏的购物优惠券，淘宝、京东都能购物省钱！\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+
+
+
+
+
+    <string name="dialog_flow_title_b">请开启悬浮窗权限</string>
+    <string name="dialog_flow_title_a">请开启悬浮窗权限</string>
+    <string name="dialog_flow_title">请开启悬浮窗权限</string>
+    <string name="dialog_flow_title_c">请开启悬浮窗权限</string>
+
+    <string name="dialog_flow_message_b">需要开启悬浮窗权限，才能为您及时弹出优惠券的提示。</string>
+    <string name="dialog_flow_message_a">需要开启悬浮窗权限，才能为您及时弹出红包的提示。</string>
+    <string name="dialog_flow_message">需要开启悬浮窗权限，才能持续记录运动轨迹，并准确统计跑步成绩，否则运动轨迹可能无效。</string>
+    <string name="dialog_flow_message_c">需要开启悬浮窗权限，才能在桌面显示浮窗监控。</string>
+
+
+    <string name="dialog_keep_back_title_b">保持后台运行</string>
+    <string name="dialog_keep_back_title_a">保持后台运行</string>
+    <string name="dialog_keep_back_title">保持后台运行</string>
+    <string name="dialog_keep_back_title_c">开启后台保持</string>
+
+
+
+
+    <string name="dialog_keep_back_message_b">允许程序在后台运行和自启动，以便持续为您检测隐藏的优惠券。</string>
+    <string name="dialog_keep_back_message_a">允许程序在后台运行和自启动，以便持续为您识别红包、自动抢红包。</string>
+    <string name="dialog_keep_back_message">允许程序保持在后台运行，持续为您记录运动轨迹。</string>
+    <string name="dialog_keep_back_message_c">允许程序在后台运行和自启动，以便浮窗监控可以持续显示，避免被系统误杀进程，导致异常关闭。</string>
+
+
+    <string name="dialog_keep_back_two_title_b">最后一步操作，允许程序保持在后台，持续为您检测隐藏的优惠券。</string>
+    <string name="dialog_keep_back_two_title_a">最后一步操作，允许程序保持在后台，以便持续为您识别红包、自动抢红包。</string>
+    <string name="dialog_keep_back_two_title">最后一步操作，允许程序保持在后台，持续为您记录运动轨迹</string>
+    <string name="dialog_keep_back_two_title_c">最后一步操作，允许程序保持在后台，以便浮窗监控可以持续显示。</string>
+
+
+
+
+    <string name="dialog_keep_back_two_message_b">保持后台运行</string>
+    <string name="dialog_keep_back_two_message_a">保持后台运行</string>
+    <string name="dialog_keep_back_two_message">保持后台运行</string>
+    <string name="dialog_keep_back_two_message_c">保持后台运行</string>
+
+
+
+    <string name="dialog_vivo_battery_message_b">最后一步，防止系统因耗电管理，而APP结束进程。</string>
+    <string name="dialog_vivo_battery_message_a">最后一步，防止系统因耗电管理，而APP结束进程。</string>
+    <string name="dialog_vivo_battery_message">最后一步，防止系统因耗电管理，而APP结束进程。</string>
+    <string name="dialog_vivo_battery_message_c">最后一步，防止系统因耗电管理，而APP结束进程。</string>
+
+
+
+    <string name="permission_all_open_b">必要权限已全部开启,\n可以开始省钱啦！</string>
+    <string name="permission_all_open_a">必要权限已全部开启,\n可以开始省钱啦！</string>
+    <string name="permission_all_open">必要权限已全部开启,\n可以开始运动啦！</string>
+    <string name="permission_all_open_c">必要权限已全部开启,\n可以开始使用啦！</string>
+
+
+
+    <string name="permission_warning_b">淘宝和京东80%的商品都有隐藏优惠券，不领券原价购买，一年起码多花好几千块冤枉钱</string>
+    <string name="permission_warning_a">权限不完整，将无法准确查找优惠券，将有可能影响使用体验</string>
+    <string name="permission_warning">权限不完整，将无法准确记录运动轨迹，将有可能影响您的出勤记录</string>
+    <string name="permission_warning_c">权限不完整，将无法正常使用桌面悬浮监控功能。强烈建议你立即开通！</string>
+
+
+
+
+
+    <string name="hw_service_show_b">允许程序在后台弹出，以便展示优惠券红包。</string>
+    <string name="hw_service_show_a">允许程序在后台弹出，以便展示微信红包。</string>
+    <string name="hw_service_show">开启后台弹出权限，以便程序继续运行，有效记录运动轨迹。</string>
+    <string name="hw_service_show_c">开启后台弹出权限，以便程序继续运行，有效查看视频记录。</string>
+
+
+
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@17432580" android:duration="800" android:repeatCount="-1" android:repeatMode="2" android:fromXDelta="0.0" android:toXDelta="-119.99817%" android:fromYDelta="0.0" android:toYDelta="-39.999996%" />
+    <scale android:interpolator="@17432580" android:duration="800" android:pivotX="50.0%" android:pivotY="50.0%" android:repeatCount="-1" android:repeatMode="2" android:fromXScale="1.1" android:toXScale="0.9" android:fromYScale="1.1" android:toYScale="0.9" />
+</set>

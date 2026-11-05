@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#8c8c8c" android:id="@2131362089" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.beizi.ad.internal.download.BeiZiWebView android:id="@2131362090" android:layout_width="-1" android:layout_height="-2" />
+</RelativeLayout>

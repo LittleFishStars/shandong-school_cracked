@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131368989" android:background="@17170457" android:layout_width="-1" android:layout_height="50.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="18.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000013" android:id="@2131368988" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10.0dip" android:text="" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131365909" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@2131368990" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131368989">
+        <com.ltmb.ltsdk.core.qy.q.w.LTAdQYWebView android:id="@2131368984" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@2131363111" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+    <ProgressBar android:id="@2131366096" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" style="@16973855" />
+</RelativeLayout>

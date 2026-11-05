@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSLinearLayout android:orientation="1" android:id="@2131364184" android:background="@17170443" android:padding="@2131165612" android:visibility="2" android:layout_width="-1" android:layout_height="@2131165608" app:ksad_radius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="@2131165610">
+        <com.kwad.sdk.widget.KSFrameLayout android:layout_width="@2131165610" android:layout_height="@2131165610" android:layout_marginRight="8.0dip" app:ksad_radius="4.0dip">
+            <com.kwad.components.core.widget.KSCornerImageView android:id="@2131364179" android:layout_width="-1" android:layout_height="-1" />
+            <com.kwad.components.ad.reward.widget.JinniuCouponLayout android:layout_gravity="0x00000053" android:orientation="0" android:id="@2131364160" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="-2" android:layout_height="17.0dip" android:layout_margin="4.0dip" app:ksad_outerRadius="3.0dip" app:ksad_verticalRadius="2.0dip">
+                <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000010" android:id="@2131364161" android:paddingRight="3.0dip" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000010" android:id="@2131364159" android:layout_width="-2" android:layout_height="-2" />
+            </com.kwad.components.ad.reward.widget.JinniuCouponLayout>
+        </com.kwad.sdk.widget.KSFrameLayout>
+        <RelativeLayout android:id="@2131364185" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff222222" android:ellipsize="3" android:gravity="0x00000003" android:id="@2131364186" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:layout_alignParentTop="true" android:lineSpacingMultiplier="0.9" />
+            <FrameLayout android:id="@2131364182" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+                <com.kwad.components.ad.widget.KsPriceView android:textSize="8.0sp" android:textColor="@2131100161" android:layout_gravity="0x00000053" android:id="@2131364181" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="11.0sp" android:textColor="#ff9c9c9c" android:layout_gravity="0x00000055" android:id="@2131364183" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:lineSpacingMultiplier="0.9" />
+            </FrameLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff6c6c6c" android:ellipsize="3" android:gravity="0x00000003" android:id="@2131364162" android:paddingTop="4.0dip" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" android:layout_above="@2131364182" android:layout_below="@2131364186" android:lineSpacingMultiplier="0.9" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="@2131165607" android:layout_marginTop="@2131165612">
+        <com.kwad.components.core.widget.KsStyledTextButton android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131364157" android:background="@2131232240" android:layout_width="-1" android:layout_height="-1" android:text="" android:alpha="0.0" />
+        <ImageView android:id="@2131364180" android:layout_width="@2131165544" android:layout_height="-1" android:layout_marginLeft="@2131165543" android:src="@2131232238" />
+    </FrameLayout>
+</com.kwad.sdk.widget.KSLinearLayout>

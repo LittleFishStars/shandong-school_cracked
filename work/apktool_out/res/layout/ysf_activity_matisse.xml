@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131366718" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:id="@2131369461" android:background="@2131101354" android:padding="10.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="14.0sp" android:textColor="@2131101355" android:id="@2131369463" android:layout_width="-2" android:layout_height="-2" android:text="@2131954561" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101351" android:gravity="0x00000005" android:id="@2131369462" android:layout_width="0.0dip" android:layout_height="-2" android:text="@2131954560" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:id="@2131369569" android:background="@2131101354" android:layout_width="-1" android:layout_height="-2" android:elevation="4.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131369546" android:visibility="2" android:layout_width="-2" android:layout_height="30.0dip" android:drawableRight="@2131234478" />
+        <TextView android:textSize="@2131166628" android:textColor="@2131101355" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365559" android:padding="10.0dip" android:layout_width="-1" android:layout_height="-2" android:text="@2131954417" android:maxLines="2" />
+    </LinearLayout>
+    <FrameLayout android:id="@2131369197" android:visibility="2" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_below="@2131369569" />
+    <FrameLayout android:id="@2131369215" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textColor="#4d000000" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131369216" android:layout_width="-2" android:layout_height="-2" android:text="@2131954354" android:drawableTop="@2131234504" android:drawablePadding="8.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131369090" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:elevation="4.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#0077d9" android:layout_gravity="0x00800003" android:id="@2131369107" android:padding="16.0dip" android:layout_width="-2" android:layout_height="-2" android:text="@2131954297" />
+        <LinearLayout android:layout_gravity="0x00000011" android:orientation="0" android:id="@2131369452" android:padding="16.0dip" android:visibility="0" android:layout_width="-2" android:layout_height="-2">
+            <com.qiyukf.unicorn.mediaselect.internal.ui.widget.CheckRadioView android:layout_gravity="0x00000010" android:id="@2131369451" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131234535" />
+            <TextView android:enabled="true" android:textSize="14.0sp" android:textColor="#deffffff" android:layout_gravity="0x00000010" android:paddingLeft="4.0dip" android:layout_width="-2" android:layout_height="-2" android:text="@2131954296" android:paddingStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#03a9f4" android:layout_gravity="0x00800005" android:id="@2131369105" android:padding="16.0dip" android:layout_width="-2" android:layout_height="-2" />
+    </FrameLayout>
+</LinearLayout>

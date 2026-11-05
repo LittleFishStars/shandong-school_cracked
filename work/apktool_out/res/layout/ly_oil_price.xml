@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131099782" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="-1" android:layout_height="50.0dip">
+        <ImageView android:id="@2131365968" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@2131755228" android:layout_centerVertical="true" android:onClick="" />
+        <TextView android:textSize="22.0dip" android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="50.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@2131099786" android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="6.0" />
+        <View android:background="@17170432" android:layout_width="1.0dip" android:layout_height="-1" />
+        <TextView android:textSize="20.0dip" android:textColor="@2131099786" android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="3.0" />
+        <View android:background="@17170432" android:layout_width="1.0dip" android:layout_height="-1" />
+        <TextView android:textSize="20.0dip" android:textColor="@2131099786" android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="3.0" />
+        <View android:background="@17170432" android:layout_width="1.0dip" android:layout_height="-1" />
+        <TextView android:textSize="20.0dip" android:textColor="@2131099786" android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="3.0" />
+        <View android:background="@17170432" android:layout_width="1.0dip" android:layout_height="-1" />
+        <TextView android:textSize="20.0dip" android:textColor="@2131099786" android:gravity="0x00000011" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="3.0" />
+    </LinearLayout>
+    <View android:background="@17170432" android:layout_width="-1" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ListView android:id="@2131365474" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:textSize="23.0sp" android:textColor="@2131099786" android:gravity="0x00000011" android:id="@2131368504" android:background="#e6000000" android:layout_width="-1" android:layout_height="-1" android:text="" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLConstraintLayout android:layout_width="-2" android:layout_height="24.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="#fff5f5f5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:ellipsize="3" android:id="@2131368333" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" app:layout_constraintEnd_toStartOf="@id/iv_delete" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="wrap" />
+    <ImageView android:id="@2131363449" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@2131233001" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_level" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tv_level" app:layout_constraintTop_toTopOf="@id/tv_level" />
+</com.noober.background.view.BLConstraintLayout>

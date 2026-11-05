@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kc.openset.view.rounded.ODRoundedImageView android:id="@2131363440" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <TextureView android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131367546" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363695" android:visibility="1" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="20.0dip" android:src="@2131755267" android:layout_marginStart="10.0dip" />
+    <ImageView android:layout_gravity="0x00000053" android:id="@2131363599" android:background="@2131233291" android:padding="5.0dip" android:visibility="1" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_margin="10.0dip" android:src="@2131755266" />
+</FrameLayout>

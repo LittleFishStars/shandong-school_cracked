@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:id="@2131361946" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_width="-1" android:layout_height="4.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:ellipsize="3" android:gravity="0x00000001" android:id="@2131361947" android:paddingTop="6.0dip" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:singleLine="true" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:ellipsize="3" android:gravity="0x00000001" android:id="@2131361945" android:paddingTop="6.0dip" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:singleLine="true" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131361942" android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131361946" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@2131361943" android:layout_width="-2" android:layout_height="-2" android:src="@2131755017" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+        <com.beizi.fusion.asnp.adn.ad.ad.nativead.render.view.asnp.prefab.ScopeIndicateArrowView android:id="@2131361944" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:layout_width="@2131165616" android:layout_height="@2131165614">
+        <LinearLayout android:layout_gravity="0x00000005" android:orientation="0" android:layout_width="-2" android:layout_height="@2131165613">
+            <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:layout_gravity="0x00000010" android:id="@2131364169" android:layout_width="-2" android:layout_height="-2" />
+            <ImageView android:layout_gravity="0x00000010" android:id="@2131364163" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4.0dip" android:src="@2131232293" />
+        </LinearLayout>
+        <com.kwad.sdk.widget.KSFrameLayout android:background="@2131232314" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:layout_gravity="0x00000031" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="25.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="25.0dip">
+                <com.kwad.components.core.widget.KSCornerImageView android:layout_gravity="0x00000031" android:id="@2131364168" android:layout_width="@2131165615" android:layout_height="@2131165615" app:ksad_radius="4.0dip" />
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff222222" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131364170" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="9.0dip" android:layout_marginBottom="7.0dip" android:maxLines="1" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff6c6c6c" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131364166" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15.0dip" android:maxLines="2" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131100161" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131364167" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20.0dip">
+                <com.kwad.components.core.widget.KsStyledTextButton android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131364164" android:background="@2131232240" android:layout_width="222.0dip" android:layout_height="36.0dip" android:layout_marginBottom="12.0dip" android:text="" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff9c9c9c" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131364165" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            </LinearLayout>
+        </com.kwad.sdk.widget.KSFrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131100237" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.RoundCornerRelativeLayout android:id="@2131365014" android:layout_width="-1" android:layout_height="300.0dip" android:layout_marginTop="38.0dip" android:layout_marginBottom="28.0dip" android:layout_centerHorizontal="true">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.PlayerView android:id="@2131364993" android:layout_width="168.0dip" android:layout_height="-1" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.web.WebProgressBarView android:id="@2131364994" android:visibility="2" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_alignLeft="@2131364993" android:layout_alignRight="@2131364993" android:layout_alignBottom="@2131364993" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.PanelView android:id="@2131364859" android:layout_width="312.0dip" android:layout_height="-1" android:layout_alignParentRight="true" />
+        <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.CountDownView android:id="@2131364876" android:layout_width="@2131165749" android:layout_height="@2131165749" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignRight="@2131364993" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364970" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_alignParentLeft="true">
+            <TextView android:textSize="11.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364838" android:background="@2131232529" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.0dip" android:text="@2131952583" />
+            <com.ltmb.ltsdk.core.tp.sdk.basead.ui.MuteImageView android:id="@2131364865" android:background="@2131232540" android:layout_width="@2131165749" android:layout_height="@2131165749" android:layout_marginLeft="12.0dip" />
+        </LinearLayout>
+        <include android:layout_width="-2" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_toRightOf="@2131364970" android:layout_alignParentTop="true" layout="@layout/lmb_myoffer_feedback_button" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.CloseImageView android:id="@2131364863" android:background="@2131232436" android:layout_width="@2131165749" android:layout_height="@2131165749" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" />
+    </com.ltmb.ltsdk.core.tp.sdk.basead.ui.RoundCornerRelativeLayout>
+    <include android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_alignTop="@2131365014" android:layout_alignBottom="@2131365014" android:layout_alignParentLeft="true" layout="@layout/lmb_myoffer_include_invalid_button" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131362800" android:tag="" android:background="#fff5f5f5" android:layout_width="0.0dip" android:layout_height="0.0dip" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toTopOf="@id/ll_mine_emoji_sticker" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.noober.background.view.BLView android:layout_width="0.0dip" android:layout_height="10.0dip" app:bl_gradient_endColor="#0d000000" app:bl_gradient_startColor="#00000000" app:layout_constraintBottom_toTopOf="@id/ll_mine_emoji_sticker" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364735" android:tag="" android:background="@2131101240" android:layout_width="0.0dip" android:layout_height="46.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231848" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231852" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <include layout="@layout/layout_toolbar_binding" />
+</androidx.constraintlayout.widget.ConstraintLayout>

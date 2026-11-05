@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@16908288">
+        <shape>
+            <solid android:color="@2131099719" />
+            <size android:height="2.0dip" />
+            <corners android:radius="1.0dip" />
+        </shape>
+    </item>
+    <item android:id="@16908303">
+        <clip>
+            <shape>
+                <solid android:color="@2131099720" />
+                <size android:height="2.0dip" />
+                <corners android:radius="1.0dip" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@16908301">
+        <clip>
+            <shape>
+                <solid android:color="@2131099717" />
+                <size android:height="2.0dip" />
+                <corners android:radius="1.0dip" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

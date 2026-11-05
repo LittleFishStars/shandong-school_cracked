@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:background="#000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131363026" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363390" android:visibility="2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@2131233303" android:layout_marginStart="20.0dip" />
+    <RelativeLayout android:layout_gravity="0x00000013" android:id="@2131366672" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="20.0dip">
+        <com.kc.openset.util.CircularProgressView android:id="@2131362575" android:layout_width="-1" android:layout_height="-1" app:OSETbackColor="@17170443" app:OSETbackWidth="5.0dip" app:OSETprogColor="@17170457" app:OSETprogWidth="5.0dip" app:OSETprogress="0" />
+        <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@2131755269" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:tag="" android:layout_width="-1" android:layout_height="@2131165367" app:bl_gradient_endColor="@color/white" app:bl_gradient_startColor="#330bd3ff" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@2131101240" android:layout_width="-1" android:layout_height="104.0dip">
+        <TextView android:id="@2131367847" android:tag="" android:text="@2131951925" app:drawableTopCompat="@drawable/channel_ic_flash_message_channel" app:layout_constraintEnd_toStartOf="@id/tvFlashMessageContact" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintStart_toStartOf="parent" style="@style/channel_tv_flash_message_header_item" />
+        <TextView android:id="@2131367848" android:tag="" android:text="@2131951926" app:drawableTopCompat="@drawable/channel_ic_flash_message_contact" app:layout_constraintEnd_toStartOf="@id/tvFlashMessageSystem" app:layout_constraintStart_toEndOf="@id/tvFlashMessageChannel" style="@style/channel_tv_flash_message_header_item" />
+        <TextView android:id="@2131367849" android:tag="" android:text="@2131951927" app:drawableTopCompat="@drawable/channel_ic_flash_message_system" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tvFlashMessageContact" style="@style/channel_tv_flash_message_header_item" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

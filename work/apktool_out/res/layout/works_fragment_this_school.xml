@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@2131366560" android:tag="" android:background="@2131099886" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366761" android:tag="" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" android:nestedScrollingEnabled="true" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <View android:id="@2131368781" android:tag="" android:layout_width="-1" android:layout_height="@2131166510" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:layout_gravity="0x00800055" android:tag="" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="34.0dip" android:src="@2131231969" android:layout_marginEnd="20.0dip" />
+</FrameLayout>

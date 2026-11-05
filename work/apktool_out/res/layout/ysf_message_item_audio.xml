@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131166599"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="0x00000010" android:id="@2131365541" android:background="@2131234662" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:layout_gravity="0x00000013" android:id="@2131365543" android:background="@2131234374" android:layout_width="-2" android:layout_height="-2" android:contentDescription="@0" />
+        <TextView android:textSize="@2131166626" android:textColor="@2131101267" android:layout_gravity="0x00000015" android:id="@2131365542" android:paddingLeft="2.0dip" android:layout_width="-2" android:layout_height="-2" />
+    </FrameLayout>
+    <ImageView android:gravity="0x00000001" android:layout_gravity="0x00000011" android:id="@2131365544" android:background="@2131234675" android:focusable="false" android:longClickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131166598" android:layout_marginRight="@2131166598" android:contentDescription="@0" />
+    <TextView android:textSize="@2131166630" android:textColor="@2131101269" android:gravity="0x00000013" android:autoLink="0x00000006" android:id="@2131365903" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:maxWidth="@2131166600" android:includeFontPadding="false" android:lineSpacingExtra="3.0dip" />
+</LinearLayout>

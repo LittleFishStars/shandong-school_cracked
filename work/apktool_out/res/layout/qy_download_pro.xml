@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@2131368932" android:layout_width="-1" android:layout_height="-1" android:max="100" android:progressDrawable="@2131233428" style="@16973855" />
+    <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368933" android:layout_width="-1" android:layout_height="-1" android:text="" />
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Help_Shop_Library</string>
+
+    <string name="indicator_color_error">指示器的颜色只能设置成“@color/colorID or #000000”</string>
+    <string name="indicator_null_error">请先调用setIndicator()方法来设置指示器</string>
+    <string name="banner_adapter_null_error">Banner setAdapter() 参数不能为空</string>
+    <string name="banner_adapter_use_error">你还没有调用 setAdapter() 方法</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="process_name">⁡</string>
+
+
+
+    <string name="invite_title">必要权限未开启！</string>
+
+
+    <string name="invite_message">请先开启必要权限，AView才能对 联网设备进行实时观看及管理！</string>
+
+    <string name="invite_commit">立即开启</string>
+
+    <string name="invite_cancle">暂不</string>
+
+    <string name="warning_title">警告</string>
+
+    <string name="warning_message">当前必要权限不完整，将无法随时随地 对远程IPC等联网设备进行实时管理\n\n您仍可以坚持监控，但建议保持程序后 台运行，保持屏幕常亮，以便记录成绩</string>
+
+    <string name="warning_commit">开始监控</string>
+
+    <string name="warning_cancle">返回开权限</string>
+
+
+
+
+    <string name="permission_title">重大升级：浮窗监控功能</string>
+
+    <string name="permission_title_two">请开启必要权限，以便浮窗监控正常工作</string>
+
+    <string name="permission_accessiblity">自动开启权限，使用浮窗监控的必要权限</string>
+
+    <string name="permission_flowwindow">开启悬浮窗后，才能显示浮窗监控</string>
+
+    <string name="permission_home_back">允许浮窗监控持续显示，防止被系统误杀</string>
+
+    <string name="permission_commit">立即开启必要权限</string>
+
+    <string name="permission_cancle">暂不开启</string>
+
+
+
+
+    <string name="accessibility_description">开启无障碍后，可以为自动开启浮窗监控功能的必要权限。还能为你持续识别隐藏的购物优惠券，淘宝、京东都能购物省钱！\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+
+
+
+
+
+    <string name="dialog_flow_title">请开启悬浮窗权限</string>
+
+    <string name="dialog_flow_message">需要开启悬浮窗权限，才能在桌面显示浮窗监控。</string>
+
+
+    <string name="dialog_keep_back_title">开启后台保持</string>
+
+
+
+
+    <string name="dialog_keep_back_message">允许程序在后台运行和自启动，以便浮窗监控可以持续显示，避免被系统误杀进程，导致异常关闭。</string>
+
+
+    <string name="dialog_keep_back_two_title">最后一步操作，允许程序保持在后台，以便浮窗监控可以持续显示。</string>
+
+
+
+
+    <string name="dialog_keep_back_two_message">保持后台运行</string>
+
+
+
+    <string name="dialog_vivo_battery_message">最后一步，防止系统因耗电管理，而APP结束进程。</string>
+
+
+
+    <string name="permission_all_open">必要权限已全部开启,\n可以开始使用啦！</string>
+
+
+
+    <string name="permission_warning">权限不完整，将无法正常使用桌面悬浮监控功能。强烈建议你立即开通！</string>
+
+
+
+
+
+    <string name="hw_service_show">开启后台弹出权限，以便程序继续运行，有效查看视频记录。</string>
+
+
+
+
+</resources>

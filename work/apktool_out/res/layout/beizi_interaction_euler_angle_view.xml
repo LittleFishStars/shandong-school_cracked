@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131362345" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131362346" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@2131362347" android:layout_width="-2" android:layout_height="-2" android:src="@2131230948" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <com.beizi.fusion.update.ShakeArcView android:id="@2131362348" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:id="@2131362350" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:id="@2131362349" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+</LinearLayout>

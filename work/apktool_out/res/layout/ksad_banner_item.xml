@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="0" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1" android:maxWidth="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="0x00000011" android:id="@2131363824" android:layout_width="96.0dip" android:layout_height="54.0dip" android:layout_margin="4.0dip" android:maxWidth="96.0dip" android:layout_weight="2.0">
+        <ImageView android:id="@2131363827" android:layout_width="-1" android:layout_height="-1" />
+        <ImageView android:id="@2131363826" android:layout_width="-1" android:layout_height="-1" />
+        <com.kwad.components.core.widget.KsLogoView android:layout_gravity="0x00000053" android:id="@2131363830" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2.0dip" android:layout_marginStart="2.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131363828" android:layout_width="140.0dip" android:layout_height="-1" android:maxWidth="140.0dip" android:minWidth="120.0dip" android:layout_weight="3.0" android:layout_marginStart="4.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#222222" android:ellipsize="3" android:layout_gravity="0x00000003" android:id="@2131363829" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="#666666" android:ellipsize="3" android:layout_gravity="0x00000003" android:id="@2131363825" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:id="@2131363821" android:layout_width="-2" android:layout_height="-1" android:maxWidth="100.0dip" android:layout_weight="2.0">
+        <Button android:textColor="@2131101240" android:layout_gravity="0x00000011" android:id="@2131363822" android:background="@2131232163" android:layout_width="80.0dip" android:layout_height="36.0dip" android:layout_marginStart="4.0dip" />
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131363823" android:background="@2131232165" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

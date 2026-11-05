@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.mall.page.goods_detail.preview.ImagePreviewView android:id="@2131362068" android:tag="" android:layout_width="-1" android:layout_height="@2131165367" />
+    <com.noober.background.view.BLLinearLayout android:gravity="0x00000011" android:orientation="1" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" app:bl_corners_radius="8.0dip" app:bl_gradient_angle="135" app:bl_gradient_endColor="#ff8485ff" app:bl_gradient_startColor="#ffdf97ff">
+        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131232990" />
+        <TextView android:textSize="10.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3.0dip" android:text="" />
+    </com.noober.background.view.BLLinearLayout>
+    <ViewStub android:id="@2131368976" android:layout_width="-1" android:layout_height="-2" android:layout_below="@2131362068" />
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@2131366679" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="#ffffffff">
+        <LinearLayout android:gravity="0x00000010" android:tag="" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:text="@2131953009" style="@style/mall_goods_detail_mall_item_specification_title" />
+            <TextView android:tag="" style="@style/mall_goods_detail_mall_item_specification_value" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000010" android:tag="" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:text="@2131953007" style="@style/mall_goods_detail_mall_item_specification_title" />
+            <TextView android:tag="" android:layout_weight="1.0" style="@style/mall_goods_detail_mall_item_specification_value" />
+            <ImageView style="@style/mall_goods_detail_mall_item_specification_arrow" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000010" android:tag="" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:text="@2131953010" style="@style/mall_goods_detail_mall_item_specification_title" />
+            <TextView android:tag="" style="@style/mall_goods_detail_mall_item_specification_value" />
+            <View android:background="#e5e5e5" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:tag="" style="@style/mall_goods_detail_mall_item_specification_value" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000010" android:tag="" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:text="@2131953008" style="@style/mall_goods_detail_mall_item_specification_title" />
+            <TextView android:tag="" android:layout_weight="1.0" style="@style/mall_goods_detail_mall_item_specification_value" />
+            <ImageView style="@style/mall_goods_detail_mall_item_specification_arrow" />
+        </LinearLayout>
+    </com.noober.background.view.BLLinearLayout>
+</RelativeLayout>

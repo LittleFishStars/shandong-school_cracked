@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131367034" android:layout_width="-1" android:layout_height="-2" android:scaleType="7" />
+    <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:background="@2131233787" android:layout_width="-1" android:layout_height="-2">
+        <com.yd.saas.open.widget.StarsSlideView android:layout_gravity="0x00000001" android:id="@2131367021" android:layout_width="100.0dip" android:layout_height="160.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000001" android:id="@2131367036" android:layout_width="-2" android:layout_height="-2" android:text="" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="4.0" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffff" android:layout_gravity="0x00000001" android:id="@2131367035" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:layout_marginBottom="140.0dip" android:text="" android:shadowColor="#66000000" android:shadowDy="2.0" android:shadowRadius="4.0" />
+    </LinearLayout>
+</LinearLayout>

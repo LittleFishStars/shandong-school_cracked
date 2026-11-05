@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <LinearLayout android:gravity="0x00000010" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.noober.background.view.BLView android:layout_width="6.0dip" android:layout_height="6.0dip" app:bl_corners_radius="6.0dip" app:bl_solid_color="#ffff3d3d" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#2c3e50" android:layout_width="-2" android:layout_height="-2" android:text="@2131951987" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <com.noober.background.view.BLLinearLayout android:layout_width="-1" android:layout_height="44.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="8.0dip" app:bl_solid_color="#fff5f5f5" app:bl_stroke_color="#ffc1c1c1" app:bl_stroke_width="1.0dip">
+        <EditText android:textSize="16.0sp" android:textColor="#2c3e50" android:textColorHint="#c1c1c1" android:tag="" android:background="@0" android:padding="0.0dip" android:layout_width="0.0dip" android:layout_height="-1" android:hint="@2131951988" android:maxLength="10" android:layout_weight="1.0" android:inputType="0x00000001" />
+        <ImageView android:layout_gravity="0x00000010" android:tag="" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231188" />
+    </com.noober.background.view.BLLinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.noober.background.view.BLView android:layout_width="6.0dip" android:layout_height="6.0dip" app:bl_corners_radius="6.0dip" app:bl_solid_color="#ffff3d3d" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#2c3e50" android:layout_width="-2" android:layout_height="-2" android:text="@2131951989" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <com.noober.background.view.BLLinearLayout android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="8.0dip" app:bl_solid_color="#fff5f5f5" app:bl_stroke_color="#ffc1c1c1" app:bl_stroke_width="1.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#2c3e50" android:textColorHint="#c1c1c1" android:gravity="0x00000010" android:tag="" android:layout_width="0.0dip" android:layout_height="-1" android:hint="@2131951990" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="0x00000010" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231187" />
+    </com.noober.background.view.BLLinearLayout>
+    <View android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.huachenjie.common.widget.ShadowConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2" app:sl_dTop="8.0dip" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="true" app:sl_shadowColor="#1a8997a4">
+        <com.noober.background.view.BLButton android:textSize="16.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="0.0dip" android:layout_height="44.0dip" android:text="@2131952015" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:elevation="0.0dip" android:stateListAnimator="@0" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff650aec" app:bl_unEnabled_solid_color="#ffc1c1c1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.huachenjie.common.widget.ShadowConstraintLayout>
+</LinearLayout>

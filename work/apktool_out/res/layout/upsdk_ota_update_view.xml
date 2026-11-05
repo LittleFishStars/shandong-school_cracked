@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <ScrollView android:scrollbarStyle="0x02000000" android:id="@2131367066" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <ImageView android:id="@2131362667" android:layout_width="-1" android:layout_height="16.0dip" />
+                <LinearLayout android:orientation="0" android:id="@2131365861" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@2131166183">
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:layout_width="-2" android:layout_height="-2" android:text="@2131953978" />
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:id="@2131365862" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131166182" android:fontFamily="" android:layout_marginStart="@2131166182" />
+                </LinearLayout>
+                <LinearLayout android:orientation="0" android:id="@2131368861" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@2131166183">
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:layout_width="-2" android:layout_height="-2" android:text="@2131953969" />
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:id="@2131368862" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131166182" android:fontFamily="" android:layout_marginStart="@2131166182" />
+                </LinearLayout>
+                <LinearLayout android:orientation="0" android:id="@2131367204" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:layout_width="-2" android:layout_height="-2" android:text="@2131953968" />
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:id="@2131362013" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131166182" android:fontFamily="" android:layout_marginStart="@2131166182" />
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:id="@2131361989" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131166182" android:fontFamily="" android:layout_marginStart="@2131166182" />
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:id="@2131362543" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="@2131165373" android:textColor="@2131100030" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@2131166181" android:text="@2131953974" />
+                    <TextView android:textSize="@2131165372" android:textColor="@2131100030" android:id="@2131362544" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@2131166182" android:lineSpacingMultiplier="1.1" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

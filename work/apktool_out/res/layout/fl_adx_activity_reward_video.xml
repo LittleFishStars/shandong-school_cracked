@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="100.0dip">
+        <FrameLayout android:id="@2131363050" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <SurfaceView android:layout_gravity="0x00000011" android:id="@2131363011" android:layout_width="-1" android:layout_height="-1" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131363007" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" />
+            <ProgressBar android:layout_gravity="0x00000011" android:id="@2131366772" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+        </FrameLayout>
+        <com.fl.saas.adx.base.activity.h5.SignUrlWebView android:id="@2131363085" android:visibility="2" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="7.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131362998" android:background="#ffffff" android:visibility="2" android:layout_width="-2" android:layout_height="100.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@2131363000" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="6" android:layout_marginStart="16.0dip" />
+            <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:ellipsize="3" android:id="@2131363001" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+                <TextView android:textSize="12.0sp" android:textColor="#555555" android:ellipsize="3" android:id="@2131362999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:lines="2" />
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:id="@2131362997" android:background="@2131231616" android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_width="44.0dip" android:layout_height="15.0dip" android:layout_margin="8.0dip" android:src="@2131755079" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364773" android:background="@2131231598" android:visibility="2" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_centerInParent="true">
+            <com.fl.saas.adx.base.widget.ShakeView android:id="@2131369059" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363009" android:background="@2131231620" android:visibility="2" android:layout_width="44.0dip" android:layout_height="36.0dip" android:layout_marginTop="45.0dip" android:text="" android:layout_marginStart="15.0dip" />
+    <ImageView android:id="@2131363005" android:visibility="2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="47.0dip" android:src="@2131755075" android:layout_marginStart="15.0dip" />
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="45.0dip" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@2131363010" android:visibility="2" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="5.0dip" android:src="@2131231626" android:layout_toLeftOf="@2131364689" />
+        <LinearLayout android:orientation="0" android:id="@2131364689" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="14.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368275" android:background="@2131231620" android:visibility="2" android:layout_width="-2" android:layout_height="36.0dip" android:text="" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363006" android:background="@2131231620" android:layout_width="-2" android:layout_height="36.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@2131363002" android:background="#33000000" android:visibility="2" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginTop="94.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363004" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363003" android:background="@2131231617" android:layout_width="60.0dip" android:layout_height="28.0dip" android:text="" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131363008" android:background="@2131231618" android:visibility="2" android:layout_width="-2" android:layout_height="40.0dip" android:layout_marginTop="150.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131755082" android:layout_marginStart="16.0dip" />
+        <TextView android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131366696" android:background="@2131755083" android:visibility="2" android:layout_width="79.0dip" android:layout_height="94.0dip" android:layout_marginBottom="200.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+        <ProgressBar android:id="@2131362524" android:layout_width="-1" android:layout_height="3.0dip" android:layout_marginTop="44.0dip" android:progress="0" android:progressDrawable="@2131231606" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="?16842872" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368467" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="55.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000011" android:id="@2131364802" android:background="#99000000" android:visibility="2" android:layout_width="-1" android:layout_height="36.0dip" android:layout_marginTop="95.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131755077" />
+        <TextView android:textSize="14.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368700" android:layout_width="-2" android:layout_height="36.0dip" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

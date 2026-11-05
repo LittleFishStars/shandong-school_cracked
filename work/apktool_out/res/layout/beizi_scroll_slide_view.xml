@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000001" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.beizi.fusion.widget.ScrollArcView android:id="@2131367226" android:layout_width="-1" android:layout_height="200.0dip" android:alpha="0.3" />
+    <FrameLayout android:gravity="0x00000001" android:layout_gravity="0x00000001" android:id="@2131367231" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131367230" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@2131230949" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="0x00000011" android:id="@2131367232" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131367233" android:layout_width="-1" android:layout_height="-2" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131367228" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" android:shadowColor="#80000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

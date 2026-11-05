@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.base.dsbridge_webview.WebContentView android:id="@2131368991" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

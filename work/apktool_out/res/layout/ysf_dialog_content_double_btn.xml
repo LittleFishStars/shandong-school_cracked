@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ysf_include_divider" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50.0dip">
+        <Button android:textSize="@2131166630" android:textColor="@2131101275" android:gravity="0x00000011" android:id="@2131369198" android:background="@2131234409" android:layout_width="0.0dip" android:layout_height="-1" android:text="@2131954556" android:layout_weight="1.0" />
+        <include android:layout_width="@2131166610" android:layout_height="-1" layout="@layout/ysf_include_divider" />
+        <Button android:textSize="@2131166630" android:textColor="@2131101275" android:gravity="0x00000011" android:id="@2131369199" android:background="@2131234410" android:layout_width="0.0dip" android:layout_height="-1" android:text="@2131954301" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

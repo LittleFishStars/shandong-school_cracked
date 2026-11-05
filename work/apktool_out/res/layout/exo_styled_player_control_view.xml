@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131362868" android:background="@2131100034" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:layout_gravity="0x00000050" android:id="@2131362861" android:background="@2131100036" android:layout_width="-1" android:layout_height="@2131165398" android:layout_marginTop="@2131165399" android:layoutDirection="0">
+        <LinearLayout android:layout_gravity="0x00800013" android:id="@2131362903" android:paddingLeft="@2131165400" android:paddingRight="@2131165400" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0" android:paddingStart="@2131165400" android:paddingEnd="@2131165400">
+            <TextView android:id="@2131362888" style="@style/ExoStyledControls.TimeText.Position" />
+            <TextView style="@style/ExoStyledControls.TimeText.Separator" />
+            <TextView android:id="@2131362869" style="@style/ExoStyledControls.TimeText.Duration" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="0x00800015" android:id="@2131362860" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0">
+            <ImageButton android:id="@2131362905" style="@style/ExoStyledControls.Button.Bottom.VR" />
+            <ImageButton android:id="@2131362897" style="@style/ExoStyledControls.Button.Bottom.Shuffle" />
+            <ImageButton android:id="@2131362892" style="@style/ExoStyledControls.Button.Bottom.RepeatToggle" />
+            <ImageButton android:id="@2131362900" style="@style/ExoStyledControls.Button.Bottom.CC" />
+            <ImageButton android:id="@2131362895" style="@style/ExoStyledControls.Button.Bottom.Settings" />
+            <ImageButton android:id="@2131362875" style="@style/ExoStyledControls.Button.Bottom.FullScreen" />
+            <ImageButton android:id="@2131362882" style="@style/ExoStyledControls.Button.Bottom.OverflowShow" />
+        </LinearLayout>
+        <HorizontalScrollView android:layout_gravity="0x00800015" android:id="@2131362872" android:visibility="1" android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:id="@2131362871" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="0">
+                <ImageButton android:id="@2131362881" style="@style/ExoStyledControls.Button.Bottom.OverflowHide" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <View android:layout_gravity="0x00000050" android:id="@2131362891" android:layout_width="-1" android:layout_height="@2131165406" android:layout_marginBottom="@2131165407" />
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00800055" android:orientation="0" android:id="@2131362878" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@2131165402" android:layoutDirection="0">
+        <ImageButton android:id="@2131362879" style="@style/ExoStyledControls.Button.Bottom.FullScreen" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131362863" android:background="@17170445" android:padding="@2131165401" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2">
+        <ImageButton android:id="@2131362889" style="@style/ExoStyledControls.Button.Center.Previous" />
+        <include layout="@layout/exo_styled_player_control_rewind_button" />
+        <ImageButton android:id="@2131362886" style="@style/ExoStyledControls.Button.Center.PlayPause" />
+        <include layout="@layout/exo_styled_player_control_ffwd_button" />
+        <ImageButton android:id="@2131362880" style="@style/ExoStyledControls.Button.Center.Next" />
+    </LinearLayout>
+</merge>

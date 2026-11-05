@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textAppearance="@2132017714" android:gravity="0x00800013" android:id="@2131362631" android:layout_width="0.0dip" android:layout_height="-1" android:maxLines="1" android:drawablePadding="@2131165341" android:layout_weight="1.0" />
+    <ViewStub android:id="@2131362630" android:layout="@2131558800" android:inflatedId="@2131362629" android:layout_width="-2" android:layout_height="-1" />
+</merge>

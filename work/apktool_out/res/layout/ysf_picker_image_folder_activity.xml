@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131366034" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <TextView android:textSize="@2131166630" android:textColor="@2131101311" android:id="@2131366036" android:layout_width="-2" android:layout_height="-2" android:text="@2131954577" />
+        <TextView android:textSize="@2131166630" android:textColor="@2131101311" android:id="@2131366035" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@2131954576" />
+    </LinearLayout>
+    <ListView android:id="@2131366033" android:layout_width="-1" android:layout_height="-1" android:listSelector="@17170445" android:cacheColorHint="@17170445" android:divider="@2131101322" android:dividerHeight="1.0dip" style="@style/ysf_list_view" />
+</RelativeLayout>

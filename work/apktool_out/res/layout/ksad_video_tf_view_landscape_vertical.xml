@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:id="@2131364425" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131364428" android:layout_width="0.0dip" android:layout_height="-1" android:scaleType="6" android:layout_weight="1.0" />
+        <ImageView android:id="@2131364429" android:layout_width="0.0dip" android:layout_height="-1" android:scaleType="6" android:layout_weight="1.0" />
+        <ImageView android:id="@2131364430" android:layout_width="0.0dip" android:layout_height="-1" android:scaleType="6" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.kwad.components.ad.widget.tailframe.appbar.TailFrameBarAppLandscape android:id="@2131364384" android:visibility="2" android:layout_width="300.0dip" android:layout_height="-1" android:layout_alignParentRight="true" />
+    <com.kwad.components.ad.reward.widget.tailframe.TailFrameBarH5View android:id="@2131364406" android:visibility="2" android:layout_width="300.0dip" android:layout_height="-1" android:layout_alignParentRight="true" />
+    <com.kwad.components.core.widget.KsLogoView android:id="@2131364424" android:background="@2131232346" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

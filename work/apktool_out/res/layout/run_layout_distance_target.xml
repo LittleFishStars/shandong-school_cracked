@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-1" android:layout_height="219.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@2131100985" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.0dip" android:text="@2131953494" />
+        <com.huachenjie.common.widget.CustomerTextView android:textSize="80.0sp" android:textColor="@2131100988" android:id="@2131368193" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131368168" android:tag="" android:background="@2131099895" android:layout_width="-2" android:layout_height="32.0dip" android:text="" android:paddingStart="12.0sp" android:paddingEnd="12.0sp" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131366671" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <com.huachenjie.common.widget.ruler.VerticalRulerView android:id="@2131366740" android:layout_width="-1" android:layout_height="-1" app:vertical_extraSelectedTextSize="15.0" app:vertical_extraTextSize="14.0" app:vertical_isShowScaleValue="true" app:vertical_lineLength="18.0dip" app:vertical_lineStrokeWidth="2.0dip" app:vertical_longLineColor="@color/color_c9c9c9" app:vertical_scaleSpace="58.0dip" app:vertical_scaleValueColor="@color/percent_15_translucent_black" app:vertical_scaleValueInterval="144.0dip" app:vertical_scaleValueTextSize="30.0" app:vertical_scrollLocDuration="300" app:vertical_selectedValueColor="@color/percent_75_translucent_black" app:vertical_selectedValueTextSize="35.0" />
+        <View android:tag="" android:background="@2131099895" android:layout_width="28.0dip" android:layout_height="3.0dip" android:layout_centerVertical="true" layout="@layout/layout_middle_scale_line" />
+    </RelativeLayout>
+</LinearLayout>

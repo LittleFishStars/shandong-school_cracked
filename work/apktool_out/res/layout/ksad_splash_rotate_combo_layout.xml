@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000050" android:id="@2131364267" android:visibility="2" android:layout_width="-1" android:layout_height="210.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.ad.splashscreen.widget.KsSlideRoundView android:layout_gravity="0x00000050" android:id="@2131364272" android:layout_width="-1" android:layout_height="210.0dip" />
+    <LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:layout_width="-1" android:layout_height="183.0dip">
+        <com.kwad.components.ad.splashscreen.widget.KsSlideArrowView android:layout_gravity="0x00000001" android:id="@2131364271" android:layout_width="19.0dip" android:layout_height="10.0dip" android:layout_marginTop="9.0dip" />
+        <com.kwad.components.ad.splashscreen.widget.KsSlideArrowView android:layout_gravity="0x00000001" android:id="@2131364270" android:layout_width="19.0dip" android:layout_height="10.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131364269" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:maxWidth="192.0dip" android:text="@2131952578" android:shadowColor="#66000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        <LinearLayout android:layout_gravity="0x00000001" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="39.0dip">
+            <com.kwad.components.ad.splashscreen.widget.KsRotateTypeTwoView android:layout_gravity="0x00000011" android:id="@2131364268" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+            <TextView android:textSize="20.0sp" android:textColor="@17170443" android:ellipsize="3" android:layout_gravity="0x00000011" android:id="@2131364265" android:layout_width="-2" android:layout_height="-2" android:text="@2131952573" android:maxLines="1" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

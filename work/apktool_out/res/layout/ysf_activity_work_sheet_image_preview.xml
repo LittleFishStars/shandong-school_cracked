@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131361897" android:background="@2131101361" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@2131369751" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

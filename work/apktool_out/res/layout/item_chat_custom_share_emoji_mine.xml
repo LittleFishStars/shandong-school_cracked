@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@2131165307" android:paddingBottom="@2131165307" android:layout_width="-1" android:layout_height="-2" android:paddingStart="50.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.base.widget.AvatarView android:id="@2131363272" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@2131231822" android:layout_alignParentEnd="true" />
+    <include android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="7.0dip" android:layout_alignTop="@2131363272" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@2131363272" layout="@layout/include_nick_name" />
+    <com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131362789" android:layout_width="220.0dip" android:layout_height="84.0dip" android:layout_below="@2131364644" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@2131363272" app:bl_corners_bottomLeftRadius="20.0dip" app:bl_corners_bottomRightRadius="20.0dip" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="0.0dip" app:bl_solid_color="@color/white">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:id="@2131362791" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+        <ImageView android:id="@2131362788" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginStart="12.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+</RelativeLayout>

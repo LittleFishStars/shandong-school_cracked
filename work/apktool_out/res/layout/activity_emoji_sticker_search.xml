@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131363390" android:tag="" android:layout_width="@2131166510" android:layout_height="@2131166510" android:src="@2131231760" android:scaleType="5" android:paddingStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="#ff000000" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:gravity="0x00000010" android:id="@2131368529" android:tag="" android:layout_width="-2" android:layout_height="@2131166510" android:text="" android:paddingStart="8.0dip" android:paddingEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="0.0dip" android:layout_height="32.0dip" android:paddingEnd="12.0dip" app:bl_corners_radius="16.0dip" app:bl_solid_color="#fff5f5f5" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/tv_search" app:layout_constraintStart_toEndOf="@id/iv_back" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231855" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" />
+            <EditText android:textSize="14.0sp" android:textColor="#2c3e50" android:textColorHint="#cccccc" android:id="@2131365481" android:tag="" android:background="@0" android:layout_width="0.0dip" android:layout_height="-2" android:hint="" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="0x00000003" android:textCursorDrawable="@2131233323" />
+            <ImageView android:id="@2131363424" android:tag="" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231854" android:scaleType="5" />
+        </com.noober.background.view.BLLinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131362798" android:tag="" android:background="#fff5f5f5" android:paddingTop="15.0dip" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

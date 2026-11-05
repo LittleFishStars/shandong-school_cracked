@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30.0dip">
+                <com.huachenjie.common.widget.ShadowLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30.0dip" android:layout_marginTop="41.0dip" android:layout_marginRight="30.0dip" app:sl_cornerRadius="13.0dip" app:sl_shadowColor="#1a650aec" app:sl_shadowRadius="5.0dip">
+                    <TextView android:textSize="24.0sp" android:textColor="#ff333333" android:layout_gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="53.0dip" />
+                    <LinearLayout style="@style/personalItemStyle">
+                        <TextView android:text="" style="@style/personalNameStyle" />
+                        <TextView android:tag="" style="@style/personalValueStyle" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/personalItemStyle">
+                        <TextView android:text="" style="@style/personalNameStyle" />
+                        <TextView android:tag="" style="@style/personalValueStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/personalItemStyle">
+                        <TextView android:text="" style="@style/personalNameStyle" />
+                        <TextView android:tag="" android:layout_weight="1.0" style="@style/personalValueStyle" />
+                        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231726" android:layout_marginStart="10.0dip" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/personalItemStyle">
+                        <TextView android:text="" style="@style/personalNameStyle" />
+                        <TextView android:tag="" style="@style/personalValueStyle" />
+                    </LinearLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:minHeight="52.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                        <TextView android:id="@2131368130" android:layout_marginTop="15.0dip" android:text="" android:layout_marginStart="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/personalNameStyle" />
+                        <ImageView android:id="@2131363420" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231726" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_class_name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_class_name" />
+                        <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:paddingEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/iv_class_arrow" app:layout_constraintStart_toEndOf="@id/tv_class_name" app:layout_constraintTop_toTopOf="@id/tv_class_name">
+                            <TextView android:tag="" android:layout_width="-1" android:layout_weight="1.0" style="@style/personalValueStyle" />
+                            <TextView android:tag="" android:layout_width="-1" android:layout_marginTop="8.0dip" android:layout_weight="1.0" style="@style/personalValueStyle" />
+                        </LinearLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View android:background="#edeef3" android:layout_width="-2" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+                    <LinearLayout android:tag="" style="@style/personalItemStyle">
+                        <TextView android:text="" style="@style/personalNameStyle" />
+                        <TextView android:tag="" android:layout_weight="1.0" style="@style/personalValueStyle" />
+                        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231726" android:layout_marginStart="10.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/personalItemStyle">
+                        <TextView android:text="" style="@style/personalNameStyle" />
+                        <TextView android:tag="" android:layout_weight="1.0" style="@style/personalValueStyle" />
+                        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231726" android:layout_marginStart="10.0dip" />
+                    </LinearLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:minHeight="52.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                        <TextView android:id="@2131368004" android:layout_marginTop="15.0dip" android:text="" android:layout_marginStart="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/personalNameStyle" />
+                        <ImageView android:id="@2131363365" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231726" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_address_name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_address_name" />
+                        <TextView android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:paddingEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/iv_address_arrow" app:layout_constraintStart_toEndOf="@id/tv_address_name" app:layout_constraintTop_toTopOf="@id/tv_address_name" style="@style/personalValueStyle" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View android:tag="" android:background="#edeef3" android:layout_width="-2" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+                    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="48.0dip" android:text="" />
+                        <ImageView android:tag="" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231726" android:layout_marginStart="3.0dip" />
+                    </LinearLayout>
+                </com.huachenjie.common.widget.ShadowLayout>
+                <FrameLayout android:layout_gravity="0x00000001" android:layout_width="82.0dip" android:layout_height="82.0dip">
+                    <com.huachenjie.base.widget.AvatarView android:tag="" android:layout_width="82.0dip" android:layout_height="82.0dip" />
+                    <ImageView android:layout_gravity="0x00000055" android:id="@2131363337" android:tag="" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginEnd="5.0dip" />
+                </FrameLayout>
+            </FrameLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ffff762f" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

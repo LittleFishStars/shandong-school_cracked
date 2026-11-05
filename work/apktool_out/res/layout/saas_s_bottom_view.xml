@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366994" android:layout="@2131560358" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366995" android:layout="@2131560359" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131367005" android:layout="@2131560360" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131367006" android:layout="@2131560361" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131367020" android:layout="@2131560362" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366963" android:layout="@2131560348" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366962" android:layout="@2131560347" android:layout_width="-1" android:layout_height="-2" />
+</FrameLayout>

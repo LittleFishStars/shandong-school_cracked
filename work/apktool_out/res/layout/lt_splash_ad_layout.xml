@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ltmb.ltsdk.art.ad.splash.LtSplashRootView android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131365793" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131365795" android:background="#ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <com.ltmb.ltsdk.art.core.view.gif.GifImageView android:id="@2131365794" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <RelativeLayout android:id="@2131365796" android:layout_width="-1" android:layout_height="-1" />
+    <com.ltmb.ltsdk.art.core.view.SwipeView android:id="@2131365584" android:background="#00ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131365785" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="80.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@2131365804" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@2131365805" android:background="@2131232595" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131232651" />
+        </RelativeLayout>
+        <ImageView android:id="@2131365608" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131232650" />
+        <RelativeLayout android:id="@2131365787" android:background="@2131232594" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@2131365786" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131232644" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365789" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="1" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365790" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="1" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365175" android:background="@2131232605" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="49.0dip" android:layout_marginRight="49.0dip" android:layout_marginBottom="30.0dip" android:text="" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131365173" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="60.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:id="@2131365172" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:text="@2131952869" android:maxLines="3" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    </RelativeLayout>
+    <FrameLayout android:id="@2131365158" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <include android:layout_width="-2" android:layout_height="-2" layout="@layout/lt_ad_tag_view_right" />
+    </FrameLayout>
+    <com.ltmb.ltsdk.art.ad.view.ViewContainer android:id="@2131365189" android:background="@17170445" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:id="@2131365188" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+        <com.ltmb.ltsdk.art.ad.splash.SplashSkipView android:id="@2131365187" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@16973852" />
+    </RelativeLayout>
+    <ImageView android:id="@2131365629" android:visibility="2" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@2131232617" android:scaleType="6" android:layout_alignParentRight="true" />
+</com.ltmb.ltsdk.art.ad.splash.LtSplashRootView>

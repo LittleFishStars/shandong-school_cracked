@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sigmob.sdk.base.views.CircleImageView android:id="@2131367148" android:layout_width="53.0dip" android:layout_height="53.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:radius="8.0dip" />
+    <LinearLayout android:orientation="1" android:id="@2131367127" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@2131367148" android:layout_centerVertical="true" android:layout_marginStart="10.0dip">
+        <TextView android:textSize="13.0sp" android:textStyle="0x00000001" android:textColor="#000000" android:id="@2131367146" android:layout_width="-1" android:layout_height="19.0dip" android:text="" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#666666" android:id="@2131367130" android:layout_width="-1" android:layout_height="18.0dip" android:text="" android:singleLine="true" />
+        <com.sigmob.sdk.newInterstitial.SigAdPrivacyInfoView android:id="@2131367134" android:layout_width="-1" android:layout_height="15.0dip" />
+    </LinearLayout>
+</RelativeLayout>

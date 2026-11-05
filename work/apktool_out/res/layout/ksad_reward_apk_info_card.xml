@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131364137" android:background="@17170445" android:layout_width="-1" android:layout_height="-2" app:ksad_ratio="0.455"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131364136" android:visibility="2" layout="@layout/ksad_reward_apk_info_card_native" />
+    <com.kwad.sdk.core.webview.KsAdWebView android:layout_gravity="0x00000051" android:id="@2131364135" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</com.kwad.sdk.widget.KSFrameLayout>

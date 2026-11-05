@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qy.sdk.img.QYImageView android:id="@2131366296" android:background="#80000000" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131366393" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ProgressBar android:layout_width="-2" android:layout_height="-2" android:indeterminateDrawable="@2131233424" android:indeterminateBehavior="1" />
+        <TextView android:textSize="13.0sp" android:textColor="@17170443" android:id="@2131366394" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="0x00000010" android:id="@2131366485" android:padding="8.0dip" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131366486" android:background="@2131233438" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" />
+        <ImageView android:id="@2131366398" android:visibility="0" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@2131233436" android:layout_toLeftOf="@2131366429" android:layout_centerVertical="true" />
+        <LinearLayout android:id="@2131366429" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.qy.sdk.media.v.QYPlayProgressBar android:id="@2131366295" android:visibility="0" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="15.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000010" android:id="@2131366270" android:visibility="2" android:layout_width="-1" android:layout_height="42.0dip" android:layout_alignParentBottom="true">
+        <SeekBar android:layout_gravity="0x00000050" android:id="@2131366434" android:background="@0" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginBottom="2.0dip" android:maxHeight="1.5dip" android:max="100" android:progressDrawable="@2131233440" android:minHeight="1.5dip" android:thumb="@0" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170443" android:id="@2131366067" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:text="" />
+        <TextView android:textSize="14.0sp" android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170443" android:id="@2131362709" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+    <ImageView android:gravity="0x00000011" android:id="@2131366291" android:visibility="0" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@2131233435" android:layout_centerInParent="true" />
+</RelativeLayout>

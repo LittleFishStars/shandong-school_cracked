@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364345" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000001" android:id="@2131363778" android:layout_width="@2131165720" android:layout_height="@2131165718" android:src="@2131232337" />
+    <FrameLayout android:layout_gravity="0x00000001" android:id="@2131364341" android:layout_width="@2131165716" android:layout_height="@2131165714" android:layout_marginTop="7.0dip">
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:background="@2131232336" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:id="@2131363774" android:layout_width="@2131165690" android:layout_height="@2131165688" android:layout_marginTop="@2131165692" />
+            <TextView android:textSize="@2131165704" android:textStyle="0x00000001" android:textColor="@2131100170" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131363771" android:paddingLeft="31.0dip" android:paddingRight="31.0dip" android:layout_width="-1" android:layout_height="@2131165700" android:layout_marginTop="@2131165702" android:maxLines="1" />
+            <TextView android:textSize="@2131165708" android:textColor="@2131100167" android:id="@2131363772" android:layout_width="-2" android:layout_height="@2131165706" />
+            <TextView android:textSize="@2131165698" android:textColor="@2131100166" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131363770" android:paddingLeft="36.0dip" android:paddingRight="36.0dip" android:layout_width="-1" android:layout_height="@2131165694" android:layout_marginTop="@2131165696" android:maxLines="2" />
+        </LinearLayout>
+        <com.kwad.components.core.widget.KsLogoView android:layout_gravity="0x00000053" android:id="@2131363776" android:background="@2131232251" android:layout_width="-2" android:layout_height="16.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:scaleX="0.8" android:scaleY="0.8" />
+    </FrameLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364346" android:background="@2131232333" android:layout_width="@2131165686" android:layout_height="@2131165684" android:layout_marginTop="6.0dip">
+        <TextView android:textSize="@2131165682" android:textStyle="0x00000001" android:textColor="@2131100172" android:ellipsize="3" android:id="@2131363762" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        <TextView android:textSize="@2131165680" android:textColor="@2131100172" android:ellipsize="3" android:id="@2131363761" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <com.kwad.components.ad.splashscreen.widget.CloseCountDownView android:gravity="0x00000011" android:id="@2131363773" android:background="@2131232335" android:layout_width="-2" android:layout_height="@2131165710" android:layout_marginTop="@2131165712" />
+</LinearLayout>

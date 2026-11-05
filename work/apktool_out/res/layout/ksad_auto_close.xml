@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSLinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#ccffffff" android:id="@2131363818" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <ImageView android:id="@2131363817" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4.0dip" android:src="@2131232213" />
+</com.kwad.sdk.widget.KSLinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-1" android:layout_height="-2" android:src="@2131231648" android:scaleType="1" android:adjustViewBounds="true" />
+    <com.noober.background.view.BLLinearLayout android:gravity="0x00000001" android:orientation="1" android:paddingBottom="24.0dip" android:layout_width="-1" android:layout_height="-2" app:bl_corners_bottomLeftRadius="20.0dip" app:bl_corners_bottomRightRadius="20.0dip" app:bl_solid_color="@color/white">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip">
+            <CheckBox android:textSize="12.0sp" android:textColor="#191f20" android:tag="" android:background="@2131101187" android:layout_width="-2" android:layout_height="-2" android:button="@0" android:text="" android:drawablePadding="5.0dip" android:drawableStart="@2131230907" />
+        </LinearLayout>
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:text="" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff191f20" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#757979" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" />
+    </com.noober.background.view.BLLinearLayout>
+</LinearLayout>

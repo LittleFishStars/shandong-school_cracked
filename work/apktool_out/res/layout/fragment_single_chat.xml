@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131362989" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131367200" android:layout_width="-1" android:layout_height="-2" />
+        <com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000050" android:orientation="0" android:tag="" android:layout_width="-2" android:layout_height="-2" app:bl_corners_topLeftRadius="12.0dip" app:bl_corners_topRightRadius="12.0dip" app:bl_solid_color="@color/white">
+            <TextView android:tag="" android:text="@2131952502" app:drawableStartCompat="@drawable/im_ic_chat_send_goods" style="@style/im_inputPanelMenuTv" />
+            <View android:tag="" android:background="#e5e5e5" android:layout_width="1.0dip" android:layout_height="16.0dip" />
+            <TextView android:tag="" android:text="@2131952503" app:drawableStartCompat="@drawable/im_ic_chat_send_order" style="@style/im_inputPanelMenuTv" />
+        </com.noober.background.view.BLLinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@2131363248" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

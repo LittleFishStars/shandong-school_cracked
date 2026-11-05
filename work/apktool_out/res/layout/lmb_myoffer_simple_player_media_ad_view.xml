@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.PlayerView android:id="@2131364993" android:layout_width="-1" android:layout_height="-1" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.web.WebProgressBarView android:layout_gravity="0x00000050" android:id="@2131364994" android:visibility="2" android:layout_width="-1" android:layout_height="2.0dip" />
+    <ImageView android:id="@2131364991" android:background="#fafafa" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364990" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@2131232546" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364996" android:background="@2131232445" android:visibility="2" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@2131232507" android:scaleType="3" />
+    <include android:layout_gravity="0x00000011" android:visibility="2" android:layout_width="-2" android:layout_height="-2" layout="@layout/lmb_myoffer_include_video_play_fail" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364995" android:background="@2131232445" android:visibility="2" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@2131232506" android:scaleType="3" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.MuteImageView android:layout_gravity="0x00000053" android:id="@2131364865" android:background="@2131232541" android:padding="3.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+</merge>

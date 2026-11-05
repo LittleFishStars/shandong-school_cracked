@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLTextView android:textSize="11.0sp" android:textColor="#ff191f20" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131367895" android:visibility="2" android:layout_width="-2" android:layout_height="15.0dip" android:layout_marginBottom="60.0dip" app:bl_corners_radius="8.0dip" app:bl_solid_color="@color/white" />
+    <com.noober.background.view.BLTextView android:textSize="10.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131367894" android:visibility="2" android:layout_width="32.0dip" android:layout_height="16.0dip" android:layout_marginBottom="54.0dip" android:text="" app:bl_corners_radius="8.0dip" app:bl_solid_color="#ff36a1ff" app:bl_stroke_color="@color/white" app:bl_stroke_width="1.0dip" />
+    <TextView android:textSize="20.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131367956" android:background="@2131233527" android:paddingBottom="11.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:includeFontPadding="false" android:fontFamily="@2131296258" />
+    <ImageView android:layout_gravity="0x00000051" android:id="@2131363311" android:visibility="2" android:layout_width="130.0dip" android:layout_height="103.0dip" android:layout_marginBottom="58.0dip" android:src="@2131233526" />
+</merge>

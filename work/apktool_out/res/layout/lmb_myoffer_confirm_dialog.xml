@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131365014" android:background="@2131232450" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@17170444" android:id="@2131364875" android:padding="35.0dip" android:layout_width="-1" android:layout_height="-2" android:text="@2131952688" android:layout_centerHorizontal="true" />
+    <View android:id="@2131364873" android:background="@2131100225" android:layout_width="-1" android:layout_height="1.0dip" android:layout_below="@2131364875" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="65.0dip" android:layout_below="@2131364873">
+        <View android:id="@2131364874" android:background="@2131100225" android:layout_width="1.0dip" android:layout_height="-1" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@2131100223" android:gravity="0x00000011" android:id="@2131364872" android:layout_width="-1" android:layout_height="-1" android:text="@2131952687" android:layout_toLeftOf="@2131364874" />
+        <TextView android:textSize="16.0sp" android:textColor="@2131100224" android:gravity="0x00000011" android:id="@2131364871" android:layout_width="-1" android:layout_height="-1" android:text="@2131952686" android:layout_toRightOf="@2131364874" />
+    </RelativeLayout>
+</RelativeLayout>

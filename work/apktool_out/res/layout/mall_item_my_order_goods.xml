@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:paddingTop="12.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLImageView android:id="@2131363493" android:tag="" android:background="@2131099873" android:layout_width="80.0dip" android:layout_height="80.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="@color/color_e5e5e5" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:ellipsize="3" android:id="@2131368269" android:tag="" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" />
+        <TextView android:textSize="11.0sp" android:textColor="@2131099839" android:id="@2131368577" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:minHeight="28.0dip" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <com.huachenjie.mall.widget.PriceView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:id="@2131368457" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" app:mall_add_size="14.0sp" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_money_size="12.0sp" app:mall_suffix_size="12.0sp" />
+            <TextView android:textSize="14.0sp" android:textColor="@2131099809" android:id="@2131368398" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

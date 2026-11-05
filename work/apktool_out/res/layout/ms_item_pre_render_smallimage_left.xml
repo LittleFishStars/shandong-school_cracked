@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131365722" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131365714" android:layout_width="100.0dip" android:layout_height="75.0dip" android:scaleType="6" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@2131365727" android:layout_width="100.0dip" android:layout_height="75.0dip" android:scaleType="3" android:layout_alignParentRight="true" />
+    <com.meishu.sdk.core.view.RoundImageView android:id="@2131365719" android:layout_width="100.0dip" android:layout_height="75.0dip" android:scaleType="3" android:layout_alignParentRight="true" />
+    <ImageView android:id="@2131365720" android:layout_width="40.0dip" android:layout_height="15.0dip" android:src="@2131233129" android:scaleType="1" android:layout_alignRight="@2131365719" android:layout_alignBottom="@2131365719" />
+    <ImageView android:id="@2131365723" android:visibility="2" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@2131233178" android:layout_toLeftOf="@2131365720" android:layout_alignBottom="@2131365719" />
+    <TextView android:textSize="15.0sp" android:textColor="#222222" android:ellipsize="3" android:id="@2131365726" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:maxLines="2" android:layout_toLeftOf="@2131365719" />
+    <TextView android:textSize="12.0sp" android:textColor="#222222" android:ellipsize="3" android:id="@2131365717" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:maxLines="2" android:layout_toLeftOf="@2131365719" android:layout_below="@2131365726" />
+    <TextView android:textSize="13.0sp" android:textColor="#999999" android:ellipsize="3" android:id="@2131365718" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50.0dip" android:singleLine="true" android:layout_toLeftOf="@2131365719" android:layout_alignLeft="@2131365726" android:layout_alignBottom="@2131365719" />
+    <TextView android:textSize="10.0sp" android:textColor="#333333" android:gravity="0x00000051" android:id="@2131365716" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:text="" android:layout_toLeftOf="@2131365719" android:layout_alignBottom="@2131365719" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="5.0dip" android:layout_below="@2131365716">
+        <TextView android:textSize="8.0sp" android:textColor="#ffffff" android:id="@2131365667" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:text="@2131953216" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@2131365785" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+        <com.meishu.sdk.core.view.ShakeImageView android:id="@2131365786" android:background="@2131233131" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131365789" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@2131365786" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:id="@2131365790" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@2131365789" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

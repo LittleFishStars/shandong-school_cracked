@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363899" android:padding="12.0dip" android:layout_width="0.0dip" android:layout_height="72.0dip" android:src="@2131232270" android:scaleType="6" android:layout_weight="72.0" android:contentDescription="" />
+    <RelativeLayout android:orientation="1" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="72.0dip" android:layout_weight="267.0">
+        <LinearLayout android:orientation="0" android:id="@2131363908" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+            <TextView android:textSize="16.0dip" android:textColor="#222222" android:ellipsize="3" android:id="@2131363901" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:maxWidth="160.0dip" android:maxLines="1" />
+            <TextView android:textSize="16.0dip" android:textColor="#222222" android:id="@2131363906" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:paddingRight="12.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true">
+            <RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4.0dip">
+                <TextView android:textSize="10.0sp" android:textColor="#666666" android:id="@2131363905" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#666666" android:id="@2131363902" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <ProgressBar android:layout_gravity="0x00000050" android:id="@2131363903" android:layout_width="-1" android:layout_height="3.0dip" android:progressDrawable="@2131232272" style="@16973855" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

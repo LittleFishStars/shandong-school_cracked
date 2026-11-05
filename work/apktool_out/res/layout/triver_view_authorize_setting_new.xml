@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#f2f2f2" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="13.0dip" android:textColor="#666666" android:id="@2131367725" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="16.0dip" android:text="@2131953882" />
+    <ExpandableListView android:id="@2131367712" android:layout_width="-1" android:layout_height="-2" android:listSelector="@17170445" android:divider="@0" />
+</RelativeLayout>

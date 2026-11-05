@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131363104" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+        <com.huachenjie.base.widget.calendar.MonthViewPager android:id="@2131368966" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="41.0dip" />
+        <com.huachenjie.base.widget.calendar.WeekViewPager android:id="@2131368968" android:visibility="2" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginTop="41.0dip" />
+        <View android:id="@2131364603" android:background="#cfcfcf" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="16.0dip" />
+    </FrameLayout>
+    <com.huachenjie.base.widget.calendar.YearViewPager android:id="@2131367090" android:background="#ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</merge>

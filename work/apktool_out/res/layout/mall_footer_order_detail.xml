@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:paddingBottom="8.0dip" app:bl_corners_bottomLeftRadius="20.0dip" app:bl_corners_bottomRightRadius="20.0dip" app:bl_solid_color="@color/white" style="@style/mall_layout_sub_bg_order_detail">
+        <View android:id="@2131368814" android:background="#e5e5e5" android:layout_width="-1" android:layout_height="0.5dip" />
+        <LinearLayout android:id="@2131364754" android:layout_marginTop="8.0dip" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953044" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:id="@2131364702" style="@style/mall_ll_order_detail_info">
+            <TextView android:id="@2131368249" android:text="@2131953043" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:id="@2131364752" android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:id="@2131368448" android:text="@2131953051" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:textColor="@2131099860" android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:id="@2131364665" style="@style/mall_ll_order_detail_info">
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_name" />
+            <com.huachenjie.mall.widget.PriceView android:textStyle="0x00000001" android:tag="" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_money_size="12.0sp" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+    </com.noober.background.view.BLLinearLayout>
+    <com.noober.background.view.BLLinearLayout android:orientation="1" style="@style/mall_layout_sub_bg_order_detail">
+        <LinearLayout style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953046" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" android:drawablePadding="8.0dip" app:drawableEndCompat="@drawable/mall_ic_order_num_copy" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953049" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953048" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953050" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953041" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953042" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953036" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout android:tag="" style="@style/mall_ll_order_detail_info">
+            <TextView android:text="@2131953035" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:tag="" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/mall_ll_order_detail_info">
+            <TextView android:layout_width="0.0dip" android:text="@2131953061" android:layout_weight="1.0" style="@style/mall_tv_order_detail_info_name" />
+            <TextView android:textStyle="0x00000001" android:textColor="#00b6de" android:tag="" android:layout_width="-2" android:text="@2131953045" android:layout_weight="0.0" style="@style/mall_tv_order_detail_info_value" />
+        </LinearLayout>
+    </com.noober.background.view.BLLinearLayout>
+    <com.huachenjie.mall.widget.OrderDetailServiceView android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20.0dip" />
+</LinearLayout>

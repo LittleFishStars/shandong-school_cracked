@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="0" android:id="@2131364744" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="29.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.widget.ShadowLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131367223" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layerType="1" app:sl_bgColor="@color/color_139aff" app:sl_cornerRadius="50.0dip" app:sl_isCircle="true" app:sl_shadowRadius="4.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:text="@2131953460" android:drawableTop="@2131233563" android:drawablePadding="4.0dip" android:layout_centerInParent="true" />
+    </com.huachenjie.common.widget.ShadowLayout>
+    <RelativeLayout android:id="@2131366677" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_marginStart="32.0dip">
+        <com.huachenjie.common.widget.ShadowLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131367217" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1" android:layerType="1" app:sl_bgColor="@color/color_ff4040" app:sl_cornerRadius="50.0dip" app:sl_isCircle="true" app:sl_shadowRadius="4.0dip">
+            <com.huachenjie.common.widget.CircleProgressButton android:id="@2131362320" android:layout_width="100.0dip" android:layout_height="100.0dip" app:circleColor="@color/color_ff4040" app:progressColor="@color/white" app:progressWidth="3.0dip" />
+        </com.huachenjie.common.widget.ShadowLayout>
+        <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:text="@2131952366" android:drawableTop="@2131233502" android:drawablePadding="4.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

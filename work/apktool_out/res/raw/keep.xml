@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@string/ksad_*,@drawable/ksad_*,@layout/ksad_*,@id/ksad_*,@style/ksad_*,@color/ksad_*,@attr/ksad_*,@dimen/ksad_*,@layout/layout_nmssp_*,@id/nmadssp_*,@style/nmadssp_*,@drawable/nmadssp_*,@string/nmadssp_*,@color/nmadssp_*,@attr/nmadssp_*,@dimen/nmadssp_*"
+    tools:shrinkMode="safe" />

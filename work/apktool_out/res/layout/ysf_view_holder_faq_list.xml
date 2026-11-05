@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="@2131166621"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@2131166629" android:textColor="@2131101263" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131369609" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="-1" android:layout_height="@2131166621" android:singleLine="true" />
+    <include android:layout_gravity="0x00000050" android:layout_width="-1" android:layout_height="@2131166610" layout="@layout/ysf_include_divider" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131100263" android:padding="5.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltadsdk.ui.view.AdRoundImageView android:id="@2131367406" android:layout_width="91.0dip" android:layout_height="51.0dip" android:layout_marginRight="10.0dip" android:scaleType="6" />
+    <RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_alignTop="@2131367406" android:layout_alignBottom="@2131367406" android:layout_toStartOf="@2131367395" android:layout_toEndOf="@2131367406">
+        <TextView android:textSize="@2131165777" android:textColor="@2131100266" android:ellipsize="3" android:id="@2131367438" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:lines="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@2131100265" android:ellipsize="3" android:id="@2131367437" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" android:lines="1" android:layout_alignParentBottom="true" />
+        <com.ltmb.ltadsdk.adx.ui.view.AdxComplianceView android:id="@2131367397" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@2131367402" android:background="#00000000" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="-2" android:layout_height="-2" android:src="@2131232676" android:layout_alignParentEnd="true" />
+    <com.ltmb.ltadsdk.ui.view.AdIconView android:id="@2131367404" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@2131367402" />
+    <com.ltmb.ltadsdk.adx.ui.view.AdxClickButton android:textSize="10.0sp" android:textColor="@2131100263" android:gravity="0x00000011" android:id="@2131367395" android:background="@2131232661" android:layout_width="65.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_alignBottom="@2131367406" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364633" android:background="@2131101240" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="@2131165301" android:paddingStart="16.0dip">
+        <ImageView android:id="@2131363270" android:tag="" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@2131755087" />
+        <ImageView android:tag="" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@2131755105" />
+        <com.vanniktech.emoji.EmojiEditText android:textSize="12.0sp" android:textColor="#2c3e50" android:textColorHint="#992c3e50" android:gravity="0x00000010" android:id="@2131362824" android:tag="" android:background="@2131231008" android:layout_width="0.0dip" android:layout_height="36.0dip" android:hint="" android:maxLength="200" android:layout_weight="1.0" android:textCursorDrawable="@2131231063" android:paddingEnd="20.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <ImageView android:id="@2131363295" android:tag="" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@2131755096" android:layout_marginEnd="16.0dip" />
+        <ImageView android:tag="" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@2131755105" android:layout_marginEnd="16.0dip" />
+        <ImageView android:id="@2131363283" android:tag="" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@2131755095" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@2131099809" android:gravity="0x00000011" android:id="@2131367924" android:tag="" android:layout_width="-2" android:layout_height="-1" android:minWidth="40.0dip" android:text="" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <View android:id="@2131368776" android:visibility="2" android:layout_width="-2" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@2131362799" android:tag="" android:layout_width="-1" android:layout_height="250.0dip" />
+    <com.huachenjie.base.widget.input_panel.audio.AudioPanelView android:id="@2131362031" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="250.0dip" />
+</LinearLayout>

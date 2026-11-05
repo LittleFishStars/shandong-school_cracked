@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ltmb.ltadsdk.adx.ui.view.AdxVideoView android:id="@2131367400" android:layout_width="-1" android:layout_height="-1" />
+    <com.ltmb.ltadsdk.ui.view.AdRoundImageView android:id="@2131367411" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:id="@2131367412" android:layout_width="-1" android:layout_height="-1" />
+    <com.ltmb.ltadsdk.ui.view.AdInteractionView android:id="@2131367401" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:paddingTop="10.0dip" android:layout_width="-1" android:layout_height="-2">
+        <com.ltmb.ltadsdk.adx.ui.view.AdFeedbackEntryView android:id="@2131367434" android:visibility="2" android:layout_width="-2" android:layout_height="25.0dip" android:includeFontPadding="false" android:layout_marginStart="16.0dip" android:paddingHorizontal="15.0dip" />
+        <ImageView android:id="@2131367413" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="16.0dip" android:src="@2131232677" android:layout_toRightOf="@2131367434" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131100263" android:gravity="0x00000011" android:id="@2131367440" android:background="@2131232670" android:layout_width="-2" android:layout_height="25.0dip" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@2131367453" android:paddingHorizontal="12.0dip" />
+        <ImageView android:id="@2131367453" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="16.0dip" android:src="@2131232678" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@2131367427" android:background="@2131232669" android:paddingLeft="10.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:layout_above="@2131367431" android:layout_marginHorizontal="10.0dip" android:paddingVertical="10.0dip">
+        <com.ltmb.ltadsdk.ui.view.AdRoundImageView android:id="@2131367410" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="10.0dip" app:ltadrivCornerRadius="10.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@2131100253" android:id="@2131367452" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:layout_toRightOf="@2131367410" android:layout_alignTop="@2131367410" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131100256" android:id="@2131367451" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:layout_toRightOf="@2131367410" android:layout_alignBottom="@2131367410" />
+        <com.ltmb.ltadsdk.adx.ui.view.AdxClickButton android:textSize="14.0sp" android:textColor="@2131100263" android:gravity="0x00000011" android:id="@2131367445" android:background="@2131232671" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="" android:layout_alignTop="@2131367410" android:layout_alignParentRight="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@2131100256" android:id="@2131367435" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4.0dip" android:text="" android:layout_alignBottom="@2131367410" android:layout_alignParentRight="true" />
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="-2.0dip" android:src="@2131755202" android:layout_toLeftOf="@2131367435" android:layout_alignBottom="@2131367410" />
+        <com.ltmb.ltadsdk.adx.ui.view.AdxComplianceView android:id="@2131367397" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:layout_below="@2131367410" />
+    </RelativeLayout>
+    <View android:id="@2131367431" android:layout_width="-1" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

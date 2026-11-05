@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fl.saas.common.widget.InterceptClickLayout android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131366795" android:layout_width="-1" android:layout_height="-1" />
+</com.fl.saas.common.widget.InterceptClickLayout>

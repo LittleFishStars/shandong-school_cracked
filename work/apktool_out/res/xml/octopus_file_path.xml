@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="oct_webview_cache" path="WebView" />
+    <files-path name="oct_crash_log" path="octopus-crash" />
+    <external-cache-path name="oct_media_cache" path="." />
+    <external-files-path name="oct_apk_download" path="Octopus" />
+</paths>

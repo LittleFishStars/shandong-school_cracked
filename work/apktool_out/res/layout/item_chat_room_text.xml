@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131362425" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2" android:paddingStart="12.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_room_nick_name" />
+    <com.vanniktech.emoji.EmojiTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@2131368152" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+</LinearLayout>

@@ -1378,6 +1378,49 @@ class ShandongClient:
         return self.transport.post("my_school_info", self.transport.base_payload(
             {"schoolCode": school_code or self.transport.school_code}))
 
+    # —— 鸿蒙真机行为链（2026-11-05 抓包实序，路径见 EP"行为链"段）——
+
+    def works_config(self) -> Dict[str, Any]:
+        """社区模块配置（WorksApi，无业务字段）"""
+        return self.transport.post("works_config", self.transport.base_payload())
+
+    def jackpot_home(self) -> Dict[str, Any]:
+        """抽奖首页（HomeApi.b()，无业务字段）"""
+        return self.transport.post("jackpot_home", self.transport.base_payload())
+
+    def tasks_login_once(self) -> Dict[str, Any]:
+        """每日登录任务上报（api/tasks/loginOnce，无业务字段）"""
+        return self.transport.post("tasks_login_once", self.transport.base_payload())
+
+    def common_config_v2(self) -> Dict[str, Any]:
+        """H5 层公共配置（POST api/common/getCommonConfig，无业务字段）
+
+        与 GET common/getConfig 并存：前者是 H5/新模块走的 POST 版。
+        """
+        return self.transport.post("common_config_v2", self.transport.base_payload())
+
+    def search_suggest(self) -> Dict[str, Any]:
+        """搜索热词（HomeApi：channel+timestamp）"""
+        return self.transport.post("search_suggest", self.transport.base_payload({
+            "channel": str((self.cfg.get("device") or {}).get("channel", "other")),
+        }))
+
+    def school_letter_red(self) -> Dict[str, Any]:
+        """校园信红点（鸿蒙 8.7.1 新接口，无业务字段）"""
+        return self.transport.post("school_letter_red", self.transport.base_payload())
+
+    def school_letter_list(self) -> Dict[str, Any]:
+        """重要信件列表（BaseApi）"""
+        return self.transport.post("school_letter_list", self.transport.base_payload())
+
+    def user_resource(self) -> Dict[str, Any]:
+        """用户资源（体力/道具等，无业务字段）"""
+        return self.transport.post("user_resource", self.transport.base_payload())
+
+    def task_description(self) -> Dict[str, Any]:
+        """任务描述（鸿蒙 8.7.1 新接口，无业务字段）"""
+        return self.transport.post("task_description", self.transport.base_payload())
+
     def unfinished(self) -> List[Dict[str, Any]]:
         return self.store.unfinished_runs()
 

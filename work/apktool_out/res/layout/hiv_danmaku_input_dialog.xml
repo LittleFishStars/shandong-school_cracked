@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@2131100104" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <EditText android:id="@2131362835" android:background="@2131231640" android:layout_width="-2" android:layout_height="40.0dip" android:hint="" android:layout_weight="13.0" android:imeOptions="0x10000000" />
+        <TextView android:textSize="16.0dip" android:textColor="@2131100015" android:textColorHint="#b5b5b5" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131368169" android:background="@2131231635" android:layout_width="-2" android:layout_height="40.0dip" android:text="" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

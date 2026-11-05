@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textAppearance="?16842817" android:textColor="?2130971015" android:ellipsize="4" android:gravity="0x00000010" android:id="@16908308" android:paddingLeft="@2131165242" android:paddingRight="?2130969350" android:layout_width="-1" android:layout_height="-2" android:minHeight="?2130970027" android:drawableLeft="?16843290" android:drawablePadding="20.0dip" android:drawableStart="?16843290" android:paddingStart="@2131165242" android:paddingEnd="?2130969350"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

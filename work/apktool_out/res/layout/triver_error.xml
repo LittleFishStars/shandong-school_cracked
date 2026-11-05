@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:layout_width="224.0dip" android:layout_height="-2" android:minHeight="227.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:layout_gravity="0x00000031" android:id="@2131369019" android:layout_width="@2131166547" android:layout_height="@2131166547" android:layout_marginBottom="@2131166545" android:src="@2131234035" />
+        <TextView android:textSize="@2131166552" android:textColor="@2131101192" android:gravity="0x00000011" android:id="@2131369021" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@2131166550" android:maxLines="2" />
+        <TextView android:textSize="@2131166549" android:textColor="@2131101191" android:gravity="0x00000011" android:id="@2131369020" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@2131166550" android:text="" android:maxLines="2" />
+        <LinearLayout android:layout_gravity="0x00000011" android:orientation="0" android:id="@2131369018" android:layout_width="-2" android:layout_height="-2" android:baselineAligned="false">
+            <Button android:textSize="@2131166542" android:textColor="@2131101189" android:id="@2131369017" android:background="@2131234031" android:visibility="2" android:layout_width="@2131166543" android:layout_height="@2131166538" android:layout_margin="@2131166539" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="15.0dip" android:textColor="#f0f0f0" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131369022" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:maxLines="1" android:singleLine="true" android:alpha="0.68" />
+</merge>

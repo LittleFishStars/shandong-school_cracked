@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/qy_layout_feedback" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131366345" android:background="@2131233353" android:layout_width="-1" android:layout_height="-1">
+        <EditText android:textSize="14.0dip" android:textColor="#000" android:id="@2131366347" android:background="@2131233348" android:paddingLeft="20.0dip" android:layout_width="-1" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:hint="@2131953429" />
+        <Button android:textSize="18.0dip" android:textColor="#fff" android:id="@2131366348" android:background="@2131233375" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:text="@2131953425" />
+        <TextView android:textSize="14.0dip" android:textColor="#000" android:id="@2131366346" android:background="@2131233348" android:padding="20.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:text="" android:minLines="2" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.noober.background.view.BLRelativeLayout android:layout_gravity="0x00000030" android:layout_width="-1" android:layout_height="260.0dip">
+            <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@2131233479" android:scaleType="6" android:contentDescription="@0" />
+            <ImageView android:id="@2131363277" android:tag="" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131231762" android:scaleType="7" android:contentDescription="@0" android:layout_marginStart="16.0dip" />
+            <com.huachenjie.common.widget.StrokeTextView android:textSize="32.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:id="@2131367923" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" android:layout_below="@2131363277" android:fontFamily="@2131296259" android:layout_marginStart="20.0dip" app:stv_strokeColor="@color/white" app:stv_strokeWidth="2.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131099806" android:id="@2131367922" android:layout_width="-2" android:layout_height="-2" android:text="@2131953613" android:layout_below="@2131367923" android:layout_alignStart="@2131367923" />
+            <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#00b6de" android:gravity="0x00000011" android:id="@2131367855" android:tag="" android:layout_width="-2" android:layout_height="32.0dip" android:layout_marginTop="12.0dip" android:text="" android:drawablePadding="6.0dip" android:layout_below="@2131367922" android:drawableEnd="@2131233589" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_alignStart="@2131367923" app:bl_corners_radius="16.0dip" app:bl_solid_color="@color/white" />
+            <com.noober.background.view.BLTextView android:textSize="10.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:layout_width="28.0dip" android:layout_height="14.0dip" android:layout_marginTop="-7.0dip" android:text="" android:layout_alignTop="@2131367855" android:layout_alignEnd="@2131367855" app:bl_corners_radius="7.0dip" app:bl_solid_color="@color/hcj_vip_txt_color" app:bl_stroke_color="@color/white" app:bl_stroke_width="1.0dip" />
+        </com.noober.background.view.BLRelativeLayout>
+        <com.noober.background.view.BLScrollView android:layout_gravity="0x00000050" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="226.0dip" android:overScrollMode="2" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_solid_color="@color/white">
+            <LinearLayout android:orientation="1" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-2">
+                <FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_width="-1" android:layout_height="-2" android:src="@2131233478" android:scaleType="3" android:adjustViewBounds="true" android:contentDescription="@0" />
+                    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:id="@2131367832" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                        <TextView android:textSize="36.0sp" android:textColor="@2131100101" android:id="@2131367831" android:layout_width="-2" android:layout_height="-2" android:fontFamily="@2131296258" />
+                    </LinearLayout>
+                </FrameLayout>
+                <com.noober.background.view.BLLinearLayout android:layout_marginTop="12.0dip" app:bl_solid_color="#1a0bd3ff" style="@style/run_style_school_rule_card">
+                    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                        <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131233586" android:scaleType="3" android:contentDescription="@0" />
+                        <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+                            <TextView android:text="" style="@style/run_style_school_rule_info_title" />
+                            <TextView android:tag="" style="@style/run_style_school_rule_value" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip">
+                        <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131233587" android:scaleType="3" android:contentDescription="@0" />
+                        <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+                            <TextView android:text="" style="@style/run_style_school_rule_info_title" />
+                            <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip">
+                                <TextView android:tag="" android:layout_marginTop="0.0dip" style="@style/run_style_school_rule_value" />
+                                <TextView android:tag="" android:layout_marginStart="4.0dip" style="@style/run_style_school_rule_hint" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+                <LinearLayout style="@style/run_style_school_rule_section_header">
+                    <com.noober.background.view.BLTextView android:text="" style="@style/run_style_school_rule_section_index" />
+                    <TextView android:text="" style="@style/run_style_school_rule_section_title" />
+                </LinearLayout>
+                <com.noober.background.view.BLLinearLayout style="@style/run_style_school_rule_card">
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:overScrollMode="2" android:nestedScrollingEnabled="false" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" android:layout_marginTop="12.0dip" style="@style/run_style_school_rule_row">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:overScrollMode="2" android:nestedScrollingEnabled="false" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" android:layout_marginTop="12.0dip" style="@style/run_style_school_rule_row">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:overScrollMode="2" android:nestedScrollingEnabled="false" />
+                    </LinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+                <LinearLayout style="@style/run_style_school_rule_section_header">
+                    <com.noober.background.view.BLTextView android:text="" style="@style/run_style_school_rule_section_index" />
+                    <TextView android:text="" style="@style/run_style_school_rule_section_title" />
+                </LinearLayout>
+                <com.noober.background.view.BLLinearLayout style="@style/run_style_school_rule_card">
+                    <LinearLayout style="@style/run_style_school_rule_row">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <TextView android:id="@2131367833" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row_spaced">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <TextView android:tag="" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row_spaced">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <TextView android:id="@2131367825" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row_spaced">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <TextView android:tag="" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row_spaced">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <TextView android:id="@2131367979" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row_spaced">
+                        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                            <TextView android:text="" style="@style/run_style_school_rule_label" />
+                            <TextView android:text="" style="@style/run_style_school_rule_hint" />
+                        </LinearLayout>
+                        <TextView android:tag="" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/run_style_school_rule_row_spaced">
+                        <TextView android:text="" style="@style/run_style_school_rule_label" />
+                        <TextView android:tag="" style="@style/run_style_school_rule_value" />
+                    </LinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+                <LinearLayout android:tag="" style="@style/run_style_school_rule_section_header">
+                    <com.noober.background.view.BLTextView android:text="" style="@style/run_style_school_rule_section_index" />
+                    <TextView android:text="" style="@style/run_style_school_rule_section_title" />
+                </LinearLayout>
+                <com.noober.background.view.BLLinearLayout android:tag="" style="@style/run_style_school_rule_card">
+                    <TextView android:textSize="14.0sp" android:textColor="@2131099806" android:tag="" android:layout_width="-1" android:layout_height="-2" android:lineSpacingExtra="6.0dip" />
+                </com.noober.background.view.BLLinearLayout>
+            </LinearLayout>
+        </com.noober.background.view.BLScrollView>
+    </FrameLayout>
+    <FrameLayout android:tag="" android:background="@2131101240" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-2">
+        <com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="68.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="#1a0bd3ff">
+            <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131233588" android:scaleType="3" android:contentDescription="@0" />
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:ellipsize="3" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textColor="#00b6de" android:gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="28.0dip" android:text="" android:drawablePadding="4.0dip" android:drawableEnd="@2131231726" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:drawableTint="#00b6de" app:bl_corners_radius="16.0dip" app:bl_solid_color="@color/white" app:bl_stroke_color="@color/color_0BD3FF" app:bl_stroke_width="1.0dip" />
+        </com.noober.background.view.BLLinearLayout>
+    </FrameLayout>
+</LinearLayout>

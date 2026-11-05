@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.common.widget.SelectBoldTabLayout android:id="@2131367472" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="-4.0dip" app:tabIndicator="@drawable/common_layer_tab_layout_650aec" app:tabIndicatorColor="@color/Color_FF650AEC" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="3.0dip" app:tabSelectedTextColor="@color/Color_FF650AEC" app:tabTextColor="@color/color_2C3E50" />
+    <FrameLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@2131368929" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+        <com.noober.background.view.BLView android:layout_gravity="0x00000030" android:id="@2131368814" android:layout_width="-1" android:layout_height="10.0dip" app:bl_gradient_endColor="#00000000" app:bl_gradient_startColor="#0d000000" />
+    </FrameLayout>
+</LinearLayout>

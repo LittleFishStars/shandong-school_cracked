@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kc.dw.core.view.TouchAdContainer android:id="@2131365587" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@17170444" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@2131365751" android:layout_width="-1" android:layout_height="-1" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <com.kc.dw.core.view.gif.GifImageView android:id="@2131365772" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@2131365607" android:background="@2131233952" android:paddingLeft="16.5dip" android:paddingTop="23.5dip" android:paddingRight="16.5dip" android:paddingBottom="23.5dip" android:visibility="2" android:layout_width="350.0dip" android:layout_height="-2" android:minHeight="200.0dip" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                <com.kc.dw.ad.view.SsdImageView2 android:id="@2131365771" android:visibility="2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="10.0dip" android:src="@2131755329" android:layout_centerVertical="true" />
+                <TextView android:textSize="@2131166506" android:textColor="@2131101152" android:ellipsize="3" android:id="@2131365773" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_centerInParent="true" />
+                <TextView android:textSize="@2131166505" android:textColor="@2131101151" android:ellipsize="3" android:id="@2131365769" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:maxLines="2" android:layout_centerInParent="true" />
+                <Button android:textSize="@2131166504" android:textColor="@2131101150" android:id="@2131365655" android:background="@2131233953" android:layout_width="102.0dip" android:layout_height="43.0dip" android:layout_marginTop="20.0dip" android:text="" android:layout_centerInParent="true" android:layout_centerHorizontal="true" style="?16843563" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131365788" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="120.0dip" android:layout_above="@2131365689" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.kc.dw.core.view.gif.GifImageView android:id="@2131365786" android:background="@2131233918" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:id="@2131365789" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131365790" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:text="" android:singleLine="true" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@2131365809" android:background="@2131233952" android:paddingLeft="16.5dip" android:paddingTop="23.5dip" android:paddingRight="16.5dip" android:paddingBottom="23.5dip" android:visibility="0" android:layout_width="350.0dip" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@2131365740" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <com.kc.dw.ad.view.SsdImageView2 android:id="@2131365770" android:visibility="2" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginRight="8.0dip" android:src="@2131755329" android:layout_centerVertical="true" />
+                <TextView android:textSize="@2131166506" android:textColor="@2131101152" android:ellipsize="3" android:id="@2131365812" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="8.0dip" android:text="" android:singleLine="true" android:layout_toLeftOf="@2131365810" android:layout_toRightOf="@2131365770" />
+                <TextView android:textSize="@2131166505" android:textColor="@2131101151" android:ellipsize="3" android:id="@2131365811" android:layout_width="-1" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_below="@2131365812" android:layout_alignLeft="@2131365812" android:layout_alignRight="@2131365812" />
+                <Button android:textSize="@2131166504" android:textColor="@2131101150" android:id="@2131365810" android:background="@2131233953" android:layout_width="95.0dip" android:layout_height="40.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?16843563" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10.0dip" android:layout_marginRight="80.0dip" android:layout_above="@2131365809">
+            <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:id="@2131367306" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:text="@2131953735" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <include android:id="@2131365690" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="24.199982dip" android:layout_marginBottom="24.199982dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/ssd_ad_tag_view_right" />
+        <include android:id="@2131365689" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:layout_above="@2131365809" android:layout_alignRight="@2131365809" layout="@layout/ssd_ad_tag_view_left" />
+        <View android:id="@2131365676" android:background="@17170445" android:layout_width="-1" android:layout_height="-1" />
+        <RelativeLayout android:id="@2131365784" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="38.0dip" android:layout_alignParentTop="true">
+            <RelativeLayout android:id="@2131365777" android:background="@2131233926" android:padding="2.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_alignBottom="@2131365783">
+                <ImageView android:id="@2131365776" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_margin="5.0dip" android:src="@2131233939" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <com.kc.dw.ad.reward.CircleProcessBar android:id="@2131365767" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" />
+            <ImageView android:id="@2131365783" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="11.0dip" android:src="@2131233966" android:layout_alignParentRight="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.kc.dw.core.view.TouchAdContainer>

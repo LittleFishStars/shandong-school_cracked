@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@2131234097" android:id="@2131365529" android:title="@2131953948" app:showAsAction="ifRoom" />
+    <item android:icon="@2131234109" android:enabled="false" android:id="@2131365531" android:title="" app:showAsAction="ifRoom" />
+</menu>

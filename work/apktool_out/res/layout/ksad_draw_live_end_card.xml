@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.sdk.widget.KSFrameLayout android:layout_gravity="0x00000011" android:layout_width="-1" android:layout_height="280.0dip">
+        <com.kwad.sdk.widget.KSLinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131363912" android:background="@2131232182" android:layout_width="-1" android:layout_height="250.0dip" android:layout_marginHorizontal="35.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="#000" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131363914" android:layout_width="-1" android:layout_height="27.0dip" android:layout_marginTop="85.0dip" android:layout_marginBottom="8.0dip" android:text="" android:maxLines="1" android:layout_marginHorizontal="63.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="#666" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131363915" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="13.0dip" android:text="" android:maxLines="2" android:layout_marginHorizontal="50.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000050" android:id="@2131364014" android:background="@2131232184" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginBottom="27.0dip" android:text="" android:layout_marginHorizontal="26.5dip" />
+        </com.kwad.sdk.widget.KSLinearLayout>
+        <com.kwad.components.ad.draw.presenter.livecard.KsLiveEndAuthorView android:layout_gravity="0x00000031" android:id="@2131363909" android:layout_width="-2" android:layout_height="-2" />
+    </com.kwad.sdk.widget.KSFrameLayout>
+</com.kwad.sdk.widget.KSFrameLayout>

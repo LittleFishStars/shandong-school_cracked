@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="16.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#050405" android:id="@2131366052" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <View android:id="@2131367650" android:background="#868486" android:layout_width="-1" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_below="@2131366052" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131366032" android:layout_width="-1" android:layout_height="-2" android:layout_margin="8.0dip" android:layout_below="@2131367650" />
+    <View android:id="@2131362256" android:background="#868486" android:visibility="1" android:layout_width="-1" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_below="@2131366032" />
+    <TextView android:textSize="14.0sp" android:textColor="#1973d6" android:id="@2131366031" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" android:layout_below="@2131362256" android:layout_alignParentRight="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#1973d6" android:id="@2131366030" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="32.0dip" android:text="" android:layout_toLeftOf="@2131366031" android:layout_alignBottom="@2131366031" />
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <set>
+            <objectAnimator android:duration="@2131427381" android:valueTo="@2131166259" android:valueType="0" android:propertyName="" />
+            <objectAnimator android:duration="0" android:valueTo="@2131166247" android:valueType="0" android:propertyName="" />
+        </set>
+    </item>
+    <item android:state_enabled="true" android:state_hovered="true">
+        <set>
+            <objectAnimator android:duration="@2131427381" android:valueTo="@2131166249" android:valueType="0" android:propertyName="" />
+            <objectAnimator android:duration="0" android:valueTo="@2131166247" android:valueType="0" android:propertyName="" />
+        </set>
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <set>
+            <objectAnimator android:duration="@2131427381" android:valueTo="@2131166248" android:valueType="0" android:propertyName="" />
+            <objectAnimator android:duration="0" android:valueTo="@2131166247" android:valueType="0" android:propertyName="" />
+        </set>
+    </item>
+    <item android:state_enabled="true">
+        <set>
+            <objectAnimator android:duration="@2131427381" android:valueTo="@2131166266" android:valueType="0" android:propertyName="" android:startDelay="@2131427380" />
+            <objectAnimator android:duration="0" android:valueTo="@2131166247" android:valueType="0" android:propertyName="" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="0" android:valueTo="@2131166246" android:valueType="0" android:propertyName="" />
+            <objectAnimator android:duration="0" android:valueTo="@2131166245" android:valueType="0" android:propertyName="" />
+        </set>
+    </item>
+</selector>

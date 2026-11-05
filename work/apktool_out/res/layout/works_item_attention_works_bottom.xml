@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364650" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/llComment" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@2131363339" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131234193" />
+        <TextView android:textSize="13.0sp" android:textColor="#191f20" android:id="@2131367927" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364627" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintEnd_toStartOf="@id/llCollection" app:layout_constraintStart_toEndOf="@id/llShare" app:layout_constraintTop_toTopOf="@id/llShare">
+        <ImageView android:id="@2131363287" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131234189" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivImage" />
+        <TextView android:textSize="13.0sp" android:textColor="#191f20" android:id="@2131367812" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <com.huachenjie.works.external.widget.BLOperateAnimView android:orientation="0" android:id="@2131364626" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintEnd_toStartOf="@id/llLike" app:layout_constraintStart_toEndOf="@id/llComment" app:layout_constraintTop_toTopOf="@id/llShare" app:works_anim_name="animation/works_anim_works_attention_collection.json" app:works_anim_size="32.0dip" app:works_quantity_zero_name="@string/works_detail_collect">
+        <TextView android:textSize="13.0sp" android:textColor="#191f20" android:id="@2131367811" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="5.0dip" />
+    </com.huachenjie.works.external.widget.BLOperateAnimView>
+    <com.huachenjie.works.external.widget.BLOperateAnimView android:gravity="0x00000011" android:orientation="0" android:id="@2131364640" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/llCollection" app:layout_constraintTop_toTopOf="@id/llShare" app:works_anim_name="animation/works_anim_works_attention_like.json" app:works_anim_size="32.0dip" app:works_quantity_zero_name="@string/works_detail_like">
+        <TextView android:textSize="13.0sp" android:textColor="#191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="5.0dip" />
+    </com.huachenjie.works.external.widget.BLOperateAnimView>
+</androidx.constraintlayout.widget.ConstraintLayout>

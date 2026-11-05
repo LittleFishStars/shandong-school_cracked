@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:background="@17170443" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textColor="@17170444" android:id="@2131361966" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131165285" />
+        <com.ali.auth.third.ui.iv.AliUserSmsCodeView android:id="@2131361982" android:layout_width="-1" android:layout_height="24.0dip" android:layout_marginTop="@2131165287" app:scDividerWidth="8.0dip" app:scNextUnderLineColor="@color/aliuser_edittext_bg_color_activated" app:scTextColor="@color/aliuser_default_text_color" app:scTextCount="6" app:scTextSize="16.0sp" app:scUnderLineColor="@color/aliuser_color_light_gray" app:scUnderLineStrokeWidth="2.0dip" />
+        <com.ali.auth.third.ui.iv.CountDownButton android:enabled="false" android:textSize="13.0sp" android:textColor="@2131099697" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131361981" android:background="@2131230856" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="-2" android:layout_height="40.0dip" android:layout_marginTop="@2131165287" android:text="@2131951741" android:textAllCaps="false" style="?16843563" />
+    </LinearLayout>
+</ScrollView>

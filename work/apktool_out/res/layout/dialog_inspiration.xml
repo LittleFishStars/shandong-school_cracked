@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1" android:alpha="0.0" android:paddingStart="38.0dip" android:paddingEnd="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131363397" android:layout_width="-1" android:layout_height="-2" android:src="@2131230905" android:adjustViewBounds="true" app:layout_constraintTop_toTopOf="parent" />
+        <com.noober.background.view.BLView android:layout_width="0.0dip" android:layout_height="0.0dip" app:bl_corners_bottomLeftRadius="20.0dip" app:bl_corners_bottomRightRadius="20.0dip" app:bl_solid_color="#ffffffff" app:layout_constraintBottom_toBottomOf="@id/ll_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_bg" />
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131364688" android:paddingBottom="30.0dip" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#00b6de" android:gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="110.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+            <com.noober.background.view.BLFrameLayout android:padding="20.0dip" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="20.0dip" app:bl_corners_radius="24.0dip" app:bl_gradient_endColor="#fffefadb" app:bl_gradient_startColor="#fff6dfc5">
+                <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@2131230910" android:scaleType="3" />
+            </com.noober.background.view.BLFrameLayout>
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" />
+            <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:tag="" android:layout_width="200.0dip" android:layout_height="44.0dip" android:layout_marginTop="18.0dip" android:text="" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff191f20" />
+        </LinearLayout>
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/ll_content" app:layout_constraintEnd_toEndOf="@id/ll_content" app:layout_constraintStart_toStartOf="@id/ll_content" app:layout_constraintTop_toTopOf="@id/ll_content" app:lottie_autoPlay="true" app:lottie_fileName="animation/reward_fireworks.json" app:lottie_loop="false" />
+        <ImageView android:id="@2131363424" android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:src="@2131231825" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

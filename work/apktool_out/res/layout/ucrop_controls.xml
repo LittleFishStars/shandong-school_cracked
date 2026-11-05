@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131369033" android:layout_width="-1" android:layout_height="@2131166575" android:layout_marginBottom="0.0dip" android:layout_alignParentTop="true">
+        <ImageView android:background="@2131234110" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364552" android:layout_width="-1" android:layout_height="-1" />
+        <include android:id="@2131364578" layout="@layout/ucrop_layout_rotate_wheel" />
+        <include android:id="@2131364579" layout="@layout/ucrop_layout_scale_wheel" />
+    </FrameLayout>
+    <ImageView android:id="@2131362548" android:layout_width="-1" android:layout_height="8.0dip" android:src="@2131234106" android:layout_alignBottom="@2131369033" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131369036" android:background="@2131101220" android:layout_width="-1" android:layout_height="@2131166576" android:baselineAligned="false" android:layout_below="@2131362548">
+        <LinearLayout android:id="@2131367328" style="@style/ucrop_WrapperIconState">
+            <ImageView android:gravity="0x00000011" android:orientation="1" android:id="@2131363201" app:srcCompat="@drawable/ucrop_crop" style="@style/ucrop_ImageViewWidgetIcon" />
+            <TextView android:id="@2131367537" android:text="@2131953943" style="@style/ucrop_TextViewWidget" />
+        </LinearLayout>
+        <LinearLayout android:id="@2131367330" style="@style/ucrop_WrapperIconState">
+            <ImageView android:id="@2131363202" app:srcCompat="@drawable/ucrop_rotate" style="@style/ucrop_ImageViewWidgetIcon" />
+            <TextView android:id="@2131367538" android:text="@2131953951" style="@style/ucrop_TextViewWidget" />
+        </LinearLayout>
+        <LinearLayout android:id="@2131367331" style="@style/ucrop_WrapperIconState">
+            <ImageView android:id="@2131363203" app:srcCompat="@drawable/ucrop_scale" style="@style/ucrop_ImageViewWidgetIcon" />
+            <TextView android:id="@2131367539" android:text="@2131953952" style="@style/ucrop_TextViewWidget" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLRelativeLayout android:tag="" android:layout_width="-1" android:layout_height="-1" app:bl_gradient_angle="225" app:bl_gradient_centerColor="#330bd3ff" app:bl_gradient_endColor="#000bd3ff" app:bl_gradient_startColor="#ff4bb4ff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131368576" android:layout_below="@2131367641" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:textSize="12.0sp" android:textColor="#979a9a" android:id="@2131368576" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="12.0dip" android:text="" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</com.noober.background.view.BLRelativeLayout>

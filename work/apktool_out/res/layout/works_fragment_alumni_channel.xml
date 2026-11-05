@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:background="#fff5f5f5" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363313" android:tag="" android:layout_width="-1" android:layout_height="260.0dip" android:scaleType="6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@2131368778" android:tag="" android:background="@2131099735" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.5" app:layout_constraintBottom_toBottomOf="@id/ivHeaderImage" app:layout_constraintEnd_toEndOf="@id/ivHeaderImage" app:layout_constraintStart_toStartOf="@id/ivHeaderImage" app:layout_constraintTop_toTopOf="@id/ivHeaderImage" />
+    <com.noober.background.view.BLView android:tag="" android:layout_width="0.0dip" android:layout_height="50.0dip" app:bl_gradient_centerColor="#90ffffff" app:bl_gradient_endColor="#ffffffff" app:bl_gradient_startColor="#00000000" app:layout_constraintBottom_toBottomOf="@id/ivHeaderImage" app:layout_constraintEnd_toEndOf="@id/ivHeaderImage" app:layout_constraintStart_toStartOf="@id/ivHeaderImage" />
+    <View android:id="@2131368781" android:tag="" android:layout_width="0.0dip" android:layout_height="@2131166507" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@2131366560" android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/vStatusSpace">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:tag="" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

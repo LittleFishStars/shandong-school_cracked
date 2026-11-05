@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="#757979" android:gravity="0x00000010" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawablePadding="4.0dip" android:drawableStart="@2131233677" />
+            <TextView android:textSize="20.0sp" android:textColor="#191f20" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:fontFamily="@2131296258" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="#757979" android:gravity="0x00000010" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawablePadding="4.0dip" android:drawableStart="@2131233686" />
+            <TextView android:textSize="20.0sp" android:textColor="#191f20" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:fontFamily="@2131296258" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="12.0sp" android:textColor="#757979" android:gravity="0x00000010" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawablePadding="4.0dip" android:drawableStart="@2131233676" />
+                <TextView android:textSize="20.0sp" android:textColor="#191f20" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:fontFamily="@2131296258" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="12.0sp" android:textColor="#757979" android:gravity="0x00000010" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawablePadding="4.0dip" android:drawableStart="@2131233684" />
+                <TextView android:textSize="20.0sp" android:textColor="#191f20" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:fontFamily="@2131296258" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#3bcd69" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <com.noober.background.view.BLView android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:bl_corners_radius="2.0dip" app:bl_gradient_angle="0" app:bl_gradient_centerColor="#ffffd000" app:bl_gradient_endColor="#ffff3a32" app:bl_gradient_startColor="#ff00d388" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#f3474a" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+</LinearLayout>

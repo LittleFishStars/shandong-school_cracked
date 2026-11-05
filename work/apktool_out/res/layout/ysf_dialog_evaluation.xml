@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131234424" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@2131166631" android:textColor="@2131101267" android:gravity="0x00000001" android:layout_gravity="0x00000010" android:id="@2131369238" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@2131954397" />
+        <ImageView android:layout_gravity="0x00800015" android:id="@2131369234" android:padding="12.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4.0dip" android:src="@2131234503" android:contentDescription="@0" />
+    </FrameLayout>
+    <include layout="@layout/ysf_include_divider" />
+    <ScrollView android:id="@2131369551" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000001" android:orientation="0" android:id="@2131369236" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131101267" android:layout_gravity="0x00000001" android:id="@2131369606" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" />
+            <FrameLayout android:layout_gravity="0x00000001" android:layout_width="-1" android:layout_height="-2">
+                <ScrollView android:id="@2131367068" android:layout_width="-1" android:layout_height="-2">
+                    <com.qiyukf.unicorn.widget.flowlayout.TagFlowLayout android:layout_gravity="0x00000001" android:id="@2131369237" android:layout_width="222.0dip" android:layout_height="-2" />
+                </ScrollView>
+                <View android:layout_gravity="0x00000050" android:id="@2131369742" android:background="@2131234383" android:visibility="2" android:layout_width="-1" android:layout_height="30.0dip" />
+            </FrameLayout>
+            <LinearLayout android:orientation="1" android:id="@2131369344" android:background="@2131234432" android:layout_width="-1" android:layout_height="100.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+                <EditText android:textSize="@2131166627" android:textColor="@2131101268" android:textColorHint="@2131101321" android:gravity="0x00000030" android:id="@2131369235" android:background="@0" android:padding="10.0dip" android:layout_width="-1" android:layout_height="0.0dip" android:hint="@2131954374" android:maxLength="200" android:layout_weight="1.0" android:imeOptions="0x10000000" />
+                <TextView android:textSize="12.0sp" android:textColor="@2131101311" android:gravity="0x00000005" android:id="@2131369604" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="-1" android:layout_height="-2" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="0" android:id="@2131369346" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:layout_gravity="0x00000010" android:id="@2131369603" android:layout_width="-2" android:layout_height="-2" android:text="@2131954389" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131101293" android:layout_gravity="0x00000010" android:id="@2131369607" android:background="@2131234450" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:text="@2131954390" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131101293" android:layout_gravity="0x00000010" android:id="@2131369608" android:background="@2131234450" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:text="@2131954398" />
+    </LinearLayout>
+    <Button android:enabled="false" android:textSize="@2131166630" android:textColor="@2131101283" android:gravity="0x00000011" android:id="@2131369100" android:background="@2131234423" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16.0dip" android:text="@2131954368" />
+</LinearLayout>

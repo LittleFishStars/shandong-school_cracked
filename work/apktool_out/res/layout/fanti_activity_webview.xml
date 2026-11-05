@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android"> > <RelativeLayout android:id="@2131361904" android:background="#ffffff" android:layout_width="-1" android:layout_height="48.0dip">
+        <ImageView android:id="@2131361917" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:src="@2131231594" android:layout_centerVertical="true" />
+        <TextView android:ellipsize="3" android:gravity="0x00000011" android:id="@2131361918" android:layout_width="200.0dip" android:layout_height="-1" android:singleLine="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@2131361903" android:layout_width="-1" android:layout_height="2.0dip" android:max="100" android:progressDrawable="@2131231596" android:layout_below="@2131361904" style="?16842872" />
+    <com.wangmai.insightvision.openadsdk.SplashAdWebView android:id="@2131363255" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131361903" />
+</RelativeLayout>

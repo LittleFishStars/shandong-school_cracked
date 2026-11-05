@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131364490" android:background="@2131101059" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ct="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131364487" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" />
+        <RelativeLayout android:layout_gravity="0x00000055" android:background="@2131234848" android:layout_width="-2" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="2.0dip">
+            <ImageView android:id="@2131366214" android:layout_width="26.0dip" android:layout_height="-1" android:src="@2131234801" />
+            <TextView android:textSize="@2131166451" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364528" android:paddingRight="5.0dip" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="26.0dip" android:text="" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="0x00000035" android:id="@2131364486" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="-2" android:layout_height="-2" android:src="@2131755368" />
+    </FrameLayout>
+    <View android:id="@2131364488" android:background="@2131101053" android:visibility="2" android:layout_width="-1" android:layout_height="1.0px" />
+</LinearLayout>

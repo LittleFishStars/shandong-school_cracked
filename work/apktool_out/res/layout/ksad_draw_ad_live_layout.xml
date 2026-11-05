@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout android:id="@2131364263" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364404" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <com.kwad.sdk.widget.KsView android:id="@2131363916" android:background="@2131100145" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <com.kwad.sdk.widget.KSFrameLayout android:layout_gravity="0x00000050" android:id="@2131363924" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131364405" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <ViewStub android:layout_gravity="0x00000053" android:id="@2131363918" android:layout="@2131559236" android:layout_width="-1" android:layout_height="88.0dip" android:layout_marginBottom="23.0dip" android:layout_marginHorizontal="20.0dip" />
+    <ViewStub android:layout_gravity="0x00000053" android:id="@2131363911" android:background="@2131232183" android:layout="@2131559235" android:layout_width="-1" android:layout_height="180.0dip" android:layout_marginBottom="7.0dip" />
+    <include android:layout_gravity="0x00000011" android:id="@2131363913" android:visibility="2" android:layout_width="-1" android:layout_height="-2" layout="@layout/ksad_draw_live_end_card" />
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131363873" android:background="@2131232166" android:padding="8.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="56.0dip" android:layout_marginRight="16.0dip" />
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

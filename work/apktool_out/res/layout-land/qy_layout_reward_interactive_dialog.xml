@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@2131366416" android:background="@2131101076" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/qy_layout_reward_interactive_dialog_common" />
+    <include layout="@layout/qy_layout_push_card" />
+    <ImageView android:id="@2131366415" android:visibility="1" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginTop="16.0dip" android:src="@2131233388" app:layout_constraintLeft_toRightOf="@id/qy_reward_interactive_background" app:layout_constraintTop_toTopOf="@id/qy_reward_interactive_desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

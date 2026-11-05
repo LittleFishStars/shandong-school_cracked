@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@2131364235" android:background="@2131232294" android:paddingBottom="24.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="0x00000003" android:id="@2131364230" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0">
+        <RelativeLayout android:gravity="0x00000005" android:id="@2131364234" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2">
+            <com.kwad.components.ad.reward.widget.KsAuthorIconView android:id="@2131364016" android:layout_width="@2131165592" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_marginHorizontal="5.0dip" />
+            <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-1" android:layout_height="70.0dip" android:layout_toRightOf="@2131364016" android:layout_alignBottom="@2131364016">
+                <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:gravity="0x00000013" android:id="@2131364451" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:shadowColor="#4d000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000013" android:id="@2131364450" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="1" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364014" android:background="@2131232303" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginTop="9.0dip" android:text="" />
+        <com.kwad.components.core.widget.KsLogoView android:id="@2131364192" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

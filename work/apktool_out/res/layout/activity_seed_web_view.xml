@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@2131366707" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="30.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="18.0dip" android:textColor="#000000" android:gravity="0x00000011" android:id="@2131368657" android:layout_width="-2" android:layout_height="44.0dip" android:drawablePadding="5.0dip" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_gravity="0x00000010" android:id="@2131363390" android:background="@2131755019" android:layout_width="44.0dip" android:layout_height="44.0dip" />
+    </RelativeLayout>
+    <FrameLayout android:id="@2131365477" android:layout_width="-1" android:layout_height="-1">
+        <com.acse.ottn.widget.CustomWebView android:id="@2131362765" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+</LinearLayout>

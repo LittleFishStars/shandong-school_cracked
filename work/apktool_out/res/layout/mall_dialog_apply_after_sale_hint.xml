@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#00000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131362530" android:background="@2131231004" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="38.0dip" android:layout_marginEnd="38.0dip">
+        <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#333" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131362534" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="4.0dip" android:text="@2131953059" />
+        <TextView android:textSize="16.0sp" android:textColor="@2131099737" android:id="@2131362531" android:background="@17170443" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:scrollbars="0x00000200" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="@2131953058" />
+        <CheckBox android:textSize="14.0sp" android:textColor="#8997a4" android:id="@2131362384" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" android:button="@2131233814" android:text="@2131953056" android:layout_marginStart="30.0dip" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#191f20" android:gravity="0x00000011" android:id="@2131362528" android:background="@2131231005" android:layout_width="0.0dip" android:layout_height="-1" android:text="@2131953055" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#0bd3ff" android:gravity="0x00000011" android:id="@2131362529" android:background="@2131231006" android:layout_width="0.0dip" android:layout_height="-1" android:text="@2131953057" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

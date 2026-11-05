@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131099817" android:layout_width="-1" android:layout_height="308.0dip" android:minHeight="308.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131366742" android:layout_width="188.0dip" android:layout_height="172.0dip" android:layout_marginTop="12.0dip" android:src="@2131233645" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="60.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="12.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:text="@2131953821" />
+        <com.huachenjie.common.widget.CustomerTextView android:textSize="40.0sp" android:textColor="@2131101240" android:id="@2131368671" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_below="@2131366742">
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233503" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7.0dip" android:text="@2131951884" />
+            <com.huachenjie.common.widget.CustomerTextView android:textSize="24.0sp" android:textColor="@2131101240" android:id="@2131368104" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233505" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7.0dip" android:text="@2131953819" />
+            <com.huachenjie.common.widget.CustomerTextView android:textSize="24.0sp" android:textColor="@2131101240" android:id="@2131368158" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233507" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7.0dip" android:text="@2131951870" />
+            <com.huachenjie.common.widget.CustomerTextView android:textSize="24.0sp" android:textColor="@2131101240" android:id="@2131368071" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

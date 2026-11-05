@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="0.0" android:toDegrees="1080.0" android:pivotX="50.0%" android:pivotY="50.0%"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="3" android:useLevel="false" android:thickness="2.0dip">
+        <gradient android:startColor="#ffff0000" android:endColor="#55ffffff" android:angle="0.0" android:type="2" android:centerColor="#88ff0000" />
+    </shape>
+</rotate>

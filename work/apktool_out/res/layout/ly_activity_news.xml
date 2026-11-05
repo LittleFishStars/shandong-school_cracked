@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@2131099779" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:layout_width="-1" android:layout_height="50.0dip">
+            <ImageView android:id="@2131365968" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:src="@2131755228" android:layout_centerVertical="true" android:onClick="" />
+            <TextView android:textSize="18.0sp" android:textColor="@17170443" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366743" android:layout_width="-1" android:layout_height="40.0dip" />
+        <View android:background="@2131099785" android:layout_width="-1" android:layout_height="1.0px" />
+        <FrameLayout android:id="@2131363053" android:paddingTop="1.0dip" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131366672" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="140.0dip" android:layout_marginBottom="20.0dip">
+        <cj.mobile.view.CircularProgressView android:id="@2131362575" android:layout_width="-1" android:layout_height="-1" app:CJBackColor="@17170445" app:CJBackWidth="2.0dip" app:CJProgColor="@17170457" app:CJProgWidth="2.0dip" app:CJProgress="0" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170457" android:gravity="0x00000011" android:id="@2131368204" android:layout_width="-1" android:layout_height="-1" android:text="" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@2131099785" android:gravity="0x00000011" android:id="@2131368504" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20.0dip" android:text="" android:layout_alignParentBottom="true" />
+</RelativeLayout>

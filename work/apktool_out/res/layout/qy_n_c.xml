@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170443" android:padding="10.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@17170444" android:ellipsize="3" android:id="@2131368657" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="3.0dip" android:text="" android:maxLines="2" android:singleLine="false" android:lineSpacingMultiplier="1.0" />
+    <com.qy.sdk.img.QYImageView android:id="@2131363521" android:layout_width="-1" android:layout_height="200.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="6" android:layout_below="@2131368657" />
+    <RelativeLayout android:id="@2131363184" android:layout_width="-1" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@2131363521">
+        <TextView android:gravity="0x00000011" android:id="@2131368576" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="10.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#70000000" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131368642" android:layout_width="-1" android:layout_height="-1" android:text="" android:singleLine="true" android:layout_toRightOf="@2131368576" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="0x00000010" android:id="@2131363545" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="20.0dip" android:layout_height="-1" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip" android:src="@2131233448" android:layout_alignParentRight="true" android:layout_marginStart="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131369113" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/ysf_popup_window_bot_list_header" />
+        <ScrollView android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:id="@2131369109" android:background="@2131101363" android:layout_width="-1" android:layout_height="-2" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

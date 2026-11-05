@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@2131366718" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131364516" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@2131363619" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="0x00000051" android:id="@2131363618" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginBottom="230.0dip" android:src="@2131234839" android:importantForAccessibility="2" />
+        <LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:background="@2131234874" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="160.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14.0sp" android:textColor="#95ffffff" android:layout_gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@2131363597" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131363598" android:background="@2131234862" android:layout_width="260.0dip" android:layout_height="40.0dip" android:layout_marginBottom="160.0dip" android:text="" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="0x00800033" android:id="@2131364517" android:visibility="2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" />
+    <RelativeLayout android:layout_gravity="0x00800053" android:background="@2131234848" android:layout_width="-2" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@2131366214" android:layout_width="26.0dip" android:layout_height="-1" android:src="@2131234801" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364461" android:paddingRight="6.0dip" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="26.0dip" android:text="" />
+    </RelativeLayout>
+    <FrameLayout android:id="@2131367210" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131361927" android:background="@2131234861" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="-2" android:layout_height="32.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@2131101059" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131101059" android:id="@2131367086" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2.0dip" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131101059" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.common.widget.SelectBoldTabLayout android:id="@2131367472" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="-4.0dip" app:tabIndicator="@drawable/common_layer_tab_layout_650aec" app:tabIndicatorColor="#ff00b6de" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="3.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="#ff191f20" app:tabTextColor="#ff191f20" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@2131368929" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363195" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:contentDescription="@0" />
+    <com.qiyukf.unicorn.widget.StylableTextView android:textSize="@2131166632" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131362340" android:layout_width="-1" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:text="@2131954649" />
+</LinearLayout>

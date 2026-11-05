@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363648" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00800005" android:orientation="0" android:id="@2131361959" android:background="@2131232125" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginEnd="10.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ffff0000" android:id="@2131368642" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffff0000" android:layout_width="-2" android:layout_height="-2" />
+        <View android:background="#ffffffff" android:layout_width="1.0dip" android:layout_height="-1" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:id="@2131368570" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</FrameLayout>

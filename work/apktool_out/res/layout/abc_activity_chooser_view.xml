@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_gravity="0x00000011" android:id="@2131361895" android:layout_width="-2" android:layout_height="-1" class="androidx.appcompat.widget.ActivityChooserView$InnerLayout" style="?activityChooserViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="0x00000011" android:id="@2131362907" android:background="?2130968594" android:paddingLeft="12.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.0dip" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="-2" android:layout_height="-1">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131363190" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="3" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="0x00000011" android:id="@2131362617" android:background="?2130968594" android:paddingLeft="12.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.0dip" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="-2" android:layout_height="-1">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131363190" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="3" android:adjustViewBounds="true" />
+    </FrameLayout>
+</view>

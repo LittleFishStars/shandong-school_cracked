@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131367341" android:layout_width="-1" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:layout_gravity="0x00000010" android:id="@2131363178" android:layout_width="@17104901" android:layout_height="@17104902" android:scaleType="5" />
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000070" android:orientation="0" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="13.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@17104901" android:minHeight="@17104902" android:paddingEnd="8.0dip" android:layout_marginStart="@17104901">
+        <LinearLayout android:orientation="1" android:id="@2131364604" android:paddingTop="6.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip">
+            <TextView android:textAppearance="@16973928" android:textSize="14.0sp" android:textColor="#d8000000" android:ellipsize="3" android:id="@2131367559" android:fadingEdge="0x00001000" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+            <TextView android:textAppearance="@16973927" android:textSize="11.0dip" android:textColor="#a5000000" android:ellipsize="3" android:layout_gravity="0x00000011" android:id="@2131367518" android:fadingEdge="0x00001000" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <Button android:textSize="11.0dip" android:ellipsize="3" android:id="@2131366630" android:visibility="2" android:layout_width="70.0dip" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="1.0dip" android:singleLine="true" android:layout_weight="0.0" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</FrameLayout>

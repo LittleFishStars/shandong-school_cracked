@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131361907" android:background="@17170445" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="0.3">
+            <com.kc.openset.view.rounded.ODRoundedImageView android:id="@2131363521" android:layout_width="-1" android:layout_height="80.0dip" android:src="#000000" android:scaleType="6" android:adjustViewBounds="true" app:oset_riv_corner_radius="5.0dip" />
+            <LinearLayout android:layout_gravity="0x00000050" android:id="@2131364661" android:layout_width="-2" android:layout_height="-2">
+                <include layout="@layout/oset_api_ad_logo" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="0x00000035" android:id="@2131363424" android:background="@2131233291" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_margin="5.0dip" android:src="@2131755261" />
+        </FrameLayout>
+        <LinearLayout android:orientation="1" android:id="@2131364793" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_weight="0.6" android:layout_marginStart="12.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#000000" android:ellipsize="3" android:id="@2131368657" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" />
+            <TextView android:textSize="13.0sp" android:textColor="#c3000000" android:ellipsize="3" android:id="@2131368187" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:maxLines="1" />
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:textSize="12.0sp" android:textColor="#b22222" android:gravity="0x00000011" android:id="@2131362318" android:background="@2131233294" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="-2" android:layout_height="25.0dip" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

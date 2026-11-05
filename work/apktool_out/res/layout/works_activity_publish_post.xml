@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366761" android:tag="" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3" />
+    <com.huachenjie.common.widget.ShadowLayout android:orientation="0" android:background="@2131101240" android:layout_width="-1" android:layout_height="80.0dip" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="true" app:sl_isCircle="false" app:sl_shadowRadius="6.0dip">
+        <CheckBox android:textSize="14.0sp" android:textColor="@2131099839" android:id="@2131362378" android:background="@2131101187" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:button="@0" android:text="@2131954119" android:drawablePadding="8.0dip" android:drawableStart="@2131233814" android:layout_marginStart="16.0dip" />
+        <com.huachenjie.common.widget.DrawableCenterButton android:textSize="16.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginTop="12.0dip" android:text="@2131954174" android:drawablePadding="8.0dip" android:layout_weight="1.0" android:drawableStart="@2131234284" android:layout_marginStart="30.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff650aec" />
+    </com.huachenjie.common.widget.ShadowLayout>
+</LinearLayout>

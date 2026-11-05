@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@2131362003" android:background="@2131101187" android:layout_width="-1" android:layout_height="-2" bind:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@2131362484" android:tag="" android:layout_width="-1" android:layout_height="-2" bind:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <include android:id="@2131364561" layout="@layout/channel_layout_channel_main_header" />
+            <androidx.appcompat.widget.Toolbar android:layout_width="-1" android:layout_height="-2" android:minHeight="?2130968596" bind:contentInsetEnd="0.0dip" bind:contentInsetStart="0.0dip" bind:layout_collapseMode="pin">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@2131362438" android:tag="" android:layout_width="-1" android:layout_height="-2">
+                    <com.noober.background.view.BLImageView android:id="@2131363390" android:tag="" android:padding="10.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@2131231764" android:layout_marginStart="16.0dip" bind:bl_corners_radius="36.0dip" bind:bl_solid_color="#80000000" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintLeft_toLeftOf="parent" bind:layout_constraintTop_toTopOf="parent" bind:tint="@color/white" />
+                    <com.noober.background.view.BLImageView android:id="@2131363627" android:tag="" android:padding="6.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@2131231184" android:layout_marginEnd="16.0dip" bind:bl_corners_radius="36.0dip" bind:bl_solid_color="#80000000" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintRight_toRightOf="parent" bind:layout_constraintTop_toTopOf="parent" bind:tint="@color/white" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" bind:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.flyco.tablayout.SlidingTabLayout2 android:layout_gravity="0x00000001" android:id="@2131367465" android:layout_width="-2" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" bind:tl_indicator_color="#ff650aec" bind:tl_indicator_corner_radius="1.5dip" bind:tl_indicator_height="3.0dip" bind:tl_indicator_margin_bottom="5.0dip" bind:tl_indicator_width="20.0dip" bind:tl_tab_padding="15.0dip" bind:tl_tab_space_equal="false" bind:tl_textBold="BOTH" bind:tl_textSelectColor="#ff650aec" bind:tl_textUnselectColor="#ff2c3e50" bind:tl_textsize="14.0sp" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@2131368915" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

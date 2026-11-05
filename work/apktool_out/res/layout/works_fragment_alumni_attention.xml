@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="1" android:tag="" android:background="@17170443" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131368781" android:tag="" android:layout_width="0.0dip" android:layout_height="@2131166510" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@2131366015" android:tag="" android:layout_width="0.0dip" android:layout_height="3.0dip" android:layout_marginTop="6.0dip" android:max="100" android:progressDrawable="@2131234167" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/vStatusSpace" style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@2131366560" android:tag="" android:background="#ffffff" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pb_publish_progress">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:tag="" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ImageView android:id="@2131367552" android:tag="" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@2131234283" app:layout_constraintBottom_toBottomOf="@id/pb_publish_progress" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/pb_publish_progress" />
+    <androidx.cardview.widget.CardView android:tag="" android:layout_width="-2" android:layout_height="16.0dip" android:layout_marginTop="2.0dip" app:cardCornerRadius="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/thumb_publish_progress">
+        <TextView android:textSize="10.0sp" android:textColor="#ff2c3e50" android:gravity="0x00000011" android:tag="" android:layout_width="38.0dip" android:layout_height="-1" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

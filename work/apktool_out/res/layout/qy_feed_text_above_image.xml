@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@2131365475" style="@style/qy_feed_parent_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@2131166462" android:textColor="#000000" android:ellipsize="3" android:id="@2131366334" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:maxLines="1" />
+    <FrameLayout android:layout_width="-1" android:layout_height="188.0dip">
+        <com.qy.sdk.img.QYImageView android:id="@2131366335" android:layout_width="-1" android:layout_height="188.0dip" android:scaleType="6" />
+        <com.qy.sdk.q.w.QYMediaView android:id="@2131366339" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:layout_gravity="0x00000053" android:visibility="2" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" style="@style/qy_feed_tip_tv" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="25.0dip" android:layout_marginTop="6.0dip">
+        <FrameLayout android:id="@2131366337" style="@style/qy_feed_source_logo_style">
+            <com.qy.sdk.img.QYImageView android:id="@2131366336" android:layout_width="-2" android:layout_height="18.0dip" android:src="@2131233338" />
+        </FrameLayout>
+        <TextView android:id="@2131366338" style="@style/qy_feed_text_title_style" />
+        <ImageView android:layout_gravity="0x00000005" android:id="@2131366333" android:layout_width="23.0dip" android:layout_height="18.0dip" android:src="@2131233367" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

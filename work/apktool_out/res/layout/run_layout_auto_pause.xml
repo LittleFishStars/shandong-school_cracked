@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@2131368771" android:background="@2131233463" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="0x00000001" android:layout_gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+        <com.huachenjie.common.widget.ShadowLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layerType="1" app:sl_bgColor="#fff3474a" app:sl_cornerRadius="20.0dip" app:sl_dx="0.0dip" app:sl_dy="4.0dip" app:sl_shadowColor="#269f0000" app:sl_shadowRadius="8.0dip">
+            <TextView android:textSize="32.0sp" android:textColor="@17170443" android:gravity="0x00000010" android:id="@2131367965" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:drawablePadding="12.0dip" android:drawableStart="@2131755289" android:fontFamily="@2131296259" />
+            <TextView android:textSize="64.0sp" android:textColor="@17170443" android:id="@2131367819" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:includeFontPadding="false" android:fontFamily="@2131296258" />
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131367961" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </com.huachenjie.common.widget.ShadowLayout>
+        <ImageView android:id="@2131363286" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:src="@2131755279" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@2131364470" android:layout="@2131561034" android:layout_width="-1" android:layout_height="44.0dip" />
+    <ViewStub android:id="@2131364469" android:layout="@2131561035" android:layout_width="-1" android:layout_height="44.0dip" />
+    <FrameLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.zj.adx.sdk.lz.component.webview.QlickWebView android:id="@2131364471" android:layout_width="-1" android:layout_height="-1" />
+        <ViewStub android:layout_gravity="0x00000051" android:id="@2131364467" android:layout="@2131561033" android:layout_width="-1" android:layout_height="-2" />
+        <ProgressBar android:layout_gravity="0x00000031" android:id="@2131364468" android:layout_width="-1" android:layout_height="3.0dip" android:progress="1" android:progressDrawable="@2131234812" style="@16973855" />
+    </FrameLayout>
+</LinearLayout>

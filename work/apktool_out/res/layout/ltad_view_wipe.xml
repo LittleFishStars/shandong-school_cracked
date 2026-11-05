@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltadsdk.ui.view.AdWipeOverlayView android:id="@2131367425" android:layout_width="-1" android:layout_height="-1" />
+    <View android:id="@2131367458" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@2131367414" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20.0dip" android:src="@2131755210" android:layout_toRightOf="@2131367458" android:layout_above="@2131367458" />
+    <TextView android:textColor="@2131100263" android:id="@2131367456" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_below="@2131367458" android:layout_centerHorizontal="true" />
+</RelativeLayout>

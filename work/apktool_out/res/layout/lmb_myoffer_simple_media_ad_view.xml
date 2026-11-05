@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131365026" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131365027" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+</merge>

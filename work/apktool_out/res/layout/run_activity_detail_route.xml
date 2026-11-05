@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131363045" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363277" android:tag="" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131233675" android:layout_marginStart="16.0dip" android:elevation="4.0dip" />
+    <com.noober.background.view.BLConstraintLayout android:layout_gravity="0x00000050" android:id="@2131362462" android:padding="16.0dip" android:layout_width="-1" android:layout_height="-2" android:elevation="4.0dip" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_solid_color="#e6ffffff">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368192" android:layout_width="-2" android:layout_height="-2" android:text="" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="52.0sp" android:textColor="#191f20" android:id="@2131368191" android:layout_width="-2" android:layout_height="-2" android:includeFontPadding="false" android:fontFamily="@2131296258" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_distance_label" />
+        <TextView android:textSize="24.0sp" android:textColor="#191f20" android:id="@2131368195" android:layout_width="-2" android:layout_height="-2" android:text="" android:includeFontPadding="false" android:fontFamily="@2131296258" android:layout_marginStart="8.0dip" app:layout_constraintBaseline_toBaselineOf="@id/tv_distance" app:layout_constraintStart_toEndOf="@id/tv_distance" />
+        <com.huachenjie.base.widget.AvatarView android:id="@2131363209" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@2131363692" android:tag="" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_nickname" app:layout_constraintEnd_toStartOf="@id/tv_nickname" app:layout_constraintTop_toTopOf="@id/tv_nickname" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368389" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/img_avatar" app:layout_constraintTop_toTopOf="@id/img_avatar" />
+        <TextView android:textSize="10.0sp" android:textColor="#757979" android:id="@2131368601" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/img_avatar" app:layout_constraintTop_toBottomOf="@id/tv_nickname" />
+        <TextView android:textSize="10.0sp" android:textColor="#757979" android:id="@2131368642" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/img_avatar" app:layout_constraintTop_toBottomOf="@id/tv_student_no" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364741" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_time">
+            <TextView android:textSize="10.0sp" android:textStyle="0x00000001" android:textColor="#3bcd69" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <com.noober.background.view.BLView android:layout_width="120.0dip" android:layout_height="4.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:bl_corners_radius="2.0dip" app:bl_gradient_angle="0" app:bl_gradient_centerColor="#ffffab00" app:bl_gradient_endColor="#ffff3a32" app:bl_gradient_startColor="#ff00d388" />
+            <TextView android:textSize="10.0sp" android:textStyle="0x00000001" android:textColor="#f3474a" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="@2131364733" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_distance">
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368158" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="14.0sp" android:textColor="#191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368422" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="14.0sp" android:textColor="#191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368104" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="14.0sp" android:textColor="#191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.noober.background.view.BLConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@2131101361" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@2131101264" android:ellipsize="3" android:id="@2131369705" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@2131954334" android:singleLine="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@2131101311" android:ellipsize="3" android:gravity="0x00000005" android:id="@2131369704" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:maxLines="2" android:layout_toRightOf="@2131369705" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="0x00000005" android:orientation="1" android:id="@2131369703" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:layout_toRightOf="@2131369705" android:layout_alignParentRight="true" />
+    <View android:id="@2131369764" android:background="@2131101302" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

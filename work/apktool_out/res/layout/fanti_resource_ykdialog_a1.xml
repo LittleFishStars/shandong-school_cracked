@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131369063" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="0x00000051" android:id="@2131369066" android:background="@2131231534" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@2131165448" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131369067" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131165427" android:layout_marginTop="@2131165428" android:layout_marginRight="@2131165427" android:text="" style="@style/fanti_text_view_2a" />
+            <TextView android:textSize="@2131165449" android:gravity="0x00000001" android:layout_gravity="0x00000011" android:id="@2131369064" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@2131165425" android:layout_marginTop="@2131165426" android:layout_marginRight="@2131165425" android:text="" style="@style/fanti_text_view_5c" />
+            <View android:id="@2131369062" android:background="@2131100057" android:layout_width="-1" android:layout_height="@2131165451" android:layout_marginTop="@2131165424" />
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="@2131165423">
+                <TextView android:textSize="@2131165447" android:gravity="0x00000011" android:id="@2131369065" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" style="@style/fanti_text_view_3a" />
+                <View android:background="@2131100057" android:layout_width="@2131165451" android:layout_height="-1" />
+                <TextView android:textSize="@2131165447" android:textStyle="0x00000001" android:textColor="@2131100051" android:gravity="0x00000011" android:id="@2131369068" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

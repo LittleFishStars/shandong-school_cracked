@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131101361" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131369239" android:background="#dddddd" android:layout_width="-1" android:layout_height="44.0dip">
+        <TextView android:textSize="14.0sp" android:ellipsize="2" android:gravity="0x00000013" android:id="@2131369240" android:layout_width="0.0dip" android:layout_height="-1" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131369610" android:background="@2131234452" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:text="@2131954411" android:drawableLeft="@2131234459" android:drawablePadding="4.0dip" />
+    </LinearLayout>
+    <Button android:textSize="18.0sp" android:textColor="@2131101361" android:id="@2131369092" android:background="@2131234453" android:layout_width="-1" android:layout_height="-2" android:text="@2131954410" android:layout_alignParentBottom="true" />
+    <com.qiyukf.unicorn.fileselect.ui.widget.EmptyListView android:id="@2131369395" android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131369092" android:layout_below="@2131369239" />
+    <include android:id="@2131362806" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131369239" layout="@layout/ysf_file_emptyview" />
+</RelativeLayout>

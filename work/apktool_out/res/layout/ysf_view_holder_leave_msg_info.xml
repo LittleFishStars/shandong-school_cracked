@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@2131234600" android:layout_width="-1" android:layout_height="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@2131101267" android:id="@2131369643" android:paddingLeft="16.0dip" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@2131369297" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="16.0dip" android:src="@2131234479" android:scaleType="5" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@2131101267" android:ellipsize="3" android:gravity="0x00000005" android:id="@2131369644" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" android:singleLine="true" android:layout_toLeftOf="@2131369297" android:layout_toRightOf="@2131369643" android:layout_centerVertical="true" />
+    <EditText android:textSize="14.0sp" android:textColor="@2131101267" android:ellipsize="3" android:id="@2131369220" android:background="@0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:layout_toLeftOf="@2131369297" android:layout_centerVertical="true" android:imeOptions="0x00000005" />
+</RelativeLayout>

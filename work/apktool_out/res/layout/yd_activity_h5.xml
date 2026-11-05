@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginTop="30.0dip">
+        <ImageView android:id="@2131363390" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131755353" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@17170444" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131368657" android:layout_width="0.0dip" android:layout_height="-1" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <ImageView android:id="@2131363596" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131755356" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <com.fl.saas.common.widget.h5.SignUrlWebView android:id="@2131367197" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:id="@2131366676" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="100.0dip">
+        <ImageView android:id="@2131363475" android:layout_width="300.0dip" android:layout_height="-2" android:src="@2131755357" android:layout_centerInParent="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@17170444" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="" android:layout_below="@2131363475" />
+    </RelativeLayout>
+</LinearLayout>

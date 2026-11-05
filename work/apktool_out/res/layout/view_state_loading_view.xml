@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131363043" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="0x00000011" android:id="@2131366108" android:layout_width="-2" android:layout_height="-2" style="@style/Widget.AppCompat.ProgressBar" />
+    <ViewStub android:id="@2131368975" android:layout="@2131560571" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

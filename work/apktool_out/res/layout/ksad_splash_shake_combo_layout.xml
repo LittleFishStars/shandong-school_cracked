@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000050" android:id="@2131364293" android:visibility="2" android:layout_width="-1" android:layout_height="177.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.components.ad.splashscreen.widget.KsButtonBorderSpreadView android:layout_gravity="0x00000001" android:id="@2131364291" android:layout_width="300.0dip" android:layout_height="88.0dip" android:layout_marginTop="11.0dip">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131364290" android:layout_width="263.0dip" android:layout_height="65.0dip" android:layout_marginTop="2.0dip" android:src="@2131232355" android:scaleType="1" />
+        <LinearLayout android:layout_gravity="0x00000001" android:orientation="1" android:layout_width="263.0dip" android:layout_height="62.0dip" android:layout_marginTop="13.0dip">
+            <LinearLayout android:gravity="0x00000001" android:layout_gravity="0x00000001" android:orientation="0" android:layout_width="240.0dip" android:layout_height="30.0dip" android:layout_marginTop="8.0dip">
+                <com.kwad.components.ad.splashscreen.widget.KsShakeView android:id="@2131364294" android:layout_width="31.0dip" android:layout_height="30.0dip" app:ksad_innerCirclePadding="10.0dip" app:ksad_innerCircleStrokeColor="#00ffffff" app:ksad_innerCircleStrokeWidth="3.0dip" app:ksad_outerStrokeColor="#00ffffff" app:ksad_outerStrokeWidth="1.0dip" app:ksad_shakeIcon="@drawable/ksad_ic_shake_combo_hand" app:ksad_solidColor="#00ffffff" />
+                <TextView android:textSize="18.0sp" android:textColor="@17170443" android:ellipsize="3" android:id="@2131364295" android:paddingTop="0.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0.0dip" android:maxWidth="190.0dip" android:text="@2131952574" android:maxLines="1" android:layout_marginStart="9.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:ellipsize="3" android:layout_gravity="0x00000001" android:id="@2131364300" android:layout_width="-2" android:layout_height="-2" android:maxWidth="240.0dip" android:text="@2131952575" android:maxLines="1" />
+        </LinearLayout>
+    </com.kwad.components.ad.splashscreen.widget.KsButtonBorderSpreadView>
+    <com.kwad.components.ad.splashscreen.widget.KsSlidePopUpView android:id="@2131364299" android:background="@2131232326" android:layout_width="-1" android:layout_height="128.0dip" android:layout_marginTop="177.0dip" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <com.kwad.components.ad.splashscreen.widget.KsSlideArrowView android:layout_gravity="0x00000001" android:id="@2131364298" android:layout_width="19.0dip" android:layout_height="10.0dip" android:layout_marginTop="9.0dip" />
+            <com.kwad.components.ad.splashscreen.widget.KsSlideArrowView android:layout_gravity="0x00000001" android:id="@2131364297" android:layout_width="19.0dip" android:layout_height="10.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:ellipsize="3" android:layout_gravity="0x00000001" android:id="@2131364296" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7.0dip" android:maxWidth="270.0dip" android:text="@2131952578" android:maxLines="1" />
+        </LinearLayout>
+    </com.kwad.components.ad.splashscreen.widget.KsSlidePopUpView>
+</FrameLayout>

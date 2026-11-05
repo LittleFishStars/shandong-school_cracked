@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:id="@2131364302" android:background="@2131232320" android:paddingBottom="@2131165730" android:visibility="2" android:clickable="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.components.ad.splashscreen.widget.KsShakeView android:layout_gravity="0x00000001" android:id="@2131364305" android:layout_width="@2131165732" android:layout_height="@2131165729" android:layout_marginTop="@2131165731" app:ksad_innerCircleStrokeColor="#b3ffffff" app:ksad_innerCircleStrokeWidth="1.0dip" app:ksad_outerStrokeColor="#4dffffff" app:ksad_outerStrokeWidth="1.0dip" app:ksad_shakeViewStyle="2" />
+    <TextView android:textSize="14.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131364303" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:text="" />
+    <TextView android:textSize="10.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131364283" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:text="" />
+</LinearLayout>

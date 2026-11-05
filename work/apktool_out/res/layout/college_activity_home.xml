@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366557" android:tag="" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="4" />
+        <FrameLayout android:id="@2131362988" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+    <com.noober.background.view.BLView android:id="@2131368854" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.0" app:bl_gradient_endColor="#000bd3ff" app:bl_gradient_startColor="#330bd3ff" app:layout_constraintBottom_toBottomOf="@id/ll_title_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364794" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:tag="" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131230908" android:layout_marginStart="16.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:tag="" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:id="@2131363414" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131231219" />
+            <com.noober.background.view.BLView android:layout_gravity="0x00000005" android:tag="" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_margin="6.0dip" app:bl_corners_radius="3.0dip" app:bl_solid_color="#ffff3c63" app:bl_stroke_color="#ffffffff" app:bl_stroke_width="1.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

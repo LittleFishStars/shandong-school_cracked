@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@2131364525" android:background="@2131234802" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginStart="16.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364527" android:visibility="0" android:layout_width="30.0dip" android:layout_height="28.0dip" android:text="@2131953385" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101059" android:gravity="0x00000011" android:id="@2131364523" android:visibility="0" android:layout_width="20.0dip" android:layout_height="28.0dip" />
+    </LinearLayout>
+    <com.zj.adx.sdk.lz.component.reward.ShadowImageView android:gravity="0x00000011" android:layout_gravity="0x00800033" android:id="@2131364526" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:src="@2131234849" android:scaleType="5" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <com.zj.adx.sdk.lz.component.reward.ShadowImageView android:gravity="0x00000011" android:layout_gravity="0x00800035" android:id="@2131364476" android:visibility="2" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:src="@2131234882" android:scaleType="5" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

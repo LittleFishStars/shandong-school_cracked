@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131366693" android:background="@2131099817" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0sp" android:textColor="@2131100993" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="@2131953603" android:layout_marginStart="18.0dip" />
+    <FrameLayout android:id="@2131363076" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="31.0dip" android:layout_below="@2131368657" />
+    <RelativeLayout android:id="@2131366687" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30.0dip" android:layout_below="@2131363076">
+        <include android:layout_width="82.0dip" android:layout_height="32.0dip" android:layout_below="@2131368657" android:layout_centerVertical="true" layout="@layout/layout_gps_signal_nobg" />
+        <View android:background="@2131100971" android:layout_width="-1" android:layout_height="1.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@2131367219" />
+        <ImageView android:id="@2131363219" android:layout_width="-2" android:layout_height="-2" android:src="@2131233540" android:layout_marginEnd="28.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@2131363074" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="26.0dip" android:layout_below="@2131366687" />
+    <include layout="@layout/run_layout_free_run_operate" />
+    <include layout="@layout/run_layout_free_pause_operate" />
+    <include layout="@layout/run_layout_free_lock_operate" />
+</RelativeLayout>

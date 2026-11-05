@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSRelativeLayout android:id="@2131364415" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364426" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364409" android:background="#cc000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="14.0dip" android:textColor="#dadada" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="0x00000011" android:id="@2131363884" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131363885" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@2131232386" android:layout_centerInParent="true" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131363886" android:background="@2131232261" android:layout_width="39.0dip" android:layout_height="17.0dip" android:layout_marginTop="9.0dip" android:layout_below="@2131363885" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364386" android:background="#cc000000" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131364387" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@2131232170" />
+        <TextView android:textSize="16.0dip" android:textColor="@17170443" android:ellipsize="3" android:id="@2131363804" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="1" />
+        <TextView android:textSize="11.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363799" android:background="@2131232385" android:layout_width="64.0dip" android:layout_height="24.0dip" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364388" android:background="#cc000000" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="11.0dip" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131363951" android:background="@2131232385" android:layout_width="64.0dip" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364402" android:background="#cc000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="14.0dip" android:textColor="#dadada" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+    <ProgressBar android:id="@2131364414" android:layout_width="-1" android:layout_height="2.0dip" android:progressDrawable="@2131232394" android:layout_alignParentBottom="true" style="@16973855" />
+</com.kwad.sdk.widget.KSRelativeLayout>

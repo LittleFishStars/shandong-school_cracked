@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="0" android:background="@17170445" android:layout_width="120.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:background="@2131234144" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_centerInParent="true">
+        <com.acse.ottn.widget.ActivityIndicatorView android:layout_gravity="0x00000011" android:id="@2131363397" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerInParent="true" app:aiv_color="#ffec5e29" app:aiv_strokeWidth="3.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffec5e29" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131368161" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="13.0dip" android:textColor="@17170432" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15.0dip" android:text="" android:layout_below="@2131363397" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

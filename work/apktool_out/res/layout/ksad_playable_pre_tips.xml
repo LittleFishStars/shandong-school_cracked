@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364115" android:background="@2131232279" android:paddingLeft="3.0dip" android:visibility="2" android:layout_width="@2131165648" android:layout_height="@2131165641"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.components.core.widget.KSCornerImageView android:id="@2131364110" android:background="@2131100160" android:padding="@2131165642" android:layout_width="@2131165643" android:layout_height="@2131165643" android:src="@2131232235" app:ksad_radius="100.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@2131364111" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:text="" android:alpha="0.0" />
+</LinearLayout>

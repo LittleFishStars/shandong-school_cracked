@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="#31167e" android:layout_width="-1" android:layout_height="0.0dip" android:src="@2131230988" app:layout_constraintDimensionRatio="375:114" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.common.widget.ClearFocusConstraintLayout android:tag="" android:background="@2131101240" android:paddingTop="30.0dip" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_title">
+        <ImageView android:id="@2131363676" android:layout_width="-2" android:layout_height="-2" android:src="@2131231758" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toStartOf="@id/tv_tip" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@2131368648" android:layout_width="-2" android:layout_height="-2" android:text="" app:layout_constraintBottom_toBottomOf="@id/iv_tip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/iv_tip" />
+        <androidx.core.widget.NestedScrollView android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:overScrollMode="2" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_tip">
+            <LinearLayout android:orientation="1" android:paddingBottom="50.0dip" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout style="@style/authorizeItemStyle">
+                    <TextView android:text="" style="@style/authorizeNameStyle" />
+                    <TextView android:tag="" style="@style/authorizeValueStyle" />
+                    <EditText android:textSize="14.0sp" android:textColor="#2c3e50" android:textColorHint="#992c3e50" android:gravity="0x00000010" android:tag="" android:background="@2131101187" android:layout_width="0.0dip" android:layout_height="-1" android:hint="" android:maxLength="50" android:layout_weight="1.0" android:textCursorDrawable="@2131231063" android:layout_marginStart="14.0dip" />
+                </LinearLayout>
+                <View style="@style/authorizeLineStyle" />
+                <LinearLayout style="@style/authorizeItemStyle">
+                    <TextView android:textStyle="0x00000001" android:text="" style="@style/authorizeNameStyle" />
+                    <RadioGroup android:gravity="0x00000010" android:orientation="0" android:id="@2131362036" android:tag="" android:layout_width="-1" android:layout_height="-1" android:layout_marginStart="14.0dip">
+                        <RadioButton android:textSize="14.0sp" android:textColor="@2131099809" android:id="@2131362037" android:tag="" android:layout_width="-2" android:layout_height="-1" android:button="@0" android:text="" android:drawableLeft="@2131231065" android:drawablePadding="6.0dip" />
+                        <RadioButton android:textSize="14.0sp" android:textColor="@2131099809" android:id="@2131362038" android:tag="" android:layout_width="-2" android:layout_height="-1" android:button="@0" android:text="" android:drawableLeft="@2131231065" android:drawablePadding="6.0dip" android:layout_marginStart="30.0dip" />
+                    </RadioGroup>
+                </LinearLayout>
+                <View style="@style/authorizeLineStyle" />
+                <LinearLayout android:tag="" style="@style/authorizeItemStyle">
+                    <TextView android:textStyle="0x00000001" android:text="" style="@style/authorizeNameStyle" />
+                    <TextView android:tag="" android:layout_weight="1.0" style="@style/authorizeValueStyle" />
+                    <ImageView android:tag="" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231757" android:layout_marginStart="10.0dip" />
+                </LinearLayout>
+                <View style="@style/authorizeLineStyle" />
+                <LinearLayout android:tag="" style="@style/authorizeItemStyle">
+                    <TextView android:textStyle="0x00000001" android:text="" style="@style/authorizeNameStyle" />
+                    <TextView android:textColor="#8997a4" android:tag="" android:layout_weight="1.0" style="@style/authorizeValueStyle" />
+                    <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231757" android:layout_marginStart="10.0dip" />
+                </LinearLayout>
+                <View android:tag="" style="@style/authorizeLineStyle" />
+                <LinearLayout android:tag="" android:layout_height="-2" android:minHeight="60.0dip" style="@style/authorizeItemStyle">
+                    <TextView android:textStyle="0x00000001" android:text="" style="@style/authorizeNameStyle" />
+                    <TextView android:textColor="#8997a4" android:tag="" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/authorizeValueStyle" />
+                    <TextView android:textColor="#8997a4" android:tag="" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/authorizeValueStyle" />
+                    <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@2131231757" android:layout_marginStart="10.0dip" />
+                </LinearLayout>
+                <View android:tag="" style="@style/authorizeLineStyle" />
+                <LinearLayout android:gravity="0x00000033" android:tag="" android:paddingTop="20.0dip" android:paddingBottom="12.0dip" android:layout_height="-2" style="@style/authorizeItemStyle">
+                    <TextView android:textStyle="0x00000001" android:id="@2131368163" android:text="" style="@style/authorizeNameStyle" />
+                    <FrameLayout android:layout_width="94.0dip" android:layout_height="94.0dip" android:layout_marginStart="14.0dip">
+                        <ImageView android:layout_gravity="0x00000053" android:tag="" android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@2131755043" />
+                        <ImageView android:layout_gravity="0x00000035" android:tag="" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@2131755122" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="94.0dip" android:layout_height="94.0dip" android:layout_marginStart="10.0dip">
+                        <ImageView android:layout_gravity="0x00000053" android:tag="" android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@2131755044" />
+                        <ImageView android:layout_gravity="0x00000035" android:tag="" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@2131755122" />
+                    </FrameLayout>
+                </LinearLayout>
+                <View android:tag="" style="@style/authorizeLineStyle" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff2020" android:tag="" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff2020" android:tag="" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.huachenjie.common.widget.ClearFocusConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

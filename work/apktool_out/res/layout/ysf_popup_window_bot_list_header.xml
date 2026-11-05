@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:background="@2131101361" android:layout_width="-1" android:layout_height="40.0dip">
+        <TextView android:textSize="@2131166630" android:textColor="@2131101264" android:id="@2131369089" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        <ImageView android:id="@2131369087" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131234503" android:scaleType="7" android:contentDescription="@0" />
+    </LinearLayout>
+    <include layout="@layout/ysf_include_divider" />
+</merge>

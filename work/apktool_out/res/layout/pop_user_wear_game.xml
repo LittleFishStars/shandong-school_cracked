@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="280.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363346" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="-4.0dip" android:src="@2131232018" android:rotation="180.0" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+    <com.noober.background.view.BLFrameLayout android:id="@2131362990" android:paddingTop="14.0dip" android:paddingBottom="26.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_below="@2131363346" app:bl_corners_radius="26.0dip" app:bl_solid_color="#ffffffff">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:layout_width="-1" android:layout_height="-2" />
+    </com.noober.background.view.BLFrameLayout>
+    <ImageView android:id="@2131363279" android:visibility="2" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="-4.0dip" android:src="@2131232018" android:layout_below="@2131362990" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

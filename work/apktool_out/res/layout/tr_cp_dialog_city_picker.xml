@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tr_cp_search_view" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131362560" android:background="@17170443" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:textSize="?2130971201" android:textColor="?2130971200" android:gravity="0x00000011" android:id="@2131362571" android:background="?2130971198" android:visibility="2" android:layout_width="?2130971202" android:layout_height="?2130971199" android:layout_centerInParent="true" />
+        <com.alibaba.triver.basic.city.view.TRCTSideIndexBar android:id="@2131362574" android:layout_width="@2131166528" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <include layout="@layout/tr_cp_empty_view" />
+    </RelativeLayout>
+</LinearLayout>

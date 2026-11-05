@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#2c3e50" android:paddingTop="12.0dip" android:layout_width="-1" android:layout_height="46.0dip" android:text="@2131952995" android:paddingStart="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_topLeftRadius="12.0dip" app:bl_corners_topRightRadius="12.0dip" app:bl_solid_color="#ffffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

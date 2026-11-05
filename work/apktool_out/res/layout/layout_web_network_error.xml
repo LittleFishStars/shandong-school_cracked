@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131368995" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="130.0dip" android:layout_height="-2" android:src="@2131755132" android:scaleType="1" android:adjustViewBounds="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff8997a4" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" />
+    <com.noober.background.view.BLTextView android:textSize="18.0sp" android:textColor="#ffd0d6de" android:gravity="0x00000011" android:id="@2131368994" android:layout_width="116.0dip" android:layout_height="38.0dip" android:layout_marginTop="20.0dip" android:text="" app:bl_corners_radius="20.0dip" app:bl_stroke_color="#ffc2c3c5" app:bl_stroke_width="1.0dip" />
+</LinearLayout>

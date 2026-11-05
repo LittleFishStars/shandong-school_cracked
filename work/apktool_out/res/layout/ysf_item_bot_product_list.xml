@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131101361" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131369333" android:layout_width="-1" android:layout_height="40.0dip">
+        <ImageView android:id="@2131369292" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131101267" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131369628" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginRight="6.0dip" android:maxLines="1" android:layout_weight="6.5" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131101267" android:ellipsize="3" android:gravity="0x00000005" android:id="@2131369629" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" android:layout_weight="3.5" />
+    </LinearLayout>
+    <include android:id="@2131369273" layout="@layout/ysf_bot_product_and_order_detail" />
+</LinearLayout>

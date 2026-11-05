@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367567" layout="@layout/layout_toolbar_binding" />
+    <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:gravity="0x00000011" android:id="@2131368656" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40.0dip" android:text="" />
+    <FrameLayout android:layout_gravity="0x00000011" android:layout_width="276.0dip" android:layout_height="276.0dip" android:layout_marginTop="32.0dip">
+        <androidx.camera.view.PreviewView android:layout_gravity="0x00000011" android:id="@2131365480" android:layout_width="260.0dip" android:layout_height="260.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="0x00000011" android:layout_gravity="0x00000050" android:id="@2131368161" android:tag="" android:background="#80000000" android:visibility="2" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip" />
+        <View android:id="@2131366732" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:gravity="0x00000011" android:id="@2131362280" android:tag="" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginTop="32.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff191f20" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:layout_gravity="0x00000011" android:id="@2131368085" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" android:text="" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <ImageView android:layout_gravity="0x00000051" android:id="@2131363476" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:src="@2131231824" android:adjustViewBounds="true" android:layout_marginStart="58.0dip" android:layout_marginEnd="58.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/bt_commit" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

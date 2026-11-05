@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:layout_width="-1" android:layout_height="64.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:tag="" android:layout_width="-1" android:layout_height="-1" app:bl_corners_topLeftRadius="8.0dip" app:bl_corners_topRightRadius="8.0dip" app:bl_solid_color="#fff5f5f5" />
+    <ImageView android:tag="" android:layout_width="-1" android:layout_height="-1" android:importantForAccessibility="2" />
+    <com.noober.background.view.BLView android:layout_width="-1" android:layout_height="-1" app:bl_corners_radius="8.0dip" app:bl_solid_color="#80000000" />
+    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:ellipsize="3" android:id="@2131368380" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:maxLines="1" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@2131101240" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:layout_below="@2131368380" android:layout_marginStart="20.0dip" />
+</RelativeLayout>

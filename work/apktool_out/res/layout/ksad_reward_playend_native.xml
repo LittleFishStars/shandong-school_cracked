@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="1" android:id="@2131364118" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.ad.reward.widget.tailframe.TailFrameView android:id="@2131364417" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <ViewStub android:id="@2131364119" android:layout="@2131559327" android:layout_width="-1" android:layout_height="-1" />
+    <ViewStub android:id="@2131364113" android:layout="@2131559312" android:layout_width="-1" android:layout_height="-1" />
+</merge>

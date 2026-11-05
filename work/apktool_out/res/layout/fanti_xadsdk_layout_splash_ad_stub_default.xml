@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131366723" android:background="#000000" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wangmai.insightvision.openadsdk.player.ui.InsightPlayerView android:id="@2131362924" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131362916" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:id="@2131362925" android:visibility="0" android:layout_width="58.25dip" android:layout_height="30.0dip" android:layout_marginTop="@2131165473" android:scaleType="3" android:layout_alignParentTop="true" android:alpha="1.0" android:layout_marginStart="@2131165471" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@2131362914" android:visibility="0" android:layout_width="@2131165466" android:layout_height="@2131165465" android:layout_alignParentTop="true" android:contentDescription="@2131952332" android:layout_alignParentEnd="true">
+        <LinearLayout android:layout_gravity="0x00800035" android:orientation="0" android:id="@2131362913" android:background="@2131231548" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131165473" android:layout_marginEnd="@2131165471">
+            <TextView android:textSize="15.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131362922" android:layout_width="-2" android:layout_height="-2" android:text="" android:lines="1" />
+            <TextView android:textSize="15.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131362920" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="" android:lines="1" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:background="@2131231589" android:layout_width="-2" android:layout_height="14.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@2131362915" android:visibility="2" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="3" android:alpha="1.0" android:layout_marginStart="2.0dip" />
+        <TextView android:textSize="8.0dip" android:textColor="#ffffff" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131362921" android:visibility="0" android:layout_width="-2" android:layout_height="12.0dip" android:text="" android:lines="1" android:includeFontPadding="false" android:maxLength="12" android:paddingStart="2.0dip" android:paddingEnd="5.0dip" />
+    </LinearLayout>
+    <com.wangmai.insightvision.openadsdk.view.ClickCheckView android:id="@2131362911" android:padding="2.0dip" android:visibility="0" android:layout_width="-1" android:layout_height="@2131165468" android:layout_marginBottom="90.0dip" android:layout_alignParentBottom="true" android:contentDescription="@2131952331">
+        <RelativeLayout android:id="@2131362910" android:background="@2131231547" android:layout_width="-2" android:layout_height="@2131165468" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="18.0dip" android:textColor="#ffffff" android:ellipsize="3" android:id="@2131362923" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:lines="1" android:maxEms="16" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_marginStart="28.0dip" android:layout_alignParentStart="true" />
+            <ImageView android:id="@2131362926" android:layout_width="20.0dip" android:layout_height="14.0dip" android:src="@2131231573" android:scaleType="7" android:layout_toRightOf="@2131362923" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="28.0dip" />
+        </RelativeLayout>
+    </com.wangmai.insightvision.openadsdk.view.ClickCheckView>
+</RelativeLayout>

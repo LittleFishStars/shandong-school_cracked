@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131100143" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.sdk.widget.KsView android:id="@2131363850" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+    <com.kwad.sdk.widget.KsView android:id="@2131364381" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginRight="22.0dip" android:layout_marginBottom="26.0dip" android:layout_toLeftOf="@2131363850" android:layout_above="@2131363850" />
+    <ImageView android:id="@2131364091" android:background="@2131232164" android:visibility="1" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="23.0dip" android:layout_marginBottom="20.0dip" android:layout_toLeftOf="@2131363850" android:layout_above="@2131363850" />
+    <ImageView android:id="@2131363961" android:background="@2131232164" android:visibility="1" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="23.0dip" android:layout_marginBottom="20.0dip" android:layout_toLeftOf="@2131363850" android:layout_above="@2131363850" />
+    <ImageView android:id="@2131363956" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@2131232156" android:layout_alignLeft="@2131364381" android:layout_alignTop="@2131364381" />
+    <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131100150" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.0dip" android:text="@2131952543" android:shadowColor="@2131100142" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" android:layout_below="@2131363850" android:layout_centerHorizontal="true" android:fontFamily="" />
+</RelativeLayout>

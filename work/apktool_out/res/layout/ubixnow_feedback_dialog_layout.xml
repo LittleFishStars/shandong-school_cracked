@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131234077" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <RadioGroup android:orientation="1" android:id="@2131366579" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip">
+                <RadioButton android:id="@2131367124" android:text="" style="@style/ubix_ad_report_dialog_radiobutton" />
+                <View style="@style/ubixnow_dialog_line" />
+                <RadioButton android:id="@2131365907" android:text="" style="@style/ubix_ad_report_dialog_radiobutton" />
+                <View style="@style/ubixnow_dialog_line" />
+                <RadioButton android:id="@2131365915" android:text="" style="@style/ubix_ad_report_dialog_radiobutton" />
+                <View style="@style/ubixnow_dialog_line" />
+                <RadioButton android:id="@2131362472" android:text="" style="@style/ubix_ad_report_dialog_radiobutton" />
+                <View style="@style/ubixnow_dialog_line" />
+                <RadioButton android:id="@2131365916" android:text="" style="@style/ubix_ad_report_dialog_radiobutton" />
+                <View style="@style/ubixnow_line" />
+            </RadioGroup>
+            <TextView android:textSize="13.0sp" android:textColor="#d9000000" android:gravity="0x00000010" android:layout_width="-1" android:layout_height="37.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:text="" />
+            <RadioGroup android:orientation="0" android:id="@2131366578" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12.0dip">
+                <RadioButton android:id="@2131362029" android:text="" style="@style/ubix_ad_quality_dialog_rb" />
+                <RadioButton android:id="@2131368980" android:text="" style="@style/ubix_ad_quality_dialog_rb" />
+                <RadioButton android:id="@2131363189" android:text="" style="@style/ubix_ad_quality_dialog_rb" />
+            </RadioGroup>
+            <RadioButton android:id="@2131362552" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:text="" style="@style/ubix_ad_quality_dialog_rb" />
+            <View android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" style="@style/ubixnow_dialog_line" />
+            <TextView android:textSize="11.0sp" android:gravity="0x00000010" android:id="@2131366577" android:background="@2131234084" android:paddingLeft="4.0dip" android:layout_width="-1" android:layout_height="35.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:hint="" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

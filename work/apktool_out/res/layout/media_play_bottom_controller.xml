@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="0x00000010" android:id="@2131365520" android:background="@2131233083" android:layout_width="-1" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="0x00000050" android:orientation="0" android:layout_width="-1" android:layout_height="48.0dip">
+        <TextView android:textSize="10.0sp" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00000013" android:id="@2131365519" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="8.0dip" android:text="@2131953156" android:singleLine="true" />
+        <SeekBar android:layout_gravity="0x00000011" android:id="@2131365521" android:paddingLeft="8.0dip" android:paddingTop="12.0dip" android:paddingRight="8.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:maxHeight="2.0dip" android:indeterminate="false" android:progressDrawable="@2131230882" android:minHeight="2.0dip" android:thumb="@2131230888" android:thumbOffset="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="10.0sp" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365522" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="8.0dip" android:text="@2131953156" android:singleLine="true" />
+        <FrameLayout android:layout_gravity="0x00000010" android:id="@2131368885" android:paddingRight="2.0dip" android:layout_width="30.0dip" android:layout_height="-1" android:layout_marginLeft="-4.0dip" />
+    </LinearLayout>
+</FrameLayout>

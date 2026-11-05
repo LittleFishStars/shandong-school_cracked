@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:id="@2131366567" android:layout_width="-1" android:layout_height="-2" android:minHeight="80.0dip" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131363105" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_centerVertical="true">
+        <ImageView android:id="@2131363514" android:duplicateParentState="false" android:layout_width="44.0dip" android:layout_height="44.0dip" android:scaleType="6" />
+        <ImageView android:id="@2131363516" android:background="@2131232129" android:visibility="2" android:duplicateParentState="false" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@2131232128" android:scaleType="7" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368588" android:background="@2131232130" android:layout_width="-2" android:layout_height="28.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:paddingHorizontal="8.0dip" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@2131368588" android:layout_toRightOf="@2131363105" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@2131368588" android:layout_toEndOf="@2131363105">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="10.0sp" android:textColor="#666666" android:gravity="0x00800013" android:id="@2131368466" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#666666" android:id="@2131368211" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <ProgressBar android:id="@2131366013" android:layout_width="-1" android:layout_height="5.0dip" android:layout_marginTop="5.0dip" android:max="100" android:progress="20" android:progressDrawable="@2131232131" style="?16842872" />
+    </LinearLayout>
+</RelativeLayout>

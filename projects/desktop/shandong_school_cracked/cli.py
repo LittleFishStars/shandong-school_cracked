@@ -70,6 +70,25 @@ def build_app(args: argparse.Namespace):
     app = App(data_dir=data_dir, config_path=cfg_path, mode=mode)
     if getattr(args, "proxy", None):
         app.patch_config({"transport": "proxy", "proxy": args.proxy})
+    # --hm：鸿蒙真机档案（版本/平台/机型随请求走；UA 同步切 HarmonyOS）
+    if getattr(args, "hm", False):
+        from .constants import HM_PROFILE, HM_APP_VERSION, HM_BUILD_VERSION
+        patch = {"device": dict(HM_PROFILE)}
+        # 版本覆盖进 device（net.public_fields/user_agent 按 device.app_version 读）
+        patch["device"]["app_version"] = HM_APP_VERSION
+        patch["device"]["build_version"] = HM_BUILD_VERSION
+        app.patch_config(patch)
+        app.bus.emit("state", f"鸿蒙真机口径：platform={HM_PROFILE['platform']} "
+                              f"app={HM_APP_VERSION}/{HM_BUILD_VERSION} "
+                              f"model={HM_PROFILE['model']}")
+    # --deviceId：手动指定（写回配置持久化，之后启动沿用）
+    did = getattr(args, "device_id", "") or ""
+    if did:
+        app.patch_config({"device_id": did})
+        t = getattr(app.client, "transport", None)
+        if t is not None:
+            t.device_id = did
+        app.bus.emit("state", f"deviceId 已手动指定：{did}")
     sim_patch: Dict[str, Any] = {}
     if getattr(args, "realtime", False):
         sim_patch["realtime"] = True
@@ -552,6 +571,12 @@ def build_parser() -> argparse.ArgumentParser:
                         help="实时仿真：按真实时间推进数据写入（默认关，瞬间算完）")
     common.add_argument("--speed", type=float, default=0.0,
                         help="实时仿真倍速，默认 8（配 --realtime 用）")
+    common.add_argument("--hm", action="store_true",
+                        help="鸿蒙真机口径：platform=4 / appVersion 8.7.1 / "
+                             "buildVersion 26101314 / modelName ALN-AL80（"
+                             "2026-11-05 抓包实值）")
+    common.add_argument("--deviceId", dest="device_id", default="",
+                        help="手动指定 deviceId（默认自动生成并持久化）")
 
     sp = ap.add_subparsers(dest="command")
 

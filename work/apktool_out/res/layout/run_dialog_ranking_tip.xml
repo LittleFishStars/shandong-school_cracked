@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#80000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@2131368781" android:tag="" android:layout_width="-1" android:layout_height="@2131166507" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.noober.background.view.BLConstraintLayout android:layout_width="-1" android:layout_height="-1" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_solid_color="#ffffffff">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:id="@2131367965" android:padding="16.0dip" android:layout_width="-2" android:layout_height="-2" android:text="" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@2131363286" android:padding="17.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@2131231796" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.core.widget.NestedScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle">
+            <LinearLayout android:orientation="1" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:text="" />
+                <com.noober.background.view.BLLinearLayout android:orientation="1" android:padding="1.0dip" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="12.0dip" app:bl_corners_radius="8.0dip" app:bl_stroke_color="#ffe5e5e5" app:bl_stroke_width="1.0dip">
+                    <com.noober.background.view.BLLinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="36.0dip" app:bl_corners_topLeftRadius="8.0dip" app:bl_corners_topRightRadius="8.0dip" app:bl_solid_color="#fffafafa">
+                        <TextView android:textStyle="0x00000000" android:textColor="#ff8997a4" android:layout_height="-1" android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:gravity="0x00000010" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:gravity="0x00000010" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+                    </com.noober.background.view.BLLinearLayout>
+                    <LinearLayout style="@style/run_RankingContainer">
+                        <TextView android:textColor="#f74d51" android:text="" android:drawableLeft="@2131233554" android:drawablePadding="4.0dip" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout android:background="#fafafa" style="@style/run_RankingContainer">
+                        <TextView android:textColor="#ffad20" android:text="" android:drawableLeft="@2131233552" android:drawablePadding="4.0dip" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/run_RankingContainer">
+                        <TextView android:textColor="#68cff1" android:text="" android:drawableLeft="@2131233551" android:drawablePadding="4.0dip" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout android:background="#fafafa" style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout android:background="#fafafa" style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <com.noober.background.view.BLLinearLayout app:bl_corners_bottomLeftRadius="8.0dip" app:bl_corners_bottomRightRadius="8.0dip" style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </com.noober.background.view.BLLinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:text="" />
+                <com.noober.background.view.BLLinearLayout android:orientation="1" android:padding="1.0dip" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="12.0dip" app:bl_corners_radius="8.0dip" app:bl_stroke_color="#ffe5e5e5" app:bl_stroke_width="1.0dip">
+                    <com.noober.background.view.BLLinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="36.0dip" app:bl_corners_topLeftRadius="8.0dip" app:bl_corners_topRightRadius="8.0dip" app:bl_solid_color="#fffafafa">
+                        <TextView android:textStyle="0x00000000" android:textColor="#ff8997a4" android:layout_height="-1" android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:gravity="0x00000010" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:gravity="0x00000010" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+                    </com.noober.background.view.BLLinearLayout>
+                    <LinearLayout style="@style/run_RankingContainer">
+                        <TextView android:textColor="#f74d51" android:text="" android:drawableLeft="@2131233554" android:drawablePadding="4.0dip" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout android:background="#fafafa" style="@style/run_RankingContainer">
+                        <TextView android:textColor="#ffad20" android:text="" android:drawableLeft="@2131233552" android:drawablePadding="4.0dip" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/run_RankingContainer">
+                        <TextView android:textColor="#68cff1" android:text="" android:drawableLeft="@2131233551" android:drawablePadding="4.0dip" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout android:background="#fafafa" style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <LinearLayout android:background="#fafafa" style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </LinearLayout>
+                    <com.noober.background.view.BLLinearLayout app:bl_corners_bottomLeftRadius="8.0dip" app:bl_corners_bottomRightRadius="8.0dip" style="@style/run_RankingContainer">
+                        <TextView android:text="" style="@style/run_RankingTitle" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                        <TextView android:text="" style="@style/run_RankingValue" />
+                    </com.noober.background.view.BLLinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.noober.background.view.BLConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:id="@2131364344" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364342" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <com.kwad.components.ad.splashscreen.presenter.endcard.SplashEndLandView android:id="@2131364343" android:background="@2131100168" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="10.0sp" android:textColor="@2131100169" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131363766" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="12.0dip" android:maxLines="2" />
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0dip" android:textColor="#ffffff" android:layout_gravity="0x00000050" android:id="@2131363872" android:padding="8.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" />
+</com.kwad.sdk.widget.KSFrameLayout>

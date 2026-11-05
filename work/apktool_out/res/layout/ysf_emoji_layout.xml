@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131362790" android:visibility="0" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:id="@2131364696" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <HorizontalScrollView android:id="@2131362787" android:scrollbars="0x00000000" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <LinearLayout android:orientation="0" android:id="@2131362786" android:layout_width="-2" android:layout_height="44.0dip" />
+        </HorizontalScrollView>
+    </LinearLayout>
+    <View android:id="@2131367651" android:layout_alignParentTop="true" style="@style/ysf_horizontal_light_thin_divider" />
+    <View android:id="@2131362257" android:layout_above="@2131364696" style="@style/ysf_horizontal_light_thin_divider" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364580" android:layout_width="-1" android:layout_height="8.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@2131362257" />
+    <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@2131362803" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_above="@2131364580" android:layout_below="@2131367651" android:overScrollMode="2" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364723" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231832" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="@2131954329" />
+    </LinearLayout>
+    <TextView android:gravity="0x00000011" android:id="@2131368339" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:text="@2131954484" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131364724" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:layout_gravity="0x00000001" android:id="@2131369661" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:text="@2131954537" android:drawableTop="@2131234531" android:drawablePadding="10.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <Button android:textColor="@2131101361" android:layout_gravity="0x00000001" android:id="@2131362325" android:background="@2131234421" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="@2131954616" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

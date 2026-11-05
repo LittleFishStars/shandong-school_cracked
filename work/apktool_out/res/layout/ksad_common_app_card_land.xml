@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="0x00000051" android:orientation="0" android:id="@2131363861" android:background="@2131232283" android:padding="12.0dip" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <com.kwad.sdk.widget.KSFrameLayout android:background="#ffeaeaea" android:padding="1.0px" android:layout_width="@2131165578" android:layout_height="@2131165578" android:layout_marginRight="12.0dip" app:ksad_radius="13.0dip">
+            <ImageView android:id="@2131363865" android:layout_width="-1" android:layout_height="-1" />
+        </com.kwad.sdk.widget.KSFrameLayout>
+        <LinearLayout android:orientation="1" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="-1" android:layout_height="@2131165578">
+            <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="@2131165585">
+                <TextView android:textSize="17.0sp" android:ellipsize="3" android:layout_gravity="0x00000033" android:id="@2131363868" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8.0dip" android:maxWidth="300.0dip" android:text="" android:maxLines="1" android:includeFontPadding="false" />
+                <com.kwad.components.ad.widget.KsAppTagsView android:layout_gravity="0x00000013" android:orientation="0" android:id="@2131363869" android:layout_width="-2" android:layout_height="-1" android:divider="@2131232281" android:showDividers="0x00000002" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:ellipsize="3" android:gravity="0x00000013" android:layout_gravity="0x00000053" android:id="@2131363863" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.kwad.components.core.widget.KsConvertButton android:textSize="14.0sp" android:textColor="@17170443" android:id="@2131363859" android:background="@2131100161" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="-2" android:layout_height="36.0dip" android:indeterminateOnly="false" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:ksad_radius="200.0dip" />
+</RelativeLayout>

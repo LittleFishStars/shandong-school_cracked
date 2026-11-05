@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.base.view.RoundImageView android:id="@2131367656" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="6" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:riv_corner_radius="12.0dip" />
+    <com.noober.background.view.BLView android:layout_width="0.0dip" android:layout_height="94.0dip" app:bl_corners_bottomLeftRadius="8.0dip" app:bl_corners_bottomRightRadius="8.0dip" app:bl_gradient_endColor="#80000000" app:bl_gradient_startColor="#00000000" app:layout_constraintBottom_toBottomOf="@id/topicImage" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#ffffffff" android:ellipsize="3" android:id="@2131367970" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginBottom="12.0dip" android:maxLines="2" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:text="" app:layout_constraintBottom_toTopOf="@id/tvTopicName" app:layout_constraintStart_toStartOf="@id/tvTopicName" />
+    <com.noober.background.view.BLLinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-2" android:layout_height="14.0dip" android:layout_marginTop="8.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" android:layout_marginEnd="8.0dip" app:bl_corners_radius="7.0dip" app:bl_solid_color="@17170444" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@2131231889" android:layout_marginEnd="2.0dip" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="0x00000010" android:id="@2131367856" android:layout_width="-2" android:layout_height="-1" />
+    </com.noober.background.view.BLLinearLayout>
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2.0dip">
+        <TextView android:textSize="@2131166472" android:textColor="#666666" android:id="@2131366881" android:layout_width="-2" android:layout_height="-2" />
+        <View android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        <TextView android:textSize="@2131166472" android:textColor="#fff97c7c" android:id="@2131366885" android:layout_width="-2" android:layout_height="-2" android:paddingHorizontal="10.0dip" />
+        <ImageView android:gravity="0x00000010" android:id="@2131366884" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131233762" android:layout_marginEnd="4.0dip" />
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131366882" android:background="@2131233775" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@2131366883" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2.0dip">
+        <TextView android:textSize="@2131166470" android:textColor="#999999" android:id="@2131366887" android:layout_width="-2" android:layout_height="-2" android:text="@2131953625" />
+        <TextView android:textSize="@2131166470" android:textColor="#999999" android:id="@2131366888" android:layout_width="-2" android:layout_height="-2" android:text="@2131953626" android:layout_marginHorizontal="5.0dip" />
+        <TextView android:textSize="@2131166470" android:textColor="#999999" android:id="@2131366889" android:layout_width="-2" android:layout_height="-2" />
+        <View android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        <TextView android:textSize="@2131166470" android:textColor="#999999" android:id="@2131366886" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

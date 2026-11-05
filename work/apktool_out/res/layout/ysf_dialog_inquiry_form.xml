@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:background="#33000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.unicorn.widget.MultipleStatusLayout android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131369444" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="120.0dip">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:id="@2131369272" android:background="@2131234424" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="50.0dip" android:layout_above="@2131369552">
+                <TextView android:textSize="@2131166631" android:textColor="@2131101267" android:ellipsize="3" android:gravity="0x00000010" android:layout_gravity="0x00000010" android:id="@2131369271" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginRight="30.0dip" android:text="@2131954447" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="0x00000011" android:id="@2131369269" android:background="@2131234503" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="16.0dip" />
+            </LinearLayout>
+            <include layout="@layout/ysf_include_divider" />
+            <ScrollView android:id="@2131369552" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                    <LinearLayout android:orientation="1" android:id="@2131369352" android:background="#f2f3f5" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="12.0sp" android:textColor="@2131101311" android:id="@2131369627" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="17.0dip" android:layout_marginTop="12.0dip" />
+                        <LinearLayout android:orientation="1" android:id="@2131369351" android:layout_width="-1" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="@2131101267" android:id="@2131369625" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="17.0dip" android:layout_marginTop="10.0dip" />
+                        <com.qiyukf.unicorn.widget.ScrollGridView android:gravity="0x00000011" android:id="@2131369248" android:padding="10.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:listSelector="@17170445" android:verticalSpacing="10.0dip" android:numColumns="3" />
+                        <Button android:textSize="@2131166632" android:textColor="@2131101361" android:id="@2131369270" android:background="@2131234393" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:text="@2131954655" android:paddingVertical="10.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </com.qiyukf.unicorn.widget.MultipleStatusLayout>
+</FrameLayout>

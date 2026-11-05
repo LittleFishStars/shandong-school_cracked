@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:background="@2131099895" android:layout_width="-1" android:layout_height="@2131165265">
+        <ImageView android:id="@2131363415" android:padding="12.0dip" android:layout_width="@2131165265" android:layout_height="@2131165265" android:src="@2131231764" android:layout_marginStart="5.0dip" />
+        <com.huachenjie.common.widget.ClearableEditLayout android:gravity="0x00000010" android:background="@2131233846" android:layout_width="0.0dip" android:layout_height="34.0dip" android:layout_weight="1.0" android:layout_marginStart="22.0dip" android:layout_marginEnd="50.0dip" app:clearSrc="@drawable/ic_search_clear">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231979" />
+            <EditText android:textSize="15.0sp" android:textColor="@2131101240" android:textColorHint="@2131100989" android:id="@2131362778" android:background="@0" android:longClickable="false" android:layout_width="-1" android:layout_height="-1" android:hint="@2131953654" android:lines="1" android:singleLine="true" android:maxLength="25" android:layout_marginStart="10.0dip" />
+        </com.huachenjie.common.widget.ClearableEditLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+        <include layout="@layout/layout_nearby_no_school" />
+        <com.huachenjie.common.pulltorefresh.BaseSmartRefreshLayout android:id="@2131366565" android:background="@2131099854" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131366556" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+        </com.huachenjie.common.pulltorefresh.BaseSmartRefreshLayout>
+        <include layout="@layout/layout_list_exception_status" />
+    </FrameLayout>
+</LinearLayout>

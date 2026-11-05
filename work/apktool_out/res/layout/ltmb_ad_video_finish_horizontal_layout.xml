@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@2131100268" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="6.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/ltmb_ad_video_reload_layout" />
+    <TextView android:textSize="10.0sp" android:textColor="@2131100301" android:gravity="0x00000011" android:id="@2131365465" android:background="@2131232818" android:layout_width="-2" android:layout_height="-2" android:text="@2131952923" android:paddingHorizontal="8.0dip" android:paddingVertical="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@2131365336" android:visibility="2" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@2131365446" android:visibility="2" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

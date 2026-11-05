@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundFrameLayout android:background="@2131100252" android:layout_width="-1" android:layout_height="-2" app:lt_clip_background="true" app:lt_round_corner="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131361958" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:id="@2131363191" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.ltmb.ltsdk.core.fy.ptgapi.component.video.PtgVideoView android:id="@2131366146" android:layout_width="-1" android:layout_height="-1" />
+            <ImageView android:id="@2131361956" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+            <include android:layout_gravity="0x00000055" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" layout="@layout/lt_advert_logo" />
+            <include android:layout_gravity="0x00000051" android:id="@2131366188" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20.0dip" layout="@layout/lt_reward_shake" />
+        </FrameLayout>
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131362540" android:background="#ffffff" android:padding="15.0dip" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:orientation="0" android:id="@2131363180" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip">
+                <com.ltmb.ltsdk.core.fy.ptgapi.component.widgets.PlaceholderImageView android:layout_gravity="0x00000051" android:id="@2131367245" android:visibility="2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:scaleType="6" app:lt_cornerRadius="8.0dip" />
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="@2131367245" android:layout_centerVertical="true">
+                    <TextView android:textSize="16.0dip" android:textColor="#000000" android:ellipsize="3" android:id="@2131367566" android:layout_width="-1" android:layout_height="-2" />
+                    <TextView android:textSize="14.0dip" android:textColor="#748187" android:ellipsize="3" android:id="@2131367359" android:paddingTop="5.0dip" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" />
+                </LinearLayout>
+            </RelativeLayout>
+            <com.ltmb.ltsdk.core.fy.ptgapi.component.widgets.PtgConfirmBtn android:textSize="15.0sp" android:textColor="@2131100252" android:gravity="0x00000011" android:id="@2131361955" android:layout_width="-1" android:layout_height="36.0dip" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundFrameLayout android:layout_gravity="0x00000035" android:id="@2131362478" android:background="#000000" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" app:lt_clip_background="true" app:lt_round_corner="100.0dip" app:lt_round_stroke_color="#ffffffff" app:lt_round_stroke_width="0.5dip">
+        <ImageView android:padding="5.0dip" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@2131232629" android:contentDescription="" />
+    </com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundFrameLayout>
+</com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundFrameLayout>

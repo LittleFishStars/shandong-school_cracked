@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@2131362028" layout="@layout/works_item_attention_works_header" />
+    <com.huachenjie.common.widget.CommonBanner android:id="@2131369026" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" />
+    <include android:id="@2131362027" layout="@layout/works_item_attention_works_bottom" />
+</LinearLayout>

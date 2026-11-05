@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0dip" android:textColor="#020202" android:ellipsize="3" android:id="@2131363764" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" />
+    <com.kwad.sdk.widget.RatioFrameLayout android:id="@2131363959" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131363780" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    </com.kwad.sdk.widget.RatioFrameLayout>
+    <include android:id="@2131363769" android:visibility="2" android:layout_width="-1" android:layout_height="-2" layout="@layout/ksad_feed_app_download" />
+    <include android:id="@2131363779" android:visibility="2" android:layout_width="-1" android:layout_height="-2" layout="@layout/ksad_feed_open_h5" />
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0sp" android:textColor="#ff9c9c9c" android:id="@2131363873" android:background="@2131232167" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" app:ksad_privacy_color="#ff9c9c9c" />
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" layout="@layout/ksad_feed_label_dislike" />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:overScrollMode="2">
+        <LinearLayout android:orientation="1" android:paddingTop="16.0dip" android:paddingBottom="21.0dip" android:layout_width="-1" android:layout_height="-1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.noober.background.view.BLLinearLayout android:orientation="1" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="" android:layout_marginStart="16.0dip" />
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="56.0dip" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131231288" android:contentDescription="@0" />
+                    <TextView android:textSize="15.0sp" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:text="@2131953352" android:layout_marginStart="12.0dip" />
+                    <TextView android:textSize="15.0sp" android:textColor="@2131099833" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+                    <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:text="@2131953353" />
+                    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231289" android:contentDescription="@0" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+            </com.noober.background.view.BLLinearLayout>
+            <com.noober.background.view.BLLinearLayout android:orientation="1" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="" android:layout_marginStart="16.0dip" />
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="56.0dip" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:tag="" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@0" />
+                    <TextView android:textSize="15.0sp" android:textColor="@2131099806" android:layout_width="0.0dip" android:layout_height="-2" android:text="" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+                    <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+                    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231289" android:contentDescription="@0" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="56.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:tag="" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@0" />
+                    <TextView android:textSize="15.0sp" android:textColor="@2131099806" android:layout_width="0.0dip" android:layout_height="-2" android:text="" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+                    <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+                    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231289" android:contentDescription="@0" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+            </com.noober.background.view.BLLinearLayout>
+            <com.noober.background.view.BLLinearLayout android:orientation="1" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="" android:layout_marginStart="16.0dip" />
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="56.0dip" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:tag="" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@0" />
+                    <TextView android:textSize="15.0sp" android:textColor="@2131099806" android:layout_width="0.0dip" android:layout_height="-2" android:text="" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+                    <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+                    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231289" android:contentDescription="@0" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+            </com.noober.background.view.BLLinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@2131099833" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" />
+            <View android:layout_width="-1" android:layout_height="0.0dip" android:minHeight="40.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000001" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="12.0sp" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#00b6de" android:tag="" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

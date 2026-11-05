@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:id="@2131368983" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@2131369753" android:layout_width="-1" android:layout_height="-1" />
+    <include layout="@layout/ysf_watch_media_download_progress_layout" />
+</FrameLayout>

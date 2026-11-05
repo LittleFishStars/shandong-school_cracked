@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2">
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="0x00000011" android:id="@2131367465" android:layout_width="-2" android:layout_height="30.0dip" app:tabIndicator="@drawable/bg_tab_indicator" app:tabIndicatorColor="@color/hcj_theme_txt_color" app:tabIndicatorHeight="4.0dip" app:tabMode="fixed" app:tabPaddingEnd="15.0dip" app:tabPaddingStart="15.0dip" app:tabRippleColor="@17170445" app:tabSelectedTextColor="@color/hcj_theme_txt_color" app:tabTextAppearance="@style/TabTextAppearance" app:tabTextColor="@color/color_2C3E50" />
+        <ImageView android:tag="" android:layout_width="50.0dip" android:layout_height="@2131165265" android:src="@2131231760" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:tint="@color/black" />
+        <View android:layout_gravity="0x00000050" android:background="#e5e5e5" android:layout_width="-1" android:layout_height="0.5dip" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@2131368915" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

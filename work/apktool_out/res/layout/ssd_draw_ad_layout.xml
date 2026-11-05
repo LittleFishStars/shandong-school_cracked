@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kc.dw.ad.draw.SsdDrawRootView android:id="@2131365675" android:background="#000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131365673" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <com.kc.dw.core.view.gif.GifImageView android:id="@2131365672" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <LinearLayout android:paddingBottom="50.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <RelativeLayout android:background="@2131233928" android:layout_width="-1" android:layout_height="170.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <ImageView android:id="@2131365671" android:layout_width="100.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" />
+            <TextView android:textSize="20.0sp" android:textColor="#000000" android:id="@2131362704" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="50.0dip" android:singleLine="true" android:layout_toRightOf="@2131365671" />
+            <TextView android:textSize="12.0sp" android:textColor="#999999" android:id="@2131365670" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="50.0dip" android:singleLine="true" android:layout_toRightOf="@2131365671" android:layout_alignBottom="@2131365671" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365669" android:background="@2131233923" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="25.0dip" android:text="" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="8.0sp" android:textColor="#ffffff" android:id="@2131367306" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:text="@2131953735" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    </RelativeLayout>
+    <include android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/ssd_ad_tag_view_right" />
+    <ImageView android:id="@2131365674" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:src="@2131233917" android:scaleType="1" android:cropToPadding="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</com.kc.dw.ad.draw.SsdDrawRootView>

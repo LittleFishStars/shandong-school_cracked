@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout android:id="@2131364355" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131367259" android:background="@17170443" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131364331" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        <com.kwad.components.core.video.DetailVideoView android:layout_gravity="0x00000011" android:id="@2131364364" android:layout_width="-1" android:layout_height="-1" />
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131364349" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" />
+        <FrameLayout android:gravity="0x00000001" android:layout_gravity="0x00000011" android:id="@2131364337" android:background="@2131232330" android:paddingBottom="70.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <com.kwad.components.ad.splashscreen.presenter.playcard.SplashPlayDefaultInfoView android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131364336" android:layout_width="-2" android:layout_height="-2" />
+        </FrameLayout>
+        <ImageView android:id="@2131364326" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:src="@17170445" />
+        <ViewStub android:id="@2131364358" android:layout="@2131559290" android:layout_width="-1" android:layout_height="-1" />
+        <ViewStub android:layout_gravity="0x00000050" android:id="@2131364329" android:visibility="2" android:layout="@2131559348" android:layout_width="-1" android:layout_height="@2131165677" android:layout_marginBottom="@2131165678" />
+        <FrameLayout android:id="@2131364365" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <FrameLayout android:id="@2131367260" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <com.kwad.sdk.widget.KsView android:layout_gravity="0x00000005" android:id="@2131364307" android:visibility="2" android:layout_width="154.0dip" android:layout_height="118.0dip" />
+        <LinearLayout android:orientation="1" android:id="@2131364350" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:layout_gravity="0x00000033" android:id="@2131364121" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip">
+                <com.kwad.components.ad.splashscreen.widget.SkipView android:id="@2131364356" android:background="@2131232323" android:paddingLeft="@2131165673" android:paddingRight="@2131165673" android:visibility="2" android:layout_width="-2" android:layout_height="@2131165672" />
+                <com.kwad.components.ad.splashscreen.widget.CircleSkipView android:id="@2131364332" android:visibility="2" android:layout_width="@2131165672" android:layout_height="@2131165672" />
+                <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000010" android:layout_gravity="0x00000010" android:id="@2131364352" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.5dip" android:text="@2131952572" android:shadowColor="#4d000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+            </LinearLayout>
+            <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131363870" android:padding="8.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@2131364354" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:layout_gravity="0x00000035" android:id="@2131364122" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000010" android:layout_gravity="0x00000010" android:id="@2131364353" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15.0dip" android:text="@2131952572" android:shadowColor="#4d000000" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                <com.kwad.components.ad.splashscreen.widget.SkipView android:id="@2131364357" android:background="@2131232323" android:paddingLeft="@2131165673" android:paddingRight="@2131165673" android:visibility="2" android:layout_width="-2" android:layout_height="@2131165672" />
+                <com.kwad.components.ad.splashscreen.widget.CircleSkipView android:id="@2131364333" android:visibility="2" android:layout_width="@2131165672" android:layout_height="@2131165672" />
+            </LinearLayout>
+            <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131363871" android:padding="8.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" />
+        </LinearLayout>
+        <com.kwad.components.core.widget.KsLogoView android:layout_gravity="0x00000053" android:id="@2131364351" android:background="@2131232346" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:layout_gravity="0x00000035" android:id="@2131364363" android:visibility="2" android:layout_width="34.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:src="@2131232362" android:scaleType="3" />
+        <include android:layout_gravity="0x00000051" android:layout_width="-1" android:layout_height="-2" layout="@layout/ksad_splash_bottom_view" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131367257" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@2131367256" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <ViewStub android:id="@2131364348" android:layout="@2131559352" android:layout_width="-1" android:layout_height="-1" />
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="68.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131365102" android:layout_width="-1" android:layout_height="40.0dip">
+        <ProgressBar android:id="@2131365108" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="4.0dip" style="?16842873" />
+    </LinearLayout>
+    <View android:id="@2131365101" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <View android:id="@2131365099" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <View android:id="@2131365100" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+</FrameLayout>

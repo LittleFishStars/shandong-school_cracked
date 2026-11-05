@@ -1,0 +1,3 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName"
+    tools:keep="@drawable/zjad_*,@layout/zjad_*,@id/zjad_**,@style/zjad_*,@string/zjad_*,@anim/zjad_*, @xml/gt*,@color/zjad_*,@attr/zjad_*,@dimen/zjad_*" />

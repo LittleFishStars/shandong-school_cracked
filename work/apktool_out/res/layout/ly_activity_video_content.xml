@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131363029" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:orientation="1" android:id="@2131364694" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_width="65.0dip" android:layout_height="65.0dip">
+            <cj.mobile.view.CircularProgressView android:id="@2131362575" android:layout_width="-1" android:layout_height="-1" app:CJBackColor="@17170443" app:CJBackWidth="5.0dip" app:CJProgColor="#fff35a49" app:CJProgWidth="5.0dip" app:CJProgress="0" />
+            <RelativeLayout android:background="@2131232911" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true">
+                <ImageView android:layout_width="26.5dip" android:layout_height="31.5dip" android:src="@2131755242" android:layout_centerInParent="true" />
+                <TextView android:textSize="11.0sp" android:textColor="@17170443" android:gravity="0x00000051" android:id="@2131368204" android:layout_width="26.5dip" android:layout_height="31.5dip" android:text="" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:textSize="11.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368159" android:layout_width="-1" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+</RelativeLayout>

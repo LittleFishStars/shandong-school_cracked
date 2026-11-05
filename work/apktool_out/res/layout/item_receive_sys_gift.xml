@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363317" android:layout_width="43.0dip" android:layout_height="43.0dip" android:scaleType="6" android:layout_marginStart="54.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@2131363299" android:layout_width="16.0dip" android:layout_height="-2" app:layout_constraintLeft_toRightOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/ivIcon" />
+    <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:ellipsize="3" android:id="@2131368260" android:layout_width="-2" android:layout_height="-2" android:maxWidth="90.0dip" android:lines="1" android:singleLine="true" android:layout_marginStart="22.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/ivIcon" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:id="@2131368259" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="9.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/tv_gift_name" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

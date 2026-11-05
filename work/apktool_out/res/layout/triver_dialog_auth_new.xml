@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131234025" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#333333" android:id="@2131365947" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="@2131953860" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@2131365935" android:layout_width="19.5dip" android:layout_height="19.5dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@2131234026" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@2131363129" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_below="@2131365947">
+        <com.taobao.uikit.extend.feature.view.TUrlImageView android:layout_gravity="0x00000011" android:id="@2131365934" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:src="@2131234043" />
+        <TextView android:textSize="13.0dip" android:textColor="#0d0d0d" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365941" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" android:layout_toRightOf="@2131365934" android:layout_alignTop="@2131365934" android:layout_alignBottom="@2131365934" />
+        <ScrollView android:id="@2131367064" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131365941">
+            <LinearLayout android:orientation="1" android:id="@2131365939" android:paddingLeft="20.5dip" android:paddingRight="20.5dip" android:layout_width="-1" android:layout_height="-2" />
+        </ScrollView>
+    </RelativeLayout>
+    <TextView android:textSize="16.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131365936" android:background="@2131234027" android:layout_width="344.0dip" android:layout_height="40.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="8.0dip" android:text="@2131953864" android:layout_below="@2131363129" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0dip" android:textColor="#828282" android:id="@2131365945" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="9.0dip" android:text="@2131953867" android:layout_below="@2131365936" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131365942" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="33.0dip" android:layout_marginBottom="9.5dip" android:layout_below="@2131365936" android:layout_centerHorizontal="true" />
+</RelativeLayout>

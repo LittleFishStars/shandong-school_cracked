@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:background="#fff5f5f5" android:layout_width="-1" android:layout_height="-1">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:tag="" android:layout_width="-1" android:layout_height="-1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:tag="" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </com.huachenjie.common.page.statelayout.StateLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131365081" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@2131365083" android:visibility="2" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365073" android:layout_width="-2" android:layout_height="-2" android:src="@2131232423" android:scaleType="3" android:contentDescription="@0" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365078" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:src="@2131232426" android:scaleType="3" android:contentDescription="@0" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@2131365084" android:visibility="2" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365074" android:layout_width="-2" android:layout_height="-2" android:src="@2131232424" android:scaleType="3" android:contentDescription="@0" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365079" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20.0dip" android:layout_marginTop="50.0dip" android:src="@2131232426" android:scaleType="3" android:contentDescription="@0" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@2131365082" android:visibility="0" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365075" android:layout_width="-2" android:layout_height="-2" android:src="@2131232423" android:scaleType="3" android:contentDescription="@0" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365076" android:layout_width="-2" android:layout_height="-2" android:src="@2131232425" android:scaleType="3" android:contentDescription="@0" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131365077" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="23.0dip" android:layout_marginTop="30.0dip" android:src="@2131232426" android:scaleType="3" android:contentDescription="@0" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#bfbfbf" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131365080" android:background="@2131232427" android:paddingLeft="30.0dip" android:paddingTop="10.0dip" android:paddingRight="30.0dip" android:paddingBottom="10.0dip" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+</LinearLayout>

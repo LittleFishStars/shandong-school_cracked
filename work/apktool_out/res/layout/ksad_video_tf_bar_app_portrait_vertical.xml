@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363802" android:background="@2131232380" android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@2131232170" />
+    <TextView android:textSize="17.0dip" android:textColor="#222222" android:gravity="0x00000011" android:id="@2131363804" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="1" />
+    <com.kwad.components.ad.widget.AppScoreView android:id="@2131363805" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+    <com.kwad.components.ad.widget.KsAppTagsView android:gravity="0x00000011" android:orientation="0" android:id="@2131364147" android:visibility="2" android:layout_width="-1" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" android:divider="@2131232281" android:showDividers="0x00000002" />
+    <TextView android:textSize="16.0dip" android:textColor="#666666" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131363801" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="1" />
+    <TextView android:textSize="14.0dip" android:textColor="#666666" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131363803" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="2" />
+    <com.kwad.components.core.page.widget.TextProgressBar android:id="@2131363893" android:focusable="true" android:clickable="true" android:layout_width="263.0dip" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:indeterminateOnly="false" android:progressDrawable="@2131232375" />
+    <FrameLayout android:id="@2131364142" android:background="@2131232292" android:visibility="2" android:clickable="false" android:layout_width="263.0dip" android:layout_height="44.0dip" android:layout_marginTop="25.0dip">
+        <Button android:textSize="16.0sp" android:textColor="@17170443" android:layout_gravity="0x00000011" android:id="@2131364143" android:background="@17170445" android:clickable="false" android:layout_width="-1" android:layout_height="-1" />
+        <Button android:textSize="16.0sp" android:textColor="@17170443" android:layout_gravity="0x00000011" android:id="@2131364141" android:background="@17170445" android:clickable="false" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+</LinearLayout>

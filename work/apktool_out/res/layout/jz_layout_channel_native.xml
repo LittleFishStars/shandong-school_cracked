@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131364568" android:layout_width="375.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131362421" android:layout_width="160.0dip" android:layout_height="119.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:scaleType="1" android:adjustViewBounds="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#333333" android:ellipsize="4" android:gravity="0x00000003" android:id="@2131362422" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_toRightOf="@2131362421" android:layout_alignTop="@2131362421" />
+    <TextView android:textSize="14.0sp" android:textColor="#b3b3b3" android:ellipsize="4" android:gravity="0x00000003" android:id="@2131362420" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:singleLine="true" android:layout_toRightOf="@2131362421" android:layout_below="@2131362422" />
+    <ImageView android:id="@2131362418" android:layout_width="36.0dip" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="2.0dip" android:src="@2131230852" android:scaleType="3" android:layout_toRightOf="@2131362421" android:layout_alignBottom="@2131362421" />
+    <ImageView android:id="@2131362419" android:visibility="2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@17301560" android:layout_alignBottom="@2131362421" android:layout_alignParentRight="true" />
+</RelativeLayout>

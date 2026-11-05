@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="-1" android:layout_height="-1" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/channel_layout_my_channel_header" />
+    <FrameLayout android:id="@2131363012" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" />
+    <FrameLayout android:id="@2131363029" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="12.0dip">
+        <com.noober.background.view.BLLinearLayout android:orientation="1" android:id="@2131364743" android:layout_width="-1" android:layout_height="-1" bind:bl_corners_radius="12.0dip" bind:bl_solid_color="@color/white">
+            <com.huachenjie.channel.widget.NotSaveStateTabLayout android:id="@2131367472" android:layout_width="-1" android:layout_height="40.0dip" bind:tl_indicator_color="#ff650aec" bind:tl_indicator_corner_radius="1.5dip" bind:tl_indicator_height="3.0dip" bind:tl_indicator_width="20.0dip" bind:tl_tab_padding="10.0dip" bind:tl_tab_space_equal="false" bind:tl_textBold="BOTH" bind:tl_textSelectColor="#ff650aec" bind:tl_textUnselectColor="#ff2c3e50" bind:tl_textsize="14.0sp" bind:tl_underline_color="#ffe5e5e5" bind:tl_underline_height="0.5dip" />
+            <FrameLayout android:id="@2131363055" android:layout_width="-1" android:layout_height="-1" />
+        </com.noober.background.view.BLLinearLayout>
+    </FrameLayout>
+</LinearLayout>

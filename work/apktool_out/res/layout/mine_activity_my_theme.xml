@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@2131099735" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <ImageView android:tag="" android:layout_width="-1" android:layout_height="-1" android:src="@2131233092" android:scaleType="3" />
+    <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:gravity="0x00000011" android:layout_gravity="0x00000050" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginBottom="12.0dip" android:text="" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="@color/white" />
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131363938" android:background="@2131232192" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.sdk.widget.KSRelativeLayout android:id="@2131363936" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131364405" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+        <com.kwad.sdk.widget.KsView android:id="@2131364021" android:background="@2131100144" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131364045" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="@2131952553" android:layout_centerInParent="true" />
+    </com.kwad.sdk.widget.KSRelativeLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="1" android:id="@2131363939" android:background="#ffffff" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="-1" android:layout_height="55.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="10.0dip" android:textColor="#9c9c9c" android:ellipsize="3" android:id="@2131363764" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:maxLines="1" android:includeFontPadding="false" />
+        <LinearLayout android:layout_gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="17.0dip" android:layout_marginBottom="11.0dip">
+            <ImageView android:layout_gravity="0x00000013" android:id="@2131363802" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131232170" />
+            <TextView android:textSize="12.0dip" android:textColor="#000000" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131363806" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:textSize="10.0dip" android:textColor="#9c9c9c" android:ellipsize="3" android:id="@2131363798" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:maxLines="1" android:includeFontPadding="false" />
+            <include android:layout_gravity="0x00000005" android:id="@2131363779" android:layout_width="59.0dip" android:layout_height="17.0dip" layout="@layout/ksad_feed_open_biserial_h5" />
+            <LinearLayout android:gravity="0x00000005" android:id="@2131363769" android:layout_width="-2" android:layout_height="-1">
+                <com.kwad.components.ad.widget.BiserialDownloadProgressView android:gravity="0x00000005" android:id="@2131363800" android:layout_width="-2" android:layout_height="-1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.kwad.components.core.widget.KsLogoView android:id="@2131363768" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@2131363767" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:src="@2131232155" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <com.kwad.components.core.widget.ComplianceTextView android:textColor="#ff9c9c9c" android:ellipsize="3" android:id="@2131363873" android:background="@2131232167" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:maxLines="1" app:ksad_privacy_color="#ff9c9c9c" />
+</RelativeLayout>

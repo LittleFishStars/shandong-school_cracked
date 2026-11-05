@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131365691" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+        <com.huawei.hms.ads.instreamad.InstreamView android:id="@2131365696" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:id="@2131365695" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:id="@2131365694" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:id="@2131365692" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:id="@2131365697" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+        <TextView android:id="@2131365693" android:layout_width="-2" android:layout_height="-2" />
+    </RelativeLayout>
+</RelativeLayout>

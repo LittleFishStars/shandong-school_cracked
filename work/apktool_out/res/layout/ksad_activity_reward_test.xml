@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout android:orientation="1" android:id="@2131364262" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0sp" android:textColor="#ff0000" android:layout_gravity="0x00000011" android:id="@2131364371" android:layout_width="-2" android:layout_height="-2" android:text="" />
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

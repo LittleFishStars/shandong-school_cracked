@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131365877" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131365883" android:layout_width="-1" android:layout_height="-2">
+        <com.beizi.fusion.widget.CustomRoundImageView android:id="@2131365882" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+        <com.beizi.fusion.widget.BZVideoView android:id="@2131365887" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="0x00000010" android:orientation="0" android:id="@2131365878" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:id="@2131365885" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_toLeftOf="@2131365880">
+            <TextView android:textSize="14.0sp" android:textColor="#1c1c1c" android:ellipsize="3" android:id="@2131365886" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#999999" android:ellipsize="3" android:id="@2131365884" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:maxLines="1" android:singleLine="true" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="0x00000010" android:id="@2131365880" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="10.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="#ffffff" android:id="@2131365881" android:background="#fb5563" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" />
+            <ImageView android:id="@2131365879" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:scaleType="1" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

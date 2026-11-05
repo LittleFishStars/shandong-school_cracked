@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@2131165229" android:insetRight="@2131165229" android:insetTop="@2131165230" android:insetBottom="@2131165228"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="false">
+            <nine-patch android:src="@2131230834" android:tint="?2130969201" android:alpha="?16842803" />
+        </item>
+        <item android:state_focused="false" android:state_pressed="false">
+            <nine-patch android:src="@2131230834" android:tint="?2130969201" />
+        </item>
+        <item>
+            <nine-patch android:src="@2131230833" android:tint="?2130969199" />
+        </item>
+    </selector>
+</inset>

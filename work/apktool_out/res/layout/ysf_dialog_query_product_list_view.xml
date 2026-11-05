@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.unicorn.widget.pulltorefresh.PullToRefreshLayout android:orientation="1" android:id="@2131369500" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+        <com.qiyukf.unicorn.widget.pulltorefresh.PullableListView android:id="@2131369498" android:paddingBottom="4.0dip" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:listSelector="@17170445" android:divider="@2131101323" android:dividerHeight="0.0dip" />
+    </com.qiyukf.unicorn.widget.pulltorefresh.PullToRefreshLayout>
+    <TextView android:textSize="@2131166628" android:textColor="@2131101311" android:gravity="0x00000001" android:layout_gravity="0x00000011" android:id="@2131369499" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="60.0dip" android:drawableTop="@2131234541" android:drawablePadding="10.0dip" />
+</LinearLayout>

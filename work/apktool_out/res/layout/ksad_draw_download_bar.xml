@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.core.page.widget.TextProgressBar android:id="@2131363903" android:layout_width="-1" android:layout_height="-1" android:indeterminateOnly="false" android:progressDrawable="@2131232179" />
+    <com.kwad.sdk.widget.KsView android:id="@2131363904" android:background="@2131232376" android:layout_width="-1" android:layout_height="-1" />
+</merge>

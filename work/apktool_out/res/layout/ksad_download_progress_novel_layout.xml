@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.components.core.page.widget.TextProgressBar android:id="@2131364130" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:indeterminateOnly="false" android:progressDrawable="@2131232194" />
+    <TextView android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364088" android:background="@2131232188" android:layout_width="-1" android:layout_height="-1" app:ksad_downloadTextSize="14.0dip" />
+    <com.kwad.sdk.widget.KsView android:id="@2131363946" android:background="@2131232186" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

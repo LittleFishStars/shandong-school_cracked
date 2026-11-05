@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.common.page.statelayout.StateLayout android:tag="" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <LinearLayout android:orientation="1" android:layout_marginTop="16.0dip" style="@style/mall_layout_sub_bg_order_detail">
+                    <TextView android:tag="" style="@style/mall_tv_refund_detail_subtitle" />
+                    <TextView android:textSize="12.0sp" android:textColor="@2131099839" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@2131099809" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" />
+                    <LinearLayout android:tag="" style="@style/mall_ll_refund_detail_info1">
+                        <TextView android:layout_width="0.0dip" android:text="@2131953070" android:layout_weight="1.0" style="@style/mall_tv_refund_detail_info_name_gray" />
+                        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131232968" />
+                        <TextView android:textSize="14.0sp" android:tag="" android:layout_width="-2" android:layout_weight="0.0" style="@style/mall_tv_refund_detail_info_value" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mall_ll_refund_detail_info1">
+                        <TextView android:text="@2131953071" style="@style/mall_tv_refund_detail_info_name_gray" />
+                        <TextView android:textSize="14.0sp" android:tag="" style="@style/mall_tv_refund_detail_info_value" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ViewStub android:id="@2131368970" android:layout="@2131559928" style="@style/mall_layout_sub_bg_order_detail" />
+                <com.noober.background.view.BLConstraintLayout style="@style/mall_layout_sub_bg_order_detail">
+                    <TextView android:id="@2131368607" android:text="@2131953093" style="@style/mall_tv_refund_detail_subtitle" />
+                    <ImageView android:id="@2131363493" android:tag="" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="12.0dip" app:layout_constraintStart_toStartOf="@id/tv_sub_info" app:layout_constraintTop_toBottomOf="@id/tv_sub_info" />
+                    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:ellipsize="3" android:id="@2131368380" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="2" android:layout_marginStart="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_goods" app:layout_constraintTop_toTopOf="@id/iv_goods" />
+                    <TextView android:textSize="11.0sp" android:textColor="@2131099839" android:id="@2131368577" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tv_name" app:layout_constraintTop_toBottomOf="@id/tv_name" />
+                    <LinearLayout android:id="@2131364717" android:layout_marginTop="16.0dip" app:layout_constraintTop_toBottomOf="@id/iv_goods" style="@style/mall_ll_refund_detail_info2">
+                        <TextView android:text="@2131953077" style="@style/mall_tv_refund_detail_info_name" />
+                        <TextView android:tag="" style="@style/mall_tv_refund_detail_info_value" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@2131364716" app:layout_constraintTop_toBottomOf="@id/ll_info_price" style="@style/mall_ll_refund_detail_info2">
+                        <TextView android:text="@2131953076" style="@style/mall_tv_refund_detail_info_name" />
+                        <TextView android:tag="" android:drawablePadding="8.0dip" app:drawableEndCompat="@drawable/mall_ic_order_num_copy" style="@style/mall_tv_refund_detail_info_value" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@2131364718" app:layout_constraintTop_toBottomOf="@id/ll_info_num" style="@style/mall_ll_refund_detail_info2">
+                        <TextView android:text="@2131953079" style="@style/mall_tv_refund_detail_info_name" />
+                        <TextView android:tag="" style="@style/mall_tv_refund_detail_info_value" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@2131364719" app:layout_constraintTop_toBottomOf="@id/ll_info_reason" style="@style/mall_ll_refund_detail_info2">
+                        <TextView android:text="@2131953094" style="@style/mall_tv_refund_detail_info_name" />
+                        <TextView android:tag="" style="@style/mall_tv_refund_detail_info_value" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="0x00000030" android:id="@2131364715" app:layout_constraintTop_toBottomOf="@id/ll_info_time" style="@style/mall_ll_refund_detail_info2">
+                        <TextView android:text="@2131953068" style="@style/mall_tv_refund_detail_info_name" />
+                        <FrameLayout android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                            <TextView android:gravity="0x00800003" android:layout_gravity="0x00800005" android:tag="" android:layout_width="-2" style="@style/mall_tv_refund_detail_info_value" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@2131366757" android:tag="" android:layout_width="-2" android:layout_height="-2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_info_cert" />
+                </com.noober.background.view.BLConstraintLayout>
+                <com.huachenjie.mall.widget.OrderDetailServiceView android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20.0dip" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.huachenjie.common.page.statelayout.StateLayout>
+    <androidx.cardview.widget.CardView android:tag="" android:layout_width="-1" android:layout_height="-2" app:cardElevation="10.0dip">
+        <LinearLayout android:gravity="0x00800015" android:orientation="0" android:background="@2131101240" android:paddingTop="8.0dip" android:paddingBottom="34.0dip" android:layout_width="-1" android:layout_height="-2" android:paddingEnd="20.0dip">
+            <com.noober.background.view.BLButton android:tag="" android:text="@2131953067" style="@style/mall_button_my_order_list" />
+            <com.noober.background.view.BLButton android:tag="" android:text="@2131953072" style="@style/mall_button_my_order_list" />
+            <com.noober.background.view.BLButton android:tag="" android:text="@2131953069" style="@style/mall_button_my_order_list" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

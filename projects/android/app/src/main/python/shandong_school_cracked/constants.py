@@ -67,6 +67,21 @@ DEFAULT_MODEL = "samsung|SM-A5460"
 DEFAULT_SYS_VER = "14"
 DEFAULT_PLATFORM = "2"
 DEFAULT_CHANNEL = "other"
+
+# ══════════════════ 鸿蒙真机档案（--hm）══════════════════
+# 2026-11-05 Reqable 真机抓包（HarmonyOS NEXT / ALN-AL80 / App 8.7.1）实测值：
+#   platform="4"（鸿蒙）、appVersion 8.7.1 / buildVersion 26101314、
+#   deviceId 为 UUID v4、UA 由 App 另拼（ HM 版前缀不同，保持 ShanDong 前缀即可）。
+HM_PROFILE = {
+    "model": "huawei|ALN-AL80",
+    "brand": "huawei",
+    "system_version": "7.0.0",
+    "platform": "4",
+    "channel": "other",
+    "app_code": "SD001",
+}
+HM_APP_VERSION = "8.7.1"
+HM_BUILD_VERSION = "26101314"
 HEADER_APP = "run-front"
 HEADER_PV = "2"
 HEADER_E = "0"              # 请求体字段不加密（原样上送）
@@ -312,6 +327,18 @@ EP = {
     "works_visit":      Endpoint("api/works/updateVisit",       "updateVisit",       "api"),
     "account_personal": Endpoint("account/personal",            "personal",          "account"),
     "my_school_info":   Endpoint("mySchool/simpleInfo",         "simpleInfo",        "mySchool"),
+    # —— 2026-11-05 鸿蒙真机抓包实序（登录后→进跑步前）——
+    "works_config":     Endpoint("api/works/worksConfig",       "worksConfig",       "api"),
+    "jackpot_home":     Endpoint("api/jackpot/award/home",      "awardHome",         "api"),
+    "tasks_login_once": Endpoint("api/tasks/loginOnce",         "loginOnce",         "api"),
+    "common_config_v2": Endpoint("api/common/getCommonConfig",  "getCommonConfig",   "api"),
+    "search_suggest":   Endpoint("api/search/suggestion/list",  "suggestion",        "api"),
+    # schoolLetter 组：8.7.7 dex 只有 importantLetterList 等 6 个，redDot 是鸿蒙
+    # 8.7.1 新增（抓包实证）；task/getDescription 同理（8.7.7 无此路由）
+    "school_letter_red": Endpoint("schoolLetter/redDot",        "redDot",            "schoolLetter"),
+    "school_letter_list": Endpoint("schoolLetter/importantLetterList", "importantLetterList", "schoolLetter"),
+    "user_resource":    Endpoint("account/getUserResourceList", "getUserResourceList", "account"),
+    "task_description": Endpoint("task/getDescription",         "getDescription",    "task"),
 
     # ── 验证码（AJ-Captcha）──
     # 原版 20 个 *Api.java 里没有 captcha 路由，它由 H5/WebView 侧发起；

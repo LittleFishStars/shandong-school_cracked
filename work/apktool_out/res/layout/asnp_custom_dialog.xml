@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:background="@2131230869" android:layout_width="300.0dip" android:layout_height="-2">
+        <TextView android:textSize="@2131165284" android:textStyle="0x00000001" android:textColor="#000000" android:layout_gravity="0x00000011" android:id="@2131361931" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131165269" android:text="@2131951669" />
+        <TextView android:textSize="@2131165283" android:textColor="#000000" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131361930" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@2131165269" android:layout_marginTop="@2131165271" android:layout_marginRight="@2131165269" />
+        <View android:background="#f4f4f4" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginTop="@2131165274" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@2131165282" android:textColor="#6e6565" android:gravity="0x00000011" android:id="@2131361928" android:padding="@2131165269" android:layout_width="0.0dip" android:layout_height="-2" android:text="@2131951665" android:layout_weight="1.0" />
+            <View android:background="#f4f4f4" android:layout_width="1.0px" android:layout_height="-1" />
+            <TextView android:textSize="@2131165282" android:textColor="#0dcfe8" android:gravity="0x00000011" android:id="@2131361929" android:padding="@2131165269" android:layout_width="0.0dip" android:layout_height="-2" android:text="@2131951666" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@2131365397" android:background="@2131232867" android:padding="12.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.gt.api.base.view.gif.GifImageView2 android:layout_gravity="0x00000010" android:id="@2131365393" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="6" />
+    <LinearLayout android:layout_gravity="0x00000010" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="7.0dip">
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="5.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:ellipsize="3" android:id="@2131365399" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:maxLength="5" />
+            <TextView android:textSize="11.0sp" android:textColor="#99ffffff" android:ellipsize="3" android:id="@2131365391" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="1.0dip" android:maxWidth="200.0dip" android:maxLines="1" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ccffffff" android:ellipsize="3" android:id="@2131365401" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" android:layout_marginStart="5.0dip" />
+        <include android:id="@2131365416" android:visibility="0" android:layout_width="-2" android:layout_height="-2" layout="@layout/ltmb_ad_layout_native_privacy" />
+    </LinearLayout>
+</LinearLayout>

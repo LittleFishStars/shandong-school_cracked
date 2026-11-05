@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meishu.sdk.core.view.TouchAdContainer android:id="@2131365586" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131365780" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131365779" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginTop="38.0dip" android:layout_alignParentTop="true" android:paddingStart="16.0dip" android:paddingEnd="15.0dip">
+            <RelativeLayout android:id="@2131365775" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="14.0dip">
+                <ImageView android:id="@2131365774" android:layout_width="-2" android:layout_height="24.0dip" android:src="@2131233157" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <include android:id="@2131365689" android:layout_width="-2" android:layout_height="-2" layout="@layout/ms_ad_tag_view_left" />
+            <include android:id="@2131365690" android:visibility="2" android:layout_width="-2" android:layout_height="-2" layout="@layout/ms_ad_tag_view_right" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365778" android:background="@2131233134" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="-2" android:layout_height="30.0dip" android:text="" />
+            <RelativeLayout android:id="@2131365777" android:background="@2131233134" android:padding="10.0dip" android:visibility="0" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginStart="6.0dip">
+                <ImageView android:id="@2131365776" android:layout_width="-1" android:layout_height="-1" android:src="@2131233159" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@2131365781" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131365779" />
+        <View android:id="@2131365676" android:background="@17170445" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+</com.meishu.sdk.core.view.TouchAdContainer>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vanniktech.emoji.internal.MaxHeightSearchRecyclerView android:id="@2131366549" android:scrollbars="0x00000200" android:layout_width="-1" android:layout_height="-2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

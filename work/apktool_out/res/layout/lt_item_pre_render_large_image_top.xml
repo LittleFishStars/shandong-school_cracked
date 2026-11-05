@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131365708" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:gravity="0x00000011" android:id="@2131365701" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip">
+            <ImageView android:id="@2131365704" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" />
+            <com.ltmb.ltsdk.art.core.view.RoundImageView android:id="@2131365705" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" />
+            <RelativeLayout android:id="@2131365711" android:layout_width="-1" android:layout_height="-2" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#222222" android:ellipsize="3" android:id="@2131365710" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="1" android:layout_below="@2131365701" />
+        <TextView android:textSize="12.0sp" android:textColor="#222222" android:ellipsize="3" android:id="@2131365702" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="2" android:layout_below="@2131365710" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip">
+            <ImageView android:id="@2131365706" android:layout_width="40.0dip" android:layout_height="13.0dip" android:src="@2131232590" android:layout_below="@2131365702" />
+            <TextView android:textSize="12.0sp" android:textColor="#999999" android:ellipsize="3" android:id="@2131365703" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.0dip" android:text="" android:singleLine="true" android:layout_toRightOf="@2131365706" android:layout_alignBottom="@2131365706" />
+            <ImageView android:id="@2131365712" android:visibility="2" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="8.0dip" android:src="@2131232647" android:layout_toRightOf="@2131365703" android:layout_below="@2131365702" android:layout_alignBottom="@2131365706" />
+            <TextView android:textSize="12.0sp" android:textColor="#999999" android:ellipsize="3" android:id="@2131365709" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_toRightOf="@2131365712" android:layout_alignBottom="@2131365706" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="#333333" android:id="@2131365700" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5.0dip" android:text="" android:layout_alignBottom="@2131365706" android:layout_alignParentRight="true" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@2131365700">
+            <TextView android:textSize="8.0sp" android:textColor="#ffffff" android:id="@2131365172" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:text="@2131952869" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@2131365785" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+        <com.ltmb.ltsdk.art.core.view.ShakeImageView android:id="@2131365786" android:background="@2131232594" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:id="@2131365789" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@2131365786" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131365790" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_below="@2131365789" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

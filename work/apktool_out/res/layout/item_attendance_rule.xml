@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:padding="16.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="#fff5f5f5" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="4.0dip" />
+    <com.huachenjie.base.widget.AttendancePeriodView android:id="@2131366020" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_attendance_period" />
+</com.noober.background.view.BLLinearLayout>

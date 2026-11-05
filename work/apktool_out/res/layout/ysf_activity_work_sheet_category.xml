@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#33000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131369769" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="120.0dip">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <FrameLayout android:id="@2131369768" android:background="@2131234424" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="50.0dip" android:layout_above="@2131369553">
+                <TextView android:textSize="@2131166631" android:textColor="@2131101267" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131369759" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginRight="30.0dip" android:text="@2131954447" android:singleLine="true" />
+                <ImageView android:layout_gravity="0x00800015" android:id="@2131369758" android:padding="12.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4.0dip" android:src="@2131234503" android:contentDescription="@0" />
+            </FrameLayout>
+            <LinearLayout android:orientation="1" android:background="@2131101361" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131369374" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <ListView android:id="@2131369397" android:layout_width="-1" android:layout_height="-1" android:drawSelectorOnTop="true" android:cacheColorHint="@17170445" android:divider="@0" />
+                </LinearLayout>
+                <TextView android:id="@2131369700" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@2131369103" />
+                <Button android:textSize="18.0sp" android:id="@2131369103" android:background="@2131234453" android:layout_width="-1" android:layout_height="55.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:text="@2131954556" android:layout_alignParentBottom="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

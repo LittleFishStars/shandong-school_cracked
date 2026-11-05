@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kc.dw.ad.splash.SsdSplashRootView android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131365793" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131365795" android:background="#ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <com.kc.dw.core.view.gif.GifImageView android:id="@2131365794" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <RelativeLayout android:id="@2131365796" android:layout_width="-1" android:layout_height="-1" />
+    <com.kc.dw.core.view.SwipeView android:id="@2131365584" android:background="#00ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131365785" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="80.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@2131365804" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@2131365805" android:background="@2131233919" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131233962" />
+        </RelativeLayout>
+        <ImageView android:id="@2131365608" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131233961" />
+        <RelativeLayout android:id="@2131365787" android:background="@2131233918" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@2131365786" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131233955" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365789" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="1" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365790" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="1" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131367308" android:background="@2131233929" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="49.0dip" android:layout_marginRight="49.0dip" android:layout_marginBottom="30.0dip" android:text="" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="60.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:id="@2131367306" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:text="@2131953735" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <include android:layout_width="-2" android:layout_height="-2" layout="@layout/ssd_ad_tag_view_right" />
+    </FrameLayout>
+    <com.kc.dw.ad.splash.SplashSkipView android:id="@2131367318" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@16973852" />
+    <ImageView android:id="@2131365629" android:visibility="2" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:src="@2131233940" android:scaleType="6" android:layout_alignParentRight="true" />
+</com.kc.dw.ad.splash.SsdSplashRootView>

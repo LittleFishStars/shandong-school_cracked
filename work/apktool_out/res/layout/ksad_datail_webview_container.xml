@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131366718" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.core.page.recycle.NestedScrollWebView android:id="@2131364431" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:orientation="0" android:id="@2131364445" android:background="#fff2e6" android:visibility="2" android:layout_width="-1" android:layout_height="36.0dip" android:layout_alignTop="@2131364431">
+        <TextView android:textSize="14.0dip" android:textColor="@2131100161" android:ellipsize="4" android:layout_gravity="0x00000013" android:id="@2131364446" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="-1" />
+        <ImageView android:layout_gravity="0x00000015" android:id="@2131364447" android:background="@2131232407" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+</RelativeLayout>

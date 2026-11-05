@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.common.webview.MyWebView android:id="@2131368986" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+    <ImageView android:id="@2131363277" android:tag="" android:visibility="2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="6.0dip" android:src="@2131231761" android:layout_marginStart="12.0dip" />
+</FrameLayout>

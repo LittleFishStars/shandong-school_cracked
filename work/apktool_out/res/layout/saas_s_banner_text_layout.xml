@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@2131366840" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textColor="#000000" android:id="@2131366841" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" />
+        <View android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="#999999" android:id="@2131366837" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="1.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="50.0dip" android:layout_height="-1">
+        <com.yd.saas.open.widget.StarsLogoView android:background="@2131233788" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:background="@2131233750" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_marginHorizontal="5.0dip" android:paddingHorizontal="8.0dip" android:paddingVertical="4.0dip" />
+    <LinearLayout android:orientation="1" android:layout_width="22.0dip" android:layout_height="-2">
+        <ImageView android:id="@2131366836" android:padding="4.0dip" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131233775" />
+        <View android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@2131366838" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131233762" />
+    </LinearLayout>
+</LinearLayout>

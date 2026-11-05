@@ -1,0 +1,3 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName"
+    tools:keep="@drawable/ltmb_ad_*,@layout/ltmb_ad_*,@id/ltmb_ad_**,@style/ltmb_ad_*,@string/ltmb_ad_*,@anim/ltmb_ad_*,@color/ltmb_ad_*,@attr/ltmb_ad_*,@dimen/ltmb_ad_*" />

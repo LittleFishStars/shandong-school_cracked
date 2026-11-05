@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingTop="15.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@2131099655" android:ellipsize="3" android:gravity="0x00000001" android:id="@2131368657" android:paddingBottom="5.0dip" android:layout_width="-1" android:layout_height="-2" android:lines="1" />
+    <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2">
+        <LinearLayout android:orientation="1" android:paddingTop="10.0dip" android:paddingBottom="15.0dip" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="16.0sp" android:textColor="@2131099650" android:gravity="0x00000011" android:id="@2131368152" android:paddingBottom="5.0dip" android:layout_width="-1" android:layout_height="-2" android:text="" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+            <EditText android:textSize="16.0sp" android:textColor="@2131099650" android:textColorHint="#999999" android:id="@2131362836" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@2131369041" android:background="@2131099654" android:layout_width="-1" android:layout_height="0.5dip" />
+    <LinearLayout android:gravity="0x00800005" android:orientation="0" android:layout_width="-1" android:layout_height="50.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#666666" android:gravity="0x00000011" android:id="@2131368112" android:background="?16843534" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="-1" android:text="@2131954232" android:layout_weight="1.0" />
+        <View android:id="@2131369042" android:background="@2131099654" android:layout_width="0.5dip" android:layout_height="-1" />
+        <TextView android:textSize="16.0sp" android:gravity="0x00000011" android:id="@2131368150" android:background="?16843534" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="-1" android:text="@2131954234" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

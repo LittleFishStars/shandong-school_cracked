@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:id="@2131364274" android:background="@2131232320" android:paddingBottom="@2131165725" android:visibility="2" android:clickable="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.ad.splashscreen.widget.KsRotateView android:layout_gravity="0x00000001" android:id="@2131364276" android:layout_width="@2131165727" android:layout_height="@2131165724" android:layout_marginTop="@2131165726" />
+    <TextView android:textSize="16.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131364275" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="11.0dip" android:layout_marginBottom="3.0dip" android:text="" android:shadowColor="#95000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131364264" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:text="" android:shadowColor="#95000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+</LinearLayout>

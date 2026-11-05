@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131363759" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131364140" android:layout_width="54.0dip" android:layout_height="54.0dip" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@2131364144" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginBottom="13.0dip" android:text="" android:includeFontPadding="false" />
+    <com.kwad.sdk.widget.KSRatingBar android:layout_gravity="0x00000011" android:id="@2131364145" android:layout_width="-2" android:layout_height="10.0dip" app:ksad_clickable="false" app:ksad_halfstart="false" app:ksad_starCount="4" app:ksad_starEmpty="@drawable/ksad_star_unchecked" app:ksad_starFill="@drawable/ksad_star_checked" app:ksad_starImageHeight="9.0dip" app:ksad_starImagePadding="0.0dip" app:ksad_starImageWidth="10.0dip" app:ksad_totalStarCount="5" />
+    <com.kwad.components.ad.widget.KsAppTagsView android:gravity="0x00000011" android:orientation="0" android:id="@2131364147" android:layout_width="-1" android:layout_height="@2131165585" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:divider="@2131232281" android:showDividers="0x00000002" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131364138" android:layout_width="230.0dip" android:layout_height="-2" android:layout_marginBottom="24.0dip" android:maxLines="2" />
+    <FrameLayout android:id="@2131364142" android:focusable="true" android:clickable="true" android:layout_width="230.0dip" style="@style/ksad_RewardCardBtnInstall">
+        <Button android:textSize="15.0sp" android:textColor="@17170443" android:layout_gravity="0x00000011" android:id="@2131364143" android:background="@17170445" android:layout_width="-1" android:layout_height="-1" />
+        <Button android:textSize="15.0sp" android:textColor="@17170443" android:layout_gravity="0x00000011" android:id="@2131364141" android:background="@17170445" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131366718" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zj.adx.sdk.lz.component.HorizontalView android:id="@2131363164" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131364482" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+        <ImageView android:id="@2131364483" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+        <ImageView android:id="@2131364484" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" android:layout_centerInParent="true" />
+    </com.zj.adx.sdk.lz.component.HorizontalView>
+    <ImageView android:id="@2131362056" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" android:layout_centerInParent="true" />
+    <ImageView android:id="@2131363178" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+    <TextView android:textColor="@2131101059" android:id="@2131363153" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@2131953383" android:layout_centerInParent="true" />
+    <ImageView android:id="@2131365117" android:visibility="0" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@2131234837" android:scaleType="7" android:layout_centerInParent="true" android:rotation="15.0" />
+    <LinearLayout android:id="@2131362343" android:background="@2131234810" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="36.5dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@2131166441" android:textColor="@2131101059" android:layout_width="-2" android:layout_height="-2" android:text="@2131953379" />
+    </LinearLayout>
+</RelativeLayout>

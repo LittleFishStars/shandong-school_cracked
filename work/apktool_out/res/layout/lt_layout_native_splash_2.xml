@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:id="@2131365180" android:background="@2131232648" android:padding="3.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+        <androidx.cardview.widget.CardView android:id="@2131365178" android:background="#ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true" app:cardCornerRadius="10.0dip" app:cardElevation="0.0dip">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+                <RelativeLayout android:id="@2131361896" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true">
+                    <com.ltmb.ltsdk.art.core.view.gif.GifImageView android:id="@2131364571" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+                    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip">
+                        <ImageView android:id="@2131364570" android:visibility="0" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" />
+                        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:id="@2131364574" android:layout_width="-2" android:layout_height="-1" android:text="" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                            <ImageView android:id="@2131364572" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:src="@2131232643" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:id="@2131364569" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131365175" android:background="@2131232605" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="@2131952868" android:drawablePadding="10.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

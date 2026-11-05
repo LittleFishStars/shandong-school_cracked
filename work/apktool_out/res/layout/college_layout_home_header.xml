@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363682" android:tag="" android:layout_width="-1" android:layout_height="240.0dip" android:scaleType="6" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="240.0dip">
+        <ImageView android:id="@2131363612" android:tag="" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="44.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <com.noober.background.view.BLView android:layout_width="52.0dip" android:layout_height="52.0dip" app:bl_corners_radius="26.0dip" app:bl_stroke_color="#ffffffff" app:bl_stroke_width="2.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_school_badge" app:layout_constraintEnd_toEndOf="@id/iv_school_badge" app:layout_constraintStart_toStartOf="@id/iv_school_badge" app:layout_constraintTop_toTopOf="@id/iv_school_badge" />
+        <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginStart="12.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_school_badge" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_school_badge" app:layout_constraintTop_toTopOf="@id/iv_school_badge">
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:ellipsize="3" android:id="@2131368525" android:tag="" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff191f20" android:ellipsize="3" android:tag="" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="216.0dip" app:bl_corners_topLeftRadius="24.0dip" app:bl_corners_topRightRadius="24.0dip" app:bl_gradient_angle="270" app:bl_gradient_endColor="#fff7f7f7" app:bl_gradient_startColor="#ffffffff">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="" android:layout_marginStart="16.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:id="@2131362233" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="11.329987dip" android:src="@2131231205" app:layout_constraintDimensionRatio="343:121" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@2131231221" app:layout_constraintDimensionRatio="294:86" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.2686" />
+            <View android:id="@2131368853" android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_school_sport" app:layout_constraintEnd_toStartOf="@id/v_ai" app:layout_constraintStart_toStartOf="@id/bg_school_sport" app:layout_constraintTop_toTopOf="@id/bg_school_sport" />
+            <View android:id="@2131368782" android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_school_sport" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/v_sun_run" app:layout_constraintTop_toTopOf="@id/bg_school_sport" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout android:gravity="0x00000050" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <ImageView android:layout_width="79.0dip" android:layout_height="48.0dip" android:src="@2131231245" />
+                <TextView android:textSize="13.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:layout_width="79.0dip" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:src="@2131231242" />
+                    <ImageView android:layout_gravity="0x00000005" android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131231243" />
+                </FrameLayout>
+                <TextView android:textSize="13.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <ImageView android:layout_width="79.0dip" android:layout_height="48.0dip" android:src="@2131231244" />
+                <TextView android:textSize="13.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                <ImageView android:layout_width="79.0dip" android:layout_height="48.0dip" android:src="@2131231246" />
+                <TextView android:textSize="13.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <com.youth.banner.Banner android:id="@2131362066" android:layout_width="-1" android:layout_height="0.0dip" app:banner_indicator_normal_color="#80ffffff" app:banner_indicator_normal_width="6.0dip" app:banner_indicator_selected_color="@color/white" app:banner_indicator_selected_width="6.0dip" app:banner_indicator_space="8.0dip" app:banner_loop_time="3000" app:banner_radius="20.0dip" app:layout_constraintDimensionRatio="343:100" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" android:layout_marginStart="16.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+</FrameLayout>

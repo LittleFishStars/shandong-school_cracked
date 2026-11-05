@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="265.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:background="@2131101331" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@2131166630" android:textColor="@2131101264" android:id="@2131369576" android:padding="10.0dip" android:clickable="false" android:layout_width="-1" android:layout_height="-2" />
+        <include layout="@layout/ysf_include_divider" />
+        <com.qiyukf.unicorn.widget.ScrollListView android:id="@2131369393" android:layout_width="-1" android:layout_height="-2" android:listSelector="@17170445" android:divider="@0" />
+        <include layout="@layout/ysf_message_item_bot_footer" />
+    </LinearLayout>
+</LinearLayout>

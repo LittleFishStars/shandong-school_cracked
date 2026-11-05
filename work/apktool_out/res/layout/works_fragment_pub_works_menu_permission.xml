@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:paddingBottom="40.0dip" android:layout_width="-1" android:layout_height="-2" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_solid_color="#fff5f5f5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:layout_width="20.0dip" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" app:bl_corners_radius="1.0dip" app:bl_solid_color="#ffcccccc" />
+    <com.noober.background.view.BLFrameLayout style="@style/works_fl_publish_work_menu_permission">
+        <TextView android:tag="" android:text="@2131954150" app:drawableStartCompat="@drawable/works_ic_publish_permission_public" style="@style/works_tv_publish_work_menu_permission" />
+        <ImageView android:tag="" style="@style/works_iv_publish_work_menu_permission" />
+    </com.noober.background.view.BLFrameLayout>
+    <com.noober.background.view.BLFrameLayout style="@style/works_fl_publish_work_menu_permission">
+        <TextView android:tag="" android:text="@2131954148" app:drawableStartCompat="@drawable/works_ic_publish_permission_mine" style="@style/works_tv_publish_work_menu_permission" />
+        <ImageView android:tag="" style="@style/works_iv_publish_work_menu_permission" />
+    </com.noober.background.view.BLFrameLayout>
+    <com.noober.background.view.BLFrameLayout android:tag="" style="@style/works_fl_publish_work_menu_permission">
+        <TextView android:tag="" android:text="@2131954146" app:drawableStartCompat="@drawable/works_ic_publish_permission_friend" style="@style/works_tv_publish_work_menu_permission" />
+        <ImageView android:tag="" style="@style/works_iv_publish_work_menu_permission" />
+    </com.noober.background.view.BLFrameLayout>
+</com.noober.background.view.BLLinearLayout>

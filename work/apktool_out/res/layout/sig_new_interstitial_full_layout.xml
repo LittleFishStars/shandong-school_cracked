@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="0x00000011" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131367129" android:background="@17170444" android:layout_width="-1" android:layout_height="-1" />
+    <com.sigmob.sdk.newInterstitial.NewInterstitialHeaderView android:id="@2131367131" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+    <RelativeLayout android:background="@2131233871" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <com.sigmob.sdk.newInterstitial.SigAdInfoView android:id="@2131367149" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" />
+        <FrameLayout android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@2131367149" android:layout_alignLeft="@2131367149" android:layout_alignRight="@2131367149">
+            <Button android:textSize="18.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000011" android:id="@2131367159" android:background="@2131233870" android:layout_width="-1" android:layout_height="-1" android:text="" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

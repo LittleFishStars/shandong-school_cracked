@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:background="#514863" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131367641">
+        <View android:layout_gravity="0x00000011" android:id="@2131368845" android:background="@2131233724" android:layout_width="130.0dip" android:layout_height="130.0dip" />
+        <View android:layout_gravity="0x00000011" android:id="@2131368846" android:background="@2131233724" android:layout_width="130.0dip" android:layout_height="130.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#4f4f4f" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131368844" android:background="@2131233723" android:layout_width="130.0dip" android:layout_height="130.0dip" android:text="" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@2131101240" android:id="@2131367899" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:layout_below="@2131367641" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@2131101240" android:id="@2131367977" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_below="@2131367899" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@2131101240" android:id="@2131367940" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_below="@2131367977" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@2131101240" android:id="@2131367788" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_below="@2131367940" android:layout_centerHorizontal="true" />
+</RelativeLayout>

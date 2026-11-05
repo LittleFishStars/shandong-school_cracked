@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fl_adx_template_half_text" />
+    <View android:layout_width="16.0dip" android:layout_height="1.0dip" />
+    <include layout="@layout/fl_adx_template_half_media" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="0x00000001" android:background="@2131234361" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fl.saas.base.widget.ShakeView android:id="@2131369059" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@2131369059">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+</RelativeLayout>

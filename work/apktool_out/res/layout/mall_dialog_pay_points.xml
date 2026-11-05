@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:paddingBottom="33.0dip" android:layout_width="-1" android:layout_height="-2" app:bl_corners_leftRadius="20.0dip" app:bl_corners_rightRadius="20.0dip" app:bl_solid_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:layout_gravity="0x00000031" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="@2131953109" />
+        <ImageView android:layout_gravity="0x00800005" android:tag="" android:padding="17.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@2131231796" app:tint="#ff8997a4" />
+    </FrameLayout>
+    <LinearLayout android:gravity="0x00000050" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="56.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:layout_width="-2" android:layout_height="-2" android:text="@2131953106" />
+        <TextView android:textSize="48.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:id="@2131368457" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff8997a4" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:text="@2131953107" />
+    <com.noober.background.view.BLButton android:textSize="16.0sp" android:textStyle="0x00000001" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="60.0dip" android:minHeight="44.0dip" android:text="@2131953108" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff191f20" app:bl_enabled_textColor="#ff0bd3ff" app:bl_unEnabled_solid_color="#ffc1c1c1" app:bl_unEnabled_textColor="@color/white" />
+</LinearLayout>

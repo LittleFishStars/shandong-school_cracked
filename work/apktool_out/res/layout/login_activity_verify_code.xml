@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView style="@style/login_bg_head_gradual" />
+    <com.noober.background.view.BLLinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout style="@style/login_ll_common_title">
+            <TextView android:text="@2131952844" style="@style/login_tv_common_title" />
+            <ImageView android:src="@2131232584" style="@style/login_iv_common_title" />
+        </LinearLayout>
+        <TextView android:tag="" style="@style/login_tv_common_title_content" />
+        <com.huachenjie.base.view.VerifyCodeEditText android:id="@2131362854" android:layout_width="-1" android:layout_height="64.0dip" android:layout_marginTop="120.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+        <TextView android:tag="" android:layout_marginTop="40.0dip" style="@style/login_bt_next" />
+        <View android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131100240" android:tag="" android:layout_width="-2" android:layout_height="20.0dip" android:layout_marginBottom="54.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+    <ImageView android:tag="" style="@style/login_iv_common_back" />
+</FrameLayout>

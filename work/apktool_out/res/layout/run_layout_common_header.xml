@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:background="@2131099817" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:id="@2131368622" android:layout_width="-2" android:layout_height="-2" android:text="@2131952539" />
+    <com.huachenjie.common.widget.CustomerTextView android:textSize="90.0sp" android:textColor="@2131101240" android:id="@2131368191" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" />
+</LinearLayout>

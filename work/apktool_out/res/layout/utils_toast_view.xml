@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:background="@2131234128" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="-2" android:layout_height="-2" android:minHeight="30.0dip" class="com.blankj.utilcode.util.ToastUtils$UtilsMaxWidthRelativeLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131368767" android:visibility="2" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <View android:id="@2131368769" android:visibility="2" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <View android:id="@2131368768" android:visibility="2" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@2131368766" android:visibility="2" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="4.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#de000000" android:gravity="0x00000011" android:id="@16908299" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@2131368768" android:layout_toRightOf="@2131368767" android:layout_above="@2131368766" android:layout_below="@2131368769" android:layout_centerInParent="true" android:lineSpacingExtra="2.0dip" android:fontFamily="" />
+</view>

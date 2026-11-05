@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131366617" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131365402" android:background="@2131232870" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <FrameLayout android:layout_gravity="0x00000011" android:id="@2131365414" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true" />
+    <com.ltmb.ltsdk.gt.api.base.view.gif.GifImageView2 android:id="@2131365413" android:layout_width="-1" android:layout_height="-2" android:layout_margin="50.0dip" android:scaleType="3" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131365417" android:padding="5.0dip" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365419" android:background="@2131232882" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" android:layout_alignParentTop="true" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131365421" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+            <ImageView android:id="@2131365422" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@2131232756" android:scaleType="6" android:layout_marginEnd="5.0dip" />
+            <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131365409" android:background="@2131232881" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365410" android:layout_width="-2" android:layout_height="-2" />
+            </LinearLayout>
+            <ImageView android:id="@2131365403" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@2131232753" android:scaleType="7" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <RelativeLayout android:id="@2131365418" android:background="@17170445" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="200.0dip" android:layout_centerHorizontal="true" />
+        <include android:id="@2131365394" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:layout_above="@2131365411" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" layout="@layout/ltmb_ad_layout_app_info" />
+        <include android:id="@2131365395" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:layout_above="@2131365411" android:layout_marginStart="16.0dip" layout="@layout/ltmb_ad_layout_app_info_land" />
+        <RelativeLayout android:orientation="1" android:id="@2131365411" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true">
+            <FrameLayout android:layout_gravity="0x00000001" android:id="@2131365407" android:clipChildren="true" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="8.0dip" android:layout_centerHorizontal="true">
+                <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000001" android:orientation="1" android:id="@2131365408" android:background="@2131232874" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" android:minHeight="50.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365404" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365405" android:layout_width="-2" android:layout_height="-2" />
+                </LinearLayout>
+                <com.ltmb.ltsdk.gt.api.base.view.TbLightingAnimationView android:layout_gravity="0x00000011" android:id="@2131365406" android:visibility="2" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+            </FrameLayout>
+            <include android:id="@2131365415" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="@2131365407" android:layout_centerHorizontal="true" layout="@layout/ltmb_ad_layout_native_privacy" />
+            <View android:id="@2131365420" android:background="#ffffffff" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_below="@2131365407" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+            <ImageView android:id="@2131365412" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@2131232754" android:scaleType="6" android:layout_below="@2131365407" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

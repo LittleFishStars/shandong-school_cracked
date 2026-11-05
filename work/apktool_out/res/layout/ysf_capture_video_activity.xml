@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131101263" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131369279" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:src="@2131234582" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true">
+        <SurfaceView android:id="@2131368872" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+    <ImageView android:id="@2131367386" android:layout_width="36.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@2131234490" android:layout_alignParentRight="true" android:contentDescription="" />
+    <ImageView android:id="@2131369447" android:layout_width="36.0dip" android:layout_height="32.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@2131234480" android:layout_toLeftOf="@2131367386" android:contentDescription="" />
+    <LinearLayout android:orientation="0" android:background="@2131101359" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="0x00000010" android:id="@2131366545" android:background="@2131234684" android:layout_width="-2" android:layout_height="-2" android:contentDescription="" />
+        <TextView android:textColor="@2131101361" android:id="@2131366544" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:text="" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@2131369277" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="60.0dip" android:layout_marginBottom="60.0dip" android:src="@2131234576" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@2131369278" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="60.0dip" android:src="@2131234577" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@2131366543" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="" />
+    <ImageView android:id="@2131369311" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="60.0dip" android:src="@2131234475" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <include layout="@layout/ysf_include_video_progress_layout" />
+</RelativeLayout>

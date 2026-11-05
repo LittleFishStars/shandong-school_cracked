@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zj.adx.sdk.component.videoplayer.NiceVideoPlayer android:id="@2131368914" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363190" android:background="@2131101059" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+</RelativeLayout>

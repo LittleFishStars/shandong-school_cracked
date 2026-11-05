@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131362707" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.common.webview.MyWebView android:id="@2131368986" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131367641" />
+    <ProgressBar android:id="@2131368987" android:visibility="2" android:layout_width="-1" android:layout_height="3.0dip" android:progressDrawable="@2131233829" style="?16842872" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:background="@2131234391" android:visibility="0" android:layout_width="-1" android:layout_height="480.0dip">
+        <FrameLayout android:layout_width="-1" android:layout_height="48.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@2131101267" android:ellipsize="3" android:layout_gravity="0x00000010" android:id="@2131369595" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginRight="42.0dip" android:text="@2131954610" android:maxLines="1" />
+            <ImageView android:layout_gravity="0x00000015" android:id="@2131369284" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="16.0dip" android:src="@2131234503" />
+        </FrameLayout>
+        <include layout="@layout/ysf_include_divider" />
+        <LinearLayout android:orientation="1" android:id="@2131369340" android:visibility="1" android:layout_width="-1" android:layout_height="432.0dip">
+            <HorizontalScrollView android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="46.0dip">
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131369342" android:layout_width="-2" android:layout_height="-1" />
+            </HorizontalScrollView>
+            <ImageView android:id="@2131369263" android:background="@2131101272" android:layout_width="70.0dip" android:layout_height="3.0dip" />
+            <include layout="@layout/ysf_include_divider" />
+            <LinearLayout android:orientation="0" android:id="@2131369341" android:visibility="2" android:layout_width="-1" android:layout_height="45.0dip">
+                <FrameLayout android:orientation="0" android:background="@2131234460" android:layout_width="0.0dip" android:layout_height="-1" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:layout_weight="9.0" android:layout_marginHorizontal="12.0dip">
+                    <ImageView android:layout_gravity="0x00000010" android:id="@2131369287" android:background="@2131234568" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="12.0dip" />
+                    <EditText android:textSize="14.0sp" android:textColor="@2131101267" android:layout_gravity="0x00000010" android:id="@2131369217" android:background="@17170445" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="47.0dip" android:layout_marginRight="30.0dip" android:hint="@2131954596" android:singleLine="true" android:imeOptions="0x00000003" />
+                    <ImageView android:textSize="20.0sp" android:gravity="0x00000010" android:layout_gravity="0x00000015" android:id="@2131369286" android:visibility="2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="12.0dip" android:src="@2131234500" />
+                </FrameLayout>
+                <TextView android:textSize="16.0sp" android:textColor="@2131101284" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131369285" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="12.0dip" android:text="@2131954301" />
+            </LinearLayout>
+            <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@2131369749" android:layout_width="-1" android:layout_height="-1" />
+        </LinearLayout>
+        <TextView android:textSize="@2131166628" android:textColor="@2131101311" android:gravity="0x00000001" android:layout_gravity="0x00000011" android:id="@2131369588" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="60.0dip" android:drawableTop="@2131234541" android:drawablePadding="10.0dip" />
+    </LinearLayout>
+</FrameLayout>

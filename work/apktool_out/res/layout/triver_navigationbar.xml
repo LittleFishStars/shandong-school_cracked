@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131367572" android:layout_width="-1" android:layout_height="@2131166537"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364598" android:layout_width="-2" android:layout_height="-1" />
+    <LinearLayout android:gravity="0x00800015" android:orientation="0" android:id="@2131366632" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131362398" android:layout_width="-2" android:layout_height="-1" android:layout_centerHorizontal="true" />
+</RelativeLayout>

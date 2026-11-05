@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ubixnow.core.common.ui.UMNRelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <com.ubixnow.core.common.ui.UMNFrameLayout android:id="@2131363049" android:background="@2131234076" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true">
+            <com.ubixnow.core.utils.img.CustomImageView android:id="@2131367258" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" />
+        </com.ubixnow.core.common.ui.UMNFrameLayout>
+        <com.ubixnow.adtype.splash.common.CountdownView android:id="@2131368745" android:visibility="1" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="27.0dip" android:layout_alignParentRight="true" app:umn_center_text="跳过" app:umn_center_text_color="#ffffffff" app:umn_center_text_size="11.0sp" app:umn_duration="5.0" app:umn_progress_color="#00000000" app:umn_progress_light_color="#ff84e766" />
+        <TextView android:textSize="14.0dip" android:textColor="@2131099792" android:gravity="0x00000011" android:id="@2131367556" android:background="@2131234121" android:visibility="0" android:layout_width="65.0dip" android:layout_height="35.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="16.0dip" android:text="" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@2131368746" android:background="@2131234119" android:layout_width="-2" android:layout_height="-2" android:layout_above="@2131368349" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" android:layout_centerVertical="true">
+                <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:id="@2131362330" android:layout_width="-2" android:layout_height="-2" android:text="" android:includeFontPadding="false" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131362331" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:text="" android:includeFontPadding="false" />
+            </LinearLayout>
+            <ImageView android:id="@2131366629" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131234120" android:layout_centerVertical="true" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textSize="11.0sp" android:textColor="#88ffffff" android:orientation="0" android:id="@2131368349" android:background="#66666666" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:paddingBottom="3.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginBottom="5.0dip" android:text="" android:layout_alignLeft="@2131363049" android:layout_alignBottom="@2131363049" android:layout_alignStart="@2131363049" />
+    </RelativeLayout>
+</com.ubixnow.core.common.ui.UMNRelativeLayout>

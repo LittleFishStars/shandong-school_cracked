@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="68.0dip" android:layout_centerVertical="true" android:paddingHorizontal="10.0dip" android:paddingVertical="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131367335" android:visibility="2" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginHorizontal="6.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="#333333" android:ellipsize="3" android:id="@2131367336" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginVertical="3.0dip">
+            <TextView android:textSize="10.0sp" android:textColor="#fff97c7c" android:id="@2131367339" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="10.0sp" android:textColor="#626665" android:id="@2131367337" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ProgressBar android:id="@2131367338" android:layout_width="-1" android:layout_height="6.0dip" android:max="100" android:progressDrawable="@2131233779" android:layout_below="@2131367339" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+</LinearLayout>

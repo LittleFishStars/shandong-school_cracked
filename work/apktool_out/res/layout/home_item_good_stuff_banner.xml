@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="" android:background="#ff4681c8" android:layout_width="-1" android:layout_height="-2" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-2">
+        <com.youth.banner.Banner android:id="@2131362062" android:layout_width="0.0dip" android:layout_height="0.0dip" app:banner_indicator_marginBottom="12.0dip" app:banner_indicator_normal_color="#80ffffff" app:banner_indicator_normal_width="6.0dip" app:banner_indicator_selected_color="@color/white" app:banner_indicator_selected_width="6.0dip" app:banner_indicator_space="8.0dip" app:banner_loop_time="3000" app:banner_radius="12.0dip" app:layout_constraintDimensionRatio="177:220" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

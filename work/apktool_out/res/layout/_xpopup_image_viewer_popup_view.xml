@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131362537" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lxj.xpopup.widget.BlankView android:id="@2131366054" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+    <com.lxj.xpopup.widget.PhotoViewContainer android:id="@2131366025" android:layout_width="-1" android:layout_height="-1">
+        <com.lxj.xpopup.widget.HackyViewPager android:id="@2131365997" android:layout_width="-1" android:layout_height="-2" />
+    </com.lxj.xpopup.widget.PhotoViewContainer>
+    <TextView android:textSize="16.0sp" android:textColor="@17170443" android:layout_gravity="0x00000050" android:id="@2131368424" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20.0dip" android:layout_marginStart="25.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@17170443" android:layout_gravity="0x00000055" android:id="@2131368518" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20.0dip" android:text="@2131954235" android:layout_marginEnd="25.0dip" />
+</FrameLayout>

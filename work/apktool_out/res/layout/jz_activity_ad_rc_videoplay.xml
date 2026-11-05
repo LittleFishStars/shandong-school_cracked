@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131366722" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:id="@2131368872" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131364549" />
+    <ImageView android:id="@2131363289" android:background="#000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131364549" />
+    <RelativeLayout android:id="@2131364549" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131363695" android:visibility="0" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@2131755011" android:layout_marginStart="30.0dip" android:layout_marginVertical="16.0dip" />
+        <LinearLayout android:gravity="0x00000010" android:id="@2131364548" android:background="@2131233449" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:paddingStart="8.0dip" android:paddingEnd="5.0dip" android:layout_marginEnd="30.0dip" android:layout_marginVertical="16.0dip" android:paddingVertical="5.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131367939" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368138" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2.0dip" android:minEms="2" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@2131363323" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="3.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@2131364546" android:layout_width="-1" android:layout_height="160.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

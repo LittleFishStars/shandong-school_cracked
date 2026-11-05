@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@2131365575" android:paddingTop="@2131166295" android:paddingBottom="@2131166293" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+        <com.google.android.material.button.MaterialButton android:gravity="0x00800013" android:layout_gravity="0x00800003" android:id="@2131365576" android:layout_width="-2" android:layout_height="@2131166294" android:insetTop="0.0dip" android:insetBottom="0.0dip" app:icon="@drawable/material_ic_menu_arrow_down_black_24dp" app:iconGravity="textEnd" app:iconPadding="4.0dip" style="?materialCalendarYearNavigationButton" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:gravity="0x00000011" android:id="@2131365578" android:layout_width="@2131166348" android:layout_height="@2131166294" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@2131953233" app:icon="@drawable/material_ic_keyboard_arrow_previous_black_24dp" style="?materialCalendarMonthNavigationButton" />
+    <com.google.android.material.button.MaterialButton android:gravity="0x00000011" android:id="@2131365577" android:layout_width="@2131166348" android:layout_height="@2131166294" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@2131953232" app:icon="@drawable/material_ic_keyboard_arrow_next_black_24dp" style="?materialCalendarMonthNavigationButton" />
+</LinearLayout>

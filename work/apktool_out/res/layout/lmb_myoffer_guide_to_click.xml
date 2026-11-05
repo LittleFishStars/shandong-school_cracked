@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WaveAnimImageView android:id="@2131365071" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WaveAnimImageView android:id="@2131365072" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@2131364948" android:layout_width="100.0dip" android:layout_height="110.0dip" android:layout_marginLeft="100.0dip" android:layout_marginTop="100.0dip" android:scaleType="1" android:layout_alignLeft="@2131365071" android:layout_alignTop="@2131365071" />
+    <TextView android:textSize="18.0dip" android:textColor="#ffffff" android:id="@2131364949" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:text="@2131952714" android:layout_below="@2131364948" android:layout_centerHorizontal="true" />
+</merge>

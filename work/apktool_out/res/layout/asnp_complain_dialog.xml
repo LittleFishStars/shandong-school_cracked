@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="1" android:id="@2131362502" android:background="@2131230865" android:padding="20.0dip" android:layout_width="280.0dip" android:layout_height="-2">
+        <ImageView android:id="@2131362501" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@2131230863" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@2131362506" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_below="@2131362501">
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131362513" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:id="@2131362511" android:background="@2131230867" android:padding="8.0dip" android:layout_width="-1" android:layout_height="-2" android:hint="@2131951668" android:drawableLeft="@2131230864" android:drawablePadding="5.0dip" android:layout_below="@2131362513" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@2131362507" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="16.0dip" android:id="@2131362510" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" android:layout_centerHorizontal="true" />
+            <View android:id="@2131362503" android:background="@2131099688" android:layout_width="-1" android:layout_height="0.5dip" android:layout_marginTop="15.0dip" android:layout_below="@2131362510" />
+            <EditText android:textSize="13.0dip" android:gravity="0x00000003" android:id="@2131362504" android:padding="8.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15.0dip" android:maxLines="8" android:minLines="8" android:layout_below="@2131362503" android:textCursorDrawable="@2131230868" />
+            <TextView android:id="@2131362508" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:hint="" android:layout_alignBottom="@2131362504" android:layout_marginEnd="10.0dip" android:layout_alignEnd="@2131362504" />
+            <TextView android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131362509" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="" android:layout_below="@2131362504" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

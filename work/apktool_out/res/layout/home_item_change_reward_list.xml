@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLRelativeLayout android:tag="" android:padding="16.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLImageView android:id="@2131363387" android:tag="" android:padding="1.0dip" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginEnd="12.0dip" app:bl_corners_radius="12.0dip" app:bl_stroke_color="#ffe7e7e7" app:bl_stroke_width="1.0dip" />
+    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#121411" android:ellipsize="3" android:id="@2131368380" android:tag="" android:layout_width="-2" android:layout_height="-2" android:lines="2" android:layout_toEndOf="@2131363387" />
+    <com.huachenjie.mall.widget.PriceView android:textSize="12.0sp" android:id="@2131366086" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131368380" android:fontFamily="@2131296258" android:layout_toEndOf="@2131363387" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_money_size="12.0sp" />
+    <TextView android:textSize="12.0sp" android:textColor="#888988" android:gravity="0x00000010" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@2131366086" android:layout_alignBottom="@2131366086" android:layout_alignParentEnd="true" />
+    <com.noober.background.view.BLTextView android:id="@2131368229" android:tag="" style="@style/home_reward_list_btn" />
+</com.noober.background.view.BLRelativeLayout>

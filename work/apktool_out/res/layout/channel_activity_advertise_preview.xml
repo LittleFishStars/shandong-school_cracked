@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.huachenjie.common.widget.CommonBanner android:id="@2131362062" android:tag="" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff2c3e50" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

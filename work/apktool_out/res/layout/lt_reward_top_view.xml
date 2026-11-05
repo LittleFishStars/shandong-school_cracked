@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundLinearLayout android:gravity="0x00000010" android:layout_gravity="0x00800033" android:orientation="0" android:background="#99333333" android:paddingLeft="5.0dip" android:layout_width="-2" android:layout_height="30.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="16.0dip" app:lt_clip_background="true" app:lt_round_corner="10.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="#ffffff" android:paddingRight="5.0dip" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <View android:background="#ffffff" android:layout_width="2.0px" android:layout_height="12.0dip" />
+        <ImageView android:gravity="0x00000011" android:id="@2131366194" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131232620" android:scaleType="5" android:contentDescription="" />
+    </com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundLinearLayout>
+    <com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundLinearLayout android:gravity="0x00000011" android:layout_gravity="0x00800035" android:orientation="0" android:id="@2131366162" android:background="#99333333" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="-2" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" app:lt_clip_background="true" app:lt_round_corner="10.0dip">
+        <ImageView android:id="@2131366182" android:visibility="2" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131232624" android:contentDescription="" />
+        <TextView android:textSize="13.0dip" android:textColor="@2131100252" android:gravity="0x00000011" android:id="@2131366193" android:paddingLeft="5.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="30.0dip" android:minWidth="30.0dip" android:text="" />
+        <ImageView android:padding="5.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131232629" android:contentDescription="" />
+    </com.ltmb.ltsdk.core.fy.ptgapi.widget.PtgRoundLinearLayout>
+</merge>

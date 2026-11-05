@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@2131099817" android:layout_width="-1" android:layout_height="-2" android:layout_below="@2131366687"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233504" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131100980" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="@2131952539" />
+        <com.huachenjie.common.widget.CustomerTextView android:textSize="32.0sp" android:textColor="@2131101240" android:id="@2131368191" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233505" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131100980" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="@2131952190" />
+        <com.huachenjie.common.widget.BackgroundChronometer android:textSize="32.0sp" android:textColor="@2131101240" android:id="@2131368158" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:format="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233507" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131100980" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="@2131953325" />
+        <com.huachenjie.common.widget.CustomerTextView android:textSize="32.0sp" android:textColor="@2131101240" android:id="@2131368065" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

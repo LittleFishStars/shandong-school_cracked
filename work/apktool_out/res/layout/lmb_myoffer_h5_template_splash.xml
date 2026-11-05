@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.RoundCornerRelativeLayout android:id="@2131364989" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.PlayerView android:id="@2131364993" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    </com.ltmb.ltsdk.core.tp.sdk.basead.ui.RoundCornerRelativeLayout>
+    <include layout="@layout/lmb_myoffer_include_splash_ad_layout_skip_area" />
+</merge>

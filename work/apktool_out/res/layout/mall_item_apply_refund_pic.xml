@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_margin="4.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:tag="" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:layout_gravity="0x00800035" android:id="@2131363448" android:padding="4.0dip" android:layout_width="-2" android:layout_height="-2" android:src="@2131232965" />
+</FrameLayout>

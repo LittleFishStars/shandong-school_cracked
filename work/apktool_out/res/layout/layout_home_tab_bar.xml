@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="@2131165297" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <com.noober.background.view.BLView android:layout_width="-1" android:layout_height="8.0dip" app:bl_gradient_endColor="#0d000000" app:bl_gradient_startColor="#00000000" />
+        <View android:background="@2131101240" android:layout_width="-1" android:layout_height="@2131165296" />
+    </LinearLayout>
+    <com.huachenjie.common.widget.BottomIconView android:id="@2131362237" android:layout_width="0.0dip" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/bivAlumni" />
+    <com.huachenjie.common.widget.BottomIconView android:id="@2131362235" android:layout_width="0.0dip" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/bivHome" app:layout_constraintRight_toLeftOf="@id/bivFlashCoins" />
+    <com.huachenjie.common.widget.BottomIconView android:id="@2131362236" android:layout_width="0.0dip" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/bivAlumni" app:layout_constraintRight_toLeftOf="@id/bivMessage" />
+    <com.huachenjie.common.widget.BottomIconView android:id="@2131362238" android:layout_width="0.0dip" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/bivFlashCoins" app:layout_constraintRight_toLeftOf="@id/bivMine" />
+    <com.huachenjie.common.widget.BottomIconView android:id="@2131362239" android:layout_width="0.0dip" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/bivMessage" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

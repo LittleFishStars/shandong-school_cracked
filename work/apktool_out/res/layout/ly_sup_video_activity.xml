@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:id="@2131368865" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true" />
+    <View android:id="@2131368797" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@2131363695" android:visibility="2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:src="@2131755248" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="30.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="15.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368642" android:background="@2131232907" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:minWidth="30.0dip" />
+            <ImageView android:id="@2131363424" android:visibility="2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:src="@2131755245" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="16.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368092" android:background="@2131232908" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="30.0dip" android:text="" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@2131368349" android:layout_width="48.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" android:src="@2131755224" android:layout_alignParentBottom="true" />
+</RelativeLayout>

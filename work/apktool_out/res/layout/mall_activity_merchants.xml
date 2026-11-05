@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-1" android:layout_height="200.0dip" android:src="@2131233003" android:scaleType="6" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="-1" android:layout_height="-1">
+        <com.noober.background.view.BLLinearLayout android:orientation="1" android:id="@2131362241" android:layout_width="-1" android:layout_height="-1" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_gradient_endColor="#fff5f5f5" app:bl_gradient_startColor="#ffffffff" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.core.widget.NestedScrollView android:tag="" android:layout_width="-1" android:layout_height="-2">
+                <include android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="160.0dip" layout="@layout/mall_layout_empty_data" />
+            </androidx.core.widget.NestedScrollView>
+            <com.flyco.tablayout.SlidingTabLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131367465" android:tag="" android:layout_width="-2" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" app:tl_indicator_color="#ff650aec" app:tl_indicator_corner_radius="1.5dip" app:tl_indicator_height="3.0dip" app:tl_indicator_width="20.0dip" app:tl_tab_padding="15.0dip" app:tl_tab_space_equal="false" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff650aec" app:tl_textUnselectColor="#ff2c3e50" app:tl_textsize="15.0sp" />
+            <androidx.viewpager.widget.ViewPager android:id="@2131368915" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" android:overScrollMode="2" />
+        </com.noober.background.view.BLLinearLayout>
+        <com.google.android.material.appbar.AppBarLayout android:id="@2131362003" android:background="@2131101187" android:layout_width="-1" android:layout_height="-2" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2" app:layout_collapseMode="parallax">
+                    <View android:layout_width="-2" android:layout_height="44.0dip" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="84.0dip">
+                        <com.huachenjie.base.widget.AvatarView android:id="@2131362046" android:tag="" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#ffffffff" android:ellipsize="3" android:id="@2131368361" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" android:singleLine="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintEnd_toStartOf="@id/tv_license" app:layout_constraintStart_toEndOf="@id/av_image" app:layout_constraintTop_toTopOf="@id/av_image" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@2131368704" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/tv_merchants_name" app:layout_constraintTop_toBottomOf="@id/tv_merchants_name" />
+                        <View android:background="#4dffffff" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_word_of_mouth" app:layout_constraintStart_toEndOf="@id/tv_word_of_mouth" app:layout_constraintTop_toTopOf="@id/tv_word_of_mouth" />
+                        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="17.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_word_of_mouth" app:layout_constraintStart_toEndOf="@id/tv_word_of_mouth" app:layout_constraintTop_toTopOf="@id/tv_word_of_mouth" />
+                        <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textColor="#2c3e50" android:gravity="0x00000010" android:id="@2131368334" android:tag="" android:layout_width="-2" android:layout_height="28.0dip" android:text="" android:drawablePadding="4.0dip" android:drawableStart="@2131233044" android:drawableEnd="@2131233045" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:bl_corners_leftRadius="14.0dip" app:bl_solid_color="@color/white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar android:id="@2131367640" android:layout_width="-1" android:layout_height="44.0dip" android:minHeight="?2130968596" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368657" android:tag="" android:layout_width="-2" android:layout_height="44.0dip" android:layout_centerHorizontal="true" />
+                        <ImageView android:id="@2131363277" android:tag="" android:padding="12.0dip" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@2131231760" app:tint="@color/white" />
+                        <View android:id="@2131368780" android:background="#ffe5e5e5" android:visibility="2" android:layout_width="-1" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+                    </RelativeLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

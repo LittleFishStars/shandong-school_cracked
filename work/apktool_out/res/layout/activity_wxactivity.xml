@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:gravity="0x00000011" android:id="@2131368741" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginTop="30.0dip" android:text="" />
+    <EditText android:gravity="0x00000011" android:id="@2131362851" android:layout_width="-1" android:layout_height="50.0dip" android:hint="" />
+    <EditText android:gravity="0x00000011" android:id="@2131362852" android:layout_width="-1" android:layout_height="50.0dip" android:hint="" />
+    <TextView android:id="@2131362983" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

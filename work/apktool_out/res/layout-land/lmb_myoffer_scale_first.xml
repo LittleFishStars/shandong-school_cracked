@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131368924" android:visibility="1" android:layout_width="90.0dip" android:layout_height="42.0dip" android:layout_centerInParent="true" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WrapRoundImageView android:id="@2131364831" android:layout_width="147.0dip" android:layout_height="83.0dip" android:layout_marginRight="66.0dip" android:layout_marginBottom="63.0dip" android:layout_above="@2131368924" android:layout_alignRight="@2131368924" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WrapRoundImageView android:id="@2131364830" android:layout_width="240.0dip" android:layout_height="136.0dip" android:layout_marginTop="81.0dip" android:layout_marginRight="1.0dip" android:layout_toLeftOf="@2131368924" android:layout_below="@2131368924" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WrapRoundImageView android:id="@2131364836" android:layout_width="140.0dip" android:layout_height="79.0dip" android:layout_marginLeft="98.0dip" android:layout_marginBottom="34.0dip" android:layout_toRightOf="@2131368924" android:layout_above="@2131368924" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WrapRoundImageView android:id="@2131364835" android:layout_width="147.0dip" android:layout_height="83.0dip" android:layout_marginLeft="53.0dip" android:layout_marginTop="1.0dip" android:layout_toRightOf="@2131368924" android:layout_below="@2131368924" />
+</RelativeLayout>

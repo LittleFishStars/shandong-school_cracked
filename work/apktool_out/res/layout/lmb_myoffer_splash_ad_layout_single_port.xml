@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131365041" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.WrapRoundImageView android:id="@2131365035" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.PlayerView android:id="@2131364993" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.MuteImageView android:id="@2131364865" android:background="@2131232540" android:visibility="2" android:layout_width="@2131165749" android:layout_height="@2131165749" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" />
+    <include android:visibility="0" android:layout_width="-2" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_toRightOf="@2131364865" layout="@layout/lmb_myoffer_feedback_button" />
+    <ImageView android:id="@2131364991" android:background="#fafafa" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:id="@2131364990" android:visibility="2" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@2131232546" android:layout_centerInParent="true" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.LargeCTAButtonLayout android:id="@2131365036" android:layout_width="300.0dip" android:layout_height="@2131165764" android:layout_marginBottom="92.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="44.0dip" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_invalid_button" />
+    <include android:layout_width="-1" android:layout_height="22.0dip" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_4_element_withbg" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+    <include layout="@layout/lmb_myoffer_include_splash_ad_layout_skip_area" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ltmb.ltsdk.art.ad.banner.LtBannerRootView android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.art.core.view.gif.GifImageView android:id="@2131365624" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" />
+    <ImageView android:id="@2131365623" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131232592" android:scaleType="1" android:cropToPadding="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <include android:layout_width="-2" android:layout_height="-2" android:layout_alignRight="@2131365624" android:layout_alignBottom="@2131365624" layout="@layout/lt_ad_tag_view_banner_right" />
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="80.0dip" android:layout_alignBottom="@2131365624">
+        <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:id="@2131365172" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:text="@2131952869" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.ltmb.ltsdk.art.ad.banner.LtBannerRootView>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taobao.avplayer.playercontrol.widget.NavSeekBar android:layout_gravity="0x00000050" android:id="@2131367510" android:layout_width="-1" android:layout_height="2.0dip" android:max="1000" android:indeterminate="false" android:progressDrawable="@2131231376" android:thumbOffset="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

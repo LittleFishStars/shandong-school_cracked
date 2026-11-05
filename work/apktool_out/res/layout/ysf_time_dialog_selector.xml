@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131234710" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="14.0sp" android:textColor="@2131101267" android:id="@2131368113" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:text="@2131954301" android:layout_weight="1.0" android:layout_centerVertical="true" />
+            <TextView android:textSize="17.0sp" android:textColor="@2131101267" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131368657" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="@2131101270" android:gravity="0x00000005" android:id="@2131368536" android:padding="10.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:text="@2131954556" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@2131101338" android:layout_width="-1" android:layout_height="0.5dip" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="0" android:background="#ffffff" android:paddingLeft="20.0dip" android:paddingTop="15.0dip" android:paddingRight="20.0dip" android:paddingBottom="15.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+                <com.qiyukf.unicorn.widget.timepicker.PickerView android:id="@2131369061" android:layout_width="0.0dip" android:layout_height="175.0dip" android:layout_weight="3.0" />
+                <com.qiyukf.unicorn.widget.timepicker.PickerView android:id="@2131365579" android:layout_width="0.0dip" android:layout_height="175.0dip" android:layout_weight="2.0" />
+                <com.qiyukf.unicorn.widget.timepicker.PickerView android:id="@2131362609" android:layout_width="0.0dip" android:layout_height="175.0dip" android:layout_weight="2.0" />
+                <com.qiyukf.unicorn.widget.timepicker.PickerView android:id="@2131363168" android:layout_width="0.0dip" android:layout_height="175.0dip" android:layout_weight="2.0" />
+                <com.qiyukf.unicorn.widget.timepicker.PickerView android:id="@2131365566" android:layout_width="0.0dip" android:layout_height="175.0dip" android:layout_weight="2.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

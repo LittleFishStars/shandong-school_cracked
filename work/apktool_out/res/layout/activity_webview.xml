@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131366645" android:tag="" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131367641">
+        <com.huachenjie.common.webview.MyWebView android:id="@2131368986" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+        <ProgressBar android:id="@2131368987" android:visibility="2" android:layout_width="-1" android:layout_height="3.0dip" android:progressDrawable="@2131233829" style="?16842872" />
+    </FrameLayout>
+</RelativeLayout>

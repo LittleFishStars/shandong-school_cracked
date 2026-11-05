@@ -1,0 +1,3 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName"
+    tools:keep="@drawable/sig_*,@layout/sig_*,@id/sig_**,@style/sig_*,@string/sig_*,@anim/sig_*, @xml/sig*,@color/sig_*,@attr/sig_*,@dimen/sig_*" />

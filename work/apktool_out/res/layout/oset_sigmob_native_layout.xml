@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+        <FrameLayout android:id="@2131363640" android:background="#000000" android:layout_width="-1" android:layout_height="250.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="60.0dip">
+        <ImageView android:id="@2131363639" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerVertical="true" />
+        <TextView android:textStyle="0x00000001" android:ellipsize="3" android:id="@2131368564" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="" android:maxLines="1" android:layout_toRightOf="@2131363639" />
+        <TextView android:textSize="12.0sp" android:ellipsize="3" android:id="@2131368563" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:text="" android:maxLines="1" android:maxEms="10" android:layout_toRightOf="@2131363639" android:layout_alignParentBottom="true" />
+        <Button android:id="@2131362328" android:background="@2131233309" android:layout_width="-2" android:layout_height="26.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="35.0dip" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@2131363638" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@2131233286" android:layout_alignTop="@2131362328" android:layout_alignBottom="@2131362328" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

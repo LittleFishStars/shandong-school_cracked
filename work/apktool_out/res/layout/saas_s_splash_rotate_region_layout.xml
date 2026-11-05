@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:background="@2131233784" android:paddingBottom="@2131166496" android:visibility="0" android:clickable="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yd.saas.open.widget.StarsRotateView android:layout_gravity="0x00000001" android:id="@2131366998" android:layout_width="@2131166498" android:layout_height="@2131166495" android:layout_marginTop="@2131166497" />
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000051" android:orientation="0" android:id="@2131366996" android:background="@2131233786" android:layout_width="-1" android:layout_height="@2131166493" android:layout_marginHorizontal="@2131166494">
+        <TextView android:textSize="18.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131366997" android:layout_width="-2" android:layout_height="-1" android:text="@2131953619" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

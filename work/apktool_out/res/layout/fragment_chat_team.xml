@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:tag="" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@2131367327" android:tag="" android:layout_width="-1" android:layout_height="-1">
+            <FrameLayout android:layout_width="-1" android:layout_height="-1">
+                <androidx.recyclerview.widget.RecyclerView android:id="@2131365564" android:tag="" android:layout_width="-1" android:layout_height="-2" />
+            </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <com.noober.background.view.BLView android:layout_gravity="0x00000050" android:layout_width="-1" android:layout_height="10.0dip" app:bl_gradient_endColor="#0d000000" app:bl_gradient_startColor="#00000000" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131363248" android:layout_width="-1" android:layout_height="-2" />
+    <View android:background="@2131101240" android:layout_width="-1" android:layout_height="20.0dip" />
+</LinearLayout>

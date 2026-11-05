@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLConstraintLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:bl_solid_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:ellipsize="3" android:id="@2131368657" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" android:maxLines="2" android:layout_marginEnd="87.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="#757979" android:id="@2131368241" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/tv_title" app:layout_constraintTop_toBottomOf="@id/tv_title" />
+    <TextView android:textSize="12.0sp" android:textColor="#757979" android:id="@2131368532" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/tv_title" app:layout_constraintTop_toBottomOf="@id/tv_first_line" />
+    <LinearLayout android:gravity="0x00800005" android:orientation="1" android:layout_width="-2" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="18.0sp" android:textColor="#00b6de" android:tag="" android:layout_width="-2" android:layout_height="-2" android:fontFamily="@2131296258" />
+        <com.noober.background.view.BLTextView android:textSize="10.0sp" android:textColor="#00b6de" android:tag="" android:layout_width="-2" android:layout_height="14.0dip" android:layout_marginTop="8.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" app:bl_corners_radius="7.0dip" app:bl_solid_color="#1a0bd3ff" />
+    </LinearLayout>
+    <View android:id="@2131368814" android:background="@2131099853" android:layout_width="-1" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" app:layout_constraintTop_toBottomOf="@id/tv_second_line" />
+</com.noober.background.view.BLConstraintLayout>

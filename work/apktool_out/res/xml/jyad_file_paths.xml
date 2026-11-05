@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="jy_adsdk_files_path" path="jy_adsdk_download" />
+    <external-path name="jy_adsdk_external_path" path="jy_adsdk_download" />
+    <external-files-path name="jy_adsdk_external_files_path" path="jy_adsdk_download" />
+</paths>

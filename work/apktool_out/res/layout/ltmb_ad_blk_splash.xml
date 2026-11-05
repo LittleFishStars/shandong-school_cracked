@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131365268" android:background="@2131232704" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <FrameLayout android:id="@2131365276" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+        <FrameLayout android:layout_gravity="0x00000010" android:id="@2131365277" android:layout_width="-1" android:layout_height="-2" android:minHeight="200.0dip" android:layout_centerInParent="true" />
+    </FrameLayout>
+    <RelativeLayout android:id="@2131365279" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_gravity="0x00000011" android:id="@2131365280" android:background="@17170445" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        <TextView android:textSize="20.0sp" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365281" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50.0dip" android:text="@2131952901" android:singleLine="true" android:layout_below="@2131365280" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.ltmb.ltsdk.core.blk.base.fb.FBView android:id="@2131365273" android:visibility="1" android:layout_width="45.0dip" android:layout_height="23.0dip" android:layout_marginTop="@2131165782" android:layout_alignParentTop="true" android:layout_marginStart="@2131165782" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131365284" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131165782" android:layout_marginEnd="@2131165782" android:layout_alignParentEnd="true">
+        <ImageView android:id="@2131365285" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:src="@2131232729" android:scaleType="6" />
+        <FrameLayout android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131365282" android:background="@2131232726" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365283" android:layout_width="-2" android:layout_height="-2" android:text="@2131952902" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="@2131365274" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_gravity="0x00000001" android:id="@2131365194" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip">
+            <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000001" android:orientation="1" android:id="@2131365272" android:background="@2131232709" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" android:minHeight="50.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365269" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="12.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365270" android:layout_width="-2" android:layout_height="-2" />
+            </LinearLayout>
+            <com.ltmb.ltsdk.core.blk.base.view.TbLightingAnimationView android:layout_gravity="0x00000011" android:id="@2131365271" android:visibility="2" android:layout_width="-1" android:layout_height="50.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131365278" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include layout="@layout/ltmb_ad_blk_privacy" />
+    </LinearLayout>
+    <com.ltmb.ltsdk.core.blk.base.view.LogoImageView android:gravity="0x00000010" android:id="@2131365275" android:layout_width="50.0dip" android:layout_height="20.0dip" android:layout_margin="10.0dip" android:layout_marginBottom="15.0dip" android:src="@2131232691" android:scaleType="3" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

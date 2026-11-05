@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131366724" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.common.widget.UnTouchNestedScrollView android:id="@2131367072" android:background="@17170445" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+        <LinearLayout android:orientation="1" android:id="@2131364701" android:layout_width="-1" android:layout_height="-2">
+            <FrameLayout android:id="@2131361830" android:layout_width="-1" android:layout_height="-2" />
+            <FrameLayout android:id="@2131367652" android:layout_width="-1" android:layout_height="-2" />
+        </LinearLayout>
+    </com.huachenjie.common.widget.UnTouchNestedScrollView>
+</RelativeLayout>

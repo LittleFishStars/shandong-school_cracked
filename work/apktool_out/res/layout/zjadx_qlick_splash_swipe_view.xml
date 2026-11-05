@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131366718" android:background="@2131101059" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.zj.adx.sdk.component.videoplayer.NiceVideoPlayer android:id="@2131368914" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363190" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <TextView android:textColor="@2131101059" android:id="@2131363153" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@2131953383" android:layout_centerInParent="true" />
+    <FrameLayout android:id="@2131365117" android:layout_width="54.0dip" android:layout_height="50.0dip" android:layout_marginBottom="221.5dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@2131364465" android:layout_width="20.0dip" android:layout_height="12.0dip" android:src="@2131234833" android:translationX="34.0dip" />
+        <ImageView android:layout_gravity="0x00000001" android:id="@2131364498" android:layout_width="26.0dip" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:src="@2131234835" android:rotation="40.0" />
+    </FrameLayout>
+    <Button android:textSize="@2131166441" android:textColor="@2131101046" android:id="@2131362343" android:background="@2131234868" android:paddingLeft="29.0dip" android:paddingRight="29.0dip" android:layout_width="-2" android:layout_height="33.5dip" android:layout_marginBottom="78.0dip" android:text="@2131953379" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

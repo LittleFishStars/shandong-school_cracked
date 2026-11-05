@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131368750" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@2131367641" android:background="@2131101215" android:layout_width="-1" android:layout_height="-2" android:minHeight="?2130968596">
+        <TextView android:textSize="18.0sp" android:textColor="@2131101216" android:layout_gravity="0x00000011" android:id="@2131367642" android:layout_width="-2" android:layout_height="-2" android:text="@2131953946" style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@2131363101" android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131366553" android:layout_below="@2131367641" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366553" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

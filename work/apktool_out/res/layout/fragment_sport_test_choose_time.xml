@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="" android:background="@2131101240" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366752" android:layout_width="110.0dip" android:layout_height="-1" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <View android:id="@2131368803" android:background="#e8e8e8" android:layout_width="1.0dip" android:layout_height="-1" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366770" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

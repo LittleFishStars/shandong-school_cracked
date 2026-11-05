@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:background="@2131232699" android:paddingLeft="10.0dip" android:paddingTop="12.0dip" android:paddingRight="10.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.blk.base.view.gif.GifImageView2 android:id="@2131365237" android:layout_width="33.0dip" android:layout_height="33.0dip" android:scaleType="6" android:layout_marginEnd="7.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:ellipsize="3" android:id="@2131365238" android:layout_width="0.0dip" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" />
+    <Button android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131365236" android:background="@2131232700" android:layout_width="65.0dip" android:layout_height="32.0dip" android:text="" />
+</LinearLayout>

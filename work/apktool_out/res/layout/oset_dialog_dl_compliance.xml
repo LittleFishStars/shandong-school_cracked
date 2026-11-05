@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000011" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:background="@2131233292" android:padding="15.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="45.0dip" android:layout_marginRight="45.0dip">
+        <com.kc.openset.view.rounded.ODRoundedImageView android:id="@2131363514" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="#ddff" app:oset_riv_corner_radius="10.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="#000000" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#000000" android:id="@2131368187" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <include layout="@layout/oset_api_ad_privacy" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131362318" android:background="@2131233282" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="50.0dip" android:text="" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00000035" android:id="@2131363424" android:background="@2131233291" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="60.0dip" android:src="@2131755261" android:layout_marginEnd="60.0dip" />
+</FrameLayout>

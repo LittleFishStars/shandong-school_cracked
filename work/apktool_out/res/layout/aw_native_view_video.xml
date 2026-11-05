@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kc.aw.component.base.AdvertRatioLayout android:id="@2131361957" android:layout_width="-1" android:layout_height="-1">
+        <com.kc.aw.component.videoplayer2.PtgCoreVideo android:id="@2131365859" android:layout_width="-1" android:layout_height="-1" />
+        <ImageView android:id="@2131366117" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131366056" android:visibility="2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@2131230892" android:scaleType="6" />
+        <ImageView android:id="@2131367243" android:padding="12.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131230893" android:scaleType="6" />
+    </com.kc.aw.component.base.AdvertRatioLayout>
+</FrameLayout>

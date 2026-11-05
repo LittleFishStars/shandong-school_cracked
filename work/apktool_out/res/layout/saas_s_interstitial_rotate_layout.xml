@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:id="@2131366999" android:background="@2131233784" android:paddingBottom="@2131166479" android:visibility="0" android:clickable="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.yd.saas.open.widget.StarsRotateView android:layout_gravity="0x00000001" android:id="@2131367002" android:layout_width="@2131166480" android:layout_height="@2131166478" android:layout_marginTop="@2131166502" app:saas_s_rotate_iconSize="40" app:saas_s_rotate_lineHeight="20" app:saas_s_rotate_lineWidth="40" />
+    <TextView android:textSize="14.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131367001" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="30.0dip" android:text="@2131953634" android:shadowColor="#95000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000051" android:orientation="0" android:id="@2131366993" android:background="@2131233773" android:layout_width="-1" android:layout_height="@2131166473" android:layout_marginHorizontal="@2131166474">
+        <TextView android:textSize="16.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-1" android:text="@2131953633" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

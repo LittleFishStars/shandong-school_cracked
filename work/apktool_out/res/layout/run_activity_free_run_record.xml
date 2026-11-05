@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar" />
+    <com.google.android.material.tabs.TabLayout android:id="@2131367473" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" app:tabBackground="@color/color_373b4e" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="2.5dip" app:tabMode="fixed" app:tabSelectedTextColor="@color/white" app:tabTextAppearance="@style/TabTextAppearance" app:tabTextColor="@color/percent_40_translucent_white" />
+    <androidx.viewpager.widget.ViewPager android:id="@2131368956" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

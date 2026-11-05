@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131367420" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="6" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:paddingStart="10.0dip">
+        <TextView android:textSize="14.0sp" android:ellipsize="3" android:id="@2131367424" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:ellipsize="3" android:id="@2131367423" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:maxLines="1" />
+        <ProgressBar android:id="@2131367421" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" style="?16842872" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@2131100263" android:gravity="0x00000011" android:id="@2131367422" android:background="@2131100259" android:layout_width="55.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+</LinearLayout>

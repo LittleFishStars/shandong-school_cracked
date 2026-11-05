@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="0" android:layout_width="250.0dip" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131362726" android:layout_width="250.0dip" android:layout_height="140.0dip" android:scaleType="6" />
+    <ImageView android:layout_gravity="0x00000001" android:background="@2131233971" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@2131100015" android:ellipsize="3" android:layout_gravity="0x00000051" android:id="@2131362727" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="21.0dip" android:singleLine="true" android:shadowColor="#60000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <TextView android:textSize="16.0sp" android:textColor="@2131100015" android:ellipsize="3" android:layout_gravity="0x00000031" android:id="@2131362728" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="72.0dip" android:singleLine="true" android:shadowColor="#60000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <com.taobao.avplayer.interactivelifecycle.backcover.widget.DWPathAnimView android:id="@2131362725" android:background="@2131100009" android:paddingTop="2.0dip" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

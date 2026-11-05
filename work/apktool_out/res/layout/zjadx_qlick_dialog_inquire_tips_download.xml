@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131234819" android:paddingBottom="15.0dip" android:layout_width="260.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="260.0dip" android:layout_height="15.0dip" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#000" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131368313" android:layout_width="-1" android:layout_height="-2" android:text="" />
+        <ImageView android:layout_gravity="0x00000005" android:id="@2131368310" android:layout_width="-2" android:layout_height="-2" android:src="@2131234803" android:importantForAccessibility="2" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131368311" android:layout_width="70.0dip" android:layout_height="70.0dip" android:importantForAccessibility="2" />
+    <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:textColor="#000000" android:layout_gravity="0x00000011" android:id="@2131368312" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:layout_gravity="0x00000011" android:id="@2131368314" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+    <TextView android:textSize="12.0sp" android:textColor="#80000000" android:layout_gravity="0x00000011" android:id="@2131368309" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3.0dip" android:text="" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#90000000" android:gravity="0x00000005" android:id="@2131363250" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#90000000" android:gravity="0x00000001" android:id="@2131363252" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="0.1" />
+        <TextView android:textSize="14.0sp" android:textColor="#90000000" android:id="@2131363251" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131363249" android:background="@2131234821" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:text="" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

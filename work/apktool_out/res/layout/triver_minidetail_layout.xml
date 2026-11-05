@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:id="@2131367112" android:layout_width="200.0dip" android:layout_height="200.0dip" android:transitionName="">
+        <FrameLayout android:layout_width="-1" android:layout_height="-1">
+            <com.taobao.uikit.extend.feature.view.TUrlImageView android:id="@2131367111" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        </FrameLayout>
+        <ImageView android:id="@2131367110" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" />
+    </LinearLayout>
+</LinearLayout>

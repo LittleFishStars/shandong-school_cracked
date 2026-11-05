@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:orientation="1" android:id="@2131363987" android:clipChildren="true" android:layout_width="-1" android:layout_height="-1" app:ksad_radius="@dimen/ksad_interstitial_card_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131363976" android:layout_width="-1" android:layout_height="-1">
+        <com.kwad.sdk.widget.KSFrameLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131363988" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="@2131165541" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131364405" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        </com.kwad.sdk.widget.KSFrameLayout>
+    </RelativeLayout>
+    <include layout="@layout/ksad_interstitial_native_element" />
+</com.kwad.sdk.widget.KSFrameLayout>

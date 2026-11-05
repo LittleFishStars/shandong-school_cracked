@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131099779" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366763" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363596" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="50.0dip" android:src="@2131755244" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

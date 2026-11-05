@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:background="@17170445" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="300.0dip" android:layout_height="268.0dip">
+        <com.noober.background.view.BLFrameLayout android:layout_gravity="0x00000050" android:layout_width="300.0dip" android:layout_height="215.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="#ffffffff">
+            <com.noober.background.view.BLView android:layout_gravity="0x00000030" android:layout_width="-1" android:layout_height="81.0dip" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_gradient_angle="270" app:bl_gradient_endColor="#ffffffff" app:bl_gradient_startColor="#ffd0f7ff" />
+            <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+                <TextView android:textSize="64.0sp" android:textColor="@2131099806" android:gravity="0x00000011" android:id="@2131367868" android:layout_width="-2" android:layout_height="64.0dip" android:layout_marginTop="81.0dip" android:text="" android:includeFontPadding="false" android:fontFamily="@2131296258" />
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:id="@2131367883" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" />
+            </LinearLayout>
+        </com.noober.background.view.BLFrameLayout>
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="0x00000030" android:id="@2131365118" android:layout_width="300.0dip" android:layout_height="134.0dip" android:scaleType="3" app:lottie_autoPlay="true" app:lottie_fileName="sun_run_start_location.json" app:lottie_loop="true" />
+    </FrameLayout>
+    <ImageView android:id="@2131363286" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:src="@2131231825" />
+</LinearLayout>

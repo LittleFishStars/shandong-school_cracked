@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131363020" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:gravity="0x00000011" android:id="@2131362317" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="34.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff191f20" app:bl_enabled_textColor="#ff0bd3ff" app:bl_solid_color="#ffcccccc" app:bl_unEnabled_textColor="@color/white" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:tag="" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131363020" android:overScrollMode="2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.amap.api.maps.MapView android:id="@2131365489" android:tag="" android:layout_width="-1" android:layout_height="254.0dip" />
+            <com.noober.background.view.BLView android:id="@2131368921" android:tag="" android:layout_width="-1" android:layout_height="200.0dip" app:bl_gradient_angle="90" app:bl_gradient_endColor="#330bd3ff" app:bl_gradient_startColor="#000bd3ff" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2">
+                <com.noober.background.view.BLConstraintLayout android:id="@2131362451" android:layout_width="0.0dip" android:layout_height="0.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white" app:layout_constraintDimensionRatio="343:147" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:id="@2131363458" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="343:147" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368579" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textSize="40.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368357" android:layout_width="-2" android:layout_height="-2" app:layout_constraintStart_toStartOf="@id/tv_sport_label" app:layout_constraintTop_toBottomOf="@id/tv_sport_label" />
+                    <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368356" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8.0dip" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/tv_main_value" app:layout_constraintStart_toEndOf="@id/tv_main_value" />
+                    <TextView android:textSize="12.0sp" android:textColor="#757979" android:id="@2131368587" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/tv_sport_label" app:layout_constraintTop_toBottomOf="@id/tv_main_value" />
+                    <TextView android:textSize="10.0sp" android:textColor="#979a9a" android:id="@2131368172" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/tv_sport_label" app:layout_constraintTop_toBottomOf="@id/tv_start_time" />
+                </com.noober.background.view.BLConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.noober.background.view.BLConstraintLayout android:tag="" android:paddingTop="21.0dip" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="14.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white">
+                <ImageView android:id="@2131363502" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131231225" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textSize="14.0sp" android:textColor="#191f20" android:id="@2131368278" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="12.0dip" app:layout_constraintStart_toEndOf="@id/iv_heart" app:layout_constraintTop_toTopOf="@id/iv_heart" />
+                <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:id="@2131368279" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="@id/tv_heart_label" app:layout_constraintTop_toBottomOf="@id/tv_heart_label" />
+                <ImageView android:layout_width="140.0dip" android:layout_height="36.0dip" android:src="@2131231226" android:scaleType="3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </com.noober.background.view.BLConstraintLayout>
+            <LinearLayout android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <include android:id="@2131362370" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/college_item_sport_detail_card" />
+                <View android:layout_width="11.0dip" android:layout_height="0.0dip" />
+                <include android:id="@2131362369" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/college_item_sport_detail_card" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@2131364766" android:tag="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <include android:id="@2131362371" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/college_item_sport_detail_card" />
+                <View android:layout_width="11.0dip" android:layout_height="0.0dip" />
+                <include android:id="@2131362372" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/college_item_sport_detail_card" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@2131364767" android:tag="" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <include android:id="@2131362373" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/college_item_sport_detail_card" />
+                <View android:layout_width="11.0dip" android:layout_height="0.0dip" />
+                <include android:id="@2131362374" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/college_item_sport_detail_card" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+</RelativeLayout>

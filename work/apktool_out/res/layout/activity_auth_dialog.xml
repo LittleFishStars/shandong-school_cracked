@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131368926" android:background="@2131233837" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:layout_width="-2" android:layout_height="25.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="@2131100992" android:gravity="0x00000011" android:id="@2131368657" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="13.0dip" android:layout_marginStart="34.0dip" android:layout_marginEnd="34.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@2131100977" android:gravity="0x00000011" android:id="@2131368362" android:layout_width="-1" android:layout_height="-2" android:lineSpacingExtra="4.0dip" android:layout_marginStart="34.0dip" android:layout_marginEnd="34.0dip" />
+        <View android:background="@2131099880" android:layout_width="-1" android:layout_height="1.0dip" android:layout_marginTop="30.0dip" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="58.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@2131100977" android:gravity="0x00000011" android:id="@2131368284" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+            <View android:background="@2131099880" android:layout_width="1.0dip" android:layout_height="-1" />
+            <TextView android:textSize="18.0sp" android:textColor="@2131099790" android:gravity="0x00000011" android:id="@2131368285" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

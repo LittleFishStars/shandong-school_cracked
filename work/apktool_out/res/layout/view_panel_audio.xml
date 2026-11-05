@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363383" android:layout_width="126.0dip" android:layout_height="126.0dip" android:src="@2131231755" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@2131363384" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginEnd="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toLeftOf="@id/iv_audio_bt" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="animation/js_audio_playing_gray.json" app:lottie_loop="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@2131363385" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/iv_audio_bt" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="animation/js_audio_playing_gray.json" app:lottie_loop="true" />
+    <LinearLayout android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20.0dip" app:layout_constraintBottom_toTopOf="@id/iv_audio_bt" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <ImageView android:id="@2131363386" android:visibility="2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231756" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#9c9c9c" android:id="@2131368058" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131365487" android:layout_width="-1" android:layout_height="-1" />
+    <include android:id="@2131366216" android:layout_width="-2" android:layout_height="-2" layout="@layout/run_layout_sun_run_qualify_conditions" />
+    <include android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131366216" android:layout_alignStart="@2131366216" layout="@layout/run_layout_sun_run_debug_info" />
+    <include android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true" layout="@layout/run_layout_sun_run_pace_info" />
+    <com.huachenjie.common.widget.ShadowFrameLayout android:id="@2131367822" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:layout_below="@2131366216" android:layout_centerHorizontal="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:sfl_alignCenter="true" app:sfl_bgColor="@color/white" app:sfl_clipToCorner="true" app:sfl_cornerRadius="20.0dip" app:sfl_shadowColor="#1a191f20" app:sfl_shadowDx="0.0dip" app:sfl_shadowDy="4.0dip" app:sfl_shadowRadius="4.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="#3bcd69" android:gravity="0x00000010" android:layout_width="-2" android:layout_height="40.0dip" android:text="" android:drawablePadding="8.0dip" android:drawableStart="@2131233612" />
+    </com.huachenjie.common.widget.ShadowFrameLayout>
+    <include android:id="@2131367126" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="120.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" layout="@layout/run_layout_sun_run_side_toolbar" />
+    <com.huachenjie.run.widget.RunActionButton android:id="@2131366218" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="128.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:run_runActionFrameColor="@17170443" app:run_runActionFrameWidth="4.0dip" app:run_runActionPressingFrameWidth="8.0dip" app:run_runActionSize="88.0dip" app:run_runActionStyle="stop" app:run_runActionTipAutoAnim="true" app:run_runActionTipText="长按结束跑步" app:run_runActionTipVisible="true" />
+    <com.huachenjie.run.widget.RunStatusBottomSheet android:id="@2131366741" android:layout_width="-1" android:layout_height="-1" />
+    <com.huachenjie.run.widget.PaceErrorView android:id="@2131365995" android:tag="" android:layout_width="-1" android:layout_height="-1" />
+    <com.huachenjie.run.widget.AutoPauseView android:id="@2131362043" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@2131367641" android:background="@2131101240" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="@2131165265" app:contentInsetEnd="0.0dip" app:contentInsetLeft="0.0dip" app:contentInsetRight="0.0dip" app:contentInsetStart="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131363210" android:focusable="true" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131231760" android:scaleType="7" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+            <TextView android:textSize="17.0sp" android:textColor="@2131099735" android:id="@2131368657" android:background="?2130970663" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="10.0sp" android:textColor="@2131099735" android:id="@2131368608" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:layout_below="@2131368657" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131368360" android:background="@2131233815" android:visibility="2" android:layout_width="-2" android:layout_height="26.0dip" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:background="@2131234131" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:id="@2131367690" android:background="@2131234133" android:layout_width="-1" android:layout_height="48.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@2131367689" android:layout_width="-2" android:layout_height="-2" android:text="@2131953906" android:layout_centerInParent="true" />
+            <ImageView android:id="@2131367685" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="16.0dip" android:src="@2131755340" android:layout_alignTop="@2131367689" android:layout_alignBottom="@2131367689" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="0" android:id="@2131367686" android:layout_width="-1" android:layout_height="-2">
+            <FrameLayout android:id="@2131367687" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+            <FrameLayout android:id="@2131367688" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="57.0dip">
+            <Button android:textSize="16.0sp" android:textColor="#ffffff" android:id="@2131367684" android:background="@2131234132" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="8.0dip" android:text="@2131953905" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

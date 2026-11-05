@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:id="@2131369458" android:background="@2131101354" android:padding="10.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="14.0sp" android:textColor="@2131101355" android:id="@2131369460" android:layout_width="-2" android:layout_height="-2" android:text="@2131954561" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101351" android:gravity="0x00000005" android:id="@2131369459" android:layout_width="0.0dip" android:layout_height="-2" android:text="@2131954560" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@2131366026" android:visibility="0" android:layout_width="-1" android:layout_height="-1" />
+        <FrameLayout android:id="@2131366051" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+    <RelativeLayout android:id="@2131366027" android:background="#e6e6e6" android:visibility="0" android:layout_width="-1" android:layout_height="50.0dip">
+        <TextView android:enabled="false" android:textSize="@2131166628" android:textColor="@2131101284" android:gravity="0x00000011" android:id="@2131366028" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@2131954583" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.qiyukf.unicorn.widget.StylableTextView android:enabled="false" android:textSize="@2131166628" android:gravity="0x00000011" android:id="@2131366029" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@2131954649" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

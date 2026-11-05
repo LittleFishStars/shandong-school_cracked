@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@2131362003" android:background="@2131101187" android:layout_width="-1" android:layout_height="-2" app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:tag="" android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <include android:id="@2131363149" layout="@layout/mine_layout_mine_header" />
+            <androidx.appcompat.widget.Toolbar android:id="@2131367640" android:layout_width="-1" android:layout_height="-2" android:minHeight="?2130968596" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@2131362438" android:tag="" android:background="#80000000" android:layout_width="-1" android:layout_height="-2">
+                    <ImageView android:id="@2131363277" android:tag="" android:padding="4.0dip" android:layout_width="@2131166510" android:layout_height="@2131166510" android:src="@2131230908" android:layout_marginStart="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@2131363325" android:tag="" android:padding="4.0dip" android:layout_width="@2131166510" android:layout_height="@2131166510" android:src="@2131233102" android:layout_marginStart="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@2131363351" android:tag="" android:padding="4.0dip" android:layout_width="@2131166510" android:layout_height="@2131166510" android:src="@2131233106" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <ImageView android:id="@2131363329" android:tag="" android:padding="4.0dip" android:layout_width="@2131166510" android:layout_height="@2131166510" android:src="@2131230912" android:layout_marginEnd="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/white" />
+                    <com.huachenjie.works.external.widget.UserLaoButton android:id="@2131362288" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="@id/ivMore" app:layout_constraintEnd_toStartOf="@id/ivMore" app:layout_constraintTop_toTopOf="@id/ivMore" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="1" android:id="@2131362241" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.flyco.tablayout.SlidingTabLayout android:id="@2131367465" android:layout_width="-1" android:layout_height="38.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:tl_indicator_color="#ff0bd3ff" app:tl_indicator_corner_radius="12.0dip" app:tl_indicator_height="24.0dip" app:tl_indicator_margin_bottom="8.0dip" app:tl_indicator_width_equal_title="true" app:tl_indicator_width_equal_title_width="true" app:tl_selectTextSize="14.0sp" app:tl_tab_padding="10.0dip" app:tl_tab_space_equal="false" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff121411" app:tl_textUnselectColor="#ff121411" app:tl_textsize="14.0sp" />
+        <androidx.viewpager.widget.ViewPager android:id="@2131368915" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

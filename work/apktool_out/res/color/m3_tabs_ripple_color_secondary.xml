@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true" android:color="?2130969218" android:alpha="@2131166018" />
+    <item android:state_focused="true" android:state_selected="true" android:color="?2130969218" android:alpha="@2131166016" />
+    <item android:state_selected="true" android:color="?2130969218" android:alpha="@2131166017" android:state_hovered="true" />
+    <item android:state_selected="true" android:color="?2130969227" android:alpha="@2131166104" />
+    <item android:state_pressed="true" android:color="?2130969218" android:alpha="@2131166018" />
+    <item android:state_focused="true" android:color="?2130969218" android:alpha="@2131166016" />
+    <item android:color="?2130969218" android:alpha="@2131166017" android:state_hovered="true" />
+    <item android:color="?2130969220" android:alpha="@2131166104" />
+</selector>

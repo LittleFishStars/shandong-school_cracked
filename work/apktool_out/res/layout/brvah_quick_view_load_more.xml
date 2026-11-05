@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131365102" android:layout_width="-1" android:layout_height="-1">
+        <ProgressBar android:id="@2131365108" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="4.0dip" style="?16842873" />
+        <TextView android:textSize="14.0sp" android:textColor="@17170444" android:id="@2131365109" android:layout_width="-2" android:layout_height="-2" android:text="@2131951883" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@2131365101" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:layout_gravity="0x00000011" android:id="@2131368469" android:layout_width="-2" android:layout_height="-2" android:text="@2131951882" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131365099" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textColor="@17170432" android:layout_gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="@2131951880" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131365100" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textColor="@17170432" android:layout_gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="@2131951881" />
+    </FrameLayout>
+</FrameLayout>

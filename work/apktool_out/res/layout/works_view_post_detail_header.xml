@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.widget.CommonBanner android:id="@2131362062" android:tag="" android:layout_width="-1" android:layout_height="-2" />
+    <TextView android:textSize="14.0sp" android:textColor="#2c3e50" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+        <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ff3d3d" android:gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="24.0dip" android:drawablePadding="4.0dip" android:drawableStart="@2131234270" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="#ffffebeb" />
+    </LinearLayout>
+    <View android:background="#e5e5e5" android:layout_width="-1" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

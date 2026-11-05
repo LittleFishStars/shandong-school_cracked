@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131364458" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:id="@2131364455" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="16.0sp" android:id="@2131364454" android:padding="5.0dip" android:layout_width="-2" android:layout_height="-2" android:text="@2131951675" />
+        <View android:id="@2131364456" android:background="@2131099687" android:layout_width="-1" android:layout_height="0.20000005dip" />
+        <biz.beizi.adn.ad.ad.nativead.render.view.asnp.prefab.LandingPageWebView android:id="@2131364457" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+</FrameLayout>

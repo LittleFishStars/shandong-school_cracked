@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="@2131166600" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@2131369246" layout="@layout/ysf_message_item_goods_inner" />
+    <View android:id="@2131369259" android:background="@2131101326" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@2131101270" android:layout_gravity="0x00000001" android:id="@2131368736" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

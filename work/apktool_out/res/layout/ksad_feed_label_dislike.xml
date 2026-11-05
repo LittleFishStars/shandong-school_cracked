@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="24.0dip" android:layout_marginTop="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.core.widget.KsLogoView android:id="@2131363768" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@2131363767" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131232155" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364925" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="110.0dip" android:layout_marginRight="24.0dip" android:src="@2131232493" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_below="@2131364925">
+        <TextView android:textSize="28.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:text="@2131952634" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="@2131952633" />
+        <ImageView android:id="@2131364923" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="46.0dip" android:scaleType="3" />
+        <ImageView android:id="@2131364922" android:layout_width="52.0dip" android:layout_height="104.0dip" android:layout_marginTop="40.0dip" android:src="@2131232479" />
+    </LinearLayout>
+</merge>

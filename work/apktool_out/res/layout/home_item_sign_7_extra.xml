@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="90.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363428" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@2131231713" android:layout_marginStart="16.0dip" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@2131365119" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" app:lottie_autoPlay="false" app:lottie_fileName="animation/home_jinbilingqu_json.json" app:lottie_loop="false" app:lottie_progress="1.0" />
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="12.0dip">
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" />
+        <TextView android:textSize="10.0sp" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</LinearLayout>

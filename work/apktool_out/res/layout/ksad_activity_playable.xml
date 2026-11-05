@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout android:orientation="1" android:id="@2131364112" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@2131364008" android:layout_width="-1" android:layout_height="@2131165497" layout="@layout/ksad_activity_title_bar" />
+    <com.kwad.sdk.core.webview.KsAdWebView android:id="@2131364117" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@2131165497" />
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

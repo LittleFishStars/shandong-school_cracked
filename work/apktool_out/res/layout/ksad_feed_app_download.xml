@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363802" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131232170" />
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000010" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-1" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#222222" android:ellipsize="3" android:id="@2131363806" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="11.0dip" android:textColor="#9c9c9c" android:ellipsize="3" android:id="@2131363798" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <com.kwad.components.ad.widget.DownloadProgressView android:id="@2131363800" android:layout_width="64.0dip" android:layout_height="24.0dip" />
+</LinearLayout>

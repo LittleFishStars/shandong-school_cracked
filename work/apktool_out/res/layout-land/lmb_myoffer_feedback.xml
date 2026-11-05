@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffff" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131364889" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:id="@2131364881" android:visibility="2" android:layout_width="-1" android:layout_height="492.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="#ff17142b" android:gravity="0x00000011" android:id="@2131364903" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="12.0dip" android:text="" android:layout_centerHorizontal="true" style="@style/lmb_myoffer_single_line.nofontpadding" />
+        <ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131364900" android:layout_below="@2131364903">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@2131364899" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="@2131952618" style="@style/lmb_myoffer_feedback_title" />
+                <LinearLayout android:orientation="0" android:id="@2131364884" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_below="@2131364899">
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364890" android:tag="" android:text="@2131952630" style="@style/lmb_myoffer_feedback_textview_style" />
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364891" android:tag="" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@2131952619" style="@style/lmb_myoffer_feedback_textview_style" />
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364892" android:tag="" android:text="@2131952620" style="@style/lmb_myoffer_feedback_textview_style" />
+                </LinearLayout>
+                <TextView android:id="@2131364902" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="@2131952626" android:layout_below="@2131364884" style="@style/lmb_myoffer_feedback_title" />
+                <LinearLayout android:orientation="0" android:id="@2131364887" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_below="@2131364902">
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364893" android:tag="" android:text="@2131952623" style="@style/lmb_myoffer_feedback_textview_style" />
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364894" android:tag="" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@2131952631" style="@style/lmb_myoffer_feedback_textview_style" />
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364895" android:tag="" android:text="@2131952621" style="@style/lmb_myoffer_feedback_textview_style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="0" android:id="@2131364888" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_below="@2131364887">
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364896" android:tag="" android:text="@2131952625" style="@style/lmb_myoffer_feedback_textview_style" />
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364897" android:tag="" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@2131952632" style="@style/lmb_myoffer_feedback_textview_style" />
+                    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364898" android:tag="" android:text="@2131952624" style="@style/lmb_myoffer_feedback_textview_style" />
+                </LinearLayout>
+                <TextView android:id="@2131364901" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="@2131952628" android:layout_below="@2131364888" style="@style/lmb_myoffer_feedback_title" />
+                <EditText android:textSize="14.0sp" android:textColor="#17142b" android:textColorHint="#b7bacb" android:gravity="0x00000033" android:id="@2131364882" android:background="@2131232457" android:padding="6.0dip" android:layout_width="-1" android:layout_height="62.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="24.0dip" android:hint="@2131952622" android:maxLength="100" android:layout_below="@2131364901" />
+            </RelativeLayout>
+        </ScrollView>
+        <TextView android:enabled="false" android:textSize="17.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364900" android:background="@2131232451" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="44.0dip" android:text="@2131952627" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@2131364883" android:padding="12.0dip" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@2131232471" android:tint="#b7bacb" android:layout_alignParentRight="true" />
+</RelativeLayout>

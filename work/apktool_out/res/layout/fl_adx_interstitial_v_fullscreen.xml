@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131364807" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <com.fl.saas.adx.base.widget.ShaderRoundImageView android:id="@2131363706" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginTop="22.0dip" android:scaleType="1" app:fl_radius="8.0dip" />
+        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:ellipsize="3" android:id="@2131368717" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:lines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="#666666" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131368716" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="2" />
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368715" android:background="@2131231601" android:layout_width="-1" android:layout_height="46.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="87.0dip" android:text="" android:maxLines="1" android:layout_marginStart="41.0dip" android:layout_marginEnd="41.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@2131369058" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:layout_above="@2131364807" />
+    <RelativeLayout android:id="@2131363067" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40.0dip" android:layout_above="@2131364807">
+        <FrameLayout android:id="@2131363087" android:background="#ffffff" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+            <FrameLayout android:id="@2131369050" android:layout_width="-1" android:layout_height="-2" />
+            <ImageView android:id="@2131363707" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" />
+        </FrameLayout>
+        <FrameLayout android:id="@2131363088" android:background="@2131231604" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="16.0dip" android:layout_centerHorizontal="true">
+            <com.fl.saas.adx.base.widget.RoundedFrameLayout android:id="@2131369052" android:layout_width="-2" android:layout_height="-1" android:layout_marginBottom="-8.0dip" app:fl_radius="8.0dip" />
+            <com.fl.saas.adx.base.widget.ShaderRoundImageView android:id="@2131363714" android:layout_width="-2" android:layout_height="-1" android:layout_marginBottom="-8.0dip" android:scaleType="3" android:adjustViewBounds="true" app:fl_radius="8.0dip" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ImageView android:id="@2131363712" android:layout_width="-2" android:layout_height="14.0dip" android:layout_margin="10.0dip" android:scaleType="4" android:adjustViewBounds="true" android:layout_above="@2131364807" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@2131363719" android:visibility="2" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="46.0dip" android:src="@2131231626" android:layout_marginStart="16.0dip" />
+</RelativeLayout>

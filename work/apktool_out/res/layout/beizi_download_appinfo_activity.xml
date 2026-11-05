@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131362110" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="20.0dip" android:src="@2131230952" android:layout_alignParentTop="true" android:layout_marginStart="20.0dip" />
+    <TextView android:textSize="15.0dip" android:textColor="@17170444" android:gravity="0x00000011" android:id="@2131362122" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_alignTop="@2131362110" android:layout_alignBottom="@2131362110" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="0" android:id="@2131362121" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15.0dip" android:layout_below="@2131362110">
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131362098" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:textSize="15.0dip" android:id="@2131362099" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <View android:id="@2131362097" android:layout_width="23.0dip" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131362101" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:textSize="15.0dip" android:id="@2131362102" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <View android:id="@2131362100" android:layout_width="23.0dip" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131362095" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:textSize="15.0dip" android:id="@2131362096" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <View android:id="@2131362094" android:layout_width="23.0dip" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@2131362111" android:background="@2131101233" android:layout_width="-1" android:layout_height="1.0dip" android:layout_below="@2131362121" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131362111">
+        <ScrollView android:id="@2131362115" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:id="@2131362116" android:layout_width="-1" android:layout_height="-2" />
+        </ScrollView>
+        <com.beizi.ad.internal.download.BeiZiWebView android:id="@2131362117" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <ScrollView android:id="@2131362118" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:id="@2131362119" android:layout_width="-1" android:layout_height="-2" />
+        </ScrollView>
+        <com.beizi.ad.internal.download.BeiZiWebView android:id="@2131362120" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <ScrollView android:id="@2131362112" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+            <TextView android:id="@2131362113" android:layout_width="-1" android:layout_height="-2" />
+        </ScrollView>
+        <com.beizi.ad.internal.download.BeiZiWebView android:id="@2131362114" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="-2" android:layout_height="-1">
+        <LinearLayout android:layout_gravity="0x00000001" android:id="@2131369633" android:layout_width="-2" android:layout_height="-1">
+            <View android:background="@2131101312" android:layout_width="1.0dip" android:layout_height="-1" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="0x00000001" android:id="@2131369632" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="20.0dip" android:src="@2131234484" android:scaleType="7" android:contentDescription="@0" />
+    </FrameLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="6.0dip">
+        <TextView android:textSize="@2131166627" android:textColor="@2131101267" android:id="@2131369634" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="@2131166628" android:textColor="@2131101311" android:id="@2131369631" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_marginBottom="12.0dip" />
+        <include layout="@layout/ysf_include_divider" />
+    </LinearLayout>
+</LinearLayout>

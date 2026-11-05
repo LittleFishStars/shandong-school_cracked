@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:id="@2131367161" android:background="#60000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sigmob.sdk.nativead.LongClickLayout android:orientation="1" android:id="@2131367160" android:background="@2131233855" android:layout_width="-1" android:layout_height="-2" android:layout_marginHorizontal="32.0dip" android:paddingHorizontal="10.0dip" android:paddingVertical="10.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@17170444" android:gravity="0x00000010" android:id="@2131367190" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="" android:paddingVertical="8.0dip" />
+        <View android:background="#e0e6ec" android:layout_width="-1" android:layout_height="0.5dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170444" android:gravity="0x00000010" android:id="@2131367189" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="" android:paddingVertical="8.0dip" />
+        <View android:background="#e0e6ec" android:layout_width="-1" android:layout_height="0.5dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170444" android:gravity="0x00000010" android:id="@2131367162" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:text="" android:paddingVertical="8.0dip" />
+        <View android:background="#e0e6ec" android:layout_width="-1" android:layout_height="0.5dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170444" android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2" android:text="" android:paddingVertical="8.0dip" />
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131367170" android:layout_width="-1" android:layout_height="-2" />
+        <View android:background="#e0e6ec" android:layout_width="-1" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:paddingVertical="8.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@17170444" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#c2c2c2" android:id="@2131367158" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <EditText android:textSize="12.0sp" android:textColor="#fe7e03" android:textColorHint="#80161823" android:gravity="0x00800003" android:id="@2131367195" android:background="@2131233856" android:padding="5.0dip" android:layout_width="-1" android:layout_height="80.0dip" android:layout_marginBottom="8.0dip" android:hint="" />
+    </com.sigmob.sdk.nativead.LongClickLayout>
+</LinearLayout>

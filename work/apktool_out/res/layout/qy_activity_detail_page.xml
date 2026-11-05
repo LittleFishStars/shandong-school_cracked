@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131366508" android:background="@2131101082" android:layout_width="-1" android:layout_height="0.0dip" />
+    <LinearLayout android:id="@2131366510" android:background="@2131101082" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131366297" android:layout_width="28.0dip" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@2131233380" />
+        <ImageView android:id="@2131366298" android:layout_width="28.0dip" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@2131233391" />
+        <ImageView android:id="@2131366299" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" android:src="@2131233397" android:scaleType="4" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.mcto.sspsdk.component.webview.QyWebViewPanel android:id="@2131366509" android:background="@2131101105" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

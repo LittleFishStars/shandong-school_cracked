@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131366125" android:padding="10.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@2131101368" android:ellipsize="3" android:id="@2131366137" android:paddingBottom="6.0dip" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="1" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <com.zj.adpro.component.base.AdvertRatioLayout android:id="@2131366112" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:id="@2131366118" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        </com.zj.adpro.component.base.AdvertRatioLayout>
+        <View android:layout_width="5.0dip" android:layout_height="0.0dip" />
+        <com.zj.adpro.component.base.AdvertRatioLayout android:id="@2131366113" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:id="@2131366119" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+            <include android:layout_gravity="0x00000011" android:id="@2131366127" android:visibility="2" android:layout_width="-2" android:layout_height="-2" layout="@layout/zj_reward_shake" />
+        </com.zj.adpro.component.base.AdvertRatioLayout>
+        <View android:layout_width="5.0dip" android:layout_height="0.0dip" />
+        <com.zj.adpro.component.base.AdvertRatioLayout android:id="@2131366114" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+            <ImageView android:id="@2131366120" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        </com.zj.adpro.component.base.AdvertRatioLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000050" android:layout_gravity="0x00000050" android:layout_width="-1" android:layout_height="-2">
+        <include android:layout_gravity="0x00000050" android:layout_width="-2" android:layout_height="-2" layout="@layout/zj_advert_logo" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="0x00000055" android:id="@2131366116" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@2131234737" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131363170" android:tag="" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:id="@2131367567" layout="@layout/layout_toolbar_binding" />
+</FrameLayout>

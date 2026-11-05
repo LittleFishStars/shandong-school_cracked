@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSRelativeLayout android:id="@2131364043" android:visibility="0" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364040" android:background="#19191e" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <com.kwad.sdk.widget.KsView android:background="@2131100145" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131364038" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="72.0dip" android:src="@2131232205" android:scaleType="3" android:layout_below="@2131364042" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textStyle="0x00000000" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131363815" android:layout_width="-2" android:layout_height="20.0dip" android:layout_marginTop="12.0dip" android:text="" android:singleLine="true" android:layout_below="@2131364038" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="25.0sp" android:textStyle="0x00000000" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131364048" android:layout_width="-2" android:layout_height="35.0dip" android:layout_marginTop="36.0dip" android:text="" android:layout_below="@2131363815" android:layout_centerHorizontal="true" />
+    <com.kwad.sdk.widget.KsView android:id="@2131364026" android:background="#1affffff" android:layout_width="300.0dip" android:layout_height="1.0px" android:layout_marginTop="8.5dip" android:layout_below="@2131364030" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@2131364030" android:layout_width="300.0dip" android:layout_height="86.0dip" android:layout_below="@2131364046" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131364034" android:layout_width="-2" android:layout_height="22.0dip" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="#b3ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:layout_width="-2" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131364032" android:layout_width="-2" android:layout_height="22.0dip" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="#b3ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:layout_width="-2" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131364036" android:layout_width="-2" android:layout_height="22.0dip" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="#b3ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:layout_width="-2" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.kwad.sdk.widget.KsView android:id="@2131364046" android:background="#1affffff" android:layout_width="300.0dip" android:layout_height="1.0px" android:layout_marginTop="16.0dip" android:layout_below="@2131364048" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:gravity="0x00000011" android:background="@2131232298" android:layout_width="-1" android:layout_height="135.0dip" android:layout_marginBottom="22.0dip" android:layout_alignParentBottom="true" android:layout_marginHorizontal="33.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364028" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="0x00000001" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:layout_below="@2131364028" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364024" android:background="@2131232299" android:layout_width="-2" android:layout_height="36.0dip" android:text="" android:paddingHorizontal="32.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364022" android:background="@2131232297" android:layout_width="-2" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:text="" android:paddingHorizontal="32.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.kwad.sdk.widget.KSRelativeLayout>

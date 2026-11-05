@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@2131369414" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="1" android:background="@2131101361" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="@2131166630" android:textColor="@2131101265" android:id="@2131369416" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+            <ImageView android:id="@2131369412" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="-2" android:layout_height="-2" android:src="@2131234503" android:scaleType="7" android:contentDescription="@0" />
+        </LinearLayout>
+        <include layout="@layout/ysf_include_divider" />
+        <ScrollView android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:orientation="1" android:id="@2131369413" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="15.0dip" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" />
+                <include layout="@layout/ysf_include_divider" />
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <Button android:textSize="@2131166629" android:textColor="@2131101361" android:id="@2131369415" android:background="@2131234393" android:layout_width="-1" android:layout_height="@2131166605" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="@2131954368" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

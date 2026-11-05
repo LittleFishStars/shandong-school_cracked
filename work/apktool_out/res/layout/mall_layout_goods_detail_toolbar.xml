@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131363075" android:background="#fff" android:layout_width="-1" android:layout_height="-2" android:alpha="0.0">
+        <com.flyco.tablayout.CommonTabLayout android:layout_gravity="0x00000001" android:id="@2131367472" android:tag="" android:layout_width="-2" android:layout_height="52.0dip" app:tl_indicator_height="6.0dip" app:tl_indicator_margin_bottom="5.0dip" app:tl_indicator_resources="@drawable/works_ic_alumni_tab_indictor" app:tl_indicator_width="20.0dip" app:tl_selectTextSize="18.0sp" app:tl_tab_padding="15.0dip" app:tl_tab_space_equal="true" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff191f20" app:tl_textUnselectColor="#ff757979" app:tl_textsize="18.0sp" />
+    </FrameLayout>
+    <RelativeLayout android:tag="" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131363390" android:tag="" android:layout_width="40.0dip" android:layout_height="@2131166510" android:src="@2131231764" android:scaleType="5" android:paddingStart="16.0dip" android:paddingEnd="4.0dip" />
+        <ImageView android:id="@2131363627" android:tag="" android:layout_width="40.0dip" android:layout_height="@2131166510" android:src="@2131232989" android:scaleType="5" android:paddingStart="4.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

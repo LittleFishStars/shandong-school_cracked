@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@2131364987" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16.0dip" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131364967" android:visibility="2" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="5.0dip" />
+    <RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@2131364967" android:layout_alignTop="@2131364987">
+        <TextView android:textSize="18.0dip" android:textColor="#000000" android:gravity="0x00000011" android:id="@2131365064" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@style/lmb_myoffer_single_line" />
+        <TextView android:textSize="@2131165751" android:textColor="#000000" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365062" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="27.0dip" android:maxLines="1" style="@style/lmb_myoffer_single_line.nofontpadding" />
+    </RelativeLayout>
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.CTAButtonLayout android:layout_gravity="0x00000011" android:id="@2131364986" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="78.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ShakeTextHintView android:id="@2131365023" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="74.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:layout_width="-1" android:layout_height="22.0dip" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_4_element" />
+</RelativeLayout>

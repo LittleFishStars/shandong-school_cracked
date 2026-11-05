@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@2131366560" android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:tag="" android:background="#fff5f5f5" android:paddingTop="12.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</com.huachenjie.common.page.statelayout.StateLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@16908288" android:drawable="@17170445" />
+    <item android:id="@16908301" android:drawable="@17170443" />
+</layer-list>

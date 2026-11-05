@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fl.saas.common.widget.RoundedFrameLayout android:background="@17170443" android:layout_width="-1" android:layout_height="-2" app:yd_radius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/s2s_template_view_img" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:id="@2131366794" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.fl.saas.common.widget.RoundedFrameLayout android:background="#50000000" android:padding="8.0dip" android:layout_width="-1" android:layout_height="-2" app:yd_bottomLeftRadius="8.0dip" app:yd_bottomRightRadius="8.0dip">
+            <include layout="@layout/s2s_template_full_text" />
+        </com.fl.saas.common.widget.RoundedFrameLayout>
+    </LinearLayout>
+</com.fl.saas.common.widget.RoundedFrameLayout>

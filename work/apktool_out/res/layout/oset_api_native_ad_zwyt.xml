@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131361907" android:background="@17170445" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="0" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+            <LinearLayout android:orientation="1" android:id="@2131364793" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#000000" android:ellipsize="3" android:id="@2131368657" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:maxLines="1" />
+                <TextView android:textSize="13.0sp" android:textColor="#c3000000" android:ellipsize="3" android:id="@2131368187" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" />
+            </LinearLayout>
+            <FrameLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15.0dip">
+                <LinearLayout android:layout_gravity="0x00800053" android:id="@2131364661" android:layout_width="-2" android:layout_height="-2">
+                    <include layout="@layout/oset_api_ad_logo" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="#b22222" android:gravity="0x00000011" android:layout_gravity="0x00800005" android:id="@2131362318" android:background="@2131233294" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="-2" android:layout_height="28.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.kc.openset.view.OSETNativeContainerView android:id="@2131363046" android:background="@2131233289" android:layout_width="140.0dip" android:layout_height="80.0dip">
+            <com.kc.openset.view.rounded.ODRoundedImageView android:id="@2131363522" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:adjustViewBounds="true" app:oset_riv_corner_radius="5.0dip" />
+            <com.kc.openset.view.rounded.ODRoundedImageView android:id="@2131363521" android:layout_width="-1" android:layout_height="-1" app:oset_riv_corner_radius="5.0dip" />
+            <TextureView android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131367546" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+            <ImageView android:id="@2131363695" android:visibility="1" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="5.0dip" android:src="@2131755267" android:layout_marginStart="5.0dip" />
+            <ImageView android:layout_gravity="0x00800005" android:id="@2131363424" android:background="@2131233291" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="5.0dip" android:src="@2131755261" android:layout_marginEnd="5.0dip" />
+            <com.kc.openset.view.OSETShakeView android:layout_gravity="0x00000011" android:id="@2131365983" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10.0dip" />
+            <ImageView android:layout_gravity="0x00800053" android:id="@2131363599" android:background="@2131233291" android:padding="5.0dip" android:visibility="1" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_margin="5.0dip" android:src="@2131755266" />
+            <ImageView android:id="@2131363461" android:visibility="1" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip" android:src="@2131755261" android:contentDescription="@2131953319" />
+        </com.kc.openset.view.OSETNativeContainerView>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="8.0sp" android:textColor="#80000000" android:layout_gravity="0x00800053" android:id="@2131368681" android:layout_width="-2" android:layout_height="-2" />
+        <include layout="@layout/oset_api_ad_privacy" />
+    </LinearLayout>
+</LinearLayout>

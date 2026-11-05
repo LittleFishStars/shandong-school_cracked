@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131362228" android:layout_width="220.0dip" android:layout_height="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@2131363317" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131231968" android:layout_marginStart="52.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_container" app:layout_constraintStart_toStartOf="@id/bg_container" app:layout_constraintTop_toTopOf="@id/bg_container" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@2131363743" android:layout_width="26.0dip" android:layout_height="22.0dip" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_container" app:layout_constraintStart_toEndOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/bg_container" app:lottie_autoPlay="false" app:lottie_fileName="animation/js_audio_play_2.json" app:lottie_loop="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:id="@2131367838" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_container" app:layout_constraintEnd_toEndOf="@id/bg_container" app:layout_constraintTop_toTopOf="@id/bg_container" />
+    <ImageView android:id="@2131363291" android:visibility="2" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131231966" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_container" app:layout_constraintStart_toEndOf="@id/bg_container" app:layout_constraintTop_toTopOf="@id/bg_container" />
+</merge>

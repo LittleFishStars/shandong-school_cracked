@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.common.widget.ShadowLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131367218" android:background="@2131101240" android:layout_width="82.0dip" android:layout_height="34.0dip" android:layerType="1" app:sl_cornerRadius="11.0dip" app:sl_isCircle="true" app:sl_shadowRadius="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@2131100985" android:layout_width="-2" android:layout_height="-2" android:text="@2131952410" />
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="6.0dip">
+        <View android:id="@2131368935" android:background="@2131099869" android:layout_width="3.0dip" android:layout_height="6.0dip" />
+        <View android:id="@2131368937" android:background="@2131099869" android:layout_width="3.0dip" android:layout_height="6.0dip" android:layout_marginStart="5.0dip" />
+        <View android:id="@2131368939" android:background="@2131099869" android:layout_width="3.0dip" android:layout_height="6.0dip" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</com.huachenjie.common.widget.ShadowLayout>

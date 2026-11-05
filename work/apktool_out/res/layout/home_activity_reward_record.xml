@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366761" android:tag="" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.huachenjie.common.page.statelayout.StateLayout>
+    <ImageView android:tag="" android:layout_width="-2" android:layout_height="-2" android:src="@2131230908" />
+</FrameLayout>

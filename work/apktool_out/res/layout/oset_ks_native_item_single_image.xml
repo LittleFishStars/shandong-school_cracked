@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131365970" android:background="@2131233306" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131365982" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@2131365972" android:layout_width="-1" android:layout_height="-1" android:scaleType="7" />
+    </FrameLayout>
+    <include android:id="@2131365969" android:layout_width="-1" android:layout_height="-2" layout="@layout/oset_ks_native_item_app_download" />
+</LinearLayout>

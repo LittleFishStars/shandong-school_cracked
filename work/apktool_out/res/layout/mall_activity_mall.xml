@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLConstraintLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364794" android:tag="" android:layout_width="-1" android:layout_height="@2131166507" android:minHeight="60.0dip" app:bl_gradient_endColor="#000bd3ff" app:bl_gradient_startColor="#330bd3ff">
+        <ImageView android:id="@2131363390" android:tag="" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131230908" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/ll_search_container" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/ll_search_container" />
+        <com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364772" android:tag="" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#fff5f5f5" app:bl_stroke_color="#ff191f20" app:bl_stroke_width="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_back" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231810" android:layout_marginStart="12.0dip" />
+            <com.youth.banner.Banner android:id="@2131368967" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" app:banner_indicator_normal_color="@color/transparent" app:banner_indicator_selected_color="@color/transparent" app:banner_indicator_space="8.0dip" app:banner_orientation="vertical" />
+            <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textColor="#ff0bd3ff" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="36.0dip" android:text="" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginEnd="4.0dip" app:bl_corners_radius="18.0dip" app:bl_solid_color="#ff191f20" />
+        </com.noober.background.view.BLLinearLayout>
+    </com.noober.background.view.BLConstraintLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="-1" android:layout_height="-1">
+        <com.google.android.material.appbar.AppBarLayout android:id="@2131362003" android:background="@2131101187" android:layout_width="-1" android:layout_height="-2" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <com.huachenjie.common.widget.ShadowConstraintLayout android:layout_width="-1" android:layout_height="64.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:sl_cornerRadius="12.0dip" app:sl_shadowColor="#260bd3ff" app:sl_shadowRadius="8.0dip">
+                        <View android:id="@2131368848" android:background="#ffe7e7e7" android:layout_width="1.0dip" android:layout_height="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <LinearLayout android:gravity="0x00000011" android:orientation="0" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/v_split_line" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131232996" />
+                            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="8.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@2131232995" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="0x00000011" android:orientation="0" android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/v_split_line" app:layout_constraintTop_toTopOf="parent">
+                            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131232997" />
+                            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff191f20" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="8.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@2131232995" />
+                        </LinearLayout>
+                    </com.huachenjie.common.widget.ShadowConstraintLayout>
+                    <com.youth.banner.Banner android:id="@2131362062" android:tag="" android:layout_width="-1" android:layout_height="100.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:banner_indicator_normal_color="#80ffffff" app:banner_indicator_normal_width="6.0dip" app:banner_indicator_selected_color="@color/white" app:banner_indicator_selected_width="6.0dip" app:banner_indicator_space="8.0dip" app:banner_loop_time="3000" app:banner_radius="20.0dip" />
+                </LinearLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="1" android:id="@2131362241" android:layout_width="-1" android:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <FrameLayout android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="40.0dip">
+                    <com.flyco.tablayout.SlidingTabLayout2 android:id="@2131367465" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" android:layout_marginStart="6.0dip" app:tl_indicator_corner_radius="12.0dip" app:tl_indicator_gravity="BOTTOM" app:tl_indicator_height="24.0dip" app:tl_indicator_margin_bottom="8.0dip" app:tl_indicator_width_equal_title="true" app:tl_indicator_width_equal_title_width="true" app:tl_tab_padding="10.0dip" app:tl_tab_space_equal="false" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff191f20" app:tl_textUnselectColor="#ff191f20" app:tl_textsize="14.0sp" />
+                    <ImageView android:id="@2131367471" android:tag="" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="48.0dip" android:layout_height="-1" android:src="@2131232998" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="0x00000005" android:layout_width="16.0dip" android:layout_height="-1" android:src="@2131233000" android:layout_marginEnd="48.0dip" />
+            </FrameLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@2131368915" android:background="#fff7f7f7" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.hzjizhun.admin.view.RootTouchViewGroup android:id="@2131366721" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffffff" android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginHorizontal="16.0dip">
+        <ImageView android:id="@2131362416" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" android:scaleType="1" android:adjustViewBounds="true" android:layout_marginHorizontal="16.0dip" />
+        <ImageView android:id="@2131362415" android:background="@2131232135" android:padding="5.0dip" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" android:src="@2131230855" android:scaleType="3" android:layout_alignParentRight="true" android:layout_marginEnd="5.0dip" />
+        <ImageView android:id="@2131363357" android:layout_width="45.0dip" android:layout_height="15.0dip" android:src="@2131230852" android:scaleType="3" android:layout_below="@2131362416" android:layout_alignTop="@2131364646" android:layout_alignBottom="@2131364646" android:layout_alignStart="@2131362416" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364646" android:layout_width="-2" android:layout_height="-2" android:layout_below="@2131362416" android:layout_alignEnd="@2131362416" android:paddingVertical="5.0dip">
+            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@2131230854" />
+            <TextView android:textSize="14.0sp" android:textColor="#333333" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</cn.hzjizhun.admin.view.RootTouchViewGroup>

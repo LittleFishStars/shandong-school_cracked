@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="0" android:layout_width="-1" android:layout_height="160.0dip" android:layout_marginTop="24.0dip">
+        <com.huachenjie.common.widget.ShadowConstraintLayout android:id="@2131367214" android:tag="" android:layout_width="130.0dip" android:layout_height="160.0dip" app:sl_bgColor="#fff2f2f3" app:sl_cornerRadius="9.0dip" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="false">
+            <ImageView android:id="@2131363336" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="49.0dip" android:src="@2131231150" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="16.0sp" android:textColor="@2131099809" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ivSearch" />
+        </com.huachenjie.common.widget.ShadowConstraintLayout>
+        <View android:layout_width="30.0dip" android:layout_height="-2" />
+        <com.huachenjie.common.widget.ShadowConstraintLayout android:id="@2131367213" android:tag="" android:clickable="false" android:layout_width="130.0dip" android:layout_height="160.0dip" app:sl_bgColor="#fff2f2f3" app:sl_cornerRadius="9.0dip" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="false">
+            <ImageView android:id="@2131363335" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="49.0dip" android:src="@2131231149" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="16.0sp" android:textColor="@2131099809" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ivScan" />
+        </com.huachenjie.common.widget.ShadowConstraintLayout>
+    </LinearLayout>
+    <FrameLayout android:orientation="0" android:background="#f5f5f5" android:layout_width="-1" android:layout_height="38.0dip" android:layout_marginTop="24.0dip" android:paddingStart="15.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:layout_gravity="0x00800013" android:layout_width="-2" android:layout_height="-2" android:text="@2131951900" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:layout_gravity="0x00800015" android:tag="" android:layout_width="-2" android:layout_height="-2" android:text="@2131951901" android:drawablePadding="8.0dip" app:drawableStartCompat="@drawable/channel_ic_add_friend_refresh" />
+    </FrameLayout>
+    <com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366761" android:tag="" android:paddingTop="10.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.huachenjie.common.page.statelayout.StateLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.huachenjie.base.widget.AvatarView android:tag="" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+        <ImageView android:layout_gravity="0x00800055" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131233099" />
+    </FrameLayout>
+    <com.huachenjie.common.widget.ShadowLayout android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="true" app:sl_isCircle="false" app:sl_shadowRadius="6.0dip">
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff191f20" />
+    </com.huachenjie.common.widget.ShadowLayout>
+</RelativeLayout>

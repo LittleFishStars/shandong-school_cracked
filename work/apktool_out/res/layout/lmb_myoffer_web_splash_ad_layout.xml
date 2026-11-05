@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131365059" android:layout_width="-1" android:layout_height="-1" />
+    <include android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="44.0dip" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_invalid_button" />
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_4_element_with_feedback" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+    <include layout="@layout/lmb_myoffer_include_splash_ad_layout_skip_area" />
+</merge>

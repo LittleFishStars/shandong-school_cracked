@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131365923" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131365924" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="" />
+    <com.qy.sdk.img.QYImageView android:layout_gravity="0x00000011" android:id="@2131365925" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+</FrameLayout>

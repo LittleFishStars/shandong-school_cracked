@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meishu.sdk.core.view.TouchAdContainer android:id="@2131365587" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@17170444" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@2131365751" android:layout_width="-1" android:layout_height="-1" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+            <com.meishu.sdk.core.view.gif.GifImageView android:id="@2131365772" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@2131365607" android:background="@2131233172" android:paddingLeft="16.5dip" android:paddingTop="23.5dip" android:paddingRight="16.5dip" android:paddingBottom="23.5dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:minHeight="200.0dip" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+                <com.meishu.sdk.meishu_ad.view.MeishuImageView2 android:id="@2131365771" android:visibility="2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="10.0dip" android:src="@2131755256" android:layout_centerVertical="true" />
+                <TextView android:textSize="@2131166223" android:textColor="@2131100882" android:ellipsize="3" android:id="@2131365773" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_centerInParent="true" />
+                <TextView android:textSize="@2131166222" android:textColor="@2131100881" android:ellipsize="3" android:id="@2131365769" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:maxLines="2" android:layout_centerInParent="true" />
+                <Button android:textSize="@2131166221" android:textColor="@2131100880" android:id="@2131365655" android:background="@2131233173" android:layout_width="102.0dip" android:layout_height="43.0dip" android:layout_marginTop="20.0dip" android:text="" android:layout_centerInParent="true" android:layout_centerHorizontal="true" style="?16843563" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131365788" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="140.0dip" android:layout_above="@2131365689" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.meishu.sdk.core.view.gif.GifImageView android:id="@2131365786" android:background="@2131233131" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:id="@2131365789" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131365790" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:text="" android:singleLine="true" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" />
+        </LinearLayout>
+        <RelativeLayout android:id="@2131365809" android:background="@2131233172" android:paddingLeft="16.5dip" android:paddingTop="23.5dip" android:paddingRight="16.5dip" android:paddingBottom="23.5dip" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@2131365740" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <com.meishu.sdk.meishu_ad.view.MeishuImageView2 android:id="@2131365770" android:visibility="2" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginRight="8.0dip" android:src="@2131755256" android:layout_centerVertical="true" />
+                <TextView android:textSize="@2131166223" android:textColor="@2131100882" android:ellipsize="3" android:id="@2131365812" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="8.0dip" android:text="" android:singleLine="true" android:layout_toLeftOf="@2131365810" android:layout_toRightOf="@2131365770" />
+                <TextView android:textSize="@2131166222" android:textColor="@2131100881" android:ellipsize="3" android:id="@2131365811" android:layout_width="-1" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_below="@2131365812" android:layout_alignLeft="@2131365812" android:layout_alignRight="@2131365812" />
+                <Button android:textSize="@2131166221" android:textColor="@2131100880" android:id="@2131365810" android:background="@2131233173" android:layout_width="95.0dip" android:layout_height="40.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?16843563" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10.0dip" android:layout_marginRight="80.0dip" android:layout_above="@2131365809">
+            <TextView android:textSize="10.0sp" android:textColor="#ffffff" android:id="@2131365667" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:text="@2131953216" android:shadowColor="#000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <include android:id="@2131365690" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/ms_ad_tag_view_right" />
+        <include android:id="@2131365689" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.0dip" android:layout_above="@2131365809" android:layout_alignRight="@2131365809" layout="@layout/ms_ad_tag_view_left" />
+        <View android:id="@2131365676" android:background="@17170445" android:layout_width="-1" android:layout_height="-1" />
+        <RelativeLayout android:id="@2131365784" android:background="@17170445" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="38.0dip" android:layout_alignParentTop="true">
+            <RelativeLayout android:id="@2131365777" android:background="@2131233140" android:padding="2.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_alignBottom="@2131365783">
+                <ImageView android:id="@2131365776" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_margin="5.0dip" android:src="@2131233159" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:id="@2131365782" android:background="@2131233140" android:paddingLeft="8.0dip" android:paddingTop="1.0dip" android:paddingRight="8.0dip" android:paddingBottom="1.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:text="" android:layout_alignBottom="@2131365783" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <com.meishu.sdk.meishu_ad.reward.CircleProcessBar android:id="@2131365767" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" />
+            <ImageView android:id="@2131365783" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="11.0dip" android:src="@2131233186" android:layout_alignParentRight="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.meishu.sdk.core.view.TouchAdContainer>

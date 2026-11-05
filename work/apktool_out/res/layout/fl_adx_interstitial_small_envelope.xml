@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363400" android:layout_width="-1" android:layout_height="150.0dip" android:layout_marginTop="250.0dip" android:scaleType="1" />
+    <RelativeLayout android:id="@2131366713" android:layout_width="-1" android:layout_height="380.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <RelativeLayout android:id="@2131366666" android:paddingBottom="10.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <com.fl.saas.adx.base.widget.CountDownTextView android:textSize="11.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368571" android:visibility="1" android:layout_width="40.0dip" android:layout_height="20.0dip" android:text="" android:layout_alignParentEnd="true" app:fl_bg_color="#60000000" app:fl_bg_radius="20.0dip" app:fl_count="5" />
+            <ImageView android:id="@2131363426" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131755075" android:scaleType="3" android:layout_alignParentEnd="true" />
+            <View android:id="@2131368799" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@2131231621" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131366666">
+            <com.fl.saas.adx.base.widget.AspectRatioRelativeLayout android:id="@2131366686" android:background="#000000" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="48.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:fl_aspectRatio="1.78">
+                <ImageView android:id="@2131363703" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+                <ImageView android:id="@2131363704" android:layout_width="-1" android:layout_height="-1" />
+                <FrameLayout android:id="@2131363716" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+                <ImageView android:id="@2131363708" android:layout_width="-2" android:layout_height="12.0dip" android:scaleType="2" android:layout_alignParentBottom="true" />
+            </com.fl.saas.adx.base.widget.AspectRatioRelativeLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_below="@2131366686">
+                <ImageView android:layout_gravity="0x00000001" android:id="@2131363373" android:layout_width="18.0dip" android:layout_height="13.0dip" android:layout_marginTop="24.0dip" android:src="@2131231613" android:scaleType="1" />
+                <ImageView android:layout_gravity="0x00000001" android:id="@2131363374" android:layout_width="18.0dip" android:layout_height="13.0dip" android:layout_marginTop="-6.0dip" android:src="@2131231613" android:scaleType="1" />
+                <TextView android:textSize="12.0sp" android:textColor="#b4b4b4" android:gravity="0x00000011" android:id="@2131368033" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:text="" android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:id="@2131364806" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131366686">
+                <com.fl.saas.adx.base.widget.ShaderRoundImageView android:id="@2131363705" android:visibility="2" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="6" app:fl_radius="8.0dip" />
+                <TextView android:textSize="18.0sp" android:textColor="#000000" android:ellipsize="3" android:id="@2131368721" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:maxLines="1" />
+                <TextView android:textSize="14.0sp" android:textColor="#b4b4b4" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131368714" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:maxLines="1" />
+            </LinearLayout>
+            <com.fl.saas.adx.base.widget.CountDownTextView android:textSize="11.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368570" android:visibility="1" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="" android:layout_alignParentEnd="true" app:fl_bg_color="#60000000" app:fl_bg_radius="20.0dip" app:fl_count="5" />
+            <ImageView android:id="@2131363424" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:src="@2131755075" android:scaleType="3" android:layout_alignParentEnd="true" />
+            <View android:id="@2131368798" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@2131363682" android:layout_width="-1" android:layout_height="130.0dip" android:layout_marginTop="270.0dip" android:scaleType="1" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364659" android:background="@2131231610" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginTop="340.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <com.fl.saas.adx.base.widget.ShakeView android:id="@2131369059" android:visibility="2" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368713" android:layout_width="-2" android:layout_height="40.0dip" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</RelativeLayout>

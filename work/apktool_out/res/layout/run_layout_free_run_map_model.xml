@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131366688" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="-1" android:layout_height="@2131165265" layout="@layout/layout_toolbar_round_icon" />
+    <com.huachenjie.common.widget.ShadowLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131367224" android:background="@2131101240" android:layout_width="-1" android:layout_height="112.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" android:layerType="1" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" app:sl_cornerRadius="6.0dip" app:sl_isCircle="true" app:sl_shadowRadius="6.0dip">
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@2131100985" android:id="@2131368194" android:layout_width="-2" android:layout_height="-2" android:text="@2131952539" />
+            <com.huachenjie.common.widget.CustomerTextView android:textSize="36.0sp" android:textColor="@2131100988" android:id="@2131368196" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@2131100985" android:id="@2131368214" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <com.huachenjie.common.widget.BackgroundChronometer android:textSize="36.0sp" android:textColor="@2131100988" android:id="@2131368215" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:format="" android:layout_alignParentRight="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textColor="@2131100985" android:id="@2131368110" android:layout_width="-2" android:layout_height="-2" android:text="@2131951884" />
+            <com.huachenjie.common.widget.CustomerTextView android:textSize="36.0sp" android:textColor="@2131100988" android:id="@2131368111" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </com.huachenjie.common.widget.ShadowLayout>
+    <include android:id="@2131367198" android:layout_width="82.0dip" android:layout_height="32.0dip" android:layout_above="@2131367224" android:layout_marginStart="7.0dip" layout="@layout/layout_gps_signal" />
+    <TextView android:textSize="12.0sp" android:textColor="#333" android:gravity="0x00000011" android:id="@2131367934" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@2131367198" android:layout_alignBottom="@2131367198" android:layout_marginStart="4.0dip" android:layout_toEndOf="@2131367198" />
+    <com.huachenjie.common.widget.ShadowLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131367222" android:background="@2131101240" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_above="@2131367224" android:layerType="1" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" app:sl_cornerRadius="4.0dip" app:sl_isCircle="true" app:sl_shadowRadius="4.0dip">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231973" />
+    </com.huachenjie.common.widget.ShadowLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#333" android:gravity="0x00000011" android:id="@2131367788" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@2131367222" android:layout_alignBottom="@2131367222" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@2131367222" />
+</RelativeLayout>

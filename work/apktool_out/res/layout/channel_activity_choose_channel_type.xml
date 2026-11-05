@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/channel_create_top_bg" />
+    <include android:id="@2131367641" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_toolbar_binding" />
+    <TextView android:id="@2131368608" android:layout_marginTop="60.0dip" android:text="@2131951911" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" style="@style/channel_create_subtitle_textview" />
+    <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="60.0dip" android:paddingStart="11.0dip" android:paddingEnd="11.0dip" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_sub_title" app:spanCount="2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

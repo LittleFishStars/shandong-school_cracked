@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@2131099735" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.common.video.VideoTextureView android:layout_gravity="0x00000011" android:id="@2131368869" android:layout_width="-1" android:layout_height="-2" />
+    <com.noober.background.view.BLImageView android:tag="" android:paddingTop="9.0dip" android:paddingBottom="9.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131231764" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" app:bl_corners_radius="18.0dip" app:bl_solid_color="#80000000" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131363332" android:visibility="2" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@2131231724" />
+    <com.huachenjie.common.widget.LoadingLineView android:layout_gravity="0x00000050" android:id="@2131365105" android:layout_width="-1" android:layout_height="2.0dip" android:layout_marginBottom="30.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <ProgressBar android:layout_gravity="0x00000050" android:id="@2131366016" android:layout_width="-1" android:layout_height="2.0dip" android:layout_marginBottom="30.0dip" android:max="100" android:progress="0" android:progressDrawable="@2131231051" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <SeekBar android:layout_gravity="0x00000050" android:id="@2131367048" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="26.0dip" android:maxHeight="8.0dip" android:max="100" android:progress="0" android:progressDrawable="@2131231052" android:minHeight="8.0dip" android:thumb="@2131231053" android:thumbOffset="0.0dip" android:alpha="0.0" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:splitTrack="false" />
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000050" android:orientation="0" android:id="@2131364656" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="70.0dip">
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@2131367823" android:layout_width="-2" android:layout_height="-2" />
+        <View android:background="#4dffffff" android:layout_width="2.0dip" android:layout_height="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <TextView android:textSize="24.0sp" android:textColor="#80ffffff" android:id="@2131367975" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</FrameLayout>

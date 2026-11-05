@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131366942" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="0" android:id="@2131366940" android:layout_width="-1" android:layout_height="-2">
+        <com.yd.saas.open.widget.StarsRoundImageView android:id="@2131366938" android:visibility="2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="5.0dip" />
+        <TextView android:textSize="@2131166471" android:textColor="#000" android:id="@2131366943" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginVertical="5.0dip">
+        <FrameLayout android:id="@2131366939" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@2131366941" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+            <com.yd.saas.open.widget.StarsShakeHintView android:layout_gravity="0x00000011" android:id="@2131366910" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5.0dip" />
+            <com.yd.saas.open.widget.erase.EraseImageView android:id="@2131366871" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:src="@2131233767" android:scaleType="1" app:erase_delay_duration="3000" app:erase_paddingLeft="16.0dip" app:erase_paddingTop="16.0dip" app:erase_radius="8.0dip" app:erase_resource="@drawable/saas_s_img_erase" />
+            <TextView android:textSize="15.0sp" android:textColor="#fff" android:layout_gravity="0x00800015" android:id="@2131366870" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@2131953617" android:layout_marginEnd="16.0dip" />
+        </FrameLayout>
+        <ViewStub android:id="@2131366944" android:layout="@2131560345" android:layout_width="-1" android:layout_height="-1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:gravity="0x00000050" android:id="@2131366934" android:layout_width="-1" android:layout_height="-2">
+        <com.yd.saas.open.widget.StarsLogoView android:background="@2131233788" android:layout_width="-2" android:layout_height="-2" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:gravity="0x00000010" android:layout_gravity="0x00800055" android:id="@2131366937" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131233762" />
+        <ImageView android:id="@2131366935" android:padding="4.0dip" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131233775" />
+    </LinearLayout>
+    <ViewStub android:id="@2131366936" android:layout="@2131560344" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

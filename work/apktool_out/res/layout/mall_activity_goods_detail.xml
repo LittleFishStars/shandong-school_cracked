@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:background="#f5f5f5" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:tag="" android:layout_width="-1" android:layout_height="-1" android:layout_above="@2131362593" android:overScrollMode="2" app:layoutManager="com.huachenjie.common.recycler_view.OffsetLinearLayoutManager" />
+    <com.noober.background.view.BLView android:id="@2131368788" android:tag="" android:layout_width="-1" android:layout_height="@2131165367" app:bl_gradient_endColor="#00000000" app:bl_gradient_startColor="#80000000" />
+    <include android:id="@2131363128" layout="@layout/mall_layout_goods_detail_toolbar" />
+    <ViewStub android:id="@2131368971" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+    <include layout="@layout/layout_toolbar_binding" />
+</RelativeLayout>

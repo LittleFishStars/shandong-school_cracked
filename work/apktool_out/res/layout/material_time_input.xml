@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:layout_width="-2" android:layout_height="-2" app:errorIconDrawable="@null" app:hintEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputEditText android:layout_width="@2131166187" android:layout_height="@2131166185" android:textCursorDrawable="@2131233073" />
+    <TextView android:id="@2131365506" android:focusable="false" android:layout_width="-2" android:layout_height="-2" />
+</com.google.android.material.textfield.TextInputLayout>

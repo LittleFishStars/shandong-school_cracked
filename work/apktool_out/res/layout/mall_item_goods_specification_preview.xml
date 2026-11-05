@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lxj.xpopup.photoview.PhotoView android:tag="" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

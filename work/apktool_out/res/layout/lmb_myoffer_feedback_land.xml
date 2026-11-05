@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@2131232450" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364883" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="9.0dip" android:src="@2131232471" android:layout_alignParentRight="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#333333" android:id="@2131364899" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="3.0dip" android:text="@2131952618" android:layout_below="@2131364883" />
+    <LinearLayout android:orientation="0" android:id="@2131364884" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131364899">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364890" android:tag="" android:text="@2131952630" style="@style/lmb_myoffer_feedback_textview_style_land" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364891" android:tag="" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:text="@2131952619" style="@style/lmb_myoffer_feedback_textview_style_land" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364892" android:tag="" android:text="@2131952620" style="@style/lmb_myoffer_feedback_textview_style_land" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#333333" android:id="@2131364902" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="@2131952626" android:layout_below="@2131364884" />
+    <LinearLayout android:orientation="0" android:id="@2131364887" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131364902">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364893" android:tag="" android:text="@2131952623" style="@style/lmb_myoffer_feedback_textview_style_land" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364894" android:tag="" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:text="@2131952631" style="@style/lmb_myoffer_feedback_textview_style_land" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364895" android:tag="" android:text="@2131952621" style="@style/lmb_myoffer_feedback_textview_style_land" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@2131364888" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131364887">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364896" android:tag="" android:text="@2131952625" style="@style/lmb_myoffer_feedback_textview_style_land" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364897" android:tag="" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:text="@2131952632" style="@style/lmb_myoffer_feedback_textview_style_land" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.FeedbackTextView android:id="@2131364898" android:tag="" android:text="@2131952624" style="@style/lmb_myoffer_feedback_textview_style_land" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#333333" android:id="@2131364901" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="@2131952628" android:layout_below="@2131364888" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364900" android:background="@2131232451" android:layout_width="167.0dip" android:layout_height="30.0dip" android:layout_marginBottom="14.0dip" android:text="@2131952627" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <EditText android:textSize="14.0sp" android:gravity="0x00000033" android:id="@2131364882" android:background="@2131232457" android:padding="4.0dip" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:maxLength="100" android:layout_above="@2131364900" android:layout_below="@2131364901" />
+</RelativeLayout>

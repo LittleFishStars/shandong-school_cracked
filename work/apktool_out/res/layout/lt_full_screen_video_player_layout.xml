@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.art.ad.view.LtVideoTextureView android:id="@2131365814" android:background="@0" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true" />
+    <com.ltmb.ltsdk.art.ad.reward.CircleProcessBar android:id="@2131365767" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="38.0dip" android:layout_marginRight="11.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

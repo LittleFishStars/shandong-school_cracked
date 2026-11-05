@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+        <com.amap.api.maps.MapView android:id="@2131365488" android:layout_width="-1" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_title" />
+        <ImageView android:layout_gravity="0x00000055" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="177.0dip" android:src="@2131231743" android:layout_marginEnd="12.0dip" />
+        <ImageView android:layout_gravity="0x00000055" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="107.0dip" android:src="@2131231742" android:layout_marginEnd="12.0dip" />
+    </FrameLayout>
+</LinearLayout>

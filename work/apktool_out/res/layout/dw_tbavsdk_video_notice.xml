@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.taobao.avplayer.playercontrol.widget.DWProgressImageView android:layout_gravity="0x00000011" android:id="@2131367507" android:visibility="2" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+    <FrameLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131367506" android:background="@2131100002" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="12.0sp" android:textColor="@2131100015" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131367508" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-25.0dip" android:text="@2131952220" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131100015" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131367509" android:background="@2131231371" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="@2131952225" android:maxLines="1" />
+    </FrameLayout>
+</FrameLayout>

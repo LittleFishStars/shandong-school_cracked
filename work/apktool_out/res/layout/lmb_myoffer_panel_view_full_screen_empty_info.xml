@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131365031" android:background="@2131232530" android:layout_width="-1" android:layout_height="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ShakeTextHintWhiteView android:id="@2131365023" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="38.0dip" android:layout_marginRight="38.0dip" android:layout_marginBottom="102.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:foregroundTint="#ffffff" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.CTAButtonLayout android:id="@2131364986" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="48.0dip" android:layout_alignParentBottom="true" />
+    <include android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="35.0dip" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_invalid_button" />
+</RelativeLayout>

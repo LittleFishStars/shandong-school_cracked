@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView style="@style/login_bg_head_gradual" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout style="@style/login_ll_common_title">
+            <TextView android:text="@2131952794" style="@style/login_tv_common_title" />
+            <ImageView android:src="@2131232567" style="@style/login_iv_common_title" />
+        </LinearLayout>
+        <TextView android:tag="" style="@style/login_tv_common_title_content" />
+        <com.noober.background.view.BLEditText android:id="@2131362836" android:tag="" android:layout_marginTop="120.0dip" android:hint="@2131952792" android:maxLength="8" style="@style/login_common_input_v2" />
+        <TextView android:tag="" android:layout_marginTop="40.0dip" style="@style/login_bt_next" />
+    </LinearLayout>
+</FrameLayout>

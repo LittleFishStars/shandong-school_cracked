@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:tag="" android:paddingBottom="30.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="60.0dip" android:paddingStart="37.0dip" android:paddingEnd="37.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <View android:id="@2131368820" android:background="#e5e5e5" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="#757979" android:id="@2131368348" android:layout_width="-2" android:layout_height="-2" android:text="@2131952855" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <View android:id="@2131368821" android:background="#e5e5e5" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip">
+        <TextView android:id="@2131363174" android:tag="" android:text="@2131952857" app:drawableTopCompat="@drawable/login_ic_login_with_qq" style="@style/login_tv_welcome_third" />
+        <TextView android:id="@2131363176" android:tag="" android:text="@2131952860" app:drawableTopCompat="@drawable/login_ic_login_with_wechat" style="@style/login_tv_welcome_third" />
+        <TextView android:id="@2131363175" android:tag="" android:text="@2131952858" app:drawableTopCompat="@drawable/login_ic_login_with_school_certification" style="@style/login_tv_welcome_third" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#80000000" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:background="@2131232875" android:padding="20.0dip" android:layout_width="280.0dip" android:layout_height="-2" android:layout_centerInParent="true">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170444" android:layout_gravity="0x00000001" android:id="@2131362650" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15.0dip" android:text="" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131362643" android:background="@2131232872" android:layout_width="-1" android:layout_height="45.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="8.0dip" android:text="" />
+            <TextView android:textSize="14.0sp" android:textColor="#666666" android:gravity="0x00000011" android:id="@2131362645" android:background="@2131232877" android:layout_width="-1" android:layout_height="45.0dip" android:layout_marginTop="15.0dip" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

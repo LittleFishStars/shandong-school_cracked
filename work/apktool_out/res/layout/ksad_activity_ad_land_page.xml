@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSRelativeLayout android:orientation="1" android:id="@2131364262" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364385" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <com.kwad.sdk.widget.KSRelativeLayout android:id="@2131364389" android:visibility="2" android:layout_width="-1" android:layout_height="210.0dip">
+        <com.kwad.components.core.video.DetailVideoView android:id="@2131364413" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true" />
+        <ImageView android:id="@2131364400" android:layout_width="-2" android:layout_height="-2" android:layout_alignLeft="@2131364413" android:layout_alignTop="@2131364413" android:layout_alignRight="@2131364413" android:layout_alignBottom="@2131364413" />
+        <com.kwad.components.core.widget.KsLogoView android:id="@2131363935" android:background="@2131232346" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" />
+    </com.kwad.sdk.widget.KSRelativeLayout>
+    <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131232250" />
+    <FrameLayout android:id="@2131364435" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131364389">
+        <com.kwad.sdk.core.webview.KsAdWebView android:id="@2131364013" android:layout_width="-1" android:layout_height="-1" />
+        <include android:id="@2131363787" android:visibility="2" android:layout_width="-1" android:layout_height="-1" layout="@layout/ksad_ad_land_page_native" />
+    </FrameLayout>
+    <ImageView android:id="@2131363819" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131232250" />
+    <ImageView android:id="@2131364261" android:padding="6.0dip" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:src="@2131232274" android:scaleType="7" android:layout_alignParentTop="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+</com.kwad.sdk.widget.KSRelativeLayout>

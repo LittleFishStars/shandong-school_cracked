@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.gt.api.base.reward.VerticalSegmentPager android:id="@2131365360" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131365356" android:padding="5.0dip" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365357" android:background="@2131232882" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" android:layout_alignParentTop="true" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131365355" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+            <ImageView android:id="@2131365358" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@2131232756" android:scaleType="6" android:layout_marginEnd="5.0dip" />
+            <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131365354" android:background="@2131232881" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131365359" android:layout_width="-2" android:layout_height="-2" />
+            </LinearLayout>
+            <ImageView android:id="@2131365353" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@2131232753" android:scaleType="7" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <com.ltmb.ltsdk.gt.api.base.view.SlideUpView android:id="@2131365851" android:layout_width="-2" android:layout_height="180.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

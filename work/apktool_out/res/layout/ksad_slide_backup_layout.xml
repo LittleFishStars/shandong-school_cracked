@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000051" android:id="@2131364313" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="0x00000051" android:id="@2131364311" android:layout_width="306.0dip" android:layout_height="242.0dip" android:layout_marginBottom="200.0dip" android:scaleType="7" />
+    <com.kwad.components.ad.splashscreen.widget.KsSlideRoundView android:layout_gravity="0x00000050" android:id="@2131364314" android:layout_width="-1" android:layout_height="210.0dip" app:ksad_shakeIcon="@drawable/ksad_splash_slide_round_bg" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="348.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="@17170443" android:layout_gravity="0x00000001" android:id="@2131364316" android:layout_width="-2" android:layout_height="-2" android:shadowColor="#99000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@17170443" android:ellipsize="3" android:layout_gravity="0x00000001" android:id="@2131364315" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:maxLines="1" android:shadowColor="#99000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" />
+    </LinearLayout>
+</FrameLayout>

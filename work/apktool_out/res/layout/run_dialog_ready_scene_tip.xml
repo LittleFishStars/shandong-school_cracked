@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#80000000" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLLinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:padding="24.0dip" android:layout_width="300.0dip" android:layout_height="-2" app:bl_corners_radius="20.0dip" app:bl_solid_color="@17170443">
+        <TextView android:textSize="18.0sp" android:textColor="@2131099806" android:gravity="0x00000011" android:id="@2131367965" android:layout_width="-1" android:layout_height="-2" android:includeFontPadding="false" android:fontFamily="" />
+        <androidx.core.widget.NestedScrollView android:id="@2131367376" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:overScrollMode="2">
+            <LinearLayout android:orientation="1" android:id="@2131364620" android:layout_width="-1" android:layout_height="-2" />
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364632" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip">
+            <CheckBox android:id="@2131362377" android:background="@0" android:padding="0.0dip" android:focusable="false" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:checked="false" android:button="@2131233715" android:minWidth="0.0dip" android:minHeight="0.0dip" android:buttonTint="@0" app:buttonTint="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@2131099833" android:layout_width="-2" android:layout_height="-2" android:text="@2131953568" android:includeFontPadding="false" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099800" android:gravity="0x00000011" android:id="@2131367863" android:layout_width="252.0dip" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:text="@2131953576" android:fontFamily="" app:bl_corners_radius="22.0dip" app:bl_solid_color="@color/color_191F20" />
+    </com.noober.background.view.BLLinearLayout>
+</FrameLayout>

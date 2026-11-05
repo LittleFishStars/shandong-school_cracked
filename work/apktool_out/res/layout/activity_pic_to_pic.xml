@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131362537" android:background="#99000000" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+        <TextView android:textSize="13.0dip" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368591" android:paddingTop="20.0dip" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="13.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368439" android:paddingTop="5.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_below="@2131368591" />
+        <TextView android:textSize="13.0dip" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368595" android:paddingTop="20.0dip" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="13.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368442" android:paddingTop="5.0dip" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="13.0dip" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368593" android:paddingTop="20.0dip" android:layout_width="-1" android:layout_height="-2" />
+        <RelativeLayout android:id="@2131367387" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="13.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368441" android:paddingTop="5.0dip" android:layout_width="-1" android:layout_height="-2" />
+            <com.acse.ottn.animator.SwitchOnAnimView android:id="@2131367388" android:paddingTop="5.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@2131367389" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="13.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368440" android:paddingTop="5.0dip" android:layout_width="-1" android:layout_height="-2" />
+            <com.acse.ottn.animator.SwitchOnAnimSmallView android:id="@2131367390" android:paddingTop="5.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131368407" android:background="@2131230842" android:layout_width="200.0dip" android:layout_height="48.0dip" android:layout_marginTop="65.0dip" android:text="" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

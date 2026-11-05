@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364925" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="110.0dip" android:layout_marginRight="24.0dip" android:src="@2131232493" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:clipChildren="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_below="@2131364925">
+        <TextView android:textSize="28.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:text="@2131952651" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="@2131952650" />
+        <RelativeLayout android:gravity="0x00000030" android:orientation="0" android:layout_width="292.0dip" android:layout_height="-2" android:layout_marginTop="132.0dip">
+            <ImageView android:id="@2131364934" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="116.0dip" android:layout_height="90.0dip" android:src="@2131232483" android:scaleType="3" android:layout_alignParentRight="true" />
+            <ImageView android:layout_width="72.0dip" android:layout_height="24.0dip" android:layout_marginTop="54.0dip" android:src="@2131232482" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="@2131952649" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@2131364933" android:layout_width="116.0dip" android:layout_height="126.0dip" />
+            <ImageView android:id="@2131364928" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="66.0dip" android:layout_marginTop="70.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.guidetoclickv2.picverify.TextSeekbar android:id="@2131364939" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" />
+</merge>

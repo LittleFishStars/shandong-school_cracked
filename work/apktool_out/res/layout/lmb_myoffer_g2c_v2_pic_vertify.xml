@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.guidetoclickv2.picverify.PictureVerifyView android:id="@2131364938" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" android:layout_centerInParent="true" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.guidetoclickv2.picverify.TextSeekbar android:id="@2131364939" android:visibility="2" android:layout_width="300.0dip" android:layout_height="24.0dip" android:layout_centerHorizontal="true" />
+</merge>

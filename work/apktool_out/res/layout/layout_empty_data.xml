@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@2131367329" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@2131363741" android:layout_width="100.0dip" android:layout_height="100.0dip" app:layout_constraintBottom_toTopOf="@id/tv_empty" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.33" app:layout_constraintVertical_chainStyle="packed" app:lottie_autoPlay="true" app:lottie_fileName="animation/empty_layout_huodong.json" app:lottie_loop="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@2131099839" android:id="@2131368221" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/jsEmptyView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

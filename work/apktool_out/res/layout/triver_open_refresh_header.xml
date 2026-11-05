@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="0x00000010" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.alibaba.triver.triver_render.view.refresh.RoundProgressBar android:id="@2131367675" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="44.0dip" android:layout_centerVertical="true" app:ringProgressColor="#ff999999" />
+    <ImageView android:id="@2131367671" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="6.0dip" android:layout_marginBottom="44.0dip" android:src="@2131234050" android:scaleType="3" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0dip" android:textColor="#999999" android:id="@2131367692" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="13.0dip" android:layout_marginBottom="44.0dip" android:text="@2131953886" android:layout_toRightOf="@2131367675" android:layout_centerVertical="true" />
+</RelativeLayout>

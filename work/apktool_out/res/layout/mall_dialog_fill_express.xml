@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131364688" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-2" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_solid_color="@color/white">
+        <FrameLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:layout_gravity="0x00000031" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="@2131952994" />
+            <ImageView android:layout_gravity="0x00800005" android:tag="" android:padding="17.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@2131231796" app:tint="#ff8997a4" />
+        </FrameLayout>
+        <TextView android:text="@2131952987" style="@style/mall_tv_fill_express_name" />
+        <FrameLayout android:layout_width="-1" android:layout_height="-2">
+            <TextView android:tag="" android:hint="@2131952988" app:drawableEndCompat="@drawable/mall_ic_fill_express_arrrow" style="@style/mall_tv_fill_express_value" />
+            <ImageView android:layout_gravity="0x00000010" android:tag="" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131232968" android:layout_marginStart="36.0dip" />
+        </FrameLayout>
+        <TextView android:text="@2131952989" style="@style/mall_tv_fill_express_name" />
+        <EditText android:id="@2131362843" android:tag="" android:hint="@2131952990" android:maxLength="50" style="@style/mall_tv_fill_express_value" />
+        <com.noober.background.view.BLButton android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="343.0dip" android:layout_height="-2" android:layout_marginTop="31.0dip" android:minHeight="44.0dip" android:text="@2131952991" app:bl_corners_radius="22.0dip" app:bl_solid_color="@color/color_650aec" />
+        <View android:id="@2131368810" android:tag="" android:layout_width="-1" android:layout_height="@2131165367" />
+    </LinearLayout>
+</FrameLayout>

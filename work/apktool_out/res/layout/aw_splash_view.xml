@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@2131366190" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:layout_gravity="0x00000055" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <com.kc.aw.component.widgets.PtgLogoView android:id="@2131366149" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+    </FrameLayout>
+    <FrameLayout android:id="@2131366134" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="35.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <com.kc.aw.widget.PtgRoundLinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131366128" android:background="#4d000000" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" app:aw_clip_background="true" app:aw_round_corner="100.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@2131099726" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131099726" android:id="@2131366131" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </com.kc.aw.widget.PtgRoundLinearLayout>
+    </FrameLayout>
+</merge>

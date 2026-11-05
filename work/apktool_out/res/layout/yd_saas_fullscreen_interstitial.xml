@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fl.saas.common.widget.InterceptClickLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@2131369054" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:id="@2131369053" android:layout_width="-1" android:layout_height="-1" />
+        <View android:id="@2131368855" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        <View android:id="@2131368789" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:id="@2131363358" android:visibility="2" android:layout_width="-2" android:layout_height="12.0dip" android:scaleType="4" android:adjustViewBounds="true" android:layout_alignRight="@2131369053" android:layout_alignBottom="@2131369053" />
+        <com.fl.saas.common.widget.CountDownTextView android:textSize="11.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368570" android:visibility="1" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="" android:layout_alignTop="@2131369053" android:layout_alignRight="@2131369053" app:yd_bg_color="#60000000" app:yd_bg_radius="20.0dip" app:yd_count="5" />
+        <ImageView android:id="@2131363424" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:src="@2131755359" android:scaleType="3" android:layout_alignTop="@2131369053" android:layout_alignRight="@2131369053" />
+        <View android:id="@2131368798" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignTop="@2131369053" android:layout_alignRight="@2131369053" />
+    </RelativeLayout>
+</com.fl.saas.common.widget.InterceptClickLayout>

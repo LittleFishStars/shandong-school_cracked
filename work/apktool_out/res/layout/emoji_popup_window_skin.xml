@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="-2" android:layout_height="-2" app:cardCornerRadius="1.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true">
+        <HorizontalScrollView android:scrollbars="0x00000100" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="0" android:id="@2131362792" android:layout_width="-2" android:layout_height="-2" android:layout_margin="4.0dip" />
+        </HorizontalScrollView>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

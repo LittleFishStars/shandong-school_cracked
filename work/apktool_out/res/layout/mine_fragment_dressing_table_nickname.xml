@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <EditText android:textSize="16.0sp" android:textColor="@2131099737" android:textColorHint="#cccccc" android:gravity="0x00000010" android:id="@2131362826" android:tag="" android:background="@2131231009" android:scrollbars="0x00000200" android:layout_width="-1" android:layout_height="44.0dip" android:hint="" android:maxLength="8" android:textCursorDrawable="@2131231294" android:paddingStart="16.0dip" android:paddingEnd="42.0dip" />
+        <ImageView android:layout_gravity="0x00800015" android:id="@2131363285" android:tag="" android:visibility="2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131231797" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+    <com.huachenjie.common.widget.ShadowLayout android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="true" app:sl_isCircle="false" app:sl_shadowRadius="6.0dip">
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff191f20" />
+    </com.huachenjie.common.widget.ShadowLayout>
+</RelativeLayout>

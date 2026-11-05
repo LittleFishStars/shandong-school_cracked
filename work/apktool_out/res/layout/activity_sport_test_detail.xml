@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:background="@2131099728" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/layout_toolbar_binding" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#650aec" android:gravity="0x00000010" android:layout_gravity="0x00800035" android:tag="" android:layout_width="-2" android:layout_height="@2131166510" android:text="" android:singleLine="true" android:drawablePadding="4.0dip" android:drawableStart="@2131233878" android:paddingStart="4.0dip" android:paddingEnd="16.0dip" />
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:paddingBottom="6.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@2131099815" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ScrollView android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:drawableLeft="@2131232009" android:drawablePadding="10.0dip" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip">
+                <TextView android:text="" android:drawableLeft="@2131232006" style="@style/activity_sport_test_detail_title" />
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/activity_sport_test_detail_item">
+                    <TextView android:text="" style="@style/activity_sport_test_detail_key" />
+                    <TextView android:tag="" style="@style/activity_sport_test_detail_title_value" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/activity_sport_test_detail_item">
+                    <TextView android:text="" style="@style/activity_sport_test_detail_key" />
+                    <TextView android:tag="" style="@style/activity_sport_test_detail_title_value" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/activity_sport_test_detail_item">
+                    <TextView android:text="" style="@style/activity_sport_test_detail_key" />
+                    <TextView android:tag="" style="@style/activity_sport_test_detail_title_value" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/activity_sport_test_detail_item">
+                    <TextView android:text="" style="@style/activity_sport_test_detail_key" />
+                    <TextView android:tag="" style="@style/activity_sport_test_detail_title_value" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/activity_sport_test_detail_item">
+                    <TextView android:text="" style="@style/activity_sport_test_detail_key" />
+                    <TextView android:tag="" style="@style/activity_sport_test_detail_title_value" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:layout_width="0.0dip" android:text="" android:drawableLeft="@2131232004" android:layout_weight="1.0" style="@style/activity_sport_test_detail_title" />
+                    <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawableLeft="@2131232002" android:drawablePadding="7.0dip" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <LinearLayout android:orientation="1" android:id="@2131364708" android:layout_width="-1" android:layout_height="-2" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:layout_width="0.0dip" android:text="" android:drawableLeft="@2131232004" android:layout_weight="1.0" style="@style/activity_sport_test_detail_title" />
+                    <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawableLeft="@2131232000" android:drawablePadding="7.0dip" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <LinearLayout android:orientation="1" android:id="@2131364709" android:layout_width="-1" android:layout_height="-2" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip">
+                <TextView android:text="" android:drawableLeft="@2131232007" style="@style/activity_sport_test_detail_title" />
+                <TextView android:tag="" android:layout_marginTop="10.0dip" style="@style/activity_sport_test_detail_title_value" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView android:textSize="12.0sp" android:textColor="@2131099895" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" android:drawableLeft="@2131232003" android:drawablePadding="4.0dip" android:layout_marginStart="12.0dip" />
+            <View android:layout_width="1.0dip" android:layout_height="-2" android:layout_marginTop="24.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000011" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="52.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000011" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="12.0sp" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="52.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:orientation="1" android:tag="" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="12.0sp" android:textColor="@2131099815" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099815" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView android:textSize="12.0sp" android:textColor="@2131099815" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000011" android:orientation="1" android:tag="" android:layout_width="84.0dip" android:layout_height="-1">
+            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131099815" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="10.0sp" android:textColor="@2131099895" android:tag="" android:layout_width="-2" android:layout_height="-2" android:text="" android:drawableRight="@2131232001" android:drawablePadding="5.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

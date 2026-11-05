@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@2131367372" android:layout_width="-1" android:layout_height="-1" />
+    <com.king.zxing.ViewfinderView android:id="@2131368953" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131363347" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131166519" android:src="@2131234888" />
+</FrameLayout>

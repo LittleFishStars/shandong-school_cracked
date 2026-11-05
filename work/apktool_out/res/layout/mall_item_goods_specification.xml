@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:id="@2131364688" android:tag="" android:layout_width="100.0dip" android:layout_height="146.0dip" app:bl_corners_radius="8.0dip" app:bl_solid_color="#fff5f5f5" app:bl_stroke_color="#ffe5e5e5" app:bl_stroke_width="1.0dip">
+        <com.huachenjie.base.view.RoundImageView android:tag="" android:layout_width="98.0dip" android:layout_height="98.0dip" android:layout_marginTop="1.0dip" android:scaleType="6" android:layout_marginStart="1.0dip" app:riv_corner_topLeftRadius="8.0dip" app:riv_corner_topRightRadius="8.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#2c3e50" android:ellipsize="3" android:id="@2131368380" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:maxLines="2" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+    <ImageView android:layout_gravity="0x00800005" android:id="@2131363588" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="1.0dip" android:src="@2131233016" android:layout_marginEnd="1.0dip" />
+</FrameLayout>

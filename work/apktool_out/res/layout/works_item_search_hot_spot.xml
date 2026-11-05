@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:tag="" android:paddingStart="4.0dip" app:bl_solid_color="@color/white" style="@style/works_ll_search_hot_spot"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@2131099809" android:gravity="0x00000011" android:tag="" android:layout_width="36.0dip" android:layout_height="-2" />
+    <TextView android:tag="" android:layout_marginStart="0.0dip" style="@style/works_tv_search_hot_spot_topic" />
+    <TextView android:tag="" style="@style/works_tv_search_hot_spot_hot" />
+</com.noober.background.view.BLLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131364969" android:layout_width="-1" android:layout_height="111.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.CTAButtonLayout android:id="@2131364986" android:layout_width="-1" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentBottom="true" style="@style/lmb_myoffer_single_line" />
+    <ImageView android:id="@2131364968" android:visibility="2" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/lmb_myoffer_single_line" />
+    <include android:layout_width="-1" android:layout_height="22.0dip" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_4_element" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#f5f5f5" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <com.huachenjie.common.video.AliVideoView android:id="@2131368912" android:background="@17170444" android:layout_width="-1" android:layout_height="-2" android:minHeight="200.0dip" />
+        <ImageView android:layout_gravity="0x00000011" android:tag="" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@2131232026" />
+        <FrameLayout android:tag="" android:background="#80000000" android:layout_width="-1" android:layout_height="-1">
+            <com.noober.background.view.BLLinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:tag="" android:layout_width="116.0dip" android:layout_height="36.0dip" app:bl_corners_radius="18.0dip" app:bl_solid_color="#ff650aec" app:bl_stroke_color="#ffb582ff" app:bl_stroke_width="1.0dip">
+                <ImageView android:tag="" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8.0dip" />
+            </com.noober.background.view.BLLinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="@color/white" app:layout_collapseMode="none">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#2c3e50" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="12.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="@color/white">
+        <com.flyco.tablayout.SlidingTabLayout2 android:id="@2131367472" android:layout_width="-1" android:layout_height="56.0dip" app:tl_indicator_color="#ffefe6fd" app:tl_indicator_corner_radius="12.0dip" app:tl_indicator_gravity="TOP" app:tl_indicator_height="24.0dip" app:tl_indicator_margin_top="16.0dip" app:tl_indicator_style="BLOCK" app:tl_tab_width="64.0dip" app:tl_textAllCaps="true" app:tl_textBold="SELECT" app:tl_textSelectColor="#ff650aec" app:tl_textUnselectColor="#ff8997a4" app:tl_textsize="14.0sp" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@2131368929" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="4.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+</LinearLayout>

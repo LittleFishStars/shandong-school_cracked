@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="20.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="@2131099735" android:layout_width="-2" android:layout_height="-2" android:text="" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_weight="1.0" android:overScrollMode="2">
+        <TextView android:textSize="14.0sp" android:textColor="@2131099828" android:id="@2131368508" android:layout_width="-1" android:layout_height="-2" />
+    </ScrollView>
+    <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131368150" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="12.0dip" android:text="" />
+</androidx.appcompat.widget.LinearLayoutCompat>

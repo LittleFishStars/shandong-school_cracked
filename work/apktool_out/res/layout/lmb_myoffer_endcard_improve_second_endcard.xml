@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131365020" android:background="@2131232522" android:layout_width="-1" android:layout_height="360.0dip" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:layout_centerInParent="true">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131365017" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="48.0dip" android:scaleType="6" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#000000" android:gravity="0x00000011" android:id="@2131365019" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_marginTop="148.0dip" android:layout_marginRight="24.0dip" android:text="@2131952695" style="@style/lmb_myoffer_single_line.nofontpadding" />
+        <TextView android:textSize="12.0dip" android:textColor="#000000" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365016" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_marginTop="184.0dip" android:layout_marginRight="24.0dip" android:maxLines="2" />
+        <TextView android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="32.0dip" android:layout_alignParentBottom="true" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ScanningAnimButton android:textSize="@2131165767" android:textColor="#d9ffffff" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365021" android:background="@2131232531" android:paddingLeft="@2131165766" android:paddingRight="@2131165766" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="32.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_alignParentBottom="true" style="@style/lmb_myoffer_single_line" />
+    </RelativeLayout>
+</RelativeLayout>

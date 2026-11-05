@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131365840" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mtrl_picker_header_fullscreen" />
+    <androidx.fragment.app.FragmentContainerView android:id="@2131365830" android:paddingLeft="@2131166271" android:paddingRight="@2131166271" android:layout_width="-1" android:layout_height="-2" android:paddingStart="@2131166271" android:paddingEnd="@2131166271" />
+</LinearLayout>

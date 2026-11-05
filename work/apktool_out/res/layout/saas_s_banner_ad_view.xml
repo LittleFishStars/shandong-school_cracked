@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366839" android:layout="@2131560334" android:layout_width="-1" android:layout_height="-1" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366832" android:layout="@2131560333" android:layout_width="-1" android:layout_height="-1" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131366822" android:layout="@2131560332" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

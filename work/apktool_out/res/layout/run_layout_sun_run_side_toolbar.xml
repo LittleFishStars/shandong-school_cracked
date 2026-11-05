@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.widget.ShadowFrameLayout android:tag="" android:paddingTop="8.0dip" android:paddingBottom="12.0dip" android:layout_width="44.0dip" android:layout_height="-2" app:sfl_bgColor="@color/white" app:sfl_clipToCorner="true" app:sfl_cornerRadius="22.0dip" app:sfl_shadowColor="#1a191f20" app:sfl_shadowDx="0.0dip" app:sfl_shadowDy="4.0dip" app:sfl_shadowRadius="4.0dip">
+        <TextView android:textSize="10.0sp" android:textStyle="0x00000001" android:textColor="#00b6de" android:gravity="0x00000001" android:layout_width="-1" android:layout_height="-2" android:text="" android:drawableTop="@2131233729" android:drawablePadding="4.0dip" />
+    </com.huachenjie.common.widget.ShadowFrameLayout>
+    <com.huachenjie.common.widget.ShadowFrameLayout android:tag="" android:paddingTop="8.0dip" android:paddingBottom="12.0dip" android:layout_width="44.0dip" android:layout_height="-2" app:sfl_bgColor="@color/white" app:sfl_clipToCorner="true" app:sfl_cornerRadius="22.0dip" app:sfl_shadowColor="#1a191f20" app:sfl_shadowDx="0.0dip" app:sfl_shadowDy="4.0dip" app:sfl_shadowRadius="4.0dip">
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="7" />
+            <com.noober.background.view.BLTextView android:textSize="10.0sp" android:textColor="#191f20" android:gravity="0x00000011" android:tag="" android:layout_width="28.0dip" android:layout_height="14.0dip" android:layout_marginTop="4.0dip" app:bl_corners_radius="7.0dip" app:bl_solid_color="#ffe8e8e8" />
+        </LinearLayout>
+    </com.huachenjie.common.widget.ShadowFrameLayout>
+    <com.huachenjie.common.widget.ShadowFrameLayout android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="44.0dip" android:layout_height="-2" app:sfl_bgColor="@color/white" app:sfl_clipToCorner="true" app:sfl_cornerRadius="22.0dip" app:sfl_shadowColor="#1a191f20" app:sfl_shadowDx="0.0dip" app:sfl_shadowDy="4.0dip" app:sfl_shadowRadius="4.0dip">
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="7" />
+            <com.noober.background.view.BLView android:layout_width="28.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" app:bl_solid_color="#ffe8e8e8" />
+            <ImageView android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131233737" android:scaleType="7" />
+            <com.noober.background.view.BLView android:layout_width="28.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" app:bl_solid_color="#ffe8e8e8" />
+            <ImageView android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131233730" android:scaleType="7" />
+            <com.noober.background.view.BLView android:layout_width="28.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" app:bl_solid_color="#ffe8e8e8" />
+            <ImageView android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="7" />
+            <com.noober.background.view.BLView android:layout_width="28.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" app:bl_solid_color="#ffe8e8e8" />
+            <ImageView android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="7" />
+        </LinearLayout>
+    </com.huachenjie.common.widget.ShadowFrameLayout>
+</LinearLayout>

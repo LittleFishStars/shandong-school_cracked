@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131364790" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <TextView android:id="@2131368616" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+        <ImageView android:id="@2131363665" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <com.flyco.tablayout.widget.MsgView android:textSize="11.5sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131366738" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@2131364790" mv:mv_backgroundColor="#fffd481f" mv:mv_isRadiusHalfHeight="true" mv:mv_strokeColor="#ffffffff" mv:mv_strokeWidth="1.0dip" xmlns:mv="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

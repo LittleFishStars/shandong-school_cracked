@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="-1" android:layout_height="@2131166438" layout="@layout/include_pickerview_topbar" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131367555" android:background="@17170443" android:layout_width="-1" android:layout_height="-1" android:minHeight="150.0dip">
+        <com.contrarywind.view.WheelView android:id="@2131369060" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="0.96" />
+        <com.contrarywind.view.WheelView android:id="@2131365573" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@2131362608" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@2131363167" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@2131365561" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+        <com.contrarywind.view.WheelView android:id="@2131367087" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

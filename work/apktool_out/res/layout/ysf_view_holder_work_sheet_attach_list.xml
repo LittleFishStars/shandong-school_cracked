@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="60.0dip">
+        <ImageView android:id="@2131369757" android:layout_width="29.0dip" android:layout_height="29.0dip" android:layout_marginLeft="16.0dip" android:scaleType="3" />
+        <com.qiyukf.unicorn.widget.FileNameTextView android:id="@2131369756" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="16.0dip" app:ysf_fntMaxLines="1" app:ysf_fntTextColor="@color/ysf_black_222222" app:ysf_fntTextSize="16.0sp" />
+    </LinearLayout>
+    <include android:layout_width="-1" android:layout_height="@2131166610" android:layout_marginHorizontal="16.0dip" layout="@layout/ysf_include_divider" />
+</LinearLayout>

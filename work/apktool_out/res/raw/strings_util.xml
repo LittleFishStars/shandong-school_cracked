@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Help_Shop_Library</string>
+
+    <string name="indicator_color_error">指示器的颜色只能设置成“@color/colorID or #000000”</string>
+    <string name="indicator_null_error">请先调用setIndicator()方法来设置指示器</string>
+    <string name="banner_adapter_null_error">Banner setAdapter() 参数不能为空</string>
+    <string name="banner_adapter_use_error">你还没有调用 setAdapter() 方法</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="process_name">⁡</string>
+
+
+
+    <string name="invite_title">邀请您开通省钱神器!</string>
+
+
+    <string name="invite_message">购物自动领优惠券，最高省80%！\n先领券，再下单，一年能省好几千!</string>
+
+    <string name="invite_commit">马上开启</string>
+
+    <string name="invite_cancle">暂不开启</string>
+
+    <string name="warning_title">今日使用过于频繁！</string>
+
+    <string name="warning_message">推荐开通“省钱神器”, 开通后即可继续使用工具箱的其他功能。</string>
+
+    <string name="warning_commit">继续使用</string>
+
+    <string name="warning_cancle">返回开权限</string>
+
+
+
+
+    <string name="permission_title">重大升级：新增省钱助手!</string>
+
+    <string name="permission_title_two">请开启必要权限，以便程序正常工作</string>
+
+    <string name="permission_accessiblity">自动识别、领取优惠券的必要权限</string>
+
+    <string name="permission_flowwindow">发现优惠券时，及时为您弹出</string>
+
+    <string name="permission_home_back">后台持续识别优惠券，避免多花冤枉钱。7天只消耗1%电量</string>
+
+    <string name="permission_commit">马上开启，从此不花冤枉钱</string>
+
+    <string name="permission_cancle">不想省钱</string>
+
+    <string name="accessibility_description">开启无障碍后，可以为您持续识别隐藏的购物优惠券，淘宝、京东都能购物省钱，还能帮您自动抢红包！\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+
+
+    <string name="dialog_flow_title">请开启悬浮窗权限</string>
+
+    <string name="dialog_flow_message">需要开启悬浮窗权限，才能为您及时弹出优惠券的提示。</string>
+
+
+    <string name="dialog_keep_back_title">保持后台运行</string>
+
+
+    <string name="dialog_keep_back_message">允许程序在后台运行和自启动，以便持续为您检测隐藏的优惠券。</string>
+
+    <string name="dialog_keep_back_two_title">最后一步操作，允许程序保持在后台，持续为您检测隐藏的优惠券。</string>
+
+    <string name="dialog_keep_back_two_message">保持后台运行</string>
+
+    <string name="dialog_vivo_battery_message">最后一步，防止系统因耗电管理，而APP结束进程。</string>
+
+
+    <string name="permission_all_open">必要权限已全部开启,\n可以开始省钱啦!</string>
+
+    <string name="permission_warning">淘宝和京东80%的商品都有隐藏优惠券，不领券原价购买，一年起码多花好几千块冤枉钱</string>
+
+    <string name="hw_service_show">允许程序在后台弹出，以便展示优惠券红包。</string>
+
+
+</resources>

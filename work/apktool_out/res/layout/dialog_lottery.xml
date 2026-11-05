@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:tag="" android:background="@17170445" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363552" android:layout_width="-1" android:layout_height="-1" android:src="@2131231898" />
+    <com.huachenjie.base.widget.stroke.StrokeTextView android:textSize="22.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="-2" android:translationY="-150.0dip" android:fontFamily="@2131296259" android:layout_marginStart="80.0dip" android:layout_marginEnd="80.0dip" app:tsv_stroke_color="#ff2992e2" app:tsv_stroke_width="1.0dip" />
+</FrameLayout>

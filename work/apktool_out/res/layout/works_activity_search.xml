@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@2131101240" android:layout_width="-1" android:layout_height="-2">
+        <com.noober.background.view.BLFrameLayout android:layout_width="-1" android:layout_height="-2" app:bl_gradient_angle="90" app:bl_gradient_endColor="#330bd3ff" app:bl_gradient_startColor="#000bd3ff">
+            <com.huachenjie.common.widget.CommonSearchViewV2 android:id="@2131367084" android:tag="" android:layout_width="-1" android:layout_height="-2" app:csv_searchHint="@string/works_search_hint" app:csv_showBackView="true" app:csv_showSearchView="true" />
+        </com.noober.background.view.BLFrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@2131363026" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

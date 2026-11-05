@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000001" android:orientation="1" android:background="@2131233836" android:layout_width="270.0dip" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099735" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="10.0dip">
+            <com.huachenjie.sport.widget.ProgressBarView android:id="@2131366091" android:layout_width="-1" android:layout_height="-1" app:ringColor="#fff0eefc" app:ringProgressColor="#ffb79bff" app:ringWidth="10.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@2131099828" android:id="@2131368226" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="29.0dip" android:text="" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" app:layout_constraintLeft_toLeftOf="@id/tv_exam_process" app:layout_constraintRight_toRightOf="@id/tv_exam_process" app:layout_constraintTop_toBottomOf="@id/tv_exam_process">
+                <TextView android:textSize="12.0sp" android:textColor="@2131099895" android:id="@2131368464" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:textSize="12.0sp" android:textColor="@2131099828" android:id="@2131368358" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <View android:background="#cacada" android:layout_width="-1" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_width="-1" android:layout_height="45.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#8991a4" android:gravity="0x00000011" android:id="@2131362289" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+            <View android:background="#cacada" android:layout_width="1.0dip" android:layout_height="-1" />
+            <TextView android:textSize="18.0sp" android:textColor="#650aec" android:gravity="0x00000011" android:id="@2131362298" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

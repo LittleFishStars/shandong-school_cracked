@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="update_external_path_syad" path="Download/" />
+    <external-path name="update_external_files_path_syad" path="Android/data/" />
+    <external-files-path name="external_files" path="ad_downloads/" />
+</paths>

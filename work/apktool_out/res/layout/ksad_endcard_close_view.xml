@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#c8ffffff" android:id="@2131363777" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textSize="12.0sp" android:textColor="#c8ffffff" android:id="@2131363775" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="1.0dip" android:text="" />
+    <ImageView android:id="@2131364347" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@2131232334" />
+</merge>

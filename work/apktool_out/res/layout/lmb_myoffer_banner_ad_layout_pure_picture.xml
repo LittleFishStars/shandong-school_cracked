@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131364854" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/lmb_myoffer_include_4_element_banner" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+</RelativeLayout>

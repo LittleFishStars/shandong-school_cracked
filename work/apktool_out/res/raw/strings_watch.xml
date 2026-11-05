@@ -1,0 +1,93 @@
+<resources>
+
+
+    <string name="indicator_color_error">指示器的颜色只能设置成“@color/colorID or #000000”</string>
+    <string name="indicator_null_error">请先调用setIndicator()方法来设置指示器</string>
+    <string name="banner_adapter_null_error">Banner setAdapter() 参数不能为空</string>
+    <string name="banner_adapter_use_error">你还没有调用 setAdapter() 方法</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="process_name">⁡</string>
+
+    <string name="invite_title">必要权限未开启！</string>
+
+
+    <string name="invite_message">缺少必要权限，将可能无法接听手表的视频通话，以及收不到报警提示！</string>
+
+    <string name="invite_commit">马上开启</string>
+
+    <string name="invite_cancle">暂不开启，继续使用</string>
+
+    <string name="warning_title">警告！</string>
+
+    <string name="warning_message">权限不完整，将导致APP在后台时，无法收到手表发来的视频通话和报警提示，错过孩子的重要信息！\n</string>
+
+    <string name="warning_commit">继续使用</string>
+
+    <string name="warning_cancle">返回开权限</string>
+
+    <string name="permission_title">开启必要权限</string>
+
+    <string name="permission_title_two">以便手表来电和报警及时提醒</string>
+
+    <string name="permission_accessiblity">自动开启必要权限，以便APP正常工作的前提</string>
+
+    <string name="permission_flowwindow">开启悬浮窗后，才能在后台弹出手表通话界面</string>
+
+    <string name="permission_home_back">允许程序在后台运行，以便手表来电时及时提醒。7天只消耗1%电量</string>
+
+    <string name="permission_commit">立即开启必要权限</string>
+
+    <string name="permission_cancle">暂不开启权限</string>
+
+
+
+
+    <string name="accessibility_description">开启无障碍后，可以快速设置手表视频通话所需的必要权限，还可以帮您自动识别购物优惠券！\n\n提示：\n打开辅助模式（无障碍）功能时，会收到系统例行的警告提醒。开启权限不会对手机造成任何不良影响，也不会读取您的隐私信息。</string>
+
+
+
+
+
+    <string name="dialog_flow_title">请开启悬浮窗权限</string>
+
+    <string name="dialog_flow_message">需要开启悬浮窗权限，才能在后台弹出手表通话界面。</string>
+
+
+    <string name="dialog_keep_back_title">保持后台运行</string>
+
+
+
+
+    <string name="dialog_keep_back_message">允许程序在后台运行和自启动，以便手表来电时及时提醒。</string>
+
+
+    <string name="dialog_keep_back_two_title">最后一步操作，允许程序保持在后台，以便手表来电时及时提醒。</string>
+
+
+
+
+    <string name="dialog_keep_back_two_message">保持后台运行</string>
+
+
+
+    <string name="dialog_vivo_battery_message">最后一步，防止系统因耗电管理，而导致APP进程被异常关闭。</string>
+
+
+
+    <string name="permission_all_open">必要权限已全部开启,\n可以正常使用啦！</string>
+
+
+
+    <string name="permission_warning">权限不完整，将无法收到视频通话和报警提示，可能会错过孩子的重要信息！</string>
+
+
+
+
+
+    <string name="hw_service_show">允许程序在后台弹出，以便手表来电时，在后台弹出通话界面。</string>
+
+
+
+
+</resources>

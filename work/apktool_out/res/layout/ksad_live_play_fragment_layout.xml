@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:id="@2131364050" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.sdk.widget.swipe.HorizontalSwipeLayout android:id="@2131364054" android:layout_width="-1" android:layout_height="-1">
+        <com.kwad.components.core.innerEc.live.widget.PhotoSpeedControlFrameLayout android:id="@2131364389" android:layout_width="-1" android:layout_height="-1">
+            <FrameLayout android:id="@2131364015" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+            <RelativeLayout android:layout_gravity="0x00000011" android:id="@2131364324" android:layout_width="-1" android:layout_height="-1" />
+            <include layout="@layout/ksad_live_comment_edit_layout" />
+        </com.kwad.components.core.innerEc.live.widget.PhotoSpeedControlFrameLayout>
+    </com.kwad.sdk.widget.swipe.HorizontalSwipeLayout>
+</com.kwad.sdk.widget.KSFrameLayout>

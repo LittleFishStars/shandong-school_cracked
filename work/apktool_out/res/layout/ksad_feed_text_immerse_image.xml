@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.sdk.widget.RatioFrameLayout android:id="@2131363874" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131363780" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        <com.kwad.components.core.widget.KsLogoView android:layout_gravity="0x00000033" android:id="@2131363940" android:background="@2131232346" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" />
+        <LinearLayout android:layout_gravity="0x00000050" android:background="@2131232195" android:layout_width="-1" android:layout_height="56.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffff" android:ellipsize="3" android:id="@2131363764" android:layout_width="0.0dip" android:layout_height="15.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="31.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <ImageView android:id="@2131363767" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="27.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" android:src="@2131232155" android:scaleType="6" />
+        </LinearLayout>
+    </com.kwad.sdk.widget.RatioFrameLayout>
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0sp" android:textColor="#ff9c9c9c" android:id="@2131363873" android:background="@2131232167" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" app:ksad_privacy_color="#ff9c9c9c" />
+</LinearLayout>

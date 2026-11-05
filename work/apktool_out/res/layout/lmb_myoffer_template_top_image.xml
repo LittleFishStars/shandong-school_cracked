@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131364978" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131364981" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="@2131165771" android:layout_marginBottom="@2131165770" android:scaleType="6" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@2131364980" android:layout_width="-2" android:layout_height="35.0dip" android:layout_marginRight="@2131165771" android:layout_marginBottom="@2131165770" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ScanningAnimButton android:textSize="13.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364979" android:background="@2131232531" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="-2" android:layout_height="35.0dip" android:minWidth="60.0dip" android:text="@2131952617" style="@style/lmb_myoffer_single_line" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="1" android:id="@2131365061" android:layout_width="-1" android:layout_height="35.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="@2131165770" android:minWidth="170.0dip" android:layout_toLeftOf="@2131364980" android:layout_toRightOf="@2131364981" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0dip" android:textColor="@2131100228" android:id="@2131364847" android:layout_width="-1" android:layout_height="-2" style="@style/lmb_myoffer_single_line.nofontpadding" />
+        <TextView android:textSize="10.0dip" android:textColor="@2131100228" android:id="@2131364842" android:layout_width="-1" android:layout_height="-2" style="@style/lmb_myoffer_single_line.nofontpadding" />
+    </LinearLayout>
+    <include android:layout_width="-1" android:layout_height="@2131165770" android:layout_alignParentBottom="true" layout="@layout/lmb_myoffer_include_4_element_with_feedback" />
+    <RelativeLayout android:id="@2131364983" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="@2131165771" android:layout_marginTop="@2131165771" android:layout_marginRight="@2131165771" android:layout_marginBottom="9.0dip" android:layout_above="@2131365061">
+        <ImageView android:id="@2131364977" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <com.ltmb.ltsdk.core.tp.sdk.core.common.res.image.RecycleImageView android:id="@2131364982" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.SimplePlayerNoG2CMediaView android:id="@2131364984" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="6.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364838" android:background="@2131232529" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:text="@2131952583" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+</RelativeLayout>

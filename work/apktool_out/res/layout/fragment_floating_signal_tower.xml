@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131366717" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:id="@2131364622" android:background="@2131231001" android:layout_width="158.0dip" android:layout_height="240.0dip" android:layout_marginTop="12.0dip" android:minHeight="160.0dip">
+        <RelativeLayout android:id="@2131367463" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3.0dip">
+            <LinearLayout android:orientation="0" android:id="@2131364655" android:layout_width="-1" android:layout_height="20.0dip" android:layout_marginTop="4.0dip" android:layout_marginEnd="8.0dip">
+                <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131367468" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131367467" android:layout_width="0.0dip" android:layout_height="-1" android:text="" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.noober.background.view.BLView android:id="@2131367464" android:layout_width="20.0dip" android:layout_height="3.0dip" android:layout_marginTop="2.0dip" android:layout_below="@2131364655" app:bl_corners_radius="1.5dip" app:bl_solid_color="@color/white" />
+            <View android:id="@2131365913" android:background="#21598b" android:layout_width="-1" android:layout_height="1.0dip" android:layout_below="@2131367464" android:alpha="0.34" android:layout_marginEnd="3.0dip" />
+            <View android:id="@2131362393" android:background="#21598b" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:layout_above="@2131365913" android:alpha="0.34" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131367511" android:tag="" android:layout_width="-1" android:layout_height="-2" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131365991" android:tag="" android:layout_width="-1" android:layout_height="-2" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131365863" android:tag="" android:layout_width="-1" android:layout_height="-2" />
+        </FrameLayout>
+        <LinearLayout android:gravity="0x00000055" android:orientation="0" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="50.0dip">
+            <ImageView android:id="@2131363315" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131755113" android:layout_marginEnd="16.0dip" />
+            <ImageView android:id="@2131363293" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131755117" android:layout_marginEnd="16.0dip" />
+            <ImageView android:id="@2131363297" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131755104" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@2131363342" android:layout_width="44.0dip" android:layout_height="38.0dip" android:src="@2131755107" />
+</FrameLayout>

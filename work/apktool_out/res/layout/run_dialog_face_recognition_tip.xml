@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="" android:layout_width="-1" android:layout_height="-2" app:cardBackgroundColor="@17170443" app:cardCornerRadius="20.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <com.noober.background.view.BLFrameLayout android:layout_width="-1" android:layout_height="80.0dip" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_gradient_angle="270" app:bl_gradient_endColor="#00ff9118" app:bl_gradient_startColor="#33ff9118">
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="24.0dip" android:text="" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </com.noober.background.view.BLFrameLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#191f20" android:id="@2131367829" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="-11.0dip" android:lineSpacingExtra="2.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <TextView android:textSize="64.0sp" android:textColor="#ff9118" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:includeFontPadding="false" android:fontFamily="@2131296259" />
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:text="" />
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="24.0dip" android:text="" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ffff9118" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

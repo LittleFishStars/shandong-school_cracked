@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBasePvFrameLayout android:orientation="1" android:id="@2131364262" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.core.video.DetailVideoView android:layout_gravity="0x00000011" android:id="@2131364413" android:layout_width="-1" android:layout_height="-1" />
+    <ProgressBar android:layout_gravity="0x00000050" android:id="@2131364414" android:layout_width="-1" android:layout_height="2.0dip" android:progressDrawable="@2131232395" style="@16973855" />
+    <TextView android:textSize="14.0dip" android:textColor="#dadada" android:layout_gravity="0x00000011" android:id="@2131364409" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364404" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <RelativeLayout android:layout_gravity="0x00000011" android:id="@2131363884" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131363885" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@2131232386" android:layout_centerInParent="true" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131363886" android:background="@2131232261" android:layout_width="39.0dip" android:layout_height="17.0dip" android:layout_marginTop="9.0dip" android:layout_below="@2131363885" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131364402" android:background="#cc000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="14.0dip" android:textColor="#dadada" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131364401" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131364386" android:background="#cc000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131363802" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@2131232170" />
+        <TextView android:textSize="16.0dip" android:textColor="@17170443" android:id="@2131363804" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="11.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363799" android:background="@2131232385" android:layout_width="64.0dip" android:layout_height="24.0dip" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131364388" android:background="#cc000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="11.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131363951" android:background="@2131232385" android:layout_width="64.0dip" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+</com.kwad.sdk.core.view.AdBasePvFrameLayout>

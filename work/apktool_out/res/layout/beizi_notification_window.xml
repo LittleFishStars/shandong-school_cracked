@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000011" android:orientation="0" android:background="#ffffff" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.beizi.fusion.widget.CustomRoundImageView android:id="@2131362354" android:layout_width="-2" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="@2131362355" android:layout_width="0.0dip" android:layout_height="-1" android:layout_marginLeft="10.0dip" android:layout_weight="2.0">
+        <TextView android:textSize="14.0sp" android:textColor="#000000" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131362356" android:layout_width="-2" android:layout_height="0.0dip" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#666666" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131362353" android:layout_width="-2" android:layout_height="0.0dip" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000010" android:orientation="1" android:id="@2131362351" android:visibility="2" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131362352" android:padding="5.0dip" android:layout_width="-2" android:layout_height="-2" android:minWidth="50.0dip" />
+    </LinearLayout>
+</LinearLayout>

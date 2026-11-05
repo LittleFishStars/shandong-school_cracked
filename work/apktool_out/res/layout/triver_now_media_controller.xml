@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="#00000000" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:paddingTop="4.0dip" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="200.0dip" android:layout_height="-1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="60.0dip" android:weightSum="1.0">
+        <ImageButton android:layout_gravity="0x00000030" android:id="@2131367737" android:layout_width="-2" android:layout_height="-1" android:layout_margin="8.0dip" style="@16973884" />
+        <ImageButton android:layout_gravity="0x00000030" android:id="@2131367713" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" style="@16973883" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131367749" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="-2" android:layout_height="-1" />
+        <SeekBar android:layout_gravity="0x00000011" android:id="@2131367723" android:layout_width="-2" android:layout_height="-2" android:thumb="@2131233806" android:layout_weight="1.0" style="@style/Widget.SeekBar.Normal" />
+        <Button android:id="@2131367706" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131367748" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="-2" android:layout_height="-1" />
+        <ImageButton android:layout_gravity="0x00000011" android:id="@2131367726" android:layout_width="-2" android:layout_height="-2" style="@16973885" />
+    </LinearLayout>
+</LinearLayout>

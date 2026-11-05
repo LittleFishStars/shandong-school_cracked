@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <files-path name="files" path="/ptgadsdk/" />
+        <cache-path name="cache" path="/ptgadsdk/" />
+        <external-cache-path name="external_cache_path" path="/ptgadsdk/" />
+        <external-files-path name="external_files" path="Download/ptg_download_dir" />
+    </paths>
+</resources>

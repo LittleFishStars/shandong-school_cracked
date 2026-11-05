@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.internal.CheckableImageButton android:id="@2131365844" android:layout_width="@2131166348" android:layout_height="@2131166348" android:layout_marginTop="@2131166288" android:layout_marginBottom="@2131166287" style="?materialCalendarHeaderToggleButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.widget.CommonSearchView android:id="@2131367084" android:background="@2131101240" android:paddingLeft="16.0dip" android:paddingTop="2.0dip" android:paddingRight="16.0dip" android:paddingBottom="2.0dip" android:layout_width="-1" android:layout_height="-2" app:csv_searchHint="搜索活动名称" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:tag="" android:background="#e3e8ec" android:layout_width="-1" android:layout_height="-1">
+        <com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:tag="" android:layout_width="-1" android:layout_height="-1" app:empty_layout="@layout/layout_empty_schoolyard">
+            <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </com.huachenjie.common.page.statelayout.StateLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

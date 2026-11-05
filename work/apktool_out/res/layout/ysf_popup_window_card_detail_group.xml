@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:id="@2131369111" android:background="@2131101361" android:layout_width="-1" android:layout_height="-2" />
+    <include layout="@layout/ysf_include_divider" />
+    <include android:id="@2131369114" android:layout_width="-1" android:layout_height="@2131166610" android:layout_marginTop="15.0dip" layout="@layout/ysf_include_divider" />
+</LinearLayout>

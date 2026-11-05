@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="@2131166600" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@2131166630" android:textColor="@2131101264" android:id="@2131369646" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" />
+    <include layout="@layout/ysf_include_divider" />
+    <TextView android:textSize="@2131166629" android:textColor="@2131101264" android:id="@2131369647" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="@2131369392" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="@2131369390" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/ysf_include_divider" />
+        <TextView android:textSize="@2131166628" android:textColor="@2131101311" android:gravity="0x00000011" android:id="@2131369391" android:background="@2131234604" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" android:text="@2131954638" />
+    </LinearLayout>
+    <include layout="@layout/ysf_message_item_bot_footer" />
+</LinearLayout>

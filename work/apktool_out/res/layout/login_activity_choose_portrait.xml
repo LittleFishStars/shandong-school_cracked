@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView style="@style/login_bg_head_gradual" />
+    <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout style="@style/login_ll_common_title">
+                <TextView android:text="@2131952770" style="@style/login_tv_common_title" />
+                <ImageView android:src="@2131232568" style="@style/login_iv_common_title" />
+            </LinearLayout>
+            <TextView android:text="@2131952767" style="@style/login_tv_common_title_content" />
+            <TextView android:textStyle="0x00000001" android:layout_marginTop="32.0dip" android:text="@2131952768" style="@style/login_tv_info_subtitle" />
+            <com.noober.background.view.BLFrameLayout android:tag="" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="20.0dip" bind:bl_corners_radius="60.0dip" bind:bl_solid_color="#fff7f7f7">
+                <ImageView android:layout_gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:src="@2131232565" />
+                <ImageView android:tag="" android:layout_width="-1" android:layout_height="-1" />
+                <ImageView android:layout_gravity="0x00800055" android:tag="" android:layout_width="-2" android:layout_height="-2" android:src="@2131232566" />
+            </com.noober.background.view.BLFrameLayout>
+            <TextView android:textStyle="0x00000001" android:layout_marginTop="32.0dip" android:text="@2131952769" style="@style/login_tv_info_subtitle" />
+            <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-2" android:layout_height="200.0dip" bind:layoutManager="androidx.recyclerview.widget.GridLayoutManager" bind:spanCount="3" />
+            <TextView android:tag="" android:layout_marginTop="51.0dip" style="@style/login_bt_next" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageView android:tag="" style="@style/login_iv_common_back" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="8.0dip" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131363353" android:tag="" android:layout_width="0.0dip" android:layout_height="165.0dip" android:scaleType="6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:ellipsize="3" android:id="@2131368380" android:layout_width="0.0dip" android:layout_height="-2" android:layout_margin="8.0dip" android:maxLines="2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_Image" />
+        <ImageView android:tag="" android:layout_width="64.0dip" android:layout_height="20.0dip" android:layout_marginTop="-3.0dip" app:layout_constraintStart_toStartOf="@id/tv_name" app:layout_constraintTop_toTopOf="@id/tv_name" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="0x00000050" android:orientation="0" android:id="@2131364754" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="4.0dip" android:layout_marginEnd="5.0dip" app:layout_constraintStart_toStartOf="@id/tv_name" app:layout_constraintTop_toBottomOf="@id/tv_name">
+            <TextView android:textSize="11.0sp" android:textStyle="0x00000001" android:textColor="#f3474a" android:id="@2131368374" android:layout_width="-2" android:layout_height="-2" android:text="" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+            <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#f3474a" android:id="@2131368457" android:tag="" android:layout_width="-2" android:layout_height="-2" app:layout_constraintBaseline_toBaselineOf="@id/tv_money" app:layout_constraintStart_toEndOf="@id/tv_money" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:textSize="11.0sp" android:textColor="#757979" android:id="@2131368434" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="@id/ll_price" app:layout_constraintEnd_toEndOf="@id/tv_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

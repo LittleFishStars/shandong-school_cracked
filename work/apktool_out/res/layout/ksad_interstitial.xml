@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:id="@2131363874" android:background="@2131100174" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363994" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <com.kwad.sdk.widget.KSFrameLayout android:id="@2131364389" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131364405" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    </com.kwad.sdk.widget.KSFrameLayout>
+    <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131363986" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <com.kwad.components.core.widget.KsAutoCloseView android:layout_gravity="0x00000005" android:id="@2131363971" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131363873" android:padding="8.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" />
+    <FrameLayout android:id="@2131364377" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</com.kwad.sdk.widget.KSFrameLayout>

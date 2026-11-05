@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170445" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131366208" android:background="@17170445" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:id="@2131366201" android:layout_width="-1" android:layout_height="65.0dip">
+            <ImageView android:id="@2131366205" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="10.0dip" android:scaleType="7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@2131366206" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="5.0dip" android:scaleType="7" android:layout_alignBottom="@2131366205" android:layout_alignParentRight="true" />
+            <RelativeLayout android:gravity="0x00000010" android:orientation="1" android:id="@2131366202" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:layout_toRightOf="@2131366205">
+                <DateTimeView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131366204" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:alpha="0.6" style="@16973927" />
+                <TextView android:textSize="18.0sp" android:textStyle="0x00000000" android:textColor="#ffffff" android:id="@2131366207" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="@2131366204" style="@16973928" />
+                <TextView android:textSize="14.0sp" android:textStyle="0x00000000" android:textColor="#ffffff" android:id="@2131366203" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_below="@2131366207" style="@16973927" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="0x00000010" android:orientation="1" android:id="@2131366209" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="69.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000000" android:textColor="#ffffff" android:ellipsize="3" android:id="@2131366199" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:maxHeight="192.0dip" android:alpha="0.9" style="@16973927" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

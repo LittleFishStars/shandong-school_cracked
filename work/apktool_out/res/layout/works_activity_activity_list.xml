@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366761" android:tag="" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:id="@2131367567" layout="@layout/layout_toolbar_binding" />
+    <ImageView android:id="@2131363390" android:tag="" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@2131234177" android:layout_marginStart="12.0dip" />
+</FrameLayout>

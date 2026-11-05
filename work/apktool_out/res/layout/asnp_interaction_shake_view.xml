@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131361948" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+        <ImageView android:id="@2131361949" android:layout_width="-2" android:layout_height="-2" android:src="@2131755018" android:layout_centerInParent="true" />
+        <com.beizi.fusion.asnp.adn.ad.ad.nativead.render.view.asnp.prefab.ScopeIndicateArrowView android:id="@2131361950" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="16.0sp" android:id="@2131361952" android:layout_width="-2" android:layout_height="-2" android:lines="1" android:layout_below="@2131361948" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13.0sp" android:id="@2131361951" android:layout_width="-2" android:layout_height="-2" android:layout_below="@2131361952" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131366669" android:layout_width="-2" android:layout_height="-2">
+        <com.ubixnow.core.utils.img.CustomImageView android:id="@2131362434" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="1" android:id="@2131364678" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@2131362434" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:ellipsize="3" android:id="@2131362330" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="1" android:includeFontPadding="false" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#c9cdd4" android:ellipsize="3" android:id="@2131362331" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="1" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ffffff" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131362332" android:layout_width="-2" android:layout_height="-2" android:text="" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

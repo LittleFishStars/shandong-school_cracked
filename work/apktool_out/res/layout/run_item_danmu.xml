@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364765" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="#fff7f7f7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="#191f20" android:ellipsize="3" android:id="@2131368152" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+    <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:gravity="0x00000011" android:id="@2131368539" android:visibility="2" android:layout_width="64.0dip" android:layout_height="40.0dip" android:text="@2131953556" android:layout_marginEnd="4.0dip" app:bl_corners_radius="8.0dip" app:bl_solid_color="#ff191f20" app:bl_stroke_color="#ff191f20" app:bl_stroke_width="2.0dip" />
+</com.noober.background.view.BLLinearLayout>

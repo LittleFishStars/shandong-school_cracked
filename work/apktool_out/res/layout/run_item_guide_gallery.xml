@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView android:id="@2131363214" android:layout_width="180.0dip" android:layout_height="-2" android:scaleType="1" android:adjustViewBounds="true" android:minHeight="320.0dip" app:shapeAppearanceOverlay="@style/run_ShapeAppearance_GuideGallery" app:strokeColor="#ffe8e8e8" app:strokeWidth="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131361907" android:background="@17170445" android:layout_width="-1" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="45.0dip">
+            <com.kc.openset.view.OSETNativeContainerView android:id="@2131363046" android:layout_width="-2" android:layout_height="-1">
+                <com.kc.openset.view.rounded.ODRoundedImageView android:id="@2131363521" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:adjustViewBounds="true" app:oset_riv_corner_radius="5.0dip" />
+                <TextureView android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131367546" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+                <com.kc.openset.view.OSETShakeView android:layout_gravity="0x00000011" android:id="@2131365983" android:visibility="1" android:layout_width="-2" android:layout_height="-2" />
+                <ImageView android:id="@2131363695" android:visibility="1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_margin="5.0dip" android:src="@2131755267" />
+                <ImageView android:id="@2131363461" android:visibility="1" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@2131755261" android:contentDescription="@2131953319" android:layout_marginStart="25.0dip" android:layout_marginEnd="5.0dip" />
+                <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00800055" android:orientation="0" android:id="@2131364661" android:background="@2131233281" android:layout_width="-2" android:layout_height="-2" android:layout_margin="2.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip">
+                    <ImageView android:id="@2131363358" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
+                    <TextView android:textSize="8.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000010" android:id="@2131367994" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="3.0dip" />
+                </LinearLayout>
+            </com.kc.openset.view.OSETNativeContainerView>
+            <LinearLayout android:gravity="0x00000010" android:orientation="1" android:id="@2131364793" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="#c3000000" android:ellipsize="3" android:id="@2131368187" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:layout_marginEnd="15.0dip" />
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#000000" android:ellipsize="3" android:id="@2131368657" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="#b22222" android:gravity="0x00000011" android:id="@2131362318" android:background="@2131233294" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="-2" android:layout_height="22.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="0x00800005" android:id="@2131363424" android:background="@2131233291" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="2.0dip" android:src="@2131755261" android:layout_marginEnd="5.0dip" />
+    </FrameLayout>
+</LinearLayout>

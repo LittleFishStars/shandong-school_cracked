@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:background="@2131099817" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@2131101240" android:id="@2131368622" android:layout_width="-2" android:layout_height="-2" />
+    <RelativeLayout android:layout_width="-2" android:layout_height="90.0dip" android:layout_marginTop="6.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:text="@2131953516" android:layout_alignParentBottom="true" />
+        <com.huachenjie.common.widget.CustomerTextView android:textSize="90.0sp" android:textColor="@2131101240" android:id="@2131368104" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@2131368657" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:text="@2131952538" android:layout_alignParentBottom="true" android:layout_toEndOf="@2131368104" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131101240" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_daily_statics" />
+    <LinearLayout android:orientation="1" android:id="@2131364762" android:layout_width="-1" android:layout_height="-2" android:divider="@2131233838" android:showDividers="0x00000000" />
+</LinearLayout>

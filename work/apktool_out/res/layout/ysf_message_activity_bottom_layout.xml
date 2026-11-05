@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131365535" android:background="@2131101361" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:id="@2131369441" android:background="@2131101361" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131369439" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:src="@2131234503" android:scaleType="7" />
+        <View android:id="@2131369442" android:background="#d9d9db" android:layout_width="1.0dip" android:layout_height="14.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@2131101311" android:ellipsize="3" android:id="@2131369443" android:paddingLeft="8.0dip" android:paddingTop="13.0dip" android:paddingRight="8.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="2.0dip" android:text="@2131954502" android:singleLine="true" android:includeFontPadding="false" />
+        <ImageView android:id="@2131369440" android:visibility="2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="5.0dip" android:scaleType="6" />
+    </LinearLayout>
+    <include layout="@layout/ysf_message_activity_text_layout" />
+    <com.qiyukf.uikit.session.module.input.MessageBottomContainer android:id="@2131365902" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <com.qiyukf.uikit.session.emoji.EmoticonPickerView android:id="@2131362802" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    </com.qiyukf.uikit.session.module.input.MessageBottomContainer>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@2131367504" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="150.0dip">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:id="@2131363392" android:layout_width="-2" android:layout_height="-2" android:src="@2131755342" />
+            <LinearLayout android:id="@2131363178" android:background="@2131233976" android:padding="2.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="40.0dip" android:layout_alignParentLeft="true">
+                <com.acse.ottn.widget.RoundRectImageView android:id="@2131363667" android:layout_width="-1" android:layout_height="-1" app:image_radius="28.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="23.0dip" android:textStyle="0x00000001" android:textColor="#fcf1b7" android:gravity="0x00000011" android:id="@2131367500" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40.0dip" android:maxLines="1" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#fcf1b7" android:gravity="0x00000011" android:id="@2131367501" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:text="" android:maxLines="1" android:layout_below="@2131367500" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131363646" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="60.0dip" android:src="@2131755063" android:layout_alignParentRight="true" />
+        <ImageView android:id="@2131363616" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:src="@2131755065" android:layout_toLeftOf="@2131363646" />
+    </RelativeLayout>
+</LinearLayout>

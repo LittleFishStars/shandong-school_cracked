@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131369130" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@2131369129" android:layout_width="-2" android:layout_height="-2" android:scaleType="1" android:adjustViewBounds="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131366184" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="0x00000011" android:id="@2131366197" android:background="#000000" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <include layout="@layout/lt_activity_reward_video_bar_portrait" />
+    <ProgressBar android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131366183" android:visibility="2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminate="true" android:indeterminateDrawable="@2131232640" />
+</FrameLayout>

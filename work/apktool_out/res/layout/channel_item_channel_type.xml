@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="" android:layout_width="-1" android:layout_height="56.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" app:cardBackgroundColor="@null" app:cardCornerRadius="28.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@2131231192" android:scaleType="6" />
+    <TextView android:textSize="16.0sp" android:textColor="#2c3e50" android:ellipsize="3" android:layout_gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</androidx.cardview.widget.CardView>

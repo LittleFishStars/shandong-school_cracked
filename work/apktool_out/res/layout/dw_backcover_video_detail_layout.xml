@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:id="@2131362719" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="27.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@2131100015" android:layout_gravity="0x00000001" android:id="@2131362720" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <ImageView android:layout_gravity="0x00000001" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="5.0dip" android:src="@2131231318" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <include android:id="@2131362717" android:layout_width="-1" android:layout_height="39.0dip" android:layout_marginTop="40.0dip" layout="@layout/dw_backcover_function_layout" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131362721" android:layout_width="-2" android:layout_height="140.0dip" android:layout_marginTop="33.0dip" android:layout_marginBottom="75.0dip" />
+    </LinearLayout>
+</FrameLayout>

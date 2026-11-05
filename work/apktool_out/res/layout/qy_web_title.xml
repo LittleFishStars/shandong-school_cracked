@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@17170443" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="5.0dip" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:background="#99ffff" android:padding="5.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@2131363141">
+            <ImageView android:id="@2131368996" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <EditText android:textSize="16.0dip" android:textColor="@17170444" android:id="@2131368993" android:background="@0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5.0dip" android:singleLine="true" android:selectAllOnFocus="true" android:layout_toRightOf="@2131368996" />
+            <ImageView android:id="@2131363140" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131233377" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@17170444" android:id="@2131363141" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="0x00000050" android:id="@2131366091" android:layout_width="-1" android:layout_height="2.0dip" android:max="100" android:progressDrawable="@2131233434" style="?16842872" />
+</LinearLayout>

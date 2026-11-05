@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <com.flyco.tablayout.SlidingTabLayout android:gravity="0x00000011" android:id="@2131367465" android:background="@2131101240" android:layout_width="-1" android:layout_height="40.0dip" app:tl_indicator_color="#ff650aec" app:tl_indicator_corner_radius="1.5dip" app:tl_indicator_height="3.0dip" app:tl_indicator_width="20.0dip" app:tl_tab_space_equal="true" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff650aec" app:tl_textUnselectColor="#ff2c3e50" app:tl_textsize="15.0sp" />
+    <FrameLayout android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.viewpager.widget.ViewPager android:id="@2131368915" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+        <com.noober.background.view.BLView android:layout_gravity="0x00000030" android:layout_width="-1" android:layout_height="10.0dip" app:bl_gradient_endColor="#00000000" app:bl_gradient_startColor="#0d000000" />
+    </FrameLayout>
+</LinearLayout>

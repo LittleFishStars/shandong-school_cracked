@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131369513" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ysf_include_divider" />
+    <LinearLayout android:orientation="1" android:id="@2131369522" android:layout_width="-1" android:layout_height="-2">
+        <View android:background="@2131101338" android:visibility="2" android:layout_width="-1" android:layout_height="1.0dip" />
+        <com.qiyukf.unicorn.widget.flowlayout.TagFlowLayout android:id="@2131369521" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:layout_marginHorizontal="10.0dip" />
+        <EditText android:textSize="@2131166626" android:textColor="@2131101307" android:textColorHint="@2131101311" android:ellipsize="3" android:gravity="0x00000030" android:id="@2131369519" android:background="@2131234653" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:minHeight="60.0dip" android:hint="@2131954504" android:maxLines="3" android:paddingHorizontal="8.0dip" android:paddingVertical="6.0dip" />
+        <include android:id="@2131369545" layout="@layout/ysf_include_divider" />
+        <TextView android:enabled="false" android:textSize="@2131166630" android:textColor="@2131234395" android:gravity="0x00000011" android:id="@2131369520" android:layout_width="-1" android:layout_height="-2" android:text="@2131954370" android:paddingVertical="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131362228" android:layout_width="-1" android:layout_height="300.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@2131366083" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        <ImageView android:id="@2131362584" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        <View android:background="#80000000" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="-1" android:layout_height="-1">
+        <com.google.android.material.appbar.AppBarLayout android:id="@2131362003" android:background="@2131101187" android:layout_width="-1" android:layout_height="-2" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="-1" android:layout_height="-2" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="1" android:id="@2131362453" android:paddingBottom="20.0dip" android:layout_width="-1" android:layout_height="-2" app:layout_collapseMode="parallax">
+                    <View android:id="@2131368781" android:tag="" android:layout_width="0.0dip" android:layout_height="@2131166507" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <com.youth.banner.Banner android:id="@2131368964" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="40.0dip" android:layout_marginStart="16.0dip" app:banner_indicator_marginBottom="0.0dip" app:banner_indicator_normal_color="#80ffffff" app:banner_indicator_normal_width="6.0dip" app:banner_indicator_selected_color="#ffffffff" app:banner_indicator_selected_width="6.0dip" app:banner_indicator_space="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/vStatusSpace" />
+                    <ImageView android:id="@2131363406" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="2.0dip" android:src="@2131234198" android:layout_marginStart="12.0dip" app:layout_constraintStart_toEndOf="@id/vp_broadcast_floor_banner" app:layout_constraintTop_toTopOf="@id/tv_topic" />
+                    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@2131368668" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="2.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_broadcast_floor_icon" app:layout_constraintTop_toTopOf="@id/vp_broadcast_floor_banner" />
+                    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#ffffffff" android:id="@2131368380" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/iv_broadcast_floor_icon" app:layout_constraintTop_toBottomOf="@id/tv_topic" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@2131368188" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="4.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/iv_broadcast_floor_icon" app:layout_constraintTop_toBottomOf="@id/tv_name" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.Toolbar android:id="@2131367640" android:layout_width="-1" android:layout_height="44.0dip" android:minHeight="?2130968596" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+                    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                        <ImageView android:id="@2131363390" android:tag="" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@2131234197" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#ffffffff" android:id="@2131368657" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerInParent="true" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="0x00000010" android:id="@2131368328" android:tag="" android:layout_width="-2" android:layout_height="-1" android:text="" android:drawablePadding="4.0dip" android:layout_centerVertical="true" android:drawableStart="@2131234200" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.noober.background.view.BLLinearLayout android:orientation="1" android:id="@2131362241" android:layout_width="-1" android:layout_height="-1" app:bl_corners_topLeftRadius="20.0dip" app:bl_corners_topRightRadius="20.0dip" app:bl_gradient_endColor="#fff5f5f5" app:bl_gradient_startColor="#ffffffff" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="" android:layout_marginStart="16.0dip" />
+            <FrameLayout android:tag="" android:layout_width="-1" android:layout_height="76.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <ImageView android:tag="" android:layout_width="-1" android:layout_height="-1" />
+                <com.noober.background.view.BLView android:layout_width="-1" android:layout_height="-1" app:bl_corners_radius="12.0dip" app:bl_solid_color="#80000000" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="0x00000010" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16.0dip" android:layout_marginEnd="90.0dip" />
+                <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ffffffff" android:gravity="0x00000010" android:layout_gravity="0x00000015" android:tag="" android:layout_width="-2" android:layout_height="28.0dip" android:text="" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="14.0dip" app:bl_gradient_angle="0" app:bl_gradient_endColor="#ff6b1eff" app:bl_gradient_startColor="#ffff4c83" />
+            </FrameLayout>
+            <com.flyco.tablayout.SlidingTabLayout android:gravity="0x00000011" android:layout_gravity="0x00000003" android:id="@2131367465" android:layout_width="-2" android:layout_height="40.0dip" app:tl_indicator_color="#ff650aec" app:tl_indicator_corner_radius="1.5dip" app:tl_indicator_height="3.0dip" app:tl_indicator_width="20.0dip" app:tl_tab_padding="15.0dip" app:tl_tab_space_equal="false" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff650aec" app:tl_textUnselectColor="#ff2c3e50" app:tl_textsize="15.0sp" />
+            <androidx.viewpager.widget.ViewPager android:id="@2131368915" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+            <View android:tag="" android:layout_width="-1" android:layout_height="@2131165367" />
+        </com.noober.background.view.BLLinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <androidx.cardview.widget.CardView android:layout_gravity="0x00000050" android:layout_width="-1" android:layout_height="-2" app:cardBackgroundColor="@color/white" app:cardElevation="10.0dip">
+        <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textColor="#c1c1c1" android:gravity="0x00000010" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:text="" android:paddingStart="16.0dip" app:bl_corners_radius="22.0dip" app:bl_solid_color="#fff5f5f5" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

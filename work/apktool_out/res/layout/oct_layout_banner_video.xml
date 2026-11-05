@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@2131363026" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="1.0">
+            <VideoView android:layout_gravity="0x00000011" android:id="@2131361916" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+            <TextureView android:layout_gravity="0x00000011" android:id="@2131361914" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+            <ImageView android:gravity="0x00000010" android:id="@2131361906" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" android:contentDescription="@0" />
+            <ProgressBar android:layout_gravity="0x00000011" android:id="@2131361908" android:layout_width="20.0dip" android:layout_height="20.0dip" style="@style/OctopusAlertDialogStyle" />
+        </FrameLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="2.5" android:layout_marginHorizontal="5.0dip">
+            <ImageView android:id="@2131361900" android:background="@2131233250" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="2.0dip" android:src="@2131233248" android:layout_alignParentRight="true" android:contentDescription="@0" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#000000" android:ellipsize="3" android:id="@2131361915" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="3.0dip" android:maxLines="2" android:layout_toLeftOf="@2131361900" android:layout_marginEnd="3.0dip" android:layout_toStartOf="@2131361900" />
+            <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true">
+                <ImageView android:id="@2131361909" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="3" android:contentDescription="@0" />
+                <ImageView android:id="@2131361910" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginLeft="2.0dip" android:scaleType="3" android:contentDescription="@0" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="11.0sp" android:textColor="#333333" android:id="@2131361899" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="10.0sp" android:textColor="#333333" android:id="@2131361905" android:background="@2131233259" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="3.0dip" android:text="@2131953307" android:layout_marginStart="3.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@2131361901" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

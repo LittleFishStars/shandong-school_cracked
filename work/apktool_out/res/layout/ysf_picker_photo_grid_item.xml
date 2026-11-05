@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@17170445" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131366045" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:contentDescription="@0" />
+    <RelativeLayout android:layout_gravity="0x00000055" android:id="@2131366047" android:layout_width="-2" android:layout_height="-2">
+        <com.qiyukf.uikit.common.media.picker.activity.CheckboxImageView android:id="@2131366046" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5.0dip" android:src="@2131234569" android:scaleType="5" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@0" />
+    </RelativeLayout>
+</FrameLayout>

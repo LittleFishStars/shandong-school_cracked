@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@17170445" android:descendantFocusability="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131367187" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131367188" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <RelativeLayout android:id="@2131367171" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131367175" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131367174" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@2131233867" />
+            <TextView android:textSize="14.0sp" android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:layout_margin="10.0dip" android:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@2131367176" android:layout_width="-1" android:layout_height="1.5dip" android:max="100" android:progressDrawable="@2131233874" android:layout_alignParentBottom="true" style="?16842872" />
+    <RelativeLayout android:id="@2131367180" android:layout_width="-1" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <RelativeLayout android:id="@2131367173" android:background="@2131233862" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <ImageView android:id="@2131367172" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@2131233859" android:scaleType="7" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131367182" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <ImageView android:id="@2131367181" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@2131233867" android:scaleType="7" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="13.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.0dip" android:text="" />
+        </LinearLayout>
+        <RelativeLayout android:id="@2131367184" android:background="@2131233862" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@2131367183" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@2131233869" android:scaleType="7" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@2131367186" android:background="@2131233862" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@2131367185" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131233866" android:scaleType="7" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131367179" android:layout_width="-1" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@2131367178" android:background="@2131233862" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@2131367177" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@2131233864" android:scaleType="7" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000010" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:src="@17301633" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="7.0">
+        <TextView android:gravity="0x00000010" android:id="@2131362693" android:layout_width="-1" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+        <ProgressBar android:id="@2131362691" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00000010" android:id="@2131362692" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:src="@17301540" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="0x00000010" android:id="@2131362690" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:src="@17301560" android:layout_weight="1.0" />
+</LinearLayout>

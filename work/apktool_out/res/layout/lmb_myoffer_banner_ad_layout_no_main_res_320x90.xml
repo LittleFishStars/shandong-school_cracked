@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@2131364854" android:background="@2131232439" android:layout_width="320.0dip" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/lmb_myoffer_include_4_element_banner" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131364852" android:visibility="2" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="6" android:layout_centerVertical="true" />
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ScanningAnimButton android:textSize="12.0dip" android:textColor="#ffffff" android:layout_gravity="0x00000011" android:id="@2131364844" android:background="@2131232531" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="-1" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@2131364852" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/lmb_myoffer_single_line" />
+    <LinearLayout android:orientation="1" android:id="@2131364837" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@2131364852">
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.NoShadowMarqueeTextView android:textSize="14.0dip" android:textColor="#000000" android:ellipsize="4" android:gravity="0x00000003" android:id="@2131364847" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="-1" />
+        <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.NoShadowMarqueeTextView android:textSize="12.0dip" android:textColor="#000000" android:ellipsize="4" android:gravity="0x00000003" android:id="@2131364851" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1.0dip" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="-1" />
+    </LinearLayout>
+    <include layout="@layout/lmb_myoffer_include_guide2click_mask" />
+    <include layout="@layout/lmb_myoffer_include_guide2click_container" />
+</RelativeLayout>

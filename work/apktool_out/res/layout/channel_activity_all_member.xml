@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <androidx.cardview.widget.CardView android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1.0dip" android:elevation="4.0dip">
+        <com.huachenjie.common.widget.CommonSearchView android:id="@2131367084" android:tag="" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16.0dip" app:csv_showSearchView="true" />
+    </androidx.cardview.widget.CardView>
+    <com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131366761" android:tag="" android:background="@2131101240" android:paddingTop="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.huachenjie.common.page.statelayout.StateLayout>
+</LinearLayout>

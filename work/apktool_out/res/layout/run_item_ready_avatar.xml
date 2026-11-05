@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="36.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.base.widget.AvatarView android:layout_gravity="0x00000011" android:id="@2131362050" android:layout_width="-1" android:layout_height="-1" />
+    <com.noober.background.view.BLView android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" app:bl_shape="oval" app:bl_solid_color="#00000000" app:bl_stroke_color="#ffffffff" app:bl_stroke_width="2.0dip" />
+</FrameLayout>

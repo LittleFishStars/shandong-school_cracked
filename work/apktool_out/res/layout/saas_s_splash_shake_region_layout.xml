@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000051" android:orientation="1" android:id="@2131367008" android:paddingBottom="@2131166501" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000051" android:orientation="0" android:id="@2131367007" android:background="@2131233786" android:layout_width="-1" android:layout_height="@2131166493" android:layout_marginHorizontal="@2131166494">
+        <com.yd.saas.open.widget.StarsShakeView android:gravity="0x00000011" android:id="@2131367010" android:layout_width="26.0dip" android:layout_height="26.0dip" app:saas_s_shake_isDrawCircle="false" />
+        <TextView android:textSize="18.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131367009" android:layout_width="-2" android:layout_height="-1" android:text="@2131953622" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</FrameLayout>

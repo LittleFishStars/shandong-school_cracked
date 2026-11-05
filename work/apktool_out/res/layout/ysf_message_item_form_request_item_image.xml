@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="10.0dip" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@2131166630" android:textColor="@2131101307" android:id="@2131369407" android:layout_width="-2" android:layout_height="-2" />
+    <LinearLayout android:orientation="0" android:id="@2131369402" android:background="@2131234397" android:padding="8.0dip" android:layout_width="180.0dip" android:layout_height="-2" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@2131234607" android:contentDescription="@0" />
+        <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.0dip">
+            <com.qiyukf.unicorn.widget.FileNameTextView android:id="@2131369403" android:layout_width="-2" android:layout_height="-2" app:ysf_fntMaxLines="1" app:ysf_fntTextColor="@color/ysf_black_222222" app:ysf_fntTextSize="@dimen/ysf_text_size_15" />
+            <TextView android:textSize="@2131166627" android:textColor="@2131101311" android:id="@2131369405" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

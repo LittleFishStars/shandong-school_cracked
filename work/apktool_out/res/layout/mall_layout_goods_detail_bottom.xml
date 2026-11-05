@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@2131362593" android:tag="" android:layout_width="-1" android:layout_height="-2" app:cardBackgroundColor="#ffffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000010" android:tag="" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="10.0sp" android:textColor="#2c3e50" android:gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:text="@2131953006" android:drawablePadding="2.0dip" app:drawableTopCompat="@drawable/mall_ic_goods_shop" />
+        <TextView android:textSize="10.0sp" android:textColor="#2c3e50" android:gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="-2" android:text="@2131953000" android:drawablePadding="2.0dip" android:layout_marginStart="24.0dip" app:drawableTopCompat="@drawable/mall_ic_goods_customer_service" />
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:gravity="0x00000011" android:tag="" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" android:layout_marginStart="30.0dip" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff191f20" app:bl_enabled_textColor="#ff0bd3ff" app:bl_unEnabled_solid_color="#ffc1c1c1" app:bl_unEnabled_textColor="@color/white" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

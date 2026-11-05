@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00000011" android:layout_width="128.0dip" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.sdk.widget.KsView android:layout_gravity="0x00000011" android:id="@2131363943" android:background="@2131232199" android:visibility="1" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131363944" android:visibility="1" android:layout_width="55.559998dip" android:layout_height="55.559998dip" android:src="@2131232211" />
+</FrameLayout>

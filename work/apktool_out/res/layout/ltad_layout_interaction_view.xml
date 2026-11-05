@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@2131367416" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true">
+        <com.ltmb.ltadsdk.ui.view.AdShakeView android:gravity="0x00000001" android:orientation="1" android:id="@2131367429" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+        <com.ltmb.ltadsdk.ui.view.AdTwistView android:gravity="0x00000001" android:orientation="1" android:id="@2131367457" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="0x00000051" android:orientation="1" android:id="@2131367415" android:visibility="2" android:clipChildren="true" android:layout_width="-1" android:layout_height="-1" android:minHeight="300.0dip" android:layout_marginHorizontal="30.0dip">
+            <com.ltmb.ltadsdk.ui.view.AdSlideUpView android:id="@2131367430" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <FrameLayout android:id="@2131367417" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginHorizontal="40.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@2131100263" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131367433" android:layout_width="-1" android:layout_height="-2" android:text="" android:lineSpacingExtra="5.0dip" android:paddingVertical="15.0dip" />
+        </FrameLayout>
+        <com.ltmb.ltadsdk.ui.view.AdWipeOverlayView android:id="@2131367460" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+</RelativeLayout>

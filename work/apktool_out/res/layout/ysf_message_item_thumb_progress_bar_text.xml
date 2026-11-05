@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131365551" android:visibility="2" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="0x00000011" android:id="@2131365550" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="?16842873" />
+    <TextView android:textColor="@2131101320" android:id="@2131365552" android:layout_width="-2" android:layout_height="-2" android:text="" />
+</LinearLayout>

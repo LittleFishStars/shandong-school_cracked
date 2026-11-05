@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131361865" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip">
+        <RelativeLayout android:paddingTop="24.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4.0dip">
+            <TextView android:textSize="@2131165372" android:textColor="@2131100031" android:id="@2131367548" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="48.0dip" android:layout_alignParentRight="true" android:layout_marginEnd="48.0dip" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="@2131165372" android:textColor="@2131100030" android:id="@2131367550" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="16.0dip" android:text="@2131953966" android:layout_toLeftOf="@2131367548" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@2131367548" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:id="@2131362363" android:background="@2131234126" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <ImageView android:id="@2131362365" android:background="@2131234124" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ProgressBar android:id="@2131367549" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@2131362363" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@2131362363" style="?16842872" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

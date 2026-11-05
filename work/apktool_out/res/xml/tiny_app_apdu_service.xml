@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service android:description="@2131953786" android:requireDeviceUnlock="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

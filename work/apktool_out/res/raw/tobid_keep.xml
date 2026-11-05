@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/tobid_*,@layout/tobid_*,@id/tobid_**,@style/tobid_*,@string/tobid_*,@anim/tobid_*, @xml/tobid_*,@color/tobid_*,@attr/tobid_*,@dimen/tobid_*" />

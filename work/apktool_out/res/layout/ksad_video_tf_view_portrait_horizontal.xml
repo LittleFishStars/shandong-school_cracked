@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131368893" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131364427" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" />
+        <com.kwad.components.core.widget.KsLogoView android:layout_gravity="0x00000053" android:id="@2131364424" android:background="@2131232346" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" />
+    </FrameLayout>
+    <com.kwad.components.ad.widget.tailframe.appbar.TailFrameBarAppPortraitHorizontal android:id="@2131364384" android:visibility="2" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.kwad.components.ad.reward.widget.tailframe.TailFrameBarH5View android:id="@2131364406" android:visibility="2" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

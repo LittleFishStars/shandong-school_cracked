@@ -65,6 +65,37 @@ class FakeClient:
     def run_detail(self, run_code: str, sport_type: int = 1):
         return self._rec(f"run_detail:{run_code}", lambda: {"code": 0})
 
+    # —— 鸿蒙真机行为链方法 ——
+    def works_config(self):
+        return self._rec("works_config", lambda: {"code": 0})
+
+    def jackpot_home(self):
+        return self._rec("jackpot_home", lambda: {"code": 0})
+
+    def tasks_login_once(self):
+        return self._rec("tasks_login_once", lambda: {"code": 0})
+
+    def common_config_v2(self):
+        return self._rec("common_config_v2", lambda: {"code": 0})
+
+    def search_suggest(self):
+        return self._rec("search_suggest", lambda: {"code": 0})
+
+    def school_letter_red(self):
+        return self._rec("school_letter_red", lambda: {"code": 0})
+
+    def school_letter_list(self):
+        return self._rec("school_letter_list", lambda: {"code": 0})
+
+    def user_resource(self):
+        return self._rec("user_resource", lambda: {"code": 0})
+
+    def task_description(self):
+        return self._rec("task_description", lambda: {"code": 0})
+
+    def load_user(self):
+        return self._rec("load_user", lambda: {"code": 0, "data": {}})
+
 
 class FakeStore:
     def __init__(self):
@@ -137,17 +168,27 @@ class 跳过场景(unittest.TestCase):
 
 class 正常链(unittest.TestCase):
     def test_步骤顺序符合真机路径(self):
+        """2026-11-05 鸿蒙真机抓包实序"""
         c = FakeClient()
         app = FakeApp(c, {})
         steps = behavior.post_login_browse(app, fast_rng())
         names = [s for s, _ in steps]
-        # 顺序：红点 → 推荐流 → (详情 → 上报)×N → 排行 → 个人 → 本校
-        self.assertEqual(names[0], "消息红点")
-        self.assertEqual(names[1], "社区推荐流")
+        # 真机顺序：社区配置 → 抽奖 → 用户资料 → 公共配置v2 → 登录任务
+        #   → 推荐流 → (详情→上报)×N → 搜索热词 → 排行 → 校园信红点 →
+        #   重要信件 → 用户资源 → 任务描述
+        self.assertEqual(names[0], "社区配置")
+        self.assertEqual(names[1], "抽奖首页")
+        self.assertEqual(names[2], "用户资料")
+        self.assertEqual(names[3], "公共配置v2")
+        self.assertEqual(names[4], "登录任务")
+        self.assertEqual(names[5], "社区推荐流")
         self.assertIn("帖子详情", names)
         self.assertIn("上报浏览", names)
-        self.assertLess(names.index("社区推荐流"), names.index("帖子详情"))
-        self.assertEqual(names[-1], "本校信息")
+        self.assertIn("搜索热词", names)
+        self.assertIn("校园信红点", names)
+        self.assertIn("重要信件", names)
+        self.assertIn("用户资源", names)
+        self.assertEqual(names[-1], "任务描述")
         self.assertTrue(all(g for _, g in steps), f"有失败步骤：{steps}")
 
     def test_点开帖子数在1到2之间(self):
@@ -158,16 +199,18 @@ class 正常链(unittest.TestCase):
         self.assertTrue(1 <= len(details) <= 2)
 
     def test_任一步失败链继续(self):
-        c = FakeClient(fail=("red_dot", "recommend", "personal"))
+        c = FakeClient(fail=("works_config", "recommend", "personal"))
         app = FakeApp(c, {})
         steps = behavior.post_login_browse(app, fast_rng())
-        self.assertFalse(steps[0][1])            # 红点失败
-        self.assertFalse(steps[1][1])            # 推荐流失败
+        self.assertFalse(steps[0][1])            # 社区配置失败
+        rec = dict(steps)
+        rec2 = {n: g for n, g in steps}
+        self.assertFalse(rec2.get("社区推荐流", True))   # 推荐流失败
         # 无推荐数据就没有帖子步骤，但后续照走
         names = [s for s, _ in steps]
         self.assertIn("里程排行榜", names)
-        self.assertEqual(names[-1], "本校信息")
-        self.assertTrue(steps[-1][1])            # 本校信息成功
+        self.assertEqual(names[-1], "任务描述")
+        self.assertTrue(steps[-1][1])            # 任务描述成功
 
     def test_跑后行为顺序(self):
         c = FakeClient()

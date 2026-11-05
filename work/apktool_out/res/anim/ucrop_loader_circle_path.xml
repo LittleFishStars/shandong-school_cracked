@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="@2131427402" android:repeatCount="-1" android:valueFrom="0" android:valueTo="1" android:valueType="0" android:propertyName="" />
+    <objectAnimator android:duration="@2131427402" android:repeatCount="-1" android:valueFrom="1" android:valueTo="0" android:valueType="0" android:propertyName="" />
+</set>

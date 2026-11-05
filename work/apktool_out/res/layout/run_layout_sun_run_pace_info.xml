@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.widget.ShadowFrameLayout android:id="@2131365994" android:tag="" android:clipChildren="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentEnd="true" app:sfl_alignEnd="true" app:sfl_clipToCorner="false" app:sfl_cornerRadius="8.0dip" app:sfl_shadowColor="#1a191f20" app:sfl_shadowDx="0.0dip" app:sfl_shadowDy="4.0dip" app:sfl_shadowRadius="4.0dip">
+        <LinearLayout android:gravity="0x00800005" android:orientation="1" android:tag="" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="18.0sp" android:textColor="@17170443" android:tag="" android:layout_width="-2" android:layout_height="-2" android:fontFamily="@2131296258" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="0x00800033" android:tag="" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="-10.0dip" android:src="@2131755288" android:layout_marginStart="-10.0dip" />
+    </com.huachenjie.common.widget.ShadowFrameLayout>
+    <com.huachenjie.common.widget.ShadowFrameLayout android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-4.0dip" android:layout_below="@2131365994" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_alignEnd="@2131365994" app:sfl_alignEnd="true" app:sfl_bgColor="@color/white" app:sfl_clipToCorner="true" app:sfl_cornerRadius="12.0dip" app:sfl_shadowColor="#1a191f20" app:sfl_shadowDx="0.0dip" app:sfl_shadowDy="4.0dip" app:sfl_shadowRadius="4.0dip">
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:gravity="0x00000010" android:tag="" android:layout_width="-2" android:layout_height="24.0dip" />
+    </com.huachenjie.common.widget.ShadowFrameLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.qiyukf.unicorn.widget.DotProgressBar android:id="@2131369527" android:layout_width="30.0dip" android:layout_height="12.0dip" android:layout_marginTop="4.0dip" app:amount="2" app:animationDirection="right" app:duration="600" app:endColor="@color/ysf_transparent_color" app:startColor="@color/ysf_blue_337EFF" />
+    <TextView android:textSize="16.0sp" android:id="@2131369526" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2.0dip" />
+</LinearLayout>

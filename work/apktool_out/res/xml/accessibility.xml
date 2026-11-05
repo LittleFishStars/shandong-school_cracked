@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@2131951649" android:accessibilityEventTypes="0xFFFFFFFF" android:accessibilityFeedbackType="0xFFFFFFFF" android:notificationTimeout="100" android:accessibilityFlags="0x0000005A" android:canRetrieveWindowContent="true" android:canRequestTouchExplorationMode="true" android:canRequestEnhancedWebAccessibility="true" android:canPerformGestures="true" android:canTakeScreenshot="true" android:isAccessibilityTool="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

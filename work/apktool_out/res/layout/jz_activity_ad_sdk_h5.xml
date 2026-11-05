@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131364648" android:background="@17170445" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:id="@2131361902" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:background="@17170443" android:layout_width="-1" android:layout_height="48.0dip">
+            <ImageView android:layout_gravity="0x00000010" android:id="@2131361911" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="15.0dip" android:src="@2131230851" android:scaleType="6" />
+            <TextView android:textSize="14.0sp" android:textColor="@17170444" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131361912" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:singleLine="true" />
+        </FrameLayout>
+        <WebView android:id="@2131361913" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@2131100258" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <com.ltmb.ltadsdk.ui.view.AdRoundImageView android:id="@2131367409" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:layout_centerInParent="true" app:ltadrivCornerRadius="15.0dip" />
+        <com.ltmb.ltadsdk.ui.view.AdInteractionView android:id="@2131367393" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="10.0dip" android:layout_alignLeft="@2131367409" android:layout_alignRight="@2131367409" android:layout_alignBottom="@2131367409" />
+        <com.ltmb.ltadsdk.adx.ui.view.AdFeedbackEntryView android:id="@2131367434" android:visibility="2" android:layout_width="-2" android:layout_height="25.0dip" android:layout_marginTop="10.0dip" android:includeFontPadding="false" android:layout_alignLeft="@2131367409" android:layout_alignTop="@2131367409" android:layout_marginStart="10.0dip" android:paddingHorizontal="15.0dip" />
+        <ImageView android:id="@2131367407" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@2131232678" android:layout_alignTop="@2131367409" android:layout_alignRight="@2131367409" />
+        <com.ltmb.ltadsdk.adx.ui.view.AdxComplianceView android:orientation="0" android:id="@2131367397" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:paddingHorizontal="16.0dip" />
+    </RelativeLayout>
+</FrameLayout>

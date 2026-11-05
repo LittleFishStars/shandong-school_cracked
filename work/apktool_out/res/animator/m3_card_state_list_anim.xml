@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="true" android:state_hovered="true">
+        <objectAnimator android:interpolator="?2130970279" android:duration="?2130970269" android:valueTo="@2131165878" android:valueType="0" android:propertyName="" android:startDelay="?2130970266" />
+    </item>
+    <item android:state_enabled="true" app:state_dragged="true">
+        <objectAnimator android:interpolator="?2130970279" android:duration="?2130970269" android:valueTo="@2131165872" android:valueType="0" android:propertyName="" android:startDelay="?2130970266" />
+    </item>
+    <item android:state_enabled="true">
+        <objectAnimator android:interpolator="?2130970279" android:duration="?2130970263" android:valueTo="0.0dip" android:valueType="0" android:propertyName="" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0.0dip" android:valueType="0" android:propertyName="" />
+    </item>
+</selector>

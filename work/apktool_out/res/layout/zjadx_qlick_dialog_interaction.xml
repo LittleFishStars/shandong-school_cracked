@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:background="@17170445" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zj.adx.sdk.lz.widget.RoundFrameLayout android:id="@2131364514" android:background="@2131101059" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:layout_gravity="0x00000011" android:orientation="1" android:background="@17170443" android:layout_width="-1" android:layout_height="-1">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <com.zj.adx.sdk.lz.component.reward.QlickRoundRectImageView android:id="@2131364462" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+                <TextView android:textSize="15.0sp" android:ellipsize="3" android:id="@2131364519" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="12.0dip" android:maxLines="2" android:layout_toRightOf="@2131364462" />
+                <RelativeLayout android:background="@2131234848" android:layout_width="-2" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="5.0dip" android:layout_below="@2131364519" android:layout_alignLeft="@2131364519">
+                    <ImageView android:id="@2131366214" android:layout_width="26.0dip" android:layout_height="-1" android:src="@2131234801" />
+                    <TextView android:textSize="@2131166451" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364463" android:paddingRight="5.0dip" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="26.0dip" android:text="" />
+                </RelativeLayout>
+                <ImageView android:id="@2131364477" android:padding="4.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="13.0dip" android:src="@2131234838" android:importantForAccessibility="2" android:layout_marginEnd="13.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <FrameLayout android:id="@2131364492" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="11.0dip">
+                <ImageView android:id="@2131364459" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" />
+                <com.zj.adx.sdk.component.videoplayer.NiceVideoPlayer android:id="@2131364464" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+                <ImageView android:id="@2131364537" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" />
+                <FrameLayout android:id="@2131363622" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+                    <ImageView android:layout_gravity="0x00000051" android:id="@2131363621" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="100.0dip" android:src="@2131234839" android:importantForAccessibility="2" />
+                    <LinearLayout android:layout_gravity="0x00000051" android:orientation="1" android:background="@2131234874" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="40.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                        <TextView android:textSize="11.0sp" android:textColor="#95ffffff" android:layout_gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </com.zj.adx.sdk.lz.widget.RoundFrameLayout>
+</LinearLayout>

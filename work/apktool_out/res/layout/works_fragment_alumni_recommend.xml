@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="1" android:tag="" android:background="@17170443" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@2131368781" android:tag="" android:layout_width="0.0dip" android:layout_height="@2131166510" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/vStatusSpace">
+        <com.flyco.tablayout.SlidingTabLayout android:id="@2131367465" android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:layout_collapseMode="pin" app:tl_indicator_color="#00000000" app:tl_indicator_corner_radius="12.0dip" app:tl_indicator_height="24.0dip" app:tl_indicator_margin_bottom="8.0dip" app:tl_indicator_width_equal_title="true" app:tl_indicator_width_equal_title_width="true" app:tl_tab_padding="10.0dip" app:tl_tab_space_equal="false" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff191f20" app:tl_textUnselectColor="#ff191f20" app:tl_textsize="14.0sp" />
+        <androidx.viewpager.widget.ViewPager android:id="@2131368915" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" android:overScrollMode="2" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00800055" android:tag="" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="20.0dip" android:src="@2131231969" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

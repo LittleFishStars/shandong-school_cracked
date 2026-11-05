@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@2131365352" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@2131100301" android:layout_width="-1" android:layout_height="40.0dip" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@2131365337" android:layout_width="-2" android:layout_height="-2" android:src="@2131232894" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@2131365339" android:layout_width="-2" android:layout_height="-2" android:src="@2131232896" android:layout_marginStart="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/ltmb_ad_iv_back" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.ltmb.ltsdk.core.kat.mob.view.AdvistaWebView android:id="@2131365470" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

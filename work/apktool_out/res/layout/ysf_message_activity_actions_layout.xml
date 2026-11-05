@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@2131361893" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:id="@2131361892" android:background="@17170443" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <include layout="@layout/ysf_include_divider" />
+        <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@2131368915" android:layout_width="-1" android:layout_height="250.0dip" android:layout_marginTop="4.0dip" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="0" android:id="@2131361894" android:layout_width="-1" android:layout_height="8.0dip" android:layout_marginBottom="4.0dip" />
+    </LinearLayout>
+</ScrollView>

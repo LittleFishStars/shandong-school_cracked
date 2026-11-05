@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:background="@2131232880" android:paddingTop="14.0dip" android:paddingBottom="16.0dip" android:layout_width="320.0dip" android:layout_height="-2" android:layout_centerInParent="true" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+        <TextView android:textSize="22.0sp" android:textStyle="0x00000003" android:textColor="#ffac26" android:layout_gravity="0x00000001" android:id="@2131362650" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <TextView android:textSize="14.0sp" android:textColor="#030303" android:layout_gravity="0x00000001" android:id="@2131362646" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" android:maxLines="1" />
+        <RelativeLayout android:background="@2131232879" android:padding="10.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14.0dip">
+            <com.ltmb.ltsdk.gt.api.base.view.RoundImageView android:id="@2131362006" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131232859" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#030303" android:id="@2131362008" android:layout_width="-1" android:layout_height="-2" android:hint="" android:maxLines="1" android:singleLine="true" android:layout_marginStart="15.0dip" android:layout_toEndOf="@2131362006" />
+            <TextView android:textSize="12.0sp" android:textColor="#363636" android:id="@2131362004" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:hint="" android:maxLines="1" android:singleLine="true" android:layout_below="@2131362008" android:layout_marginStart="15.0dip" android:layout_toEndOf="@2131362006" />
+        </RelativeLayout>
+        <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131362643" android:background="@2131232873" android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginTop="14.0dip" android:text="" />
+    </LinearLayout>
+</merge>

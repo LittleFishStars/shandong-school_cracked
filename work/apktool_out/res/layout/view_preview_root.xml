@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131366698" android:background="@2131101187" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="-1" android:layout_height="-1">
+        <androidx.cardview.widget.CardView android:id="@2131363057" android:background="@2131101187" android:visibility="1" android:layout_width="-1" android:layout_height="-1" app:cardBackgroundColor="@color/transparent" app:cardElevation="0.0dip">
+            <ImageView android:id="@2131363368" android:layout_width="-1" android:layout_height="-1" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <com.wgw.photo.preview.NoTouchExceptionViewPager android:id="@2131368954" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000050" android:orientation="0" android:id="@2131364693" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="44.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="0x00000050" android:id="@2131363615" android:visibility="2" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginBottom="44.0dip" android:src="@2131233807" />
+    <TextView android:textSize="14.0sp" android:textColor="@17170432" android:gravity="0x00000011" android:layout_gravity="0x00000050" android:id="@2131368640" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="40.0dip" />
+    <FrameLayout android:id="@2131363032" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

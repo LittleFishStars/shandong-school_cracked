@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="#f5f5f5" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <com.huachenjie.common.video.AliVideoView android:id="@2131368912" android:background="@17170444" android:layout_width="-1" android:layout_height="-2" android:minHeight="200.0dip" />
+        <ImageView android:layout_gravity="0x00000011" android:tag="" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@2131232026" />
+        <FrameLayout android:tag="" android:background="#80000000" android:layout_width="-1" android:layout_height="-1">
+            <com.noober.background.view.BLLinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:tag="" android:layout_width="116.0dip" android:layout_height="36.0dip" app:bl_corners_radius="18.0dip" app:bl_solid_color="#ff650aec" app:bl_stroke_color="#ffb582ff" app:bl_stroke_width="1.0dip">
+                <ImageView android:tag="" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8.0dip" />
+            </com.noober.background.view.BLLinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366557" android:tag="" android:layout_width="-1" android:layout_height="-1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

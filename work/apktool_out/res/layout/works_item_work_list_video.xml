@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@2131369027" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131368893" android:tag="" android:layout_width="-1" android:layout_height="-1" />
+    <include android:id="@2131364550" layout="@layout/works_item_work_detail_list" />
+</FrameLayout>

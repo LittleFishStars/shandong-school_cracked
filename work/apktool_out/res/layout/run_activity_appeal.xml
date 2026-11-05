@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <com.noober.background.view.BLFrameLayout android:layout_width="-1" android:layout_height="200.0dip" android:layout_marginTop="15.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/color_F7F7F7" app:bl_stroke_color="@color/color_E8E8E8" app:bl_stroke_width="2.0dip">
+        <EditText android:textSize="16.0sp" android:textColor="@2131099806" android:textColorHint="@2131099850" android:gravity="0x00800033" android:id="@2131362774" android:background="@0" android:paddingTop="16.0dip" android:paddingBottom="40.0dip" android:longClickable="false" android:layout_width="-1" android:layout_height="-1" android:hint="" android:maxLength="180" android:inputType="0x00020001" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:importantForAutofill="0x00000002" />
+        <TextView android:textSize="12.0sp" android:textColor="@2131099850" android:layout_gravity="0x00800055" android:id="@2131368027" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="16.0dip" android:layout_marginEnd="16.0dip" />
+    </com.noober.background.view.BLFrameLayout>
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:padding="16.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="#1a0bd3ff">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@2131233672" android:scaleType="7" android:contentDescription="@0" />
+            <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#00b6de" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@2131099806" android:id="@2131368028" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:lineSpacingExtra="2.0dip" />
+    </com.noober.background.view.BLLinearLayout>
+    <View android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.huachenjie.common.widget.ShadowLayout android:background="@2131101240" android:layout_width="-1" android:layout_height="-2" app:sl_dTop="10.0dip" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="true" app:sl_isCircle="false" app:sl_shadowColor="#1a8997a4">
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:gravity="0x00000011" android:id="@2131362329" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff191f20" app:bl_enabled_textColor="#ff0bd3ff" app:bl_solid_color="#ffcccccc" app:bl_unEnabled_textColor="@color/white" />
+    </com.huachenjie.common.widget.ShadowLayout>
+</LinearLayout>

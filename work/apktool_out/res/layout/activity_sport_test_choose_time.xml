@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:background="@2131099728" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <com.flyco.tablayout.SlidingTabLayout2 android:id="@2131367461" android:layout_width="-1" android:layout_height="49.0dip" app:tl_indicator_color="#ff650aec" app:tl_indicator_height="3.0dip" app:tl_indicator_width="54.0dip" app:tl_tab_space_equal="true" app:tl_tab_width="107.0dip" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff650aec" app:tl_textUnselectColor="#ff2c3e50" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@2131368962" android:layout_width="-1" android:layout_height="0.0dip" android:layout_marginTop="11.0dip" android:layout_weight="1.0" android:overScrollMode="2" />
+    <com.huachenjie.common.widget.ShadowConstraintLayout android:id="@2131362445" android:layout_width="-1" android:layout_height="53.0dip" android:layout_marginTop="-4.0dip" app:sl_drawBottom="false" app:sl_drawLeft="false" app:sl_drawRight="false" app:sl_drawTop="true" app:sl_shadowRadius="4.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@2131099815" android:id="@2131368128" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" android:layout_marginStart="12.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131099808" android:id="@2131368173" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:layout_marginStart="10.0dip" app:layout_constraintLeft_toRightOf="@id/tv_check" app:layout_constraintTop_toTopOf="parent" />
+        <com.huachenjie.common.widget.CheckTextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="110.0dip" android:layout_height="34.0dip" android:text="" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.huachenjie.common.widget.ShadowConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

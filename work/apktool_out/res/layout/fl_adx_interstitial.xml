@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fl.saas.adx.base.widget.InterceptClickLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <com.fl.saas.adx.base.widget.RoundedFrameLayout android:id="@2131363066" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" app:fl_radius="6.0dip" />
+        <FrameLayout android:id="@2131363014" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@2131363066" android:layout_alignStart="@2131363066" android:layout_alignEnd="@2131363066" />
+        <View android:id="@2131368855" android:visibility="2" android:layout_width="-2" android:layout_height="40.0dip" android:layout_above="@2131363066" android:layout_alignStart="@2131363066" android:layout_alignEnd="@2131363066" />
+        <View android:id="@2131368789" android:visibility="2" android:layout_width="-2" android:layout_height="40.0dip" android:layout_below="@2131363066" android:layout_alignStart="@2131363066" android:layout_alignEnd="@2131363066" />
+        <ImageView android:id="@2131363358" android:visibility="2" android:layout_width="-2" android:layout_height="12.0dip" android:scaleType="4" android:adjustViewBounds="true" android:layout_alignBottom="@2131363066" android:layout_alignEnd="@2131363066" />
+        <com.fl.saas.adx.base.widget.CountDownTextView android:textSize="11.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368570" android:visibility="1" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:text="" android:layout_alignTop="@2131363066" android:layout_marginEnd="6.0dip" android:layout_alignEnd="@2131363066" app:fl_bg_color="#60000000" app:fl_bg_radius="20.0dip" app:fl_count="5" />
+        <ImageView android:id="@2131363424" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:src="@2131755075" android:scaleType="3" android:layout_alignTop="@2131363066" android:layout_alignRight="@2131363066" />
+        <View android:id="@2131368798" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_alignTop="@2131363066" android:layout_alignRight="@2131363066" />
+    </RelativeLayout>
+</com.fl.saas.adx.base.widget.InterceptClickLayout>

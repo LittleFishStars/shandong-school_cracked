@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@2131231068"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="" android:animation="@2130771999" />
+    <target android:name="" android:animation="@2130771998" />
+    <target android:name="" android:animation="@2130771997" />
+</animated-vector>

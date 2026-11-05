@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="ltmb_qy_download_file" path="com_ltmb_qy_download" />
+    <external-cache-path name="ltmb_qy_download_file1" path="com_ltmb_qy_download" />
+    <external-files-path name="ltmb_qy_download_file2" path="com_ltmb_qy_download" />
+    <cache-path name="ltmb_qy_download_file3" path="com_ltmb_qy_download" />
+</paths>

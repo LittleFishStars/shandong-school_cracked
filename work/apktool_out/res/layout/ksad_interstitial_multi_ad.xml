@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.KSFrameLayout android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.components.ad.interstitial.aggregate.TransViewPager android:id="@2131364079" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1" />
+    <com.kwad.components.ad.interstitial.aggregate.InterstitialAggregateManualTipsView android:layout_gravity="0x00000051" android:id="@2131364074" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.0dip" />
+    <com.kwad.components.ad.interstitial.aggregate.ViewPagerIndicator android:layout_gravity="0x00000051" android:id="@2131364080" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0.0dip" />
+</com.kwad.sdk.widget.KSFrameLayout>

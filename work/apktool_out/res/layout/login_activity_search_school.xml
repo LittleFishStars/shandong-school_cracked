@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:layout_height="120.0dip" style="@style/login_bg_head_gradual" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2">
+        <com.huachenjie.common.widget.CommonSearchViewV2 android:id="@2131367084" android:layout_width="-1" android:layout_height="-2" app:csv_searchHint="@string/login_search_school_search_hint" app:csv_showBackView="true" app:csv_showSearchView="true" />
+        <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</FrameLayout>

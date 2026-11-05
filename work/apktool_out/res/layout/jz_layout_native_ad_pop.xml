@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.hzjizhun.admin.view.RootTouchViewGroup android:id="@2131366721" android:background="#ffffff" android:layout_width="-2" android:layout_height="-2">
+        <RelativeLayout android:id="@2131364545" android:layout_width="-2" android:layout_height="-2" />
+        <LinearLayout android:id="@2131364553" android:background="@2131233450" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:paddingHorizontal="8.0dip" android:paddingVertical="5.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#a4a8b0" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="12.0sp" android:textColor="#a4a8b0" android:gravity="0x00000011" android:id="@2131368138" android:layout_width="-2" android:layout_height="-2" android:minEms="1" android:includeFontPadding="false" />
+        </LinearLayout>
+    </cn.hzjizhun.admin.view.RootTouchViewGroup>
+    <ImageView android:layout_gravity="0x00000001" android:id="@2131364567" android:background="@2131232134" android:padding="5.0dip" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="80.0dip" android:scaleType="3" />
+</LinearLayout>

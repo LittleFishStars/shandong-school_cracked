@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:background="@2131101089" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mcto.sspsdk.component.imageview.QYNiceImageView android:id="@2131366432" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@17170443" android:id="@2131366433" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:orientation="1" android:id="@2131366431" android:layout_width="100.0dip" android:layout_height="30.0dip" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.common.widget.ShadowConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="6.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:sl_bgColor="@color/white" app:sl_cornerRadiusLT="13.0dip" app:sl_cornerRadiusRT="13.0dip" app:sl_dBottom="20.0dip" app:sl_dTop="20.0dip" app:sl_drawBottom="false" app:sl_shadowColor="#1a650aec" app:sl_shadowRadius="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</com.huachenjie.common.widget.ShadowConstraintLayout>

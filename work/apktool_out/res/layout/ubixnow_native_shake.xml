@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ubixnow.adtype.nativead.api.UMNNativeShakeView android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131363070" android:background="@2131234089" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true">
+        <ImageView android:id="@2131363620" android:layout_width="-2" android:layout_height="-2" android:src="@2131234087" />
+    </FrameLayout>
+    <TextView android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368549" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" android:maxLines="2" android:shadowColor="#000000" android:shadowDx="2.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_below="@2131363070" android:layout_centerHorizontal="true" android:lineSpacingExtra="5.0dip" android:autoSizeTextType="1" android:autoSizeMinTextSize="3.0sp" android:autoSizeMaxTextSize="14.0sp" />
+</com.ubixnow.adtype.nativead.api.UMNNativeShakeView>

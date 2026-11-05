@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.uikit.common.ui.imageview.MsgThumbImageView android:layout_gravity="0x00000030" android:id="@2131365553" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:contentDescription="@0" />
+    <ImageView android:layout_gravity="0x00000010" android:id="@2131365549" android:layout_width="-2" android:layout_height="-2" android:scaleType="1" android:contentDescription="@0" />
+    <TextView android:textColor="@2131101320" android:layout_gravity="0x00000011" android:id="@2131365552" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    <TextView android:textSize="@2131166628" android:textColor="@2131101272" android:gravity="0x00000011" android:layout_gravity="0x00000050" android:id="@2131368390" android:visibility="2" android:layout_width="-2" android:layout_height="76.0px" />
+</FrameLayout>

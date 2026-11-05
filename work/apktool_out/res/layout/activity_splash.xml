@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:background="#ffffff" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363527" android:layout_width="140.0dip" android:layout_height="140.0dip" android:layout_marginBottom="120.0dip" android:src="@2131231998" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@2131362988" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/iv_splash_ad_logo" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@2131363647" android:background="@2131101240" android:paddingBottom="20.0dip" android:visibility="1" android:layout_width="-1" android:layout_height="90.0dip" android:src="@2131231997" android:scaleType="7" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="#999999" android:id="@2131367998" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flAd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

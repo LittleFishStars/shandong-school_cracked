@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131101361" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="16.0sp" android:textColor="@2131101264" android:ellipsize="3" android:id="@2131369710" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:maxWidth="80.0dip" android:text="@2131954334" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101311" android:ellipsize="3" android:id="@2131369711" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:maxWidth="50.0dip" android:singleLine="true" android:layout_alignParentRight="true" />
+        <View android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101364" android:ellipsize="3" android:gravity="0x00000005" android:id="@2131369709" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:maxWidth="100.0dip" android:text="@2131954535" android:singleLine="true" android:drawableLeft="@2131234583" android:drawablePadding="4.0dip" android:layout_toRightOf="@2131369705" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@2131101311" android:ellipsize="3" android:gravity="0x00000005" android:id="@2131369712" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:singleLine="true" android:layout_toRightOf="@2131369705" android:layout_alignParentRight="true" />
+    </LinearLayout>
+    <com.qiyukf.unicorn.widget.foldtextview.FoldSelfTextView android:textSize="14.0sp" android:textColor="@2131101267" android:ellipsize="0" android:id="@2131369762" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="14.0dip" android:maxLines="5" android:layout_marginHorizontal="16.0dip" />
+    <com.qiyukf.unicorn.ui.worksheet.WorkSheetAttachPreviewLayout android:id="@2131369761" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="14.0dip" android:layout_marginHorizontal="16.0dip" />
+    <include android:layout_width="-1" android:layout_height="@2131166610" android:layout_marginHorizontal="16.0dip" layout="@layout/ysf_include_divider" />
+</LinearLayout>

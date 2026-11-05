@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131364368" android:layout_width="-1" android:layout_height="-1" />
+    <com.kwad.sdk.widget.KSFrameLayout android:id="@2131364389" android:layout_width="-1" android:layout_height="-1" app:ksad_radius="8.0dip">
+        <ImageView android:id="@2131364405" android:layout_width="-1" android:layout_height="-1" />
+    </com.kwad.sdk.widget.KSFrameLayout>
+    <ImageView android:layout_gravity="0x00000005" android:id="@2131364367" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:src="@2131232367" />
+</FrameLayout>

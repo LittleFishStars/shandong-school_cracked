@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView style="@style/login_bg_head_gradual" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout style="@style/login_ll_common_title">
+            <TextView android:text="@2131952784" style="@style/login_tv_common_title" />
+            <ImageView android:src="@2131232569" style="@style/login_iv_common_title" />
+        </LinearLayout>
+        <TextView android:text="@2131952778" style="@style/login_tv_common_title_content" />
+        <TextView android:layout_marginTop="60.0dip" android:text="@2131952779" style="@style/login_tv_info_subtitle" />
+        <LinearLayout android:orientation="0" android:id="@2131366535" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+            <FrameLayout android:tag="" android:layout_marginEnd="5.5dip" style="@style/login_fl_info_choose_sex">
+                <TextView android:text="@2131952781" style="@style/login_tv_info_choose_sex_bottom" />
+                <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <CheckBox android:id="@2131366529" android:tag="" android:background="@2131232588" style="@style/login_rb_info_choose_sex" />
+                    <TextView android:text="@2131952780" style="@style/login_tv_info_choose_sex" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:tag="" android:layout_marginStart="5.5dip" style="@style/login_fl_info_choose_sex">
+                <TextView android:text="@2131952783" style="@style/login_tv_info_choose_sex_bottom" />
+                <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <CheckBox android:id="@2131366538" android:tag="" android:background="@2131232589" style="@style/login_rb_info_choose_sex" />
+                    <TextView android:text="@2131952782" style="@style/login_tv_info_choose_sex" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <TextView android:layout_marginTop="40.0dip" android:text="@2131952771" style="@style/login_tv_info_subtitle" />
+        <com.huachenjie.common.widget.DrawableCenterButton android:textSize="16.0sp" android:textColor="#191f20" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:drawablePadding="8.0dip" android:drawableStart="@2131232564" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" bind:bl_corners_radius="22.0dip" bind:bl_solid_color="#fff7f7f7" bind:bl_stroke_color="#ffe8e8e8" bind:bl_stroke_width="2.0dip" />
+        <TextView android:tag="" android:layout_marginTop="40.0dip" style="@style/login_bt_next" />
+    </LinearLayout>
+    <ImageView android:tag="" style="@style/login_iv_common_back" />
+</FrameLayout>

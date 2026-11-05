@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="0x00000001" android:layout_width="300.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:background="@2131233244" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131363370" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="32.0dip" android:scaleType="3" />
+        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#161823" android:id="@2131368023" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#4d161823" android:id="@2131368026" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#4d161823" android:gravity="0x00000001" android:id="@2131368020" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#666666" android:gravity="0x00000001" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+        <com.octopus.ad.widget.FlickerProgressBar android:id="@2131362318" android:layout_width="276.0dip" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" app:octLoadingColor="#ff40c4ff" app:octRadius="6.0dip" app:octStopColor="#ffff9800" app:octTextSize="14.0sp" />
+        <LinearLayout android:gravity="0x00000011" android:orientation="0" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginBottom="15.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#4d161823" android:id="@2131368024" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <View android:background="#d8d8d8" android:layout_width="0.5dip" android:layout_height="9.0dip" android:layout_marginHorizontal="12.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#4d161823" android:id="@2131368025" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <View android:background="#d8d8d8" android:layout_width="0.5dip" android:layout_height="9.0dip" android:layout_marginHorizontal="12.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#4d161823" android:id="@2131368021" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@2131363424" android:background="@2131233249" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:src="@2131233248" android:layout_alignParentRight="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -79,18 +79,22 @@ def _mark_browsed(app: Any) -> None:
 
 def post_login_browse(app: Any, rng: Optional[random.Random] = None,
                       force: bool = False) -> List[Tuple[str, bool]]:
-    """登录后/进入首页的浏览行为（真实时序，总时长 ~8s）
+    """登录后/进入首页的浏览行为（2026-11-05 鸿蒙真机抓包实序，真实时间 ~10s）
 
-    顺序按真机真实路径：消息红点 → 社区推荐流 →（点开 1~2 个帖子：详情 →
-    停留 → 上报浏览）→ 里程排行榜 → 个人资料 → 本校信息。
+    真机顺序（timestamp 排序）：
+      api/works/worksConfig → api/jackpot/award/home → account/queryCommonUserInfo
+      → api/common/getCommonConfig → api/tasks/loginOnce → api/works/…(社区)
+      → api/search/suggestion/list → 排行榜 → schoolLetter/redDot
+      → schoolLetter/importantLetterList → account/getUserResourceList
+      → task/getDescription
 
-    返回 [(步骤名, 是否成功)]，供日志/测试断言；任何异常都被吞掉。
+    本实现按同序编排；每步真实停顿（总 ~10s，真机是分钟级，取下限）。
+    返回 [(步骤名, 是否成功)]；任何异常都被吞掉。
     """
     steps: List[Tuple[str, bool]] = []
     ok, why = _should_run(app)
     if not ok:
-        steps.append(("跳过", False))
-        steps[-1] = (why, False)
+        steps.append((why, False))
         return steps
     if not force and _recently_browsed(app):
         steps.append(("冷却期内跳过", False))
@@ -98,23 +102,32 @@ def post_login_browse(app: Any, rng: Optional[random.Random] = None,
 
     cli = app.client
     rng = rng or random.Random()
-    try:
-        # 1) 消息红点（真机进 App 第一件事常是看红点）
-        try:
-            cli.message_red_dot()
-            steps.append(("消息红点", True))
-        except Exception:              # noqa: BLE001
-            steps.append(("消息红点", False))
-        _gap(rng, 0.5, 1.6)
 
-        # 2) 社区推荐流 + 点开 1~2 个帖子（详情 → 阅读停留 → 上报浏览）
-        works = {"code": -1, "data": {}}
+    def _step(name: str, fn) -> None:
         try:
-            works = cli.works_recommend(page_size=rng.choice([5, 10, 20]))
-            steps.append(("社区推荐流", works.get("code") == 0))
+            fn()
+            steps.append((name, True))
         except Exception:              # noqa: BLE001
-            steps.append(("社区推荐流", False))
-        _gap(rng, 0.6, 1.6)
+            steps.append((name, False))
+
+    try:
+        # —— 真机序列 1：首页模块 ——
+        _step("社区配置", cli.works_config)
+        _gap(rng, 0.3, 0.9)
+        _step("抽奖首页", cli.jackpot_home)
+        _gap(rng, 0.3, 0.9)
+        _step("用户资料", cli.load_user)
+        _gap(rng, 0.3, 0.9)
+        _step("公共配置v2", cli.common_config_v2)
+        _gap(rng, 0.3, 0.9)
+        _step("登录任务", cli.tasks_login_once)
+        _gap(rng, 0.4, 1.2)
+
+        # —— 真机序列 2：社区浏览 ——
+        works = {"code": -1, "data": {}}
+        _step("社区推荐流", lambda: works.update(
+            cli.works_recommend(page_size=rng.choice([5, 10, 20])) or {}))
+        _gap(rng, 0.5, 1.4)
         try:
             lst = ((works.get("data") or {}).get("list")
                    if isinstance(works.get("data"), dict) else []) or []
@@ -123,43 +136,25 @@ def post_login_browse(app: Any, rng: Optional[random.Random] = None,
                 if not wn:
                     continue
                 _gap(rng, 0.8, 2.0)
-                try:
-                    cli.works_detail(wn)
-                    steps.append(("帖子详情", True))
-                except Exception:      # noqa: BLE001
-                    steps.append(("帖子详情", False))
-                _gap(rng, 1.0, 2.5)    # 阅读停留
-                try:
-                    cli.works_visit(wn)
-                    steps.append(("上报浏览", True))
-                except Exception:      # noqa: BLE001
-                    steps.append(("上报浏览", False))
+                _step("帖子详情", lambda wn=wn: cli.works_detail(wn))
+                _gap(rng, 1.0, 2.5)        # 阅读停留
+                _step("上报浏览", lambda wn=wn: cli.works_visit(wn))
         except Exception:              # noqa: BLE001
             pass
-        _gap(rng, 0.5, 1.4)
-
-        # 3) 里程排行榜（跑者会看自己排名）
-        try:
-            cli.rank_distance()
-            steps.append(("里程排行榜", True))
-        except Exception:              # noqa: BLE001
-            steps.append(("里程排行榜", False))
-        _gap(rng, 0.5, 1.4)
-
-        # 4) 个人资料（顺手点一下）
-        try:
-            cli.personal_info()
-            steps.append(("个人资料", True))
-        except Exception:              # noqa: BLE001
-            steps.append(("个人资料", False))
+        _gap(rng, 0.4, 1.2)
+        _step("搜索热词", cli.search_suggest)
+        _gap(rng, 0.4, 1.2)
+        _step("里程排行榜", cli.rank_distance)
         _gap(rng, 0.4, 1.2)
 
-        # 5) 本校信息（进跑步模块前的入口语境）
-        try:
-            cli.my_school_info()
-            steps.append(("本校信息", True))
-        except Exception:              # noqa: BLE001
-            steps.append(("本校信息", False))
+        # —— 真机序列 3：校园信 / 资源 / 任务 ——
+        _step("校园信红点", cli.school_letter_red)
+        _gap(rng, 0.3, 0.9)
+        _step("重要信件", cli.school_letter_list)
+        _gap(rng, 0.3, 0.9)
+        _step("用户资源", cli.user_resource)
+        _gap(rng, 0.3, 0.9)
+        _step("任务描述", cli.task_description)
 
         _mark_browsed(app)
     except Exception:                  # noqa: BLE001  整链兜底：绝不外抛

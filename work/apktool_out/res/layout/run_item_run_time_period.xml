@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.run.widget.RunTimeAreaChipView android:id="@2131367959" android:tag="" android:layout_width="-2" android:layout_height="-2" app:run_chipContent="测试" app:run_chipIsMorning="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

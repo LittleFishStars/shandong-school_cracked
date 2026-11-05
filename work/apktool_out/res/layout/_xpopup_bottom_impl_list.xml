@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="0x00000001" android:textColor="@2131099655" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131368657" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" />
+    <include layout="@layout/_xpopup_divider" />
+    <com.lxj.xpopup.widget.VerticalRecyclerView android:orientation="1" android:id="@2131366549" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    <View android:id="@2131368981" android:background="#f5f5f5" android:layout_width="-1" android:layout_height="10.0dip" />
+    <TextView android:textSize="15.0sp" android:textColor="@2131099655" android:gravity="0x00000011" android:id="@2131368112" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="-1" android:layout_height="-2" android:text="@2131954232" />
+</LinearLayout>

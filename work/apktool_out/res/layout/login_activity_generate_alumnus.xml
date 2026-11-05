@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLFrameLayout android:tag="" android:layout_width="-1" android:layout_height="-1" bind:bl_gradient_endColor="#000bd3ff" bind:bl_gradient_startColor="#330bd3ff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="0x00000001" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131363497" android:layout_width="0.0dip" android:layout_height="-2" android:src="@2131232555" android:adjustViewBounds="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@2131363399" android:layout_width="0.0dip" android:layout_height="-2" android:src="@2131232554" android:adjustViewBounds="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toBottomOf="@id/iv_head" />
+        <com.noober.background.view.BLImageView android:id="@2131363585" android:tag="" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="-42.0dip" bind:bl_corners_radius="40.0dip" bind:bl_stroke_color="@color/white" bind:bl_stroke_width="2.0dip" bind:layout_constraintEnd_toEndOf="@id/iv_head" bind:layout_constraintStart_toStartOf="@id/iv_head" bind:layout_constraintTop_toBottomOf="@id/iv_head" />
+        <TextView android:textSize="18.0sp" android:textColor="#2c3e50" android:id="@2131368389" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:fontFamily="@2131296259" bind:layout_constraintEnd_toEndOf="@id/iv_head" bind:layout_constraintStart_toStartOf="@id/iv_head" bind:layout_constraintTop_toBottomOf="@id/iv_portrait" />
+        <LinearLayout android:id="@2131364770" android:layout_marginTop="24.0dip" bind:layout_constraintTop_toBottomOf="@id/tv_nickname" style="@style/login_ll_generate_alumnus_info">
+            <TextView android:text="@2131952800" style="@style/login_tv1_generate_alumnus_info" />
+            <TextView android:text="@2131952801" style="@style/login_tv2_generate_alumnus_info" />
+            <View style="@style/login_view_generate_alumnus_info" />
+        </LinearLayout>
+        <TextView android:id="@2131368523" android:tag="" bind:layout_constraintTop_toBottomOf="@id/ll_school" style="@style/login_tv_generate_alumnus_content" />
+        <LinearLayout android:id="@2131364808" bind:layout_constraintTop_toBottomOf="@id/tv_school" style="@style/login_ll_generate_alumnus_info">
+            <TextView android:text="@2131952802" style="@style/login_tv1_generate_alumnus_info" />
+            <TextView android:text="@2131952803" style="@style/login_tv2_generate_alumnus_info" />
+            <View style="@style/login_view_generate_alumnus_info" />
+        </LinearLayout>
+        <TextView android:id="@2131368734" android:tag="" bind:layout_constraintTop_toBottomOf="@id/ll_year" style="@style/login_tv_generate_alumnus_content" />
+        <LinearLayout android:id="@2131364713" bind:layout_constraintTop_toBottomOf="@id/tv_year" style="@style/login_ll_generate_alumnus_info">
+            <TextView android:text="@2131952797" style="@style/login_tv1_generate_alumnus_info" />
+            <TextView android:text="@2131952798" style="@style/login_tv2_generate_alumnus_info" />
+            <View style="@style/login_view_generate_alumnus_info" />
+        </LinearLayout>
+        <TextView android:id="@2131368302" android:tag="" bind:layout_constraintTop_toBottomOf="@id/ll_id" style="@style/login_tv_generate_alumnus_content" />
+        <TextView android:tag="" android:layout_marginTop="40.0dip" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toBottomOf="@id/iv_bottom" style="@style/login_bt_next" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.noober.background.view.BLFrameLayout>

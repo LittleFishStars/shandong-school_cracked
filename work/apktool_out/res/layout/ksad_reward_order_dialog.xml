@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.sdk.widget.KSFrameLayout android:layout_gravity="0x00000011" android:background="@2131232314" android:layout_width="@2131165634" android:layout_height="@2131165632">
+        <ImageView android:id="@2131364211" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="4.0dip" android:src="@2131232284" />
+        <LinearLayout android:layout_gravity="0x00000031" android:orientation="0" android:layout_width="-2" android:layout_height="@2131165633" android:layout_marginLeft="26.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="26.0dip">
+            <com.kwad.components.core.widget.KSCornerImageView android:layout_gravity="0x00000031" android:id="@2131364215" android:layout_width="@2131165633" android:layout_height="@2131165633" android:layout_marginRight="8.0dip" app:ksad_radius="4.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@17170444" android:ellipsize="3" android:gravity="0x00000013" android:id="@2131364214" android:layout_width="-1" android:layout_height="-1" android:maxLines="3" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="30.0dip">
+            <com.kwad.components.core.widget.KsStyledTextButton android:textSize="15.0sp" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131364213" android:background="@2131232240" android:layout_width="162.0dip" android:layout_height="46.0dip" android:layout_marginBottom="8.0dip" android:text="" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:gravity="0x00000011" android:layout_gravity="0x00000051" android:id="@2131364212" android:background="@2131232241" android:layout_width="162.0dip" android:layout_height="46.0dip" android:text="" />
+        </LinearLayout>
+    </com.kwad.sdk.widget.KSFrameLayout>
+</FrameLayout>

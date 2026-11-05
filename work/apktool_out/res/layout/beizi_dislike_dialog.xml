@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:background="@2131230941" android:layout_width="-1" android:layout_height="-2">
+        <androidx.recyclerview.widget.RecyclerView android:id="@2131362109" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+</LinearLayout>

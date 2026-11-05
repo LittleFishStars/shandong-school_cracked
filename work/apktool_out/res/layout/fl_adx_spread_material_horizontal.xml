@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131369058" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50.0dip">
+        <TextView android:textSize="30.0sp" android:textStyle="0x00000001" android:textColor="#a37e3e" android:layout_gravity="0x00000001" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="20.0dip" android:text="" />
+        <RatingBar android:id="@2131366540" android:layout_width="-2" android:layout_height="-2" android:numStars="5" android:rating="5.0" android:stepSize="1.0" android:progressTint="#ffcd01" style="@style/Widget.AppCompat.RatingBar.Indicator" />
+        <com.fl.saas.adx.base.widget.ShaderRoundImageView android:layout_gravity="0x00000001" android:id="@2131363710" android:layout_width="55.0dip" android:layout_height="55.0dip" android:scaleType="6" app:fl_radius="10.0dip" />
+        <com.fl.saas.adx.base.widget.RoundedFrameLayout android:background="@17170443" android:padding="5.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" app:fl_radius="8.0dip">
+            <com.fl.saas.adx.base.widget.RoundedFrameLayout android:id="@2131369051" android:visibility="2" android:layout_width="-1" android:layout_height="-2" app:fl_radius="8.0dip" />
+            <com.fl.saas.adx.base.widget.ShaderRoundImageView android:id="@2131363709" android:padding="5.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" app:fl_radius="8.0dip" />
+        </com.fl.saas.adx.base.widget.RoundedFrameLayout>
+        <TextView android:textSize="22.0sp" android:textStyle="0x00000001" android:textColor="#a17c3b" android:layout_gravity="0x00000001" android:id="@2131368720" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="" android:maxLines="1" />
+        <TextView android:textSize="17.0sp" android:textColor="#a58142" android:ellipsize="3" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131368719" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="20.0dip" android:maxLines="2" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000001" android:id="@2131368718" android:background="@2131231600" android:paddingLeft="30.0dip" android:paddingTop="9.0dip" android:paddingRight="30.0dip" android:paddingBottom="9.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="" android:maxLines="1" />
+    </LinearLayout>
+</FrameLayout>

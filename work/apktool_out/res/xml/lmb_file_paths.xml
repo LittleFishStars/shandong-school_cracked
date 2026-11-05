@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="at_external_files_path_download" path="lmb_myoffer_download" />
+    <external-path name="at_external_path_download" path="Download/lmb_myoffer_download" />
+    <files-path name="at_internal_download" path="lmb_myoffer_download" />
+</paths>

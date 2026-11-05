@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.common.widget.ShadowLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_srlBackgroundColor="@color/white" app:sl_cornerRadius="13.0dip" app:sl_dBottom="12.0dip" app:sl_shadowRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:tag="" android:layout_width="-1" android:layout_height="43.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@2131099815" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+        <ImageView android:tag="" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="-2" android:layout_height="-2" android:includeFontPadding="false" android:layout_marginStart="7.0dip" android:layout_marginEnd="12.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131232009" />
+        <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="10.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131232005" />
+        <TextView android:textSize="14.0sp" android:textColor="#8997a4" android:tag="" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="10.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:background="@2131231295" android:layout_width="-1" android:layout_height="1.5dip" android:layout_marginTop="9.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="32.0dip" android:layout_marginTop="12.0dip" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131368637" android:tag="" android:layout_width="-2" android:layout_height="22.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131368031" android:tag="" android:layout_width="-2" android:layout_height="32.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView android:textSize="12.0sp" android:textColor="#8997a4" android:gravity="0x00800005" android:id="@2131368638" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" android:singleLine="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</com.huachenjie.common.widget.ShadowLayout>

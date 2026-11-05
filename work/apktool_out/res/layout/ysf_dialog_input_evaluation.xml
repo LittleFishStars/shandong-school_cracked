@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131234408" android:layout_width="@2131166609" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="-1" android:layout_height="46.0dip">
+        <TextView android:textSize="@2131166632" android:textColor="@2131101264" android:layout_gravity="0x00000010" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:text="@2131954597" />
+        <ImageView android:layout_gravity="0x00000015" android:id="@2131369211" android:padding="10.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="6.0dip" android:src="@2131234503" android:scaleType="7" android:contentDescription="@0" />
+    </FrameLayout>
+    <include layout="@layout/ysf_include_divider" />
+    <EditText android:textSize="15.0sp" android:textColor="@2131101307" android:textColorHint="@2131101311" android:gravity="0x00000030" android:id="@2131369212" android:background="@2131101359" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="150.0dip" android:hint="@2131954504" android:maxLength="200" />
+    <include layout="@layout/ysf_include_divider" />
+    <Button android:enabled="false" android:textSize="@2131166629" android:textColor="@2131101361" android:id="@2131369213" android:background="@2131234393" android:layout_width="-1" android:layout_height="36.0dip" android:layout_margin="10.0dip" android:text="@2131954556" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131364687" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131367065" android:layout_width="-2" android:layout_height="-2">
+        <FrameLayout android:layout_gravity="0x00000001" android:id="@2131367071" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@2131367070" android:layout_width="-2" android:layout_height="-2" android:src="@2131230960" android:rotation="180.0" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="0x00000030" android:id="@2131363142" android:layout_width="-2" android:layout_height="-2" android:src="@2131230949" />
+    </FrameLayout>
+    <TextView android:textSize="15.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:id="@2131367559" android:layout_width="-2" android:layout_height="-2" android:shadowColor="@17301673" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@17170443" android:id="@2131362634" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:shadowColor="@17301673" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+</LinearLayout>

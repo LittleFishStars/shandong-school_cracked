@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="0x00000011" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131367169" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <RelativeLayout android:id="@2131367142" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@2131367128" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+        <com.sigmob.sdk.base.views.CircleImageView android:id="@2131367148" android:layout_width="90.0dip" android:layout_height="90.0dip" android:scaleType="1" android:layout_centerHorizontal="true" android:radius="10.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="0x00000001" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131367146" android:layout_width="-1" android:layout_height="28.0dip" android:layout_marginTop="30.0dip" android:maxLines="1" android:layout_below="@2131367148" />
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000000" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131367130" android:layout_width="-1" android:layout_height="25.0dip" android:layout_marginTop="11.0dip" android:maxLines="1" android:layout_below="@2131367146" />
+        <Button android:textSize="18.0sp" android:textColor="#ffffff" android:id="@2131367159" android:background="@2131233870" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_marginTop="40.0dip" android:text="" android:layout_below="@2131367130" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.sigmob.sdk.newInterstitial.SigAdPrivacyInfoView android:id="@2131367134" android:layout_width="-2" android:layout_height="15.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

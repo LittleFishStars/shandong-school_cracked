@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-1" android:layout_height="320.0dip" android:src="@2131232556" android:scaleType="1" android:adjustViewBounds="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131232563" />
+        <EditText android:id="@2131362836" android:tag="" android:layout_marginTop="136.0dip" style="@style/login_et_account_input" />
+        <TextView android:tag="" android:layout_marginTop="40.0dip" android:layout_marginBottom="8.0dip" android:text="@2131952812" style="@style/login_bt_next" />
+        <include android:id="@2131364577" layout="@layout/login_layout_protocol_checkbox" />
+        <View style="@style/login_space_placeholder" />
+        <include layout="@layout/login_layout_third_login" />
+    </LinearLayout>
+</FrameLayout>

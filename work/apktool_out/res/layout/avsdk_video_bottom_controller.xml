@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="0" android:id="@2131368887" android:background="@2131230887" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="0x00000010" android:id="@2131368889" android:layout_width="0.0dip" android:layout_height="45.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@2131368888" android:paddingLeft="5.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:layout_width="31.0dip" android:layout_height="-1" android:src="@2131230885" android:scaleType="7" />
+            <TextView android:textSize="11.0sp" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00000013" android:id="@2131368883" android:paddingRight="3.0dip" android:layout_width="-2" android:layout_height="-1" android:text="@2131951846" android:singleLine="true" />
+            <SeekBar android:layout_gravity="0x00000011" android:id="@2131368891" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:maxHeight="2.0dip" android:indeterminate="false" android:progressDrawable="@2131230882" android:minHeight="2.0dip" android:thumb="@2131230888" android:thumbOffset="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@17170443" android:ellipsize="3" android:gravity="0x00800015" android:id="@2131368892" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="-2" android:layout_height="-1" android:text="@2131951846" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@2131368890" android:background="@2131230883" android:visibility="2" android:layout_width="37.5dip" android:layout_height="21.0dip" android:layout_marginLeft="7.0dip" android:text="@2131953157" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="0x00000005" android:id="@2131368885" android:padding="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@2131230886" android:scaleType="7" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.noober.background.view.BLView android:layout_width="-1" android:layout_height="200.0dip" app:bl_gradient_endColor="#000bd3ff" app:bl_gradient_startColor="#330bd3ff" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <include android:id="@2131367640" layout="@layout/layout_toolbar_binding" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131230910" android:layout_marginEnd="4.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:layout_width="-2" android:layout_height="-2" android:text="@2131952453" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="24.0sp" android:textColor="@2131099806" android:tag="" android:layout_width="-2" android:layout_height="-2" android:fontFamily="@2131296258" />
+        </LinearLayout>
+        <com.noober.background.view.BLFrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_topLeftRadius="24.0dip" app:bl_corners_topRightRadius="24.0dip" app:bl_solid_color="@color/white">
+            <com.huachenjie.common.widget.SelectBoldTabLayout android:id="@2131367472" android:layout_width="-1" android:layout_height="-2" app:tabIndicator="@drawable/common_layer_tab_layout_0bd3ff" app:tabIndicatorColor="@color/color_0BD3FF" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="4.0dip" app:tabRippleColor="@null" app:tabSelectedTextColor="@color/color_191F20" app:tabTextColor="@color/color_191F20" />
+        </com.noober.background.view.BLFrameLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@2131368929" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

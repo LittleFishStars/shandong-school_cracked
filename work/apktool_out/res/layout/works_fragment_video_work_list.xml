@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.common.widget.TouchGestureView android:id="@2131363117" android:tag="" android:background="@2131099735" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@2131366560" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.scwang.smartrefresh.header.MaterialHeader android:layout_width="-1" android:layout_height="-2" />
+        <androidx.viewpager2.widget.ViewPager2 android:orientation="1" android:id="@2131368913" android:tag="" android:layout_width="-1" android:layout_height="-1" />
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter android:layout_width="-1" android:layout_height="-2" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</com.huachenjie.common.widget.TouchGestureView>

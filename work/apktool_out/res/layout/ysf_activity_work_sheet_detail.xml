@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@2131369554" android:background="@2131101361" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:id="@2131369555" android:background="@2131101361" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="14.0sp" android:textColor="@2131101302" android:id="@2131369708" android:background="@2131101303" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="-1" android:layout_height="-2" android:text="@2131954707" />
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="16.0sp" android:textColor="@2131101264" android:id="@2131369707" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131101311" android:gravity="0x00000005" android:id="@2131369706" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:layout_toRightOf="@2131369707" android:layout_alignParentRight="true" />
+                <View android:id="@2131369747" android:background="@2131101302" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="16.0sp" android:textColor="@2131101264" android:id="@2131369716" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@2131954720" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131101311" android:gravity="0x00000005" android:id="@2131369714" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:layout_toRightOf="@2131369716" android:layout_alignParentRight="true" />
+                <View android:id="@2131369715" android:background="@2131101302" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="1" android:id="@2131369375" android:layout_width="-1" android:layout_height="-2" />
+            <LinearLayout android:orientation="0" android:id="@2131369373" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="16.0sp" android:textColor="@2131101264" android:id="@2131369372" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@2131954258" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="@2131101311" android:gravity="0x00000005" android:id="@2131369697" android:visibility="2" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:text="" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="1" android:id="@2131369371" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="4.0" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@2131101302" android:id="@2131369713" android:background="@2131101303" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="-1" android:layout_height="-2" android:text="@2131954711" />
+            <LinearLayout android:orientation="1" android:id="@2131369382" android:layout_width="-1" android:layout_height="-2" />
+            <LinearLayout android:layout_width="-1" android:layout_height="-2">
+                <Button android:enabled="true" android:textSize="@2131166630" android:textColor="@2131101283" android:gravity="0x00000011" android:id="@2131369104" android:background="@2131234451" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:text="@2131954712" android:layout_weight="1.0" />
+                <Button android:enabled="true" android:textSize="@2131166630" android:textColor="@2131101283" android:gravity="0x00000011" android:id="@2131369101" android:background="@2131234451" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="2" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:text="@2131954261" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

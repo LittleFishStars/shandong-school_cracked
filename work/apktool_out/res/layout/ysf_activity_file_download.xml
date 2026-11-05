@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@2131369347" android:background="@2131101361" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131369288" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginTop="103.0dip" android:src="@2131234615" android:scaleType="1" android:contentDescription="@0" />
+        <com.qiyukf.unicorn.widget.FileNameTextView android:id="@2131368236" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" app:ysf_fntMaxLines="2" app:ysf_fntTextColor="@color/ysf_black_333333" app:ysf_fntTextSize="20.0sp" />
+        <TextView android:textSize="@2131166630" android:textColor="@2131101311" android:id="@2131368237" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" />
+        <FrameLayout android:layout_width="-1" android:layout_height="40.0dip" android:layout_marginTop="205.0dip">
+            <com.qiyukf.unicorn.widget.ProgressButton android:id="@2131369483" android:layout_width="-1" android:layout_height="40.0dip" app:ysf_progress_btn_bg_color="@color/ysf_blue_337EFF" app:ysf_progress_btn_bg_second_color="@color/ysf_blue_9ac0fe" app:ysf_progress_btn_radius="2.0" app:ysf_progress_btn_text_color="@color/ysf_white" app:ysf_progress_btn_text_covercolor="@color/ysf_white" />
+            <ImageView android:layout_gravity="0x00000015" android:id="@2131363661" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="12.0dip" android:src="@2131234512" android:contentDescription="@0" />
+        </FrameLayout>
+        <TextView android:textSize="@2131166626" android:textColor="@2131101311" android:gravity="0x00000011" android:id="@2131368656" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:text="@2131954420" />
+    </LinearLayout>
+</ScrollView>

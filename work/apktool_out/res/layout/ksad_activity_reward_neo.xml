@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout android:orientation="1" android:id="@2131364262" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.sdk.widget.KSFrameLayout android:id="@2131363999" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <ViewStub android:id="@2131364081" android:layout="@2131559205" android:layout_width="-1" android:layout_height="-1" />
+    <com.kwad.sdk.core.webview.KsAdWebView android:id="@2131364117" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

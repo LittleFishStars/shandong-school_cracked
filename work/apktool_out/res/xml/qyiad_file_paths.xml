@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="qad_external_file_root" path=".issp_apk" />
+    <files-path name="qad_file_root" path=".issp_apk" />
+</paths>

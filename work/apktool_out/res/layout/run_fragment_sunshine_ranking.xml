@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huachenjie.common.page.statelayout.StateLayout android:id="@2131367329" android:tag="" android:layout_width="-1" android:layout_height="-1" app:empty_layout="@layout/layout_empty_schoolyard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131367365" android:tag="" android:layout_width="-1" android:layout_height="-1" app:layoutManager="com.huachenjie.common.widget.AccurateLayoutManager" />
+</com.huachenjie.common.page.statelayout.StateLayout>

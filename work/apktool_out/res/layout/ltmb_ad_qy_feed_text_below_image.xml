@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@2131365475" style="@style/ltmb_ad_qy_feed_parent_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="-1" android:layout_height="188.0dip">
+        <com.ltmb.ltsdk.core.qy.img.LTAdQYImageView android:id="@2131365384" android:layout_width="-1" android:layout_height="188.0dip" android:scaleType="6" />
+        <com.ltmb.ltsdk.core.qy.q.w.LTAdQYMediaView android:id="@2131365388" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:layout_gravity="0x00000053" android:visibility="2" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" style="@style/ltmb_ad_qy_feed_tip_tv" />
+    </FrameLayout>
+    <TextView android:textSize="@2131165793" android:textStyle="0x00000001" android:textColor="#000000" android:ellipsize="3" android:id="@2131365383" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:maxLines="1" />
+    <RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="25.0dip" android:layout_marginTop="6.0dip">
+        <FrameLayout android:id="@2131365386" style="@style/ltmb_ad_qy_feed_source_logo_style">
+            <ImageView android:id="@2131365385" android:layout_width="34.0dip" android:layout_height="18.0dip" android:src="@2131232824" />
+        </FrameLayout>
+        <TextView android:id="@2131365387" style="@style/ltmb_ad_qy_feed_text_title_style" />
+        <ImageView android:layout_gravity="0x00000005" android:id="@2131365382" android:layout_width="23.0dip" android:layout_height="18.0dip" android:src="@2131232826" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

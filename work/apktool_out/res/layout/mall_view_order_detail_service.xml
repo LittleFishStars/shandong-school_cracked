@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:tag="" android:padding="0.0dip" android:minHeight="60.0dip" style="@style/mall_layout_sub_bg_order_detail"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.common.widget.DrawableCenterButton android:tag="" android:text="@2131953038" android:drawableStart="@2131233008" style="@style/mall_tv_order_detail_menu" />
+    <View android:background="@2131099873" android:layout_width="1.0dip" android:layout_height="20.0dip" />
+    <com.huachenjie.common.widget.DrawableCenterButton android:tag="" android:text="@2131953040" android:drawableStart="@2131233007" style="@style/mall_tv_order_detail_menu" />
+</LinearLayout>

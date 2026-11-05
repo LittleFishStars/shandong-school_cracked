@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@2131366825" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@2131366817" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/text_container" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="wrap">
+        <ImageView android:id="@2131366821" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.yd.saas.open.widget.StarsShakeHintView android:id="@2131366835" android:visibility="2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="5.0dip" app:layout_constraintBottom_toBottomOf="@id/saas_s_banner_iat_iv" app:layout_constraintEnd_toEndOf="@id/saas_s_banner_iat_iv" app:layout_constraintStart_toStartOf="@id/saas_s_banner_iat_iv" app:layout_constraintTop_toTopOf="@id/saas_s_banner_iat_iv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="1" android:id="@2131367529" android:layout_width="0.0dip" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/saas_s_banner_iat_right_container" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toEndOf="@id/saas_s_banner_iat_cl" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_min="40.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#000000" android:id="@2131366826" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" />
+        <View android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#999999" android:id="@2131366819" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="1.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@2131366824" android:layout_width="-2" android:layout_height="-1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/text_container" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@2131366818" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131233775" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" android:layout_toEndOf="@2131366820" android:paddingVertical="4.0dip" />
+        <ImageView android:gravity="0x00000010" android:id="@2131366820" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@2131233762" android:alpha="0.6" />
+        <com.yd.saas.open.widget.StarsLogoView android:id="@2131366823" android:background="@2131233788" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

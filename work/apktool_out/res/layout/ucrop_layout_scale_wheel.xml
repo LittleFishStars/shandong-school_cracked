@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@2131367539" android:text="" style="@style/ucrop_TextViewWidgetText" />
+    <com.yalantis.ucrop.view.widget.HorizontalProgressWheelView android:id="@2131367050" android:layout_width="-1" android:layout_height="-1" android:layout_below="@2131367539" />
+</RelativeLayout>

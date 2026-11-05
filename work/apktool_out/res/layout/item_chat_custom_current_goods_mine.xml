@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@2131165307" android:paddingBottom="@2131165307" android:layout_width="-1" android:layout_height="-2" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.base.widget.AvatarView android:id="@2131363272" android:layout_width="42.0dip" android:layout_height="42.0dip" android:src="@2131231822" android:layout_alignParentEnd="true" />
+    <include android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@2131363272" android:layout_marginStart="50.0dip" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@2131363272" layout="@layout/include_nick_name" />
+    <LinearLayout android:orientation="0" android:id="@2131364690" android:background="@2131230998" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7.0dip" android:layout_below="@2131364644" android:layout_marginStart="16.0dip" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@2131363272">
+        <include layout="@layout/include_custom_current_goods" />
+    </LinearLayout>
+</RelativeLayout>

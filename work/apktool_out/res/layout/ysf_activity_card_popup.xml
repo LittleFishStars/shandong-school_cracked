@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:id="@2131369109" android:layout_width="-1" android:layout_height="-2" />
+    </ScrollView>
+    <ProgressBar android:layout_gravity="0x00000011" android:id="@2131369156" android:layout_width="-2" android:layout_height="-2" android:indeterminateDrawable="@2131234679" style="@16973854" />
+</FrameLayout>

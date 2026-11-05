@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zj.adpro.component.video.PtgVideoView android:id="@2131366146" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:layout_gravity="0x00000051" android:id="@2131366129" android:paddingLeft="32.0dip" android:paddingTop="18.0dip" android:paddingRight="32.0dip" android:paddingBottom="18.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="60.0dip" android:text="" />
+    <LinearLayout android:gravity="0x00000001" android:layout_gravity="0x00000051" android:orientation="1" android:id="@2131366133" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="135.0dip">
+        <com.zj.adpro.component.widgets.PtgShakeView android:id="@2131366132" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</FrameLayout>

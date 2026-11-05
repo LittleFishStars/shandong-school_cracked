@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363467" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@2131231858" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:riv_corner_radius="8.0dip" />
+</com.noober.background.view.BLConstraintLayout>

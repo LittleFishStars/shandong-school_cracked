@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cj.mobile.view.SquareRelativeLayout android:background="@2131232910" android:layout_width="-1" android:layout_height="-1" android:layout_margin="10.0dip">
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <cj.mobile.view.SquareImageView android:id="@2131363524" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <TextView android:textSize="17.0sp" android:textColor="@17170443" android:id="@2131368380" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" />
+        </LinearLayout>
+    </cj.mobile.view.SquareRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="#020202" android:ellipsize="3" android:id="@2131363764" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" />
+    <com.kwad.sdk.widget.RatioFrameLayout android:id="@2131363959" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip">
+        <LinearLayout android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131363781" android:layout_width="0.0dip" android:layout_height="-1" android:scaleType="6" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131363782" android:layout_width="0.0dip" android:layout_height="-1" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:scaleType="6" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="0x00000011" android:id="@2131363783" android:layout_width="0.0dip" android:layout_height="-1" android:scaleType="6" android:layout_weight="1.0" />
+        </LinearLayout>
+    </com.kwad.sdk.widget.RatioFrameLayout>
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" layout="@layout/ksad_feed_label_dislike" />
+</LinearLayout>

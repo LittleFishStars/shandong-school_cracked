@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:tag="" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.base.widget.AvatarView android:id="@2131363272" android:tag="" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099737" android:ellipsize="3" android:tag="" android:layout_width="-2" android:layout_height="-2" android:lines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:ellipsize="3" android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" android:lines="1" />
+    </LinearLayout>
+    <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textStyle="0x00000001" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@2131368546" android:tag="" android:layout_width="-2" android:layout_height="28.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:bl_corners_radius="14.0dip" app:bl_enabled_solid_color="#ff650aec" app:bl_enabled_textColor="@color/white" app:bl_solid_color="#ff650aec" app:bl_unEnabled_solid_color="#ffe5e5e5" app:bl_unEnabled_textColor="#ff8997a4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>

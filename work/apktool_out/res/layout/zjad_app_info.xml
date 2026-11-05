@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@2131369832" android:background="@2131234756" android:padding="12.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zj.adlib.base.view.gif.GifImageView2 android:layout_gravity="0x00000010" android:id="@2131369830" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="6" />
+    <LinearLayout android:layout_gravity="0x00000010" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@17170443" android:ellipsize="3" android:id="@2131369833" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        <TextView android:textSize="12.0sp" android:textColor="#ccffffff" android:ellipsize="3" android:id="@2131369834" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" />
+        <TextView android:textSize="11.0sp" android:textColor="#99ffffff" android:ellipsize="3" android:id="@2131369829" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:background="#e6e8ec" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_toolbar_binding" />
+    <ScrollView android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="2">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2">
+                    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231791" />
+                    <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:layout_width="-2" android:layout_height="-2" android:text="" android:includeFontPadding="false" android:layout_marginStart="9.0dip" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <View android:background="@2131231295" android:layout_width="-1" android:layout_height="1.5dip" android:layout_marginTop="12.0dip" />
+                <androidx.appcompat.widget.LinearLayoutCompat android:layout_marginTop="12.0dip" style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <View android:tag="" android:background="@2131231295" android:layout_width="-1" android:layout_height="1.5dip" android:layout_marginTop="12.0dip" />
+                <androidx.appcompat.widget.LinearLayoutCompat android:tag="" android:layout_marginTop="12.0dip" style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <View android:tag="" android:background="@2131231295" android:layout_width="-1" android:layout_height="1.5dip" android:layout_marginTop="12.0dip" />
+                <androidx.appcompat.widget.LinearLayoutCompat android:tag="" android:layout_marginTop="12.0dip" style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2">
+                    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231792" />
+                    <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:layout_width="-2" android:layout_height="-2" android:text="" android:includeFontPadding="false" android:layout_marginStart="10.0dip" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat style="@style/class_detail_item">
+                    <TextView android:text="" style="@style/class_detail_title" />
+                    <TextView android:tag="" style="@style/class_detail_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="1" android:tag="" android:padding="12.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-2">
+                    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231790" />
+                    <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#333333" android:layout_width="-2" android:layout_height="-2" android:text="" android:includeFontPadding="false" android:layout_marginStart="9.0dip" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <TextView android:tag="" android:layout_marginTop="6.0dip" style="@style/class_detail_content" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+    <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" drawable_solidColor="@color/color_main_v2" />
+</androidx.appcompat.widget.LinearLayoutCompat>

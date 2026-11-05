@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBaseFrameLayout android:id="@2131364355" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364301" android:layout="@2131559357" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364273" android:layout="@2131559354" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364323" android:layout="@2131559359" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364266" android:layout="@2131559353" android:layout_width="-1" android:layout_height="-2" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364292" android:layout="@2131559356" android:layout_width="-1" android:layout_height="177.0dip" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364319" android:layout="@2131559358" android:layout_width="-1" android:layout_height="460.0dip" />
+    <ViewStub android:layout_gravity="0x00000051" android:id="@2131364312" android:layout="@2131559346" android:layout_width="-1" android:layout_height="-2" />
+</com.kwad.sdk.core.view.AdBaseFrameLayout>

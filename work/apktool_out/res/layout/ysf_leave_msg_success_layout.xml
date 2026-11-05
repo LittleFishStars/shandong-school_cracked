@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:background="@2131234424" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@2131166631" android:textColor="@2131101267" android:gravity="0x00000001" android:layout_gravity="0x00000010" android:id="@2131369329" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@2131954476" />
+        <ImageView android:layout_gravity="0x00800015" android:id="@2131369327" android:padding="12.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="4.0dip" android:src="@2131234503" android:contentDescription="@0" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="0x00000001" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="100.0dip" android:src="@2131234521" />
+    <TextView android:textColor="@2131101307" android:layout_gravity="0x00000001" android:id="@2131369328" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="218.0dip" android:text="@2131954474" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="" android:background="@17170443" android:layout_width="-1" android:layout_height="-1" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131363103" android:layout_width="-1" android:layout_height="-1" />
+    <com.noober.background.view.BLView android:id="@2131368851" android:tag="" android:layout_width="-2" android:layout_height="@2131166507" app:bl_gradient_endColor="#000bd3ff" app:bl_gradient_startColor="#330bd3ff" />
+    <LinearLayout android:orientation="0" android:tag="" android:layout_width="-1" android:layout_height="@2131166510">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="@2131166510" android:layout_weight="1.0">
+            <com.flyco.tablayout.SlideTabLayout android:id="@2131363150" android:layout_width="-2" android:layout_height="-1" android:layout_marginStart="6.0dip" app:tl_indicator_height="6.0dip" app:tl_indicator_margin_bottom="5.0dip" app:tl_indicator_resources="@drawable/works_ic_alumni_tab_indictor" app:tl_indicator_width="20.0dip" app:tl_selectTextSize="20.0sp" app:tl_tab_padding="10.0dip" app:tl_tab_space_equal="false" app:tl_textBold="BOTH" app:tl_textSelectColor="#ff191f20" app:tl_textUnselectColor="#ff191f20" app:tl_textsize="16.0sp" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

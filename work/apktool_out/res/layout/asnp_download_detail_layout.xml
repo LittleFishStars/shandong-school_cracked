@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@2131099687" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="-1" android:layout_height="60.0dip">
+        <ImageView android:id="@2131362019" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@2131230874" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@17170444" android:gravity="0x00000011" android:id="@2131362023" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.google.android.material.tabs.TabLayout android:theme="@2132017837" android:id="@2131362022" android:layout_width="-1" android:layout_height="40.0dip">
+        <com.google.android.material.tabs.TabItem android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <com.google.android.material.tabs.TabItem android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <com.google.android.material.tabs.TabItem android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </com.google.android.material.tabs.TabLayout>
+    <View android:background="@2131099688" android:layout_width="-1" android:layout_height="1.0dip" />
+    <FrameLayout android:id="@2131362021" android:layout_width="-1" android:layout_height="-1">
+        <ScrollView android:layout_width="-1" android:layout_height="-1">
+            <TextView android:id="@2131362020" android:layout_width="-1" android:layout_height="-2" />
+        </ScrollView>
+    </FrameLayout>
+    <com.beizi.fusion.asnp.adn.ad.ad.nativead.render.view.asnp.prefab.BasicWebView android:id="@2131362024" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

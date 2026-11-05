@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131364684" android:tag="" android:layout_width="-2" android:layout_height="132.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="#ffffffff" app:bl_stroke_color="#ffe8e8e8" app:bl_stroke_width="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:src="@2131234243" />
+    <TextView android:id="@2131368657" style="@style/works_tv_dormitory_exchange_card_title" />
+    <TextView android:text="@2131954095" style="@style/works_tv_dormitory_exchange_card_label" />
+    <TextView android:id="@2131368686" style="@style/works_tv_dormitory_exchange_card_value" />
+</com.noober.background.view.BLLinearLayout>

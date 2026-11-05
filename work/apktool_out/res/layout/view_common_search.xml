@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0" app:bl_corners_radius="16.0dip" app:bl_solid_color="@color/color_f5f5f5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131231810" android:layout_marginStart="12.0dip" />
+    <EditText android:textSize="14.0sp" android:textColor="#2c3e50" android:textColorHint="#cccccc" android:id="@2131362849" android:background="@0" android:longClickable="false" android:layout_width="0.0dip" android:layout_height="-1" android:lines="1" android:singleLine="true" android:maxLength="25" android:layout_weight="1.0" android:imeOptions="0x00000003" android:layout_marginStart="8.0dip" />
+    <ImageView android:id="@2131363421" android:padding="12.0dip" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131231983" app:tint="#ffc1c1c1" />
+</com.noober.background.view.BLLinearLayout>

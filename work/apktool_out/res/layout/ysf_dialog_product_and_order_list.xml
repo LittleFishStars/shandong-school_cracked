@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="0x00000050" android:orientation="1" android:background="@2131234391" android:layout_width="-1" android:layout_height="480.0dip">
+        <FrameLayout android:layout_width="-1" android:layout_height="48.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@2131101267" android:ellipsize="3" android:layout_gravity="0x00000010" android:id="@2131369593" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginRight="42.0dip" android:maxLines="1" />
+            <ImageView android:layout_gravity="0x00000015" android:id="@2131369283" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="16.0dip" android:src="@2131234503" />
+        </FrameLayout>
+        <LinearLayout android:orientation="1" android:id="@2131369338" android:layout_width="-1" android:layout_height="432.0dip">
+            <include layout="@layout/ysf_include_divider" />
+            <LinearLayout android:orientation="0" android:id="@2131369339" android:layout_width="-1" android:layout_height="46.0dip">
+                <TextView android:textSize="16.0sp" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131369589" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:maxLines="1" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0sp" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131369590" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:maxLines="1" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0sp" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131369591" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:maxLines="1" android:layout_weight="1.0" />
+                <TextView android:textSize="16.0sp" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131369592" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:id="@2131369262" android:background="@2131101272" android:layout_width="59.0dip" android:layout_height="3.0dip" />
+            <include layout="@layout/ysf_include_divider" />
+            <com.qiyukf.unicorn.widget.ViewPagerFixed android:id="@2131369748" android:layout_width="-1" android:layout_height="-1" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:gravity="0x00000011" android:id="@2131369588" android:visibility="2" android:layout_width="-1" android:layout_height="432.0dip" />
+    </LinearLayout>
+</FrameLayout>

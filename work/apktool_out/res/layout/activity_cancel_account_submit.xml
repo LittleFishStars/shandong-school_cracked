@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:background="@2131101240" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <TextView android:textSize="16.0sp" android:textColor="#2c3e50" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.0dip" android:text="" android:layout_marginStart="24.0dip" />
+    <com.huachenjie.common.widget.ShadowConstraintLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:sl_cornerRadius="13.0dip" app:sl_shadowColor="#14650aec" app:sl_shadowRadius="4.0dip">
+        <EditText android:textSize="14.0sp" android:textColor="#2c3e50" android:textColorHint="#666666" android:gravity="0x00000030" android:tag="" android:background="@17170445" android:layout_width="0.0dip" android:layout_height="-2" android:layout_margin="12.0dip" android:minHeight="200.0dip" android:hint="" android:textCursorDrawable="@2131231063" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="11.0dip" android:layout_marginBottom="13.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    </com.huachenjie.common.widget.ShadowConstraintLayout>
+</LinearLayout>

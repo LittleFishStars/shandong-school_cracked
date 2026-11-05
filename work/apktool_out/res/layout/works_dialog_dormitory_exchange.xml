@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="300.0dip" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="-1" android:layout_height="-2" android:src="@2131234153" android:adjustViewBounds="true" />
+    <com.noober.background.view.BLLinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" app:bl_corners_bottomLeftRadius="20.0dip" app:bl_corners_bottomRightRadius="20.0dip" app:bl_solid_color="#ffffffff">
+        <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#191f20" android:layout_gravity="0x00000001" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="@2131954098" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="0" android:id="@2131366753" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@2131362319" android:layout_width="252.0dip" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@2131954094" app:bl_corners_radius="22.0dip" app:bl_solid_color="#ff191f20" />
+    </com.noober.background.view.BLLinearLayout>
+    <ImageView android:layout_gravity="0x00000001" android:id="@2131363424" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:src="@2131231825" />
+</LinearLayout>

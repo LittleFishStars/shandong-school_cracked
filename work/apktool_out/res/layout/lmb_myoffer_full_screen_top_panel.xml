@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="-1" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131364910" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginRight="6.0dip" android:scaleType="6" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#000000" android:id="@2131364911" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@style/lmb_myoffer_single_line" />
+        <TextView android:textSize="12.0dip" android:textColor="#000000" android:id="@2131364909" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" style="@style/lmb_myoffer_single_line" />
+    </LinearLayout>
+    <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ScanningAnimButton android:textSize="12.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364908" android:background="@2131232531" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="72.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" style="@style/lmb_myoffer_single_line" />
+</LinearLayout>

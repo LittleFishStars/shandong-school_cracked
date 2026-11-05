@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@2131366125" android:background="@2131101365" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zj.adpro.component.base.AdvertRatioLayout android:id="@2131366111" android:layout_width="120.0dip" android:layout_height="-2">
+        <ImageView android:id="@2131366117" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+        <include android:layout_gravity="0x00000011" android:id="@2131366127" android:visibility="2" android:layout_width="-2" android:layout_height="-2" layout="@layout/zj_reward_shake" />
+    </com.zj.adpro.component.base.AdvertRatioLayout>
+    <FrameLayout android:orientation="1" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="14.0dip" android:textColor="@2131101368" android:ellipsize="3" android:id="@2131366137" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="2" />
+        <include android:layout_gravity="0x00000050" android:layout_width="-2" android:layout_height="-2" layout="@layout/zj_advert_logo" />
+        <FrameLayout android:layout_gravity="0x00000055" android:id="@2131366116" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@2131234737" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

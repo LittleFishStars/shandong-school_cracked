@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLConstraintLayout android:tag="" android:padding="16.0dip" android:layout_width="-1" android:layout_height="-2" app:bl_corners_radius="20.0dip" app:bl_solid_color="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363439" android:tag="" android:layout_width="100.0dip" android:layout_height="100.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:id="@2131368380" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginStart="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_cover" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff2c3e50" android:ellipsize="3" android:id="@2131368186" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="4.0dip" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/tv_name" app:layout_constraintStart_toStartOf="@id/tv_name" app:layout_constraintTop_toBottomOf="@id/tv_name" />
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364728" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="12.0dip" app:layout_constraintStart_toStartOf="@id/tv_name" app:layout_constraintTop_toBottomOf="@id/tv_des">
+        <TextView android:textSize="12.0sp" android:textColor="#ff2c3e50" android:layout_width="-2" android:layout_height="-2" android:text="@2131952042" android:drawablePadding="4.0dip" android:layout_marginStart="4.0dip" app:drawableStartCompat="@drawable/channel_ic_organize_member" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="4.0dip" />
+        <ImageView android:tag="" android:layout_width="-2" android:layout_height="-2" android:src="@2131231181" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@2131364757" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="20.0dip" app:layout_constraintStart_toEndOf="@id/ll_member" app:layout_constraintTop_toTopOf="@id/ll_member">
+        <TextView android:textSize="12.0sp" android:textColor="#ff2c3e50" android:layout_width="-2" android:layout_height="-2" android:text="@2131952045" android:drawablePadding="4.0dip" android:layout_marginStart="4.0dip" app:drawableStartCompat="@drawable/channel_ic_organize_published" />
+        <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="4.0dip" app:drawableEndCompat="@drawable/channel_ic_organize_member_arrow" />
+    </LinearLayout>
+</com.noober.background.view.BLConstraintLayout>

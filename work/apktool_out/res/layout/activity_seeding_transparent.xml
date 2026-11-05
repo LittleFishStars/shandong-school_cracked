@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131362537" android:background="#99000000" android:layout_width="-2" android:layout_height="-2" android:minWidth="100.0dip" android:minHeight="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dip" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368591" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368439" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+    <TextView android:textSize="13.0dip" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368595" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131368442" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+    <TextView android:textSize="13.0dip" android:textStyle="0x00000001" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368593" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" />
+    <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="13.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131368440" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+        <com.acse.ottn.animator.SwitchOnAnimSmallView android:id="@2131367391" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

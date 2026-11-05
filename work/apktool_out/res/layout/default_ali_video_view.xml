@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.common.video.VideoTextureView android:layout_gravity="0x00000011" android:id="@2131368910" android:layout_width="-1" android:layout_height="-2" />
+    <ImageView android:id="@2131368893" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131368905" android:background="#33000000" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131368906" android:padding="10.0dip" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@2131232027" app:tint="@color/white" />
+        <ProgressBar android:id="@2131368898" android:layout_width="36.0dip" android:layout_height="36.0dip" style="@16973853" />
+        <TextView android:textSize="15.0sp" android:textColor="@17170443" android:id="@2131368907" android:layout_width="-2" android:layout_height="-2" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000030" android:orientation="0" android:id="@2131368877" android:background="#00000000" android:visibility="2" android:layout_width="-1" android:layout_height="44.0dip">
+        <ImageView android:id="@2131368874" android:padding="12.0dip" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@2131231764" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@17170443" android:ellipsize="4" android:id="@2131368911" android:focusable="true" android:focusableInTouchMode="true" android:visibility="2" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="-1" />
+        <ImageView android:id="@2131368899" android:padding="10.0dip" android:visibility="2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131231279" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000050" android:orientation="0" android:id="@2131368876" android:background="#80000000" android:visibility="0" android:layout_width="-1" android:layout_height="44.0dip">
+        <ImageView android:id="@2131368879" android:padding="4.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131232023" android:scaleType="1" android:layout_marginStart="12.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131368894" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="" />
+        <SeekBar android:id="@2131368908" android:layout_width="0.0dip" android:layout_height="-2" android:maxHeight="3.0dip" android:max="100000" android:progressDrawable="@2131234129" android:minHeight="3.0dip" android:thumb="@2131234130" android:thumbOffset="0.0dip" android:layout_weight="1.0" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:paddingHorizontal="0.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:id="@2131368896" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="" />
+        <ImageView android:id="@2131368881" android:padding="4.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131232032" android:scaleType="1" android:layout_marginEnd="4.0dip" />
+        <ImageView android:id="@2131368878" android:padding="4.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131232030" android:scaleType="1" android:layout_marginEnd="12.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000050" android:orientation="0" android:id="@2131368880" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="70.0dip">
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:id="@2131362702" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="24.0sp" android:textColor="#4dffffff" android:id="@2131362703" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131368900" android:visibility="2" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@2131232026" />
+</merge>

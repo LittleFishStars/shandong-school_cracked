@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131364490" android:background="@2131101059" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131364485" android:layout_width="-2" android:layout_height="80.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:scaleType="1" android:adjustViewBounds="true" />
+    <TextView android:textSize="@2131166452" android:textStyle="0x00000001" android:textColor="@2131101042" android:ellipsize="3" android:layout_gravity="0x00000010" android:id="@2131364532" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" android:text="" android:maxLines="2" android:layout_toRightOf="@2131364485" />
+    <RelativeLayout android:id="@2131364511" android:paddingLeft="@2131166446" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@2131364485" android:layout_below="@2131364532" android:layout_alignBottom="@2131364485">
+        <ImageView android:id="@2131364486" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="13.0dip" android:layout_width="-2" android:layout_height="-2" android:src="@2131755368" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_alignParentBottom="true">
+            <RelativeLayout android:background="@2131234848" android:layout_width="-2" android:layout_height="20.0dip">
+                <ImageView android:id="@2131366214" android:layout_width="26.0dip" android:layout_height="-1" android:src="@2131234801" />
+                <TextView android:textSize="@2131166451" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131364528" android:paddingRight="5.0dip" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="26.0dip" android:text="" />
+            </RelativeLayout>
+            <TextView android:textSize="@2131166451" android:id="@2131364515" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15.0dip" android:text="" />
+            <TextView android:textSize="@2131166451" android:id="@2131364529" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15.0dip" android:text="" />
+            <TextView android:textSize="@2131166451" android:id="@2131364530" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@2131364488" android:background="@2131101053" android:visibility="2" android:layout_width="-1" android:layout_height="1.0px" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kc.dw.ad.view.SsdVideoTextureView android:id="@2131365814" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    <com.kc.dw.core.view.RoundImageView android:id="@2131365806" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@2131365768" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" style="@16973852" />
+    <ImageView android:id="@2131365628" android:visibility="2" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@2131233951" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="1" android:id="@2131365630" android:background="#8768423e" android:visibility="2" android:layout_width="-1" android:layout_height="45.0dip" android:layout_alignBottom="@2131365814">
+        <ProgressBar android:id="@2131365813" android:layout_width="-1" android:layout_height="-2" style="@16973855" />
+        <RelativeLayout android:gravity="0x00000001" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="5.0dip">
+            <LinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip">
+                <ImageView android:id="@2131365632" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131233949" />
+                <ImageView android:id="@2131365631" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@2131233945" />
+                <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:id="@2131365807" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7.0dip" android:text="" />
+                <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:id="@2131365808" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            </LinearLayout>
+            <ImageView android:id="@2131365815" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="36.0dip" android:src="@2131233964" android:layout_alignParentRight="true" />
+            <ImageView android:id="@2131365816" android:visibility="2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="36.0dip" android:src="@2131233963" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -185,10 +185,13 @@ class Transport:
         请求都会注入它（GET 进 query，POST 进 body）。
         """
         dev = self.cfg.get("device", {}) or {}
+        # --hm：鸿蒙真机口径（constants.HM_PROFILE 已把 platform/版本写进 device 配置）
+        app_ver = str(dev.get("app_version", APP_VERSION))
+        build_ver = str(dev.get("build_version", BUILD_VERSION))
         return {
             "modelName": str(dev.get("model", DEFAULT_MODEL)),
-            "appVersion": APP_VERSION,
-            "buildVersion": BUILD_VERSION,
+            "appVersion": app_ver,
+            "buildVersion": build_ver,
             "channel": str(dev.get("channel", DEFAULT_CHANNEL)),
             "appCode": str(dev.get("app_code", APP_CODE)),
             "deviceId": self.device_id,
@@ -212,7 +215,11 @@ class Transport:
         brand = str(dev.get("brand") or "").strip()
         if not brand:
             brand = model.split("|")[0].split("-")[0].lower()
-        return (f"{USER_AGENT_PREFIX}/{APP_VERSION} "
+        app_ver = str(dev.get("app_version", APP_VERSION))
+        # --hm：鸿蒙真机 UA（截图 REDACTED，按同构拼法；系统串不带 "Android " 前缀）
+        if str(dev.get("platform", DEFAULT_PLATFORM)) == "4":
+            return f"{USER_AGENT_PREFIX}/{app_ver} ({brand};HarmonyOS {dev.get('system_version', DEFAULT_SYS_VER)})"
+        return (f"{USER_AGENT_PREFIX}/{app_ver} "
                 f"({brand};Android {dev.get('system_version', DEFAULT_SYS_VER)})")
 
     def headers(self, v: Optional[str] = None, api: Optional[str] = None,

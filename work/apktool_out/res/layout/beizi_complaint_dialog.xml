@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="1" android:background="@2131230936" android:padding="20.0dip" android:layout_width="340.0dip" android:layout_height="-2">
+        <ImageView android:id="@2131362514" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@2131230935" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@2131362517" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_below="@2131362514">
+            <androidx.recyclerview.widget.RecyclerView android:id="@2131362666" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:id="@2131362522" android:background="@2131230938" android:padding="8.0dip" android:layout_width="-1" android:layout_height="-2" android:hint="@2131951860" android:drawableLeft="@2131230937" android:drawablePadding="5.0dip" android:layout_below="@2131362666" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@2131362518" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="16.0dip" android:textColor="@17170444" android:id="@2131362521" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" android:layout_centerHorizontal="true" />
+            <View android:id="@2131362515" android:background="@2131101233" android:layout_width="-1" android:layout_height="0.5dip" android:layout_marginTop="15.0dip" android:layout_below="@2131362521" />
+            <EditText android:textSize="13.0dip" android:textColorHint="@17170432" android:gravity="0x00000003" android:id="@2131362516" android:background="@2131230940" android:padding="8.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15.0dip" android:minLines="8" android:layout_below="@2131362515" android:textCursorDrawable="@2131230939" />
+            <TextView android:id="@2131362519" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:hint="" android:layout_alignBottom="@2131362516" android:layout_marginEnd="10.0dip" android:layout_alignEnd="@2131362516" />
+            <Button android:enabled="false" android:textColor="@17170443" android:id="@2131362520" android:background="@2131230933" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:text="" android:layout_below="@2131362516" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

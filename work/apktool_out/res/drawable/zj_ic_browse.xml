@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="200.0dip" android:width="200.0dip" android:viewportWidth="1024.0" android:viewportHeight="1024.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffa65a" android:pathData="" />
+    <path android:fillColor="#ffa659" android:pathData="" />
+    <path android:fillColor="#ffa558" android:pathData="" />
+    <path android:fillColor="#ffa557" android:pathData="" />
+    <path android:fillColor="#ffa556" android:pathData="" />
+    <path android:fillColor="#ffa555" android:pathData="" />
+    <path android:fillColor="#ffa454" android:pathData="" />
+    <path android:fillColor="#ffa453" android:pathData="" />
+    <path android:fillColor="#ffa452" android:pathData="" />
+    <path android:fillColor="#ffa451" android:pathData="" />
+    <path android:fillColor="#ffa450" android:pathData="" />
+    <path android:fillColor="#ffa34f" android:pathData="" />
+    <path android:fillColor="#ffa34e" android:pathData="" />
+    <path android:fillColor="#ffa34d" android:pathData="" />
+    <path android:fillColor="#ffa34c" android:pathData="" />
+    <path android:fillColor="#ffa24b" android:pathData="" />
+    <path android:fillColor="#ffa24a" android:pathData="" />
+    <path android:fillColor="#ffa249" android:pathData="" />
+    <path android:fillColor="#ffa248" android:pathData="" />
+    <path android:fillColor="#ffa247" android:pathData="" />
+    <path android:fillColor="#ffa147" android:pathData="" />
+    <path android:fillColor="#ffa146" android:pathData="" />
+    <path android:fillColor="#ffa145" android:pathData="" />
+    <path android:fillColor="#ffa144" android:pathData="" />
+    <path android:fillColor="#ffa143" android:pathData="" />
+    <path android:fillColor="#ffa042" android:pathData="" />
+    <path android:fillColor="#ffa041" android:pathData="" />
+    <path android:fillColor="#ffa040" android:pathData="" />
+    <path android:fillColor="#ffa03f" android:pathData="" />
+    <path android:fillColor="#ff9f3e" android:pathData="" />
+    <path android:fillColor="#ff9f3d" android:pathData="" />
+    <path android:fillColor="#ff9f3c" android:pathData="" />
+    <path android:fillColor="#ff9f3b" android:pathData="" />
+    <path android:fillColor="#ff9f3a" android:pathData="" />
+    <path android:fillColor="#ff9e39" android:pathData="" />
+    <path android:fillColor="#ff9e38" android:pathData="" />
+    <path android:fillColor="#ff9e37" android:pathData="" />
+    <path android:fillColor="#ff9e36" android:pathData="" />
+    <path android:fillColor="#ff9d35" android:pathData="" />
+    <path android:fillColor="#ff9d34" android:pathData="" />
+    <path android:fillColor="#ffd9c0" android:pathData="" />
+    <path android:fillColor="#fff6f0" android:pathData="" />
+</vector>

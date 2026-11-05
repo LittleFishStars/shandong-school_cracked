@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000010" android:orientation="0" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="-1" android:layout_height="64.0dip" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131363460" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="13.0sp" android:textColor="@2131099684" android:ellipsize="3" android:id="@2131368206" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        <RelativeLayout android:id="@2131366673" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="3.0dip" android:layout_marginBottom="4.0dip">
+            <TextView android:textSize="10.0sp" android:textColor="#00c882" android:id="@2131368210" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="10.0sp" android:textColor="#626665" android:id="@2131368209" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ProgressBar android:id="@2131366011" android:layout_width="-1" android:layout_height="6.0dip" android:max="100" android:progress="50" android:progressDrawable="@2131233334" android:layout_below="@2131368210" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="0" android:background="@2131233336" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="11.0sp" android:textColor="#ffffff" android:id="@2131368208" android:paddingLeft="6.0dip" android:paddingTop="4.0dip" android:paddingRight="6.0dip" android:paddingBottom="4.0dip" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:textColor="#00c882" android:id="@2131368207" android:background="@2131233335" android:paddingLeft="6.0dip" android:paddingTop="4.0dip" android:paddingRight="6.0dip" android:paddingBottom="4.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.0dip" />
+</LinearLayout>

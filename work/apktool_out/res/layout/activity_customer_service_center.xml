@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@2131363397" android:background="@2131231817" android:layout_width="-1" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="375:210" app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/layout_toolbar_binding" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="38.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_title">
+        <ImageView android:layout_width="23.0dip" android:layout_height="24.0dip" android:src="@2131231816" />
+        <TextView android:textSize="20.0sp" android:textColor="@2131101240" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="12.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.huachenjie.common.widget.ShadowConstraintLayout android:id="@2131362455" android:tag="" android:layout_width="0.0dip" android:layout_height="80.0dip" android:layout_marginStart="25.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_bg" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/cl_feedback" app:layout_constraintTop_toBottomOf="@id/iv_bg" app:sl_cornerRadius="5.0dip" app:sl_shadowRadius="4.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="29.0dip" android:layout_height="23.0dip" android:src="@2131231819" />
+            <TextView android:textSize="14.0sp" android:textColor="@2131099809" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="8.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.huachenjie.common.widget.ShadowConstraintLayout>
+    <com.huachenjie.common.widget.ShadowConstraintLayout android:id="@2131362452" android:tag="" android:layout_width="0.0dip" android:layout_height="80.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="25.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_bg" app:layout_constraintLeft_toRightOf="@id/cl_manual" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_bg" app:sl_cornerRadius="5.0dip" app:sl_shadowRadius="4.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="0x00000011" android:layout_width="-2" android:layout_height="-2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="29.0dip" android:layout_height="23.0dip" android:src="@2131231818" />
+            <TextView android:textSize="14.0sp" android:textColor="@2131099809" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="8.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.huachenjie.common.widget.ShadowConstraintLayout>
+    <TextView android:textColor="@2131099735" android:id="@2131368463" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="23.0dip" android:text="" android:layout_marginStart="20.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_manual" />
+    <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="0.0dip" android:layout_marginTop="14.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_problem_title" />
+    <FrameLayout android:id="@2131362992" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="60.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

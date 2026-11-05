@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="0x00000001" android:id="@2131365890" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@2131165327" android:layout_marginBottom="@2131165327">
+        <View android:layout_gravity="0x00000011" android:id="@2131365889" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <ImageView android:layout_gravity="0x00000011" android:id="@2131365891" android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@0" />
+    </FrameLayout>
+    <com.google.android.material.internal.BaselineLayout android:layout_gravity="0x00000051" android:id="@2131365892" android:paddingBottom="@2131165326" android:duplicateParentState="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="@2131165329" android:ellipsize="3" android:id="@2131365894" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+        <TextView android:textSize="@2131165320" android:ellipsize="3" android:id="@2131365893" android:visibility="1" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" />
+    </com.google.android.material.internal.BaselineLayout>
+</merge>

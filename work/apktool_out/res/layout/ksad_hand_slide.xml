@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="@2131165527" android:layout_height="@2131165521"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.components.ad.reward.widget.KsShadowImageView android:layout_gravity="0x00000051" android:id="@2131363958" android:paddingLeft="@2131165524" android:paddingRight="@2131165524" android:layout_width="@2131165527" android:layout_height="@2131165523" android:src="@2131232325" android:alpha="0.0" app:ksad_enableBottomShadow="false" app:ksad_enableTopShadow="false" app:ksad_shadowColor="#33000000" app:ksad_shadowSize="@dimen/ksad_hand_slide_tail_shadow_width" />
+    <ImageView android:layout_gravity="0x00000051" android:id="@2131363957" android:layout_width="@2131165527" android:layout_height="@2131165520" android:src="@2131232324" android:alpha="0.0" />
+</FrameLayout>

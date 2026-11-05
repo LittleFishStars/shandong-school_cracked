@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.widget.RatioFrameLayout android:id="@2131363874" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.sdk.core.webview.KsAdWebView android:scrollbarStyle="0x00000000" android:id="@2131364438" android:layout_width="-1" android:layout_height="-1" android:layerType="1" />
+    <com.kwad.sdk.widget.KSRelativeLayout android:id="@2131363936" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <ImageView android:id="@2131364405" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+        <com.kwad.sdk.widget.KsView android:id="@2131364021" android:background="@2131100144" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:id="@2131364408" android:background="@2131232196" android:visibility="2" android:layout_width="-1" android:layout_height="57.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="18.0dip" android:textColor="#ffffff" android:ellipsize="3" android:layout_gravity="0x00000050" android:id="@2131364407" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:maxLines="2" />
+        </LinearLayout>
+    </com.kwad.sdk.widget.KSRelativeLayout>
+    <com.kwad.sdk.core.webview.KsAdWebView android:scrollbarStyle="0x00000000" android:id="@2131364434" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layerType="1" />
+</com.kwad.sdk.widget.RatioFrameLayout>

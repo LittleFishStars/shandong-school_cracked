@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:padding="20.0dip" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:id="@2131368011" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:id="@2131368404" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            </LinearLayout>
+            <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+            <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:id="@2131368612" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+            <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:id="@2131368187" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@2131099788" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:text="" />
+            <LinearLayout android:orientation="1" android:id="@2131364685" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@2131363052" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

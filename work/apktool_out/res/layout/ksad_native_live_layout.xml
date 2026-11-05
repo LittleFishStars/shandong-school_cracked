@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.AdBasePvFrameLayout android:orientation="1" android:id="@2131364262" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.sdk.widget.KSRelativeLayout android:id="@2131364020" android:background="@2131100142" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131364017" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+        <com.kwad.sdk.widget.KsView android:background="@2131100144" android:layout_width="-1" android:layout_height="-1" />
+        <RelativeLayout android:id="@2131364070" android:background="@17170445" android:layout_width="-1" android:layout_height="-1" />
+    </com.kwad.sdk.widget.KSRelativeLayout>
+    <com.kwad.sdk.core.webview.KsAdWebView android:scrollbarStyle="0x00000000" android:id="@2131364437" android:layout_width="-1" android:layout_height="-1" android:layerType="1" />
+</com.kwad.sdk.core.view.AdBasePvFrameLayout>

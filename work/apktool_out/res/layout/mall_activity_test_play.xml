@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <com.huachenjie.common.video.AliVideoView android:id="@2131368912" android:background="@17170444" android:layout_width="-1" android:layout_height="-2" android:minHeight="200.0dip" />
+        <FrameLayout android:id="@2131363059" android:background="#80000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="36.0dip" android:text="" android:drawablePadding="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:bl_corners_radius="18.0dip" app:bl_solid_color="#ff650aec" app:drawableStartCompat="@drawable/ic_video_view_replay" />
+        </FrameLayout>
+        <FrameLayout android:id="@2131363073" android:background="#80000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <com.noober.background.view.BLTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:tag="" android:layout_width="-2" android:layout_height="36.0dip" android:text="" android:drawablePadding="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:bl_corners_radius="18.0dip" app:bl_solid_color="#ff650aec" app:drawableStartCompat="@drawable/mall_ic_video_play_continue" />
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366549" android:tag="" android:background="#f5f5f5" android:clipChildren="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

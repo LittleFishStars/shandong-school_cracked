@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kwad.sdk.core.view.KsAdContainer android:gravity="0x00000011" android:orientation="1" android:id="@2131363874" android:background="@17170444" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kwad.components.ad.widget.tailframe.appbar.TailFrameBarAppPortraitVertical android:id="@2131363895" android:layout_width="-1" android:layout_height="286.0dip" />
+</com.kwad.sdk.core.view.KsAdContainer>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kc.dw.core.view.LollipopFixedWebView android:id="@2131365817" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131365683" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:src="@2131233940" />
+    <ImageView android:id="@2131365688" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:src="@17301586" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="0x00000001" android:orientation="1" android:id="@2131365819" android:background="@2131233919" android:padding="30.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <ProgressBar android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" android:indeterminateTint="@17170443" />
+        <TextView android:textSize="14.0sp" android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:text="" />
+    </LinearLayout>
+</RelativeLayout>

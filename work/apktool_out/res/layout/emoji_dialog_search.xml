@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131366718" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:id="@2131362772" android:layout_width="-1" android:layout_height="-2" android:layout_margin="16.0dip" android:hint="@2131952233" android:maxLines="1" android:inputType="0x00002001" android:imeOptions="0x00000006" />
+    <com.vanniktech.emoji.internal.MaxHeightSearchRecyclerView android:id="@2131366549" android:scrollbars="0x00000200" android:layout_width="-1" android:layout_height="-2" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

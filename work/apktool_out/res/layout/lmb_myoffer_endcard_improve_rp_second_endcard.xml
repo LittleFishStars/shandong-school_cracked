@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@2131365020" android:layout_width="320.0dip" android:layout_height="300.0dip" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="-1" android:layout_height="132.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="-1" android:layout_height="-1" android:src="@2131232510" android:scaleType="1" />
+            <com.ltmb.ltsdk.core.tp.sdk.basead.ui.ScanningAnimButton android:textSize="16.0dip" android:textColor="#000000" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131365021" android:background="@2131232531" android:paddingLeft="@2131165766" android:paddingRight="@2131165766" android:layout_width="240.0dip" android:layout_height="48.0dip" android:layout_marginBottom="32.0dip" android:text="@2131952694" android:maxLines="1" android:layout_weight="1.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:backgroundTint="#fce72c" style="@style/lmb_myoffer_single_line" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@2131232521" android:padding="10.0dip" android:layout_width="290.0dip" android:layout_height="204.0dip" android:layout_centerHorizontal="true">
+            <com.ltmb.ltsdk.core.tp.sdk.basead.ui.component.RoundImageView android:id="@2131365017" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@2131232511" android:scaleType="1" />
+            <TextView android:textSize="14.0dip" android:textColor="#000000" android:gravity="0x00000010" android:id="@2131365019" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6.0dip" android:text="@2131952692" android:layout_toRightOf="@2131365017" android:layout_alignTop="@2131365017" android:layout_alignBottom="@2131365017" style="@style/lmb_myoffer_single_line.nofontpadding" />
+            <ImageView android:id="@2131365018" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="6.0dip" android:scaleType="1" android:layout_below="@2131365017" />
+        </RelativeLayout>
+        <TextView android:layout_width="-1" android:layout_height="48.0dip" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="32.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

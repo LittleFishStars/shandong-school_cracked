@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131362738" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" />
+    <FrameLayout android:layout_gravity="0x00000050" android:id="@2131362734" android:background="@2131231379" android:visibility="2" android:layout_width="-1" android:layout_height="31.0dip">
+        <FrameLayout android:layout_gravity="0x00000010" android:id="@2131362735" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_gravity="0x00000010" android:background="@2131231329" android:layout_width="14.0dip" android:layout_height="10.0dip" android:layout_marginLeft="9.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:ellipsize="3" android:layout_gravity="0x00000010" android:id="@2131362736" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="29.0dip" android:maxLines="1" android:shadowColor="@2131100003" android:shadowDy="1.0" android:shadowRadius="4.0" />
+        </FrameLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ffffff" android:ellipsize="3" android:layout_gravity="0x00000015" android:id="@2131362737" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8.0dip" android:maxLines="1" android:shadowColor="@2131100003" android:shadowDy="1.0" android:shadowRadius="4.0" />
+    </FrameLayout>
+</FrameLayout>

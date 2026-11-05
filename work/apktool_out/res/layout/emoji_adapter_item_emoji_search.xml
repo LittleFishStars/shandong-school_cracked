@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:background="?2130970662" android:paddingTop="@2131165371" android:paddingBottom="@2131165371" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vanniktech.emoji.EmojiTextView android:id="@2131367527" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="false" android:layout_marginStart="@2131165371" />
+    <TextView android:id="@2131367119" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="false" android:layout_marginStart="8.0dip" android:layout_marginEnd="@2131165371" />
+</LinearLayout>

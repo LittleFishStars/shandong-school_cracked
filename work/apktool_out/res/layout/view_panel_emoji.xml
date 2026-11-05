@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131362798" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:enabled="false" android:layout_gravity="0x00000055" android:id="@2131363450" android:layout_width="54.0dip" android:layout_height="42.0dip" android:layout_marginBottom="20.0dip" android:src="@2131231833" android:layout_marginEnd="20.0dip" />
+</merge>

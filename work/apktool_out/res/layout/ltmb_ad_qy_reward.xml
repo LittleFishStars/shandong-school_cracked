@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ltmb.ltsdk.core.qy.media.p.LTAdQYMediaPlayer android:id="@2131366408" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131366407" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.0dip" android:layout_marginTop="25.0dip" android:src="@2131232842" />
+    <RelativeLayout android:id="@2131366243" android:background="@2131232835" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+        <com.ltmb.ltsdk.core.qy.img.LTAdQYImageView android:id="@2131366241" android:visibility="2" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginRight="10.0dip" />
+        <LinearLayout android:gravity="0x00000010" android:orientation="1" android:id="@2131366246" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@2131366244" android:layout_toRightOf="@2131366241" android:layout_alignTop="@2131366241" android:layout_alignBottom="@2131366241" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:textColor="#333333" android:ellipsize="3" android:id="@2131366247" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="5.0dip" android:singleLine="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#999999" android:ellipsize="3" android:id="@2131366245" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textColor="@17170443" android:gravity="0x00000011" android:id="@2131366244" android:background="@2131232836" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dip" android:text="" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.ltmb.ltsdk.core.qy.img.LTAdQYImageView android:id="@2131366242" android:visibility="2" android:layout_width="32.0dip" android:layout_height="16.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <include layout="@layout/ltmb_ad_qy_reward_c_p" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@2131366750" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="2" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:id="@2131364555" android:visibility="2" android:layout_width="-1" android:layout_height="-2" layout="@layout/home_layout_buddy_card_empty" />
+</FrameLayout>

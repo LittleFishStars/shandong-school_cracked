@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@2131362706" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1">
+        <FrameLayout android:id="@2131363101" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="@2131165296" />
+        <include android:id="@2131367462" layout="@layout/layout_home_tab_bar" />
+    </RelativeLayout>
+    <include layout="@layout/layout_home_slide" />
+</androidx.drawerlayout.widget.DrawerLayout>

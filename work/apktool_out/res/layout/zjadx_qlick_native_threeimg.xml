@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131364490" android:background="@2131101059" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@2131166452" android:textStyle="0x00000001" android:textColor="@2131101042" android:ellipsize="3" android:orientation="0" android:id="@2131364532" android:paddingLeft="@2131166446" android:paddingTop="@2131166449" android:paddingRight="15.0dip" android:layout_width="-1" android:layout_height="-2" android:text="" android:maxLines="2" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="0" android:id="@2131364489" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@2131364482" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginRight="2.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@2131364483" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        <ImageView android:id="@2131364484" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginLeft="2.0dip" android:adjustViewBounds="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include layout="@layout/zjadx_qlick_news_item_bot1" />
+    <View android:id="@2131364488" android:background="@2131101053" android:visibility="2" android:layout_width="-1" android:layout_height="1.0px" />
+</LinearLayout>

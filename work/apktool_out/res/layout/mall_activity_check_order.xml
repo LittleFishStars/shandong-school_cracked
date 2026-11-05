@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_toolbar_binding" />
+    <ScrollView android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.noober.background.view.BLLinearLayout android:gravity="0x00000010" android:tag="" android:layout_height="64.0dip" android:layout_marginTop="16.0dip" style="@style/mall_check_order_box">
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#2c3e50" android:layout_width="0.0dip" android:layout_height="-2" android:text="" android:drawablePadding="8.0dip" android:layout_weight="1.0" app:drawableStartCompat="@drawable/mall_ic_selected_address" />
+                <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textColor="@2131101240" android:gravity="0x00000010" android:layout_width="-2" android:layout_height="28.0dip" android:text="" android:drawableEnd="@2131233043" android:paddingStart="16.0dip" android:paddingEnd="12.0dip" app:bl_corners_radius="14.0dip" app:bl_solid_color="#ff650aec" app:drawableTint="@color/white" />
+            </com.noober.background.view.BLLinearLayout>
+            <com.noober.background.view.BLRelativeLayout android:tag="" android:paddingTop="12.0dip" android:paddingBottom="0.0dip" android:layout_marginTop="16.0dip" android:paddingEnd="0.0dip" style="@style/mall_check_order_box">
+                <TextView android:textSize="12.0sp" android:textColor="#2c3e50" android:id="@2131368129" android:tag="" android:layout_width="-2" android:layout_height="-2" android:drawablePadding="4.0dip" android:layout_marginEnd="12.0dip" app:drawableStartCompat="@drawable/mall_ic_selected_address" />
+                <TextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="#2c3e50" android:id="@2131368002" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_below="@2131368129" android:layout_marginEnd="12.0dip" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:layout_below="@2131368002" android:layout_marginEnd="12.0dip" android:layout_toStartOf="@2131368118">
+                    <TextView android:textSize="12.0sp" android:textColor="#2c3e50" android:ellipsize="3" android:id="@2131368482" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/tv_receiver_phone" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="wrap" />
+                    <TextView android:textSize="12.0sp" android:textColor="#2c3e50" android:id="@2131368483" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="8.0dip" app:layout_constraintLeft_toRightOf="@id/tv_receiver_name" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textColor="#00b6de" android:gravity="0x00000010" android:id="@2131368118" android:layout_width="-2" android:layout_height="28.0dip" android:text="" android:layout_alignParentBottom="true" android:drawableEnd="@2131233043" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_alignParentEnd="true" app:bl_corners_bottomRightRadius="20.0dip" app:bl_corners_topLeftRadius="20.0dip" app:bl_solid_color="#ffe7fbff" app:drawableTint="#ff00b6de" />
+            </com.noober.background.view.BLRelativeLayout>
+            <com.noober.background.view.BLRelativeLayout android:paddingTop="12.0dip" android:paddingBottom="8.0dip" style="@style/mall_check_order_box">
+                <ImageView android:id="@2131363387" android:tag="" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="#2c3e50" android:ellipsize="3" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:maxLines="1" android:layout_marginStart="8.0dip" android:layout_toEndOf="@2131363387" />
+                <ImageView android:id="@2131363584" android:tag="" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="16.0dip" android:layout_below="@2131363387" android:layout_marginEnd="12.0dip" />
+                <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:ellipsize="3" android:id="@2131368380" android:tag="" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:layout_alignTop="@2131363584" android:layout_toEndOf="@2131363584" />
+                <TextView android:textSize="11.0sp" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dip" android:layout_below="@2131368380" android:layout_toEndOf="@2131363584" />
+                <com.huachenjie.mall.widget.PriceView android:textSize="12.0sp" android:textStyle="0x00000001" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@2131363584" android:layout_toEndOf="@2131363584" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_keep_zero="true" app:mall_money_size="12.0sp" />
+                <TextView android:textSize="14.0sp" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@2131363584" android:layout_alignParentEnd="true" />
+                <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ff3d3d" android:id="@2131368224" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@2131363584" android:layout_toEndOf="@2131363584" />
+                <TextView android:id="@2131368250" android:layout_marginTop="16.0dip" android:text="" android:layout_below="@2131368224" style="@style/mall_check_order_title" />
+                <TextView android:tag="" android:text="" android:layout_alignBaseline="@2131368250" style="@style/mall_check_order_value" />
+                <com.huachenjie.mall.widget.PriceView android:tag="" android:layout_alignBaseline="@2131368250" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_keep_zero="true" app:mall_money_size="12.0sp" style="@style/mall_check_order_value" />
+                <TextView android:id="@2131368489" android:text="" android:layout_below="@2131368250" style="@style/mall_check_order_title" />
+                <TextView android:tag="" android:layout_alignBaseline="@2131368489" app:drawableEndCompat="@drawable/mall_ic_shop_arrow_right" app:drawableTint="#ffc1c1c1" style="@style/mall_check_order_value" />
+            </com.noober.background.view.BLRelativeLayout>
+            <com.noober.background.view.BLRelativeLayout android:paddingTop="8.0dip" android:paddingBottom="8.0dip" style="@style/mall_check_order_box">
+                <TextView android:id="@2131368461" android:text="" style="@style/mall_check_order_title" />
+                <com.huachenjie.mall.widget.PriceView android:tag="" android:layout_alignBaseline="@2131368461" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_keep_zero="true" app:mall_money_size="12.0sp" style="@style/mall_check_order_value" />
+                <TextView android:id="@2131368231" android:text="" android:layout_below="@2131368461" style="@style/mall_check_order_title" />
+                <com.huachenjie.mall.widget.PriceView android:tag="" android:layout_alignBaseline="@2131368231" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_keep_zero="true" app:mall_money_size="12.0sp" style="@style/mall_check_order_value" />
+                <TextView android:tag="" android:layout_alignBaseline="@2131368231" style="@style/mall_check_order_value" />
+                <TextView android:id="@2131368232" android:tag="" android:text="" android:layout_below="@2131368231" style="@style/mall_check_order_title" />
+                <TextView android:textColor="#ff3d3d" android:tag="" android:layout_alignBaseline="@2131368232" style="@style/mall_check_order_value" />
+                <View android:background="#e5e5e5" android:layout_width="-1" android:layout_height="0.5dip" android:layout_below="@2131368232" />
+                <TextView android:id="@2131368673" android:text="" android:layout_below="@2131368232" style="@style/mall_check_order_title" />
+                <com.huachenjie.mall.widget.PriceView android:textSize="12.0sp" android:tag="" android:layout_alignBaseline="@2131368673" app:mall_decimal_size="12.0sp" app:mall_int_size="18.0sp" app:mall_keep_zero="true" app:mall_money_size="12.0sp" style="@style/mall_check_order_value" />
+            </com.noober.background.view.BLRelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" app:cardBackgroundColor="#ffffffff">
+        <LinearLayout android:gravity="0x00000010" android:tag="" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textSize="13.0sp" android:textColor="#2c3e50" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:text="" />
+            <com.huachenjie.mall.widget.PriceView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ff3d3d" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="4.0dip" app:mall_decimal_size="12.0sp" app:mall_int_size="20.0sp" app:mall_keep_zero="true" app:mall_money_size="12.0sp" />
+            <TextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="#ff3d3d" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:gravity="0x00000011" android:tag="" android:layout_width="124.0dip" android:layout_height="44.0dip" android:text="" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff191f20" app:bl_enabled_textColor="#ff0bd3ff" app:bl_unEnabled_solid_color="#ffc1c1c1" app:bl_unEnabled_textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

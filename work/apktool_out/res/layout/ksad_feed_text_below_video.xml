@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kwad.sdk.widget.KSRelativeLayout android:id="@2131363936" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@2131364405" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+        <com.kwad.sdk.widget.KsView android:id="@2131364021" android:background="@2131100144" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffffff" android:id="@2131364045" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="@2131952553" android:layout_centerInParent="true" />
+    </com.kwad.sdk.widget.KSRelativeLayout>
+    <TextView android:textSize="18.0dip" android:textColor="#020202" android:ellipsize="3" android:id="@2131363764" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:maxLines="2" />
+    <include android:id="@2131363769" android:visibility="2" android:layout_width="-1" android:layout_height="-2" layout="@layout/ksad_feed_app_download" />
+    <include android:id="@2131363779" android:visibility="2" android:layout_width="-1" android:layout_height="-2" layout="@layout/ksad_feed_open_h5" />
+    <com.kwad.components.core.widget.ComplianceTextView android:textSize="10.0sp" android:textColor="#ff9c9c9c" android:id="@2131363873" android:background="@2131232167" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dip" app:ksad_privacy_color="#ff9c9c9c" />
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dip" layout="@layout/ksad_feed_label_dislike" />
+</LinearLayout>

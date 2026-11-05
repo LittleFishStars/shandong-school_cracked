@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="3000" android:repeatCount="-1" android:repeatMode="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate android:interpolator="@17432587" android:duration="1500" android:drawable="@2131234836" android:fromDegrees="0.0" android:toDegrees="30.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+    <set android:startOffset="1500">
+        <rotate android:interpolator="@17432587" android:duration="1500" android:drawable="@2131234836" android:fromDegrees="0.0" android:toDegrees="-60.0" android:pivotX="50.0%" android:pivotY="50.0%" />
+    </set>
+</set>

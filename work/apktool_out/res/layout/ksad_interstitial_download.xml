@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000010" android:orientation="0" android:background="#ffffff" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="@2131165541"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:id="@2131363765" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="2.19">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+            <ImageView android:id="@2131363802" android:focusable="true" android:visibility="0" android:clickable="true" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="6.0dip" android:src="@2131232315" />
+            <TextView android:textSize="16.0sp" android:textColor="#333333" android:ellipsize="3" android:id="@2131363806" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <TextView android:textSize="10.0sp" android:textColor="#333333" android:ellipsize="3" android:id="@2131363798" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" android:maxLines="1" android:includeFontPadding="false" />
+        <com.kwad.components.ad.widget.KsPriceView android:textSize="10.0sp" android:textColor="@2131100161" android:id="@2131364129" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip" />
+    </LinearLayout>
+    <com.kwad.sdk.widget.KsView android:id="@2131364325" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="0.49" />
+    <com.kwad.components.core.page.widget.TextProgressBar android:id="@2131363975" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="36.0dip" android:indeterminateOnly="false" android:progressDrawable="@2131232222" android:layout_weight="1.0" />
+</LinearLayout>

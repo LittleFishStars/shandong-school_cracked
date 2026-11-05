@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" style="@style/mall_layout_sub_bg_order_detail"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_gravity="0x00000010" android:id="@2131368607" android:text="@2131953066" style="@style/mall_tv_refund_detail_subtitle" />
+        <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:gravity="0x00000011" android:layout_gravity="0x00800015" android:tag="" android:layout_width="-2" android:layout_height="-2" android:minHeight="28.0dip" android:text="@2131953064" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:bl_corners_radius="14.0dip" app:bl_stroke_color="#ffe5e5e5" app:bl_stroke_width="1.0dip" />
+    </FrameLayout>
+    <LinearLayout android:layout_marginTop="17.0dip" style="@style/mall_ll_refund_detail_info1">
+        <TextView android:text="@2131953063" style="@style/mall_tv_refund_detail_info_name_gray" />
+        <TextView android:textSize="14.0sp" android:tag="" style="@style/mall_tv_refund_detail_info_value_regular" />
+    </LinearLayout>
+    <LinearLayout android:layout_marginTop="17.0dip" style="@style/mall_ll_refund_detail_info1">
+        <TextView android:text="@2131953065" style="@style/mall_tv_refund_detail_info_name_gray" />
+        <TextView android:textSize="14.0sp" android:tag="" style="@style/mall_tv_refund_detail_info_value_regular" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000030" android:layout_marginTop="17.0dip" style="@style/mall_ll_refund_detail_info1">
+        <TextView android:text="@2131953062" style="@style/mall_tv_refund_detail_info_name_gray" />
+        <TextView android:textSize="14.0sp" android:tag="" style="@style/mall_tv_refund_detail_info_value_regular" />
+    </LinearLayout>
+</LinearLayout>

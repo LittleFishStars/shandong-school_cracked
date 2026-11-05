@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huachenjie.base.view.CustomTextureView android:id="@2131362590" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131363673" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:layout_gravity="0x00000011" android:id="@2131363438" android:layout_width="-2" android:layout_height="-2" android:src="@2131232020" />
+</merge>

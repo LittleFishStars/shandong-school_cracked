@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@2131362425" android:paddingBottom="12.0dip" android:layout_width="-1" android:layout_height="-2" android:paddingStart="12.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/include_room_nick_name" />
+    <FrameLayout android:id="@2131363015" android:background="@2131755048" android:layout_width="128.0dip" android:layout_height="30.0dip" android:layout_marginTop="2.0dip">
+        <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000050" android:orientation="0" android:layout_width="-1" android:layout_height="24.0dip">
+            <ImageView android:id="@2131363270" android:layout_width="16.0dip" android:layout_height="13.0dip" android:src="@2131755090" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@2131363743" android:layout_width="16.0dip" android:layout_height="13.0dip" app:lottie_autoPlay="true" app:lottie_fileName="animation/js_audio_playing_white.json" app:lottie_loop="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131367799" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="10.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

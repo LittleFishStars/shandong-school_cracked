@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ltmb.ltsdk.core.view.RootFrameLayout android:id="@2131366719" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="-1" android:layout_height="200.0dip">
+            <ImageView android:id="@2131363193" android:layout_width="-1" android:layout_height="200.0dip" android:scaleType="6" />
+            <RelativeLayout android:id="@2131368868" android:background="#000000" android:layout_width="-1" android:layout_height="-2">
+                <FrameLayout android:id="@2131368875" android:layout_width="-1" android:layout_height="-1">
+                    <com.ltmb.ltsdk.core.view.jzvd.JzvdStd android:layout_gravity="0x00000011" android:id="@2131368872" android:layout_width="-1" android:layout_height="200.0dip" android:scaleType="3" android:layout_centerInParent="true" />
+                </FrameLayout>
+                <ImageView android:id="@2131368870" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@2131368872" android:layout_alignBottom="@2131368872" android:layout_centerInParent="true" android:layout_alignStart="@2131368872" android:layout_alignEnd="@2131368872" />
+                <ImageView android:id="@2131366061" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@2131755223" android:layout_centerInParent="true" />
+                <ImageView android:id="@2131368867" android:layout_width="20.0dip" android:layout_height="90.0dip" android:layout_marginBottom="30.0dip" android:src="@2131755221" android:layout_alignBottom="@2131368872" android:layout_alignParentBottom="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131367102" android:layout_width="-1" android:layout_height="-1">
+                <ImageView android:id="@2131367101" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@2131755313" />
+                <TextView android:textColor="#ffffff" android:background="@2131232862" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6.0dip" android:text="" android:paddingHorizontal="18.0dip" android:paddingVertical="5.0dip" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="0x00800005" android:id="@2131362479" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:src="@2131755212" />
+            <LinearLayout android:layout_gravity="0x00000050" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="0.0dip" android:layout_height="26.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="7.0dip" android:textColor="#ffffff" android:id="@2131362009" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                        <TextView android:textSize="7.0dip" android:textColor="#ffffff" android:id="@2131362579" android:layout_width="-2" android:layout_height="-2" android:text="" />
+                        <TextView android:textSize="7.0dip" android:textColor="#ffffff" android:id="@2131362581" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="10.0dip" />
+                        <TextView android:textSize="7.0dip" android:textColor="#ffffff" android:id="@2131362582" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_marginStart="10.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:layout_gravity="0x00800005" android:id="@2131365490" android:layout_width="40.0dip" android:layout_height="20.0dip" android:src="@2131755216" android:layout_marginEnd="4.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:gravity="0x00000011" android:orientation="0" android:padding="5.0dip" android:layout_width="-1" android:layout_height="-2">
+                <com.ltmb.ltsdk.core.view.LTAdRoundedCornerImageView android:id="@2131365114" android:layout_width="45.0dip" android:layout_height="45.0dip" app:round="12.0dip" />
+                <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="20.0dip">
+                    <TextView android:textSize="15.0dip" android:textStyle="0x00000001" android:textColor="#333333" android:ellipsize="3" android:id="@2131367559" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="1" />
+                    <TextView android:textSize="12.0dip" android:textColor="#333333" android:ellipsize="3" android:id="@2131362622" android:layout_width="-2" android:layout_height="-2" android:text="" android:maxLines="2" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@2131362677" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="18.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131362676" android:background="@2131232746" android:layout_width="-1" android:layout_height="34.0dip" android:text="" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000050" android:orientation="1" android:id="@2131366103" android:background="#ffffff" android:padding="18.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2">
+            <TextView android:textSize="14.0sp" android:id="@2131366104" android:layout_width="-2" android:layout_height="-2" android:text="" />
+            <TextView android:textSize="14.0dip" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131366093" android:background="@2131232746" android:layout_width="80.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:text="" />
+        </LinearLayout>
+        <ProgressBar android:id="@2131366102" android:background="@2131233325" android:visibility="0" android:layout_width="-1" android:layout_height="35.0dip" android:max="100" android:progress="0" android:progressDrawable="@2131233326" style="?16842872" />
+    </LinearLayout>
+</com.ltmb.ltsdk.core.view.RootFrameLayout>

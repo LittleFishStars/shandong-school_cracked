@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="@2131427382" android:layout_width="-2" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mtrl_picker_header_dialog" />
+    <LinearLayout android:orientation="1" android:id="@2131365831" android:layout_width="-2" android:layout_height="-1">
+        <androidx.fragment.app.FragmentContainerView android:id="@2131365830" android:paddingLeft="@2131166271" android:paddingRight="@2131166271" android:paddingBottom="@2131166270" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@2131166271" android:paddingEnd="@2131166271" />
+        <include android:layout_width="-1" android:layout_height="@2131166268" layout="@layout/mtrl_picker_actions" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="#ff2c3e50" android:ellipsize="3" android:id="@2131367115" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="6.0dip" android:maxLines="2" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff8997a4" android:ellipsize="3" android:id="@2131367113" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="6.0dip" android:maxLines="3" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6.0dip">
+        <com.noober.background.view.BLImageView android:id="@2131367114" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@2131755116" android:scaleType="6" android:adjustViewBounds="true" app:bl_corners_radius="12.0dip" app:bl_solid_color="#80000000" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

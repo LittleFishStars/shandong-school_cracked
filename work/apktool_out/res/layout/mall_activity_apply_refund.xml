@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@2131367641" layout="@layout/layout_toolbar_binding" />
+    <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.noober.background.view.BLConstraintLayout android:layout_marginTop="15.0dip" style="@style/mall_layout_sub_bg_order_detail">
+                <TextView android:id="@2131368607" android:text="@2131952963" style="@style/mall_tv_refund_detail_subtitle" />
+                <ImageView android:id="@2131363493" android:tag="" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="12.0dip" app:layout_constraintStart_toStartOf="@id/tv_sub_info" app:layout_constraintTop_toBottomOf="@id/tv_sub_info" />
+                <TextView android:textSize="14.0sp" android:textStyle="0x00000001" android:textColor="@2131099809" android:ellipsize="3" android:id="@2131368380" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:maxLines="1" android:layout_marginStart="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iv_goods" app:layout_constraintTop_toTopOf="@id/iv_goods" />
+                <TextView android:textSize="11.0sp" android:textColor="@2131099839" android:id="@2131368577" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/tv_name" app:layout_constraintTop_toBottomOf="@id/tv_name" />
+            </com.noober.background.view.BLConstraintLayout>
+            <LinearLayout android:orientation="1" style="@style/mall_layout_sub_bg_order_detail">
+                <TextView android:text="@2131952974" style="@style/mall_tv_refund_detail_subtitle" />
+                <RadioGroup android:orientation="0" android:id="@2131366620" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:layout_marginStart="-6.0dip" android:layout_marginEnd="-6.0dip">
+                    <RadioButton android:id="@2131366536" android:text="@2131952975" style="@style/mall_rb_apply_refund_options" />
+                    <RadioButton android:id="@2131366537" android:tag="" android:text="@2131952976" style="@style/mall_rb_apply_refund_options" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="1" style="@style/mall_layout_sub_bg_order_detail">
+                <TextView android:text="@2131952967" style="@style/mall_tv_refund_detail_subtitle" />
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dip">
+                    <TextView android:text="@2131952969" style="@style/mall_rb_apply_refund_name" />
+                    <TextView android:textColor="@2131099809" android:textColorHint="@2131099866" android:gravity="0x00800005" android:tag="" android:layout_width="0.0dip" android:layout_height="-2" android:hint="@2131952970" android:drawablePadding="4.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip" app:drawableEndCompat="@drawable/mall_ic_arrow_right" />
+                </LinearLayout>
+                <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:text="@2131952968" style="@style/mall_rb_apply_refund_name" />
+                    <LinearLayout android:gravity="0x00800015" android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                            <TextView android:textSize="14.0sp" android:textColor="@2131099809" android:layout_width="-1" android:layout_height="-2" android:text="@2131952977" />
+                            <EditText android:textSize="14.0sp" android:textColor="@2131099809" android:id="@2131362846" android:tag="" android:background="@0" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:inputType="0x00002002" android:imeOptions="0x00000006" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0sp" android:textColor="@2131099839" android:tag="" android:layout_width="-2" android:layout_height="-2" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:text="@2131952966" style="@style/mall_rb_apply_refund_name" />
+                <com.huachenjie.common.widget.NestedEditTextView android:textSize="16.0sp" android:textColor="@2131099809" android:textColorHint="@2131099866" android:gravity="0x00800003" android:tag="" android:background="@0" android:layout_width="-1" android:layout_height="160.0dip" android:hint="@2131952962" android:maxLength="300" />
+                <TextView android:textSize="12.0sp" android:textColor="@2131099866" android:layout_gravity="0x00800005" android:tag="" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" />
+                <TextView android:gravity="0x00000001" android:tag="" android:paddingTop="26.0dip" android:layout_width="-1" android:layout_height="100.0dip" android:layout_marginTop="30.0dip" android:text="@2131952971" android:drawablePadding="8.0dip" app:bl_corners_radius="12.0dip" app:bl_solid_color="@color/color_f5f5f5" app:drawableTopCompat="@drawable/mall_ic_select_pic_tag" />
+                <androidx.recyclerview.widget.RecyclerView android:tag="" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30.0dip" android:layout_marginStart="-4.5dip" android:layout_marginEnd="-4.5dip" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.cardview.widget.CardView android:layout_width="-1" android:layout_height="-2" app:cardElevation="10.0dip">
+        <LinearLayout android:gravity="0x00800015" android:orientation="0" android:background="@2131101240" android:paddingTop="12.0dip" android:paddingBottom="34.0dip" android:layout_width="-1" android:layout_height="-2">
+            <com.noober.background.view.BLTextView android:textSize="16.0sp" android:textStyle="0x00000001" android:textColor="@2131101240" android:gravity="0x00000011" android:id="@2131368150" android:tag="" android:layout_width="-1" android:layout_height="44.0dip" android:text="@2131952964" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:bl_corners_radius="22.0dip" app:bl_enabled_solid_color="#ff650aec" app:bl_solid_color="#ffc1c1c1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

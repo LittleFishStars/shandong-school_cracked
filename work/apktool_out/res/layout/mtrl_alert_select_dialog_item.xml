@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="4" android:gravity="0x00000010" android:id="@16908308" android:paddingLeft="?2130970029" android:paddingRight="?2130970030" android:layout_width="-1" android:layout_height="-2" android:minHeight="?2130970027" style="?materialAlertDialogBodyTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

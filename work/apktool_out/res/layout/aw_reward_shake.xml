@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="0x00000001" android:orientation="1" android:visibility="0" android:layout_width="-2" android:layout_height="-2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kc.aw.component.widgets.PtgShakeView android:id="@2131366126" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

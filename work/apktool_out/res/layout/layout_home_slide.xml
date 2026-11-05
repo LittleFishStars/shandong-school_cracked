@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="0x00800003" android:tag="" android:background="#f7f7f7" android:layout_width="-1" android:layout_height="-1" android:layout_marginStart="-64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.noober.background.view.BLView android:layout_width="-1" android:layout_height="199.0dip" app:bl_gradient_endColor="#000bd3ff" app:bl_gradient_startColor="#330bd3ff" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:gravity="0x00000010" android:tag="" android:background="@2131233095" android:paddingBottom="16.0dip" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@2131233121" />
+                    <LinearLayout android:orientation="1" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+                        <TextView android:textSize="18.0sp" android:textStyle="0x00000001" android:textColor="#0bd3ff" android:layout_width="-2" android:layout_height="-2" android:text="@2131953197" />
+                        <TextView android:textSize="12.0sp" android:textColor="#0bd3ff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.0dip" android:text="@2131953198" />
+                    </LinearLayout>
+                    <com.noober.background.view.BLTextView android:textSize="12.0sp" android:textStyle="0x00000001" android:textColor="@2131099806" android:gravity="0x00000011" android:layout_width="-2" android:layout_height="28.0dip" android:text="@2131953199" android:drawablePadding="4.0dip" android:drawableEnd="@2131233124" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:bl_corners_radius="14.0dip" app:bl_solid_color="#ff0bd3ff" />
+                </LinearLayout>
+                <com.noober.background.view.BLLinearLayout style="@style/mine_slide_ll_radius_container">
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233123" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953196" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233126" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953201" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233118" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953192" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233122" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953195" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233119" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953193" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+                <com.noober.background.view.BLLinearLayout style="@style/mine_slide_ll_radius_container">
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233117" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953191" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233125" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953200" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233115" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953190" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                    <LinearLayout android:tag="" style="@style/mine_slide_ll_menu">
+                        <ImageView android:src="@2131233120" style="@style/mine_slide_iv_menu_icon" />
+                        <TextView android:text="@2131953194" style="@style/mine_slide_tv_menu" />
+                        <ImageView style="@style/mine_slide_iv_menu_arrow" />
+                    </LinearLayout>
+                </com.noober.background.view.BLLinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:id="@2131363027" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.0dip" android:maxHeight="200.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00800005" android:tag="" android:layout_width="-2" android:layout_height="-2" android:src="@2131233116" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@2131165283" android:textColor="#8c8c8c" android:id="@2131361920" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@2131165271" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.beizi.fusion.asnp.adn.ad.ad.nativead.render.view.asnp.prefab.BasicWebView android:id="@2131361921" android:layout_width="-1" android:layout_height="-2" />
+</RelativeLayout>

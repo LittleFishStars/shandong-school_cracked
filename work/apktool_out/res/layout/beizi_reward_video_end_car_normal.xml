@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131362174" android:layout_width="-1" android:layout_height="-1" />
+        <View android:id="@2131362175" android:background="#b2000000" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="0x00000001" android:orientation="0" android:id="@2131362176" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="30.0dip" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="0x00000010" android:id="@2131362177" android:visibility="2" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="8.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffff" android:ellipsize="3" android:layout_gravity="0x00000010" android:id="@2131362178" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_above="@2131362176" android:layout_centerInParent="true">
+        <com.beizi.ad.internal.view.CustomRoundImageView android:id="@2131362168" android:visibility="2" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginBottom="15.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131362170" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="0x00000011" android:id="@2131362169" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15.0dip" />
+    </LinearLayout>
+</RelativeLayout>

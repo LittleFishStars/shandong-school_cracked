@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="@2131365137" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131365127" android:paddingLeft="5.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:src="@2131230952" />
+        <ProgressBar android:id="@2131365136" android:layout_width="-1" android:layout_height="-2" android:maxHeight="3.0dip" android:progressDrawable="@2131230958" android:minHeight="3.0dip" style="@16973855" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <FrameLayout android:id="@2131365131" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+            <TextView android:textSize="6.0sp" android:textColor="#ffffff" android:id="@2131365130" android:padding="10.0dip" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <WebView android:id="@2131365138" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+    <View android:id="@2131365132" android:background="#66000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:id="@2131365128" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@2131365129" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="1" android:id="@2131365134" android:background="#66000000" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <com.beizi.ad.internal.view.CustomRoundImageView android:id="@2131365135" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        <ImageView android:id="@2131365133" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:src="@2131755040" android:layout_below="@2131365135" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

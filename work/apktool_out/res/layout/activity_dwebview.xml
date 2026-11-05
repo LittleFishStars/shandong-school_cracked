@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@2131363144" layout="@layout/layout_toolbar_binding" />
+    <com.huachenjie.base.dsbridge_webview.WebContentView android:id="@2131362599" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

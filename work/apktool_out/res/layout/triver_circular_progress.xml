@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x00000001" android:id="@2131369016" android:layout_width="@2131166556" android:layout_height="@2131166556" android:layout_marginTop="@2131166554" android:layout_marginBottom="@2131166553" />
+    <TextView android:textSize="@2131166555" android:textColor="@2131101194" android:layout_gravity="0x00000001" android:id="@2131367676" android:layout_width="-2" android:layout_height="-2" android:text="@2131953896" />
+</merge>

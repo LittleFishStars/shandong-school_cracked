@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@2131366141" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131366143" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <ProgressBar android:layout_width="27.0dip" android:layout_height="27.0dip" android:indeterminateDrawable="@2131230903" />
+        <TextView android:textSize="13.0sp" android:textColor="@17170443" android:id="@2131366142" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131366140" android:background="@17170444" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="13.0sp" android:textColor="@17170443" android:layout_width="-2" android:layout_height="-2" android:text="" />
+        <com.kc.aw.component.widgets.PtgGrayBtn android:textSize="13.0sp" android:textColor="@17170443" android:id="@2131366145" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.0dip" android:text="" />
+    </LinearLayout>
+    <ImageView android:id="@2131366138" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:src="@2131230892" android:layout_centerInParent="true" />
+    <com.kc.aw.widget.PtgWebProgressBar android:id="@2131366139" android:layout_width="-1" android:layout_height="2.0dip" android:max="100" android:layout_alignParentBottom="true" style="@16973855" />
+</RelativeLayout>

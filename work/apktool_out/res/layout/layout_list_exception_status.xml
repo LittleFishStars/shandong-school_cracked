@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_load_error" />
+    <include layout="@layout/layout_network_error" />
+    <include layout="@layout/layout_data_empty" />
+</FrameLayout>

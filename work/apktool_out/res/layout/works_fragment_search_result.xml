@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:tag="" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@2131362375" android:background="@2131101240" android:layout_width="-1" android:layout_height="-2">
+        <com.huachenjie.common.widget.SelectBoldTabLayout android:id="@2131367472" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="-4.0dip" app:tabIndicator="@drawable/common_layer_tab_layout_650aec" app:tabIndicatorColor="#ff0bd3ff" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="3.0dip" app:tabSelectedTextColor="#ff191f20" app:tabTextColor="#ff191f20" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@2131368962" android:layout_width="-1" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

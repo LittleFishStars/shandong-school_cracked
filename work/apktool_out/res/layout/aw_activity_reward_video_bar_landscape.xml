@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kc.aw.component.videoplayer.NiceVideoPlayer android:id="@2131366144" android:layout_width="-1" android:layout_height="-1" />
+    <ImageView android:id="@2131366165" android:layout_width="-1" android:layout_height="-1" android:contentDescription="" />
+    <include android:layout_gravity="0x00000051" android:id="@2131366188" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="50.0dip" layout="@layout/aw_reward_shake" />
+    <com.kc.aw.widget.PtgRoundLinearLayout android:layout_gravity="0x00000050" android:orientation="0" android:id="@2131366156" android:layout_width="-1" android:layout_height="-2">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="8.0" />
+        <com.kc.aw.widget.PtgRoundLinearLayout android:gravity="0x00000010" android:orientation="1" android:background="#e6ffffff" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="-2" android:layout_weight="4.0" app:aw_clip_background="true" app:aw_round_corner="10.0dip">
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                <com.kc.aw.component.widgets.PlaceholderImageView android:id="@2131366157" android:background="@17170445" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="10.0dip" app:aw_cornerRadius="8.0dip" />
+                <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="14.0sp" android:textColor="#222222" android:ellipsize="3" android:gravity="0x00000010" android:id="@2131366159" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="#4a4a4a" android:ellipsize="3" android:id="@2131366158" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:maxWidth="83.0dip" android:singleLine="true" />
+                    <LinearLayout android:orientation="1" android:id="@2131366153" android:paddingTop="5.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="12.0sp" android:textColor="#4a4a4a" android:ellipsize="3" android:id="@2131366151" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+                        <TextView android:textSize="12.0sp" android:textColor="#4a4a4a" android:ellipsize="3" android:id="@2131366155" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+                        <LinearLayout android:orientation="0" android:paddingTop="3.0dip" android:layout_width="-1" android:layout_height="-2">
+                            <TextView android:textSize="10.0sp" android:textColor="#4a4a4a" android:id="@2131366152" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+                            <TextView android:textSize="10.0sp" android:textColor="#4a4a4a" android:id="@2131366150" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+                            <TextView android:textSize="10.0sp" android:textColor="#4a4a4a" android:id="@2131366154" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.kc.aw.component.widgets.PtgConfirmBtn android:textSize="15.0sp" android:textColor="@2131099726" android:gravity="0x00000011" android:id="@2131366181" android:layout_width="-1" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" android:text="" />
+            <include android:id="@2131362069" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" layout="@layout/aw_advert_logo" />
+        </com.kc.aw.widget.PtgRoundLinearLayout>
+    </com.kc.aw.widget.PtgRoundLinearLayout>
+    <LinearLayout android:id="@2131366174" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="8.0" />
+        <com.kc.aw.widget.PtgRoundLinearLayout android:orientation="1" android:background="#e6ffffff" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="-1" android:layout_weight="4.0" app:aw_clip_background="true" app:aw_round_corner="10.0dip">
+            <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+                <com.kc.aw.component.widgets.PlaceholderImageView android:id="@2131366166" android:background="@17170445" android:layout_width="52.0dip" android:layout_height="52.0dip" app:aw_cornerRadius="8.0dip" />
+                <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:textSize="16.0sp" android:textColor="#222222" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131366177" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" />
+                    <TextView android:textSize="14.0sp" android:textColor="#4a4a4a" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131366176" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5.0dip" android:maxWidth="83.0dip" android:maxLines="2" />
+                    <LinearLayout android:gravity="0x00000011" android:orientation="1" android:id="@2131366170" android:paddingTop="5.0dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="13.0sp" android:textColor="#4a4a4a" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131366168" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+                        <TextView android:textSize="13.0sp" android:textColor="#4a4a4a" android:ellipsize="3" android:gravity="0x00000011" android:id="@2131366172" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+                        <LinearLayout android:orientation="0" android:paddingTop="3.0dip" android:layout_width="-1" android:layout_height="-2">
+                            <TextView android:textSize="11.0sp" android:textColor="#4a4a4a" android:gravity="0x00000011" android:id="@2131366169" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+                            <TextView android:textSize="11.0sp" android:textColor="#4a4a4a" android:gravity="0x00000011" android:id="@2131366167" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+                            <TextView android:textSize="11.0sp" android:textColor="#4a4a4a" android:gravity="0x00000011" android:id="@2131366171" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_weight="1.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.kc.aw.component.widgets.PtgConfirmBtn android:textSize="15.0sp" android:textColor="@2131099726" android:gravity="0x00000011" android:id="@2131366173" android:layout_width="-1" android:layout_height="36.0dip" android:layout_marginTop="10.0dip" android:text="" />
+            <include android:id="@2131362811" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.0dip" layout="@layout/aw_advert_logo" />
+        </com.kc.aw.widget.PtgRoundLinearLayout>
+    </LinearLayout>
+    <include layout="@layout/aw_reward_top_view" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qiyukf.uikit.common.ui.imageview.MultiTouchZoomableImageView android:layout_gravity="0x00000011" android:id="@2131369752" android:layout_width="-2" android:layout_height="-2" android:scaleType="0" />
+    <ImageView android:layout_gravity="0x00000011" android:orientation="1" android:id="@2131369312" android:layout_width="-2" android:layout_height="-2" android:src="@2131234708" android:contentDescription="" />
+</FrameLayout>

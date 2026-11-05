@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.huachenjie.run.widget.RunActionButton android:layout_gravity="0x00000051" android:id="@2131368758" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="128.0dip" app:run_runActionFrameColor="@17170443" app:run_runActionFrameWidth="4.0dip" app:run_runActionPressingFrameWidth="8.0dip" app:run_runActionSize="80.0dip" app:run_runActionStyle="lock" app:run_runActionTipAutoAnim="true" app:run_runActionTipBgColor="@17170443" app:run_runActionTipText="屏幕已锁定，长按解锁" />
+</FrameLayout>

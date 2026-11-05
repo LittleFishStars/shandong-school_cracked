@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@2131363045" android:layout_width="-1" android:layout_height="-1" />
+    <include layout="@layout/run_layout_free_run_map_model" />
+    <include layout="@layout/run_layout_free_run_panel_model" />
+    <FrameLayout android:id="@2131363030" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>
