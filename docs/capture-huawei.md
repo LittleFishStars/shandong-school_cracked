@@ -1,8 +1,27 @@
 # 华为手机「网络报文分析」抓包对比指南
 
 目的：用华为开发者选项自带的报文抓包，采一份**原版 App 从冷启动到进入阳光跑
-并开跑**的真实流量，与本实现（桌面/安卓）的启动序列逐项对照，确认刚补的
-行为链（登录 → 首页浏览 → 跑步模块）在**顺序、域名、节奏**上都对得上。
+并开跑**的真实流量，与本实现（桌面/安卓）的启动序列逐项对照，验证行为链
+（登录 → 首页浏览 → 跑步模块）在**顺序、域名、节奏**上是否对得上。
+
+---
+
+## 进展（2026-11-05）
+
+本指南写于 2026-11-04「准备阶段」。实际拿数据走的是**手机端 Reqable / HttShark**（内置用户 CA +
+可直接导出 HAR），比华为「网络报文分析」的原始 pcap 信息量更大，**已完成解密**（说明应用层
+没有硬 pinning）。得到的结论已落进代码，不再是待办：
+
+| 发现 | 落地位置 |
+|---|---|
+| 鸿蒙口径 `platform=4` / `appVersion 8.7.1` / `buildVersion 26101314` | `constants.HM_PROFILE`（`--hm`） |
+| 鸿蒙 `modelName` 是**纯型号**（`ALN-AL80`，非 `MANUFACTURER\|MODEL`） | 同上；`net.public_fields()` |
+| 鸿蒙 UA 全小写且**无括号段**：`shandong/8.7.1` | `net.user_agent()`（`platform == "4"` 分支） |
+| 登录后→进跑步前的**真实浏览实序** | `behavior.py` + `constants.EP` 行为链段（已重排） |
+| `schoolLetter/redDot`、`task/getDescription` 是鸿蒙 8.7.1 新增（8.7.7 dex 无此路由） | `constants.EP` 注释 |
+| satoken 活跃期滚动续期，放着不用（实测 10 天）失效返 `1503` | [`协议说明 §4.0.1`](desktop/协议说明.md) |
+
+下文保留 pcap 路线，用于**无解密条件下的节奏（域名/连接簇）对比**，与已完成的字段级核对互补。
 
 ---
 
@@ -178,9 +197,10 @@ python3 projects/desktop/scripts/har_diff.py capture.har            # 只看抓�
 python3 projects/desktop/scripts/har_diff.py capture.har --compare   # 与本实现逐字段对比
 ```
 
-注意 `har_diff.py` 目前只识别跑步链路的 10 个接口（见脚本 `ROUTE_KEYS`），
-登录/首页行为链的接口还没加进去——拿到 HAR 后我再扩，或先手工看
-`--dump` 出来的样本。
+`har_diff.py` 的 `ROUTE_KEYS` 已扩展到 **18 个路由**：跑步链路 10 个（规则预检 / 开跑 /
+四类上传 / 打卡 / 结算 / 人脸底图 / OSS 令牌）+ 行为链 8 个（消息红点 / 社区推荐流 /
+帖子详情 / 上报浏览 / 个人资料 / 本校信息 / 里程排行榜 / 跑单详情）。
+新增路由时直接往 `ROUTE_KEYS` 里加条目即可；不在表里的走 `--dump` 看原始样本。
 
 ---
 
@@ -198,7 +218,7 @@ python3 projects/desktop/scripts/har_diff.py capture.har --compare   # 与本实
    （原版 NSC 信任 `user`，系统层面放行）。
 3. **判定是否真的解密成功**（§0 的 pinning 疑点）：
    - mitmweb 里能看到 `https://api.huachenjie.com/run-front/auth/loginCheck`
-     这类明文 → 没绑定，直接导出 HAR 走 §4.4；
+     这类明文 → 没绑定，直接导出 HAR 走 §4.4；**实测已走通这条**（Reqable / HttShark 能解密）
    - 只看到 `CONNECT api.huachenjie.com:443` 后立刻 `TLS handshake failed`
      或 App 报网络错误 → 应用层校验证书，MITM 这条路走不通，
      回到 pcap 时间线（§4）即可，**本次任务不需要强行解密**。
@@ -214,13 +234,15 @@ python3 projects/desktop/scripts/har_diff.py capture.har --compare   # 与本实
 | `tmp/capture/capture.pcapng` | ✅ | 原始抓包 |
 | `tmp/capture/timeline.txt` | ✅ | `pcap_timeline.py` 输出 |
 | 第 2 节记的 T0/T2/T3/T4/T6 时刻 | ✅ | 手写几行即可，用来对齐阶段 |
-| `flow.har`（若方案 B 成功） | ⭕ | 可选，能看到报文字段 |
+| `flow.har` | ✅ | 实测已拿到（Reqable / HttShark 导出），字段级核对已完成 |
 | 手机机型 / EMUI 或 HarmonyOS 版本 | ⭕ | 不同版本抓包路径有差异 |
 
 拿到后我做三件事：
-1. 按阶段拆时间线，核对**行为链是否真实存在、顺序与间隔是否一致**；
-2. 若发现真机有我们没实现的域名/阶段，补进 `constants.EP` + `behavior.py`；
-3. 生成一份对照报告（`report/27-真机启动流量对照.md`），含差异表与结论。
+1. 按阶段拆时间线，核对**行为链是否真实存在、顺序与间隔是否一致**（✓ 已完成，行为链已重排）；
+2. 若发现真机有我们没实现的域名/阶段，补进 `constants.EP` + `behavior.py`（✓ 已补 worksConfig /
+   jackpot / tasks / getCommonConfig / suggestion / schoolLetter redDot / userResource / task description）；
+3. 生成一份对照报告（`report/27-真机启动流量对照.md`），含差异表与结论（⏳ 待做：现有结论已
+   写进 [`docs/desktop/协议说明.md`](desktop/协议说明.md) §4.0.1 与 §6.0.1，如需独立报告再补）。
 
 ---
 
@@ -229,8 +251,8 @@ python3 projects/desktop/scripts/har_diff.py capture.har --compare   # 与本实
 | 工具 | 状态 |
 |---|---|
 | `projects/desktop/scripts/pcap_timeline.py` | ✅ 新增：pcap → 时间线（DNS/SNI/HTTP） |
-| `projects/desktop/scripts/har_diff.py` | ✅ 已有：HAR 逐字段对比（跑步链路 10 接口） |
+| `projects/desktop/scripts/har_diff.py` | ✅ 已扩：HAR 逐字段对比（**18 路由**：跑步链路 10 + 行为链 8） |
 | `tshark` | ✅ 本机已装 `/usr/bin/tshark` |
-| `mitmproxy` | ❌ 本机未装，方案 B 用到再装（用户规则：需要就装包，不手搓） |
+| `mitmproxy` | ⭕ 本机未装；实际改用**手机端 Reqable / HttShark**（已完成解密并导出 HAR） |
 | 原版 APK 的 NSC / 证书资产 | ✅ 已核实（本指南 §0） |
-| 真机 pcap | ⏳ 等你抓 |
+| 真机 pcap / HAR | ✅ HAR 已拿到并完成字段级核对（2026-11-05）；pcap 时间线路线保留作节奏对比 |

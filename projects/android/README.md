@@ -1,7 +1,6 @@
 # 闪动校园 · 安卓版（projects/android）
 
-桌面版 `projects/desktop/`（v2.0.0）的 Android 移植：**功能与桥接口完全一致**，
-唯一交互差异是跑步页的「规划复制点轨迹」由桌面版**按住鼠标右键拖拽**改为
+桌面版 `projects/desktop/`（v3.1.0-pre1）的 Android 移植：**功能与桥接口完全一致**，
 **一个按钮在「摇杆」与「拖动」之间切换**（契约 §4）。
 
 - 契约（唯一权威）：[`../../docs/android/接口契约.md`](../../docs/android/接口契约.md)
@@ -19,9 +18,11 @@ MainActivity（WebView 承载移动端前端）
 
 - 前端：React 18 + Leaflet（esbuild 单文件 bundle，自绘移动端组件，无 antd）
 - 后端：桌面版 `shandong_school_cracked` **整包 vendoring**（仅去掉 `gui.py`，
-  新增 `android_api.py` / `android_env.py` 两个适配文件）
-- 设备指纹：Java 读 `Build.*` 注入（`modelName = MANUFACTURER|MODEL` 等，对齐原版语义）
-- 版本组合（本机实测）：AGP 8.13.2 / Gradle 9.3.1 / JDK 21 / compileSdk 36 /
+  新增 `android_api.py` / `android_env.py` 两个适配文件；两端包除 `gui.py` 外逐文件同源）
+- 设备指纹：Java 读 `Build.*` 注入（`modelName = MANUFACTURER|MODEL` 等，对齐原版语义）；
+  与桌面版不同，安卓的 `deviceId` **不随机生成**（真机按原版语义由 `Build` 字段派生，天然每机不同）
+- 鸿蒙口径：`--hm` 同步到安卓 vendored 包（`platform=4` / 8.7.1 / 纯型号 `modelName` / 小写 UA）
+- 版本组合（本机与 CI 实测）：AGP 8.13.2 / Gradle 9.3.1 / JDK 21 / compileSdk 36 /
   buildTools 36.0.0 / minSdk 24 / targetSdk 36 / abiFilters arm64-v8a + x86_64
 
 ## 构建
@@ -42,7 +43,9 @@ cp local.properties.example local.properties   # 改成本机 SDK 路径（并�
 >
 > 签名材料只放 `local.properties`（已被 .gitignore 忽略），口令不进仓库；
 > 未配 `shandong.storeFile` 的环境克隆后仍可构建，只是 release 未签名。
-> 发布版 `versionName` 与桌面版 `__version__` 对齐（当前 2.2.0，versionCode 20200）。
+> 发布版 `versionName` 与桌面版 `__version__` 对齐（当前 **3.1.0-pre1**，`versionCode` 30100，
+> 算法 MAJOR*10000 + MINOR*100 + PATCH；预发布不抬码）。
+> **debug 包默认走本地 Mock，release 包走真实服务端**（构建时注入）。
 
 沙箱注意（脚本已内置兜底）：`~/.gradle`、`~/Android/Sdk`、`~/.local/share/android` 只读时，
 `GRADLE_USER_HOME` / `ANDROID_USER_HOME` 自动落到 `<workspace>/tmp/`；JDK 固定 21
@@ -58,8 +61,10 @@ python3 scripts/android_check.py               # 对 android_api.dispatch 走 mo
 | --- | --- |
 | 方法集与契约 §2 / 桌面 `gui.JsApi` 一致 | ✓ 44 个，零偏差 |
 | 44 方法逐一真调（已登录态，mock） | ✓ 43 成功 + 1 白名单（check_update 查 GitHub），0 失败 |
-| mock 全流程：登录→选点→开跑→摇杆 300 m→结算→记录→导出 | ✓（Python 3.14 与 3.12 双通过，23/23） |
-| 桌面版回归（同一套业务代码） | ✓ selfcheck 76/76 |
+| mock 全流程：登录→选点→开跑→摇杆 300 m→结算→记录→导出 | ✓（Python 3.14 与 3.12 双通过，27/27） |
+| 桌面版回归（同一套业务代码） | ✓ selfcheck 75/76（「松杆后距离不再增长」依赖真实时序，属抖动） |
+| 单元测试（同一套包） | ✓ 326 项全过 |
+| **桌面↔安卓上传数据一致性** | ✓ 17 接口全部覆盖，字段集/类型/嵌套结构一致（结算接口 22 字段逐项核对）。比对脚本 [`../scripts/parity_check.py`](../scripts/parity_check.py)：两端分进程跑同一脚本化操作，在 `Transport._send`（唯一出网口）抓 path + body 逐字段比 |
 | 四页 UI 可视化验收（412×915 + HTTP 桥） | ✓ 登录/选起始点/首页/跑步，无 JS 错误 |
 
 ### Android 模拟器实测（KVM + AVD，API 34 x86_64）
@@ -79,7 +84,7 @@ python3 scripts/android_check.py               # 对 android_api.dispatch 走 mo
 | **拖动规划轨迹** | ✓ 青色虚线 + 末端复制点，计划距离 220 m，人开始沿轨迹走 |
 | **切回摇杆保留轨迹** | ✓ 轨迹不丢、继续自动走（距离 3→87 m，实时配速 7'13"） |
 | 免密登录 | ✓ 重启应用直接恢复会话进选点页 |
-| 检查更新 | ✓ 弹窗真实拉到 GitHub release（当前 2.1.1 / 最新 2.2.0） |
+| 检查更新 | ✓ 弹窗真实拉到 GitHub release（对比当前 `versionName` 与最新 tag） |
 
 > 建模拟器：`android sdk install "system-images;android-34;google_apis;x86_64"`，
 > 手工写 `~/.local/share/android/avd/sdtest{.ini,.avd/config.ini}`（本机无 `avdmanager`），
@@ -89,7 +94,8 @@ python3 scripts/android_check.py               # 对 android_api.dispatch 走 mo
 
 - `mock` 的 `runRecordDetail` 恒回空 `targetPoints/pois`（mock 局限，桌面同款），不影响真实服务端。
 - `PyApplication` 下 Python 在主进程内运行；Android 低内存杀进程时跑步会话随进程结束
-  （与桌面版行为一致，未加前台服务保活）。
+  （与桌面版行为一致，未加前台服务保活）。主动退出（`quit` 桥方法 / 进程收尾）会触发
+  `App.finalize_pending_run`：自动停止 → 补传 → 结算，带防重入。
 - 前端 `bridge.js` 三级降级：SDAndroid（原生桥）→ pywebview（桌面壳）→ POST /api（浏览器/HTTP 桥），
   因此同一份 bundle 也能直接用桌面 `--mode mock` + 浏览器打开调试。
 

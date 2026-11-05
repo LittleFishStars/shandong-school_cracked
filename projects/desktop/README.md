@@ -2,8 +2,8 @@
 
 一个用 Python 重写的**桌面程序**，把「闪动校园」（`com.huachenjie.shandong_school`）阳光跑的整条链路
 从 App 里搬出来：**登录 → 选围栏/规则 → 开跑 → 轨迹与步频记录 → 分批上传 → 结算**，
-并且内置一套**离线 Mock 服务端**与**传感器仿真器**（移植自 [FUCK-RUN-](https://github.com/BieFan1029/FUCK-RUN-)），
-不开手机、不连服务器也能把全流程跑通、看数据、调参数。
+并内置**离线 Mock 服务端**、**传感器仿真器**（移植自 [FUCK-RUN-](https://github.com/BieFan1029/FUCK-RUN-)）与**行为链仿真**，
+不开手机、不连服务器也能把全流程跑通、看数据、调参数。同一套业务代码被 [`projects/android/`](../android/) 整包复用。
 
 界面是 **React 18 + Ant Design 4**（esbuild 打包、原版 App 图标），由 **pywebview** 装进原生窗口；没有 pywebview 时自动降级成
 「本地 HTTP + 浏览器」，功能完全一致。
@@ -17,7 +17,10 @@
 
 | 版本 | 摘要 |
 | --- | --- |
-| **v2.2.1**（2026-10-24） | 移除**方向键控制摇杆**（只保留鼠标/触摸拖动）；代码清理与结构优化：后端 `pyflakes` 归零（未使用导入/变量、缺失的 `List` 导入、无占位符 f-string），前端移除未使用的计算与组件参数、删除废弃 CSS 样式，事件流卡固定 360px 可滚动。上传报文与功能行为未改动。 |
+| **v3.1.0-pre1**（2026-11-05） | **鸿蒙真机口径** `--hm`（`platform=4` / `appVersion 8.7.1` / `buildVersion 26101314` / `modelName` 为**纯型号** `ALN-AL80` / UA 小写 `shandong/<ver>`，均为 2026-11-05 Reqable 真机抓包实值）；**手动设备号** `--deviceId`；行为链按真机实序重排。安全：会话日志（含真实手机号）已从**全部历史**移除并进 `.gitignore`。测试 326 项全过。 |
+| **v3.0.0-pre2**（2026-10-27） | 版本号对齐（桌面 `__version__` / 打包 `version_info` / 安卓 `versionName`）；安卓 `versionCode` 保持不抬码（预发布不抬）。 |
+| **v3.0.0-pre1**（2026-10-25） | **三平台发布**：CI 拆为 desktop（Linux/Windows 矩阵）+ android（APK）两个 job，Release 汇总三个产物；标签含 `-pre/-beta/-rc/-alpha` 自动标 **prerelease**（不进 latest）；`build_bin.py` 支持预发布版本号（Windows `VSVersionInfo` 只取数字段）。新增**关闭软件时自动结束进行中的跑步**（`App.finalize_pending_run` + `atexit`，防重入）；**行为链**（登录后首页浏览 + 跑后看成绩的真实请求序列，失败静默、6h 节流、仅真实服务端）；桌面设备码改为**首次启动随机生成并落盘**；安卓同步桌面人脸链路/速度动力学/TLS 伪装/机型池/现场照随机化。 |
+| **v2.2.1**（2026-10-24） | 移除**方向键控制摇杆**（只保留鼠标/触摸拖动）；代码清理：后端 `pyflakes` 归零，前端移除未使用的计算与组件参数、删除废弃 CSS 样式，事件流卡固定 360px 可滚动。上传报文与功能行为未改动。 |
 | **v2.2.0**（2026-10-24） | 首页与跑步页改为**地图全屏 + 底部突出面板**：首页面板宽:高 = 4:3（目标距离、开始按钮居中、更多右下、账户圆形在更多上方、重新选择起始点左下）；跑步页底部三块并排面板（**统计在左（两列）**、**摇杆居中**（配速输入在摇杆上方）、**停止在右**）。修复目标距离**下拉选项被底部面板遮挡**（层级提到面板之上）。上传报文未改动。 |
 | **v2.1.1**（2026-10-24） | **Windows 发布件不再带控制台**（GUI 子系统，启动不弹黑色命令行窗口）；Linux 版本保留控制台，仍可直接当 CLI 用。Release 说明改为只写当前版本，仅大版本（x.0.0）写自上一个 major 以来的汇总。 |
 | **v2.1.0**（2026-10-24） | 跑步页：摇杆下方新增**配速输入框**（回车生效、夹在学校规则配速区间内，过快/过慢自动纠正），运行中实时调速；统计区新增**实时配速**（当前速度换算），「配速」改为用时/距离的**平均配速**，「计划距离」移到距离下面；修复设置起始点时地图被重置缩放（fitKey 去掉起点坐标）。上传报文未改动。 |
@@ -25,6 +28,8 @@
 | **v1.3.0**（2026-10-23） | 前端改用 **React 18 + Ant Design 4**（esbuild 打包、原版 App 图标）并按参考图重做界面：登录页（手机号/密码/选择已有账号）、登录后先进**选起始点页**、首页（地图 + 目标距离 + 开始/更多）、跑步页（距离/配速/摇杆/结束）、更多页、**账户页**（头像/用户名/退出登录/跑步记录）；地图右上角**高德地图/高德卫星**切换，打卡点带**序号**；跑步页新增**右键拖出复制点轨迹**：按速度生成路径点，人朝下一点走、内积反向即过点，拖动时仍可行动，推摇杆清空计划，并显示**计划距离**。修复：保存参数误报失败、打卡点数量（取本次/最近记录 targetPoints）、目标距离按真实规则（3 km/2 km）、摇杆方向与速度、登录页「选择已有账号」误跳账户页等。上传报文未改动，与 v1.2.0 一致。 |
 | **v1.2.0**（2026-10-23） | 界面重构：右栏改为**服务器记录**（`run/pageSunRunRecord` + `run/runRecordDetail`），点记录回显到「本次跑步」；**登录/启动自动拉取配置**（去掉「拉取配置」按钮）；目标距离改为按学校规则区间、从高到低每 1 km 的下拉；参数简化为**平均步频 ± 波动**与**配速**，移除失败率/实时仿真；学校规则改从 `run/querySunRunAbstractInfoV2` 的 `schoolDemandRule` 解析（修复“拉取后规则不更新”）；历史账号下拉显示手机号/学号。上传报文已逐一核对，与 v1.1.0 **逐字段一致**（仅时间戳/记录号/防篡改码不同）。 |
 | v1.1.0 | 到达目标自动结算；结算补发 pois 修复 |
+
+当前版本：**3.1.0-pre1**（`shandong_school_cracked/__init__.py` 的 `__version__`；安卓 `versionName` 与它对齐，`versionCode` 30100）。复刻的 App 版本 `APP_VERSION = "8.7.7"`（`--hm` 鸿蒙口径下为 8.7.1）。
 
 ### 发布说明约定
 
@@ -45,8 +50,13 @@
 | 结算 | 完全照搬原版 `DataComponent.t1()` 的 Map：`runRecordCode / duration / distance / totalStep / status / stepInterval / paceInterval / targetPoints / alignType / pauseCount / pauseTimes / sportType`（非空时加 `invalidReasons`）；**不含** pois/stepList/paceList |
 | 调试 | Mock 服务端（可注入延迟与随机失败率）、传感器仿真器（步频/抖动/丢包/暂停）、实时仿真（逐点推进，可在界面上看轨迹长出来）、事件流面板、服务器记录浏览（`run/pageSunRunRecord` 分页 + `run/runRecordDetail` 详情，数据以服务端为准） |
 | 地图 | Leaflet 真实底图（高德路网/卫星、OSM、或关闭底图），围栏、打卡点、轨迹、规划路线、**起跑点**矢量叠加；**拉到电子围栏后镜头自动飞到围栏**（围栏换了才动；用户自己拖过镜头之后不再抢镜）；UI 自动验证布局与几何 |
-| 手控 | **摇杆实走**（摇杆钉在地图右下角常驻，拖动摇杆 / 方向键逐帧推进位置与传感器；推满杆默认 2.5 m/s，可调）；**自动跑**（一个按钮在「沿规划路线自动巡航」与「手动摇杆」之间切，推杆即接管）；**只规划不动**（按打卡点最近邻连成闭环、或地图上点选路点，只画出来不升跑）；**实跑边跑边落库**（完全按原 App 记录链路：定位回调 3 秒一条、精度/速度过滤、有效点折线累距、步频段 20 秒一段、配速段 50 米一段、打卡半径 25 米），干跑/实跑结束后可一键上传结算 |
+| 手控 | **摇杆实走**（跑步页底部中间面板；鼠标/触摸拖动逐帧推进位置与传感器，推满杆默认 2.5 m/s，可用配速输入框实时调速；方向键已在 v2.2.1 移除）；**自动跑**（一个按钮在「沿规划路线自动巡航」与「手动摇杆」之间切，推杆即接管）；**只规划不动**（按打卡点最近邻连成闭环、或地图上点选路点，只画出来不升跑）；**实跑边跑边落库**（完全按原 App 记录链路：定位回调 3 秒一条、精度/速度过滤、有效点折线累距、步频段 20 秒一段、配速段 50 米一段、打卡半径 25 米），干跑/实跑结束后可一键上传结算 |
 | 续传 | 断点续传：只补传「未成功」的点/段，含尾部补齐段 |
+| 退出 | **关闭软件自动结算**：程序退出（含 GUI 关闭窗口与 `atexit`）时若跑步还在进行，自动停止 → 补传 → 结算，带防重入标志不会重复结算 |
+| 口径 | 设备档案池（`MODEL_POOL`，13 个真实机型，品牌/型号/系统版本自洽）；`deviceId` **首次启动随机生成并落盘**，`--deviceId` 可手动指定；`--hm` 鸿蒙真机口径（`platform=4` / 8.7.1 / build 26101314 / 纯型号 `modelName` / 小写 UA） |
+| 人脸 | `getUserFaceImg` 底图 + `faceCheckConfig` 按检查点上传现场照（报告二十五）；现场照**相机级随机化**，每个检查点独立图 |
+| 行为链 | 登录后「首页浏览」与跑后「看成绩」的真实请求序列（社区配置→抽奖→资料→公共配置v2→登录任务→推荐流→详情/浏览→热词→排行→校园信红点→重要信件→用户资源→任务描述），**失败静默**、真实间隔 ~8s、6h 节流、仅真实服务端（`behavior.py`） |
+| 防测 | TLS 指纹伪装（curl_cffi `chrome110`，缺席自动降级为原生 urllib）、接口节流与重试、Wayland/GDK 无害警告过滤、Windows GUI 子系统下标准流为 None 的兼容 |
 
 ---
 
@@ -90,6 +100,8 @@ cd projects/desktop
 python3 -m venv --system-site-packages .venv       # 继承系统包，省一次下载
 .venv/bin/pip install pywebview                    # 桌面窗口（可选，缺了就自动走浏览器）
 .venv/bin/pip install pycryptodome                 # 可选，密码学后端更快（没有则用 cryptography）
+.venv/bin/pip install curl-cffi                     # 可选，TLS 指纹伪装（chrome110），没有则用原生 urllib
+.venv/bin/pip install pillow opencv-python        # 可选，滑块验证码求解更稳（没有走纯 Python 降级）
 ```
 
 `pycryptodome` / `cryptography` / 纯标准库三种密码学后端会自动择优（见 `ciphers.py`），
@@ -124,6 +136,9 @@ python3 -m venv --system-site-packages .venv       # 继承系统包，省一次
 .venv/bin/python -m shandong_school_cracked start-point          # 看当前跑步起点（围栏中心 / 图上选的）
 .venv/bin/python -m shandong_school_cracked start-point --lat 36.6637 --lng 117.0265   # 设起点（围栏外自动吸附）
 .venv/bin/python -m shandong_school_cracked start-point --clear  # 回围栏中心
+.venv/bin/python -m shandong_school_cracked users                  # 历史账号：list / use / rm（免重输密码）
+.venv/bin/python -m shandong_school_cracked run -d 2000 --hm        # 鸿蒙真机口径（platform=4 / 8.7.1 / ALN-AL80）
+.venv/bin/python -m shandong_school_cracked run -d 2000 --deviceId <uuid>   # 手动指定设备号并持久化
 .venv/bin/python -m shandong_school_cracked check -v               # 跑自检（等价下面两脚本）
 ```
 
@@ -134,6 +149,8 @@ python3 -m venv --system-site-packages .venv       # 继承系统包，省一次
 .venv/bin/python -m shandong_school_cracked --mode mock gui
 #    临时用代理观察流量：
 .venv/bin/python -m shandong_school_cracked --proxy http://127.0.0.1:8080 gui
+#    把设备指纹对齐到手机（克隆会话到桌面时用）：
+.venv/bin/python -m shandong_school_cracked --deviceId <手机 deviceId> run -d 2000
 ```
 
 #### 登录：默认真实，本地登录是可选项
@@ -147,7 +164,7 @@ python3 -m venv --system-site-packages .venv       # 继承系统包，省一次
 
 #### 真实接口已实测到的行为
 
-`scripts/realcheck.py` 会把下面这些逐条跑一遍（当前 **12/12 通过**）：
+`scripts/realcheck.py` 会把下面这些逐条跑一遍（最近一次全绿）：
 
 | 环节 | 实测结果 |
 | --- | --- |
@@ -186,14 +203,15 @@ cd web && npm install && npm run build   # 或直接 ./node_modules/.bin/esbuild
 | **登录** | 左侧「⚡ 闪动校园」+ 右侧卡片：手机号、密码、登录、选择已有账号（切到历史账号下拉，免密登录；可切回登录新账号） |
 | **首页** | 左侧全屏地图（只有围栏与起点）；右侧：logo、目标距离下拉、**开始**大圆按钮、**更多**小圆按钮、底部进度条 |
 | **选起始点** | 顶部「选择起始点」+ 右上「确认」，下方全屏地图；图上点一下即设起点，「确认」返回首页 |
-| **跑步** | 同一个地图跟踪本次轨迹；右侧：距离 / 配速、摇杆、**结束**小圆按钮 |
-| **更多** | 功能页（参考图未给出内容）：跑步参数（运行模式、围栏、平均步频 ± 波动、步幅、配速、自动结算、保存参数、换 deviceId）、学校规则、账号（信息 / 数据目录 / 退出）、本次跑步、地图与起点（选择起始点 / 清除 / 适应 / 瓦片 / 着色）、高级调试（干跑、规划、一键跑、断点续传、手动/自动切换）、服务器记录、事件流 |
+| **跑步** | 同一个地图跟踪本次轨迹；底部三块面板：左侧统计（距离 / 计划距离 / **配速**（移动均速，只计真正在动的时间）/ **实时配速**）、中间**摇杆** + 上方配速输入框（回车生效、自动夹在学校规则配速区间、运行中实时调速）、右侧**结束**小圆按钮；地图上**按住鼠标右键拖拽**可规划复制点路径（安卓端为「摇杆 / 拖动」按钮切换） |
+| **更多** | 跑步参数（运行模式、围栏、平均步频 ± 波动、步幅、配速、到达目标自动结算、保存参数、换 deviceId）+ **事件流**（实时日志带清屏）。早期版本的服务端记录 / 学校规则 / 本次跑步 / 账号 / 地图与起点 / 高级调试等入口已精简或迁到对应页面 |
+| **账户** | 头像 / 昵称 / **退出登录** / 跑步记录列表 + 头部「已完成 X km / 要求 Y km」进度；记录卡显示**计入里程**（大号，按日上限封顶）、状态标签、本次总里程、时长/配速/消耗 |
 
 流程：**登录 → 自动拉取围栏与规则 → 选起始点页（点地图选点，确认）→ 首页点「开始」→ 跑步页摇杆 → 「结束」上传结算 → 回到首页**；
 到达目标里程自动结算后同样回到首页。
 
 > 启动时总是先进登录页（即使本地会话仍有效）：点「选择已有账号」即可免密进入。
-> 「运行模式（真实服务端 / 本地 Mock）」在「更多 → 跑步参数」里切换；选起始点入口在「更多 → 地图与起点」。
+> 「运行模式（真实服务端 / 本地 Mock）」在「更多 → 跑步参数」里切换；选起始点入口在**首页左上角「重新选择起始点」**。
 
 - 目标距离是下拉：按学校规则的单次距离区间、从高到低每 1 km 一项（真实规则 2000–3000 → `3 km` / `2 km`）。
 - 打卡点数量优先取最近一次记录的 `targetPoints`，其次本次开跑下发，最后回退围栏的 `requiredPointCounts`。
@@ -211,7 +229,7 @@ cd web && npm install && npm run build   # 或直接 ./node_modules/.bin/esbuild
 数据库表：`runs`（记录头）、`points`（轨迹点，带 `is_valid/is_uploaded/state`）、`steps`（步频段）、`paces`（配速段）、`strides`（步幅段）、`checkpoints`（打卡点）、
 `upload_log` / `api_log`（上传与接口日志）、`kv`（会话与配置缓存）。WAL 模式，短连接，线程安全。
 
-### 四个上传接口与原版的一一对应
+### 五个上传接口与原版的一一对应
 
 | 接口 | 原版方法 | 取数条件 | 发送门限 |
 | --- | --- | --- | --- |
@@ -228,12 +246,12 @@ cd web && npm install && npm run build   # 或直接 ./node_modules/.bin/esbuild
 ```bash
 export SDLAB_HOME=$PWD/.run          # 沙箱内 ~/.local/share 只读时必加
 
-# 单元测试（187 项）
+# 单元测试（326 项，含行为链 / 退出结算 / 设备码首启动 / pcap 时间线 / stdio·stderr 兼容）
 .venv/bin/python -m unittest discover -s tests
 
-# 端到端自检（68 项：密码学 / 结算码原生预言机 / 仿真 / 跑步起点 / 打卡点来源 / 自动跑与手动摇杆 / 停下来时间照走 /
+# 端到端自检（76 项：密码学 / 结算码原生预言机 / 仿真 / 跑步起点 / 打卡点来源 / 自动跑与手动摇杆 / 停下来时间照走 /
 #   轨迹点报文口径（runTime 整数秒 / createTime / offFenceDisM=-1 / 跑中增量上传）/ 全链路 /
-#   失败注入+续传）
+#   失败注入+续传。其中「松杆后距离基本不再增长」一项依赖真实时序，偶发差 1 项属抖动）
 .venv/bin/python scripts/selfcheck.py -v
 
 # 前端桥自检（59 项：用和浏览器一模一样的 HTTP 调用驱动后端，含 app.js 语法校验、摇杆干跑、
@@ -252,6 +270,14 @@ export SDLAB_HOME=$PWD/.run          # 沙箱内 ~/.local/share 只读时必加
 .venv/bin/python scripts/realcheck.py --captcha-trials 5
 
 .venv/bin/python -m shandong_school_cracked check      # 两个自检一起跑
+
+# 线缆级回归（报文与原版逐字段对比）与真机流量对比工具
+.venv/bin/python scripts/audit_wire.py                 # 签名头 / 公共字段 / e 头一致性
+.venv/bin/python scripts/pcap_timeline.py <pcap> --host huachenjie   # 真机抓包 → 时间线
+.venv/bin/python scripts/har_diff.py <har> --compare   # HAR 逐字段对比（18 个路由）
+
+# 安卓侧自检（不需要手机，对 android_api.dispatch 走 mock 全流程）
+python3 ../../android/scripts/android_check.py         # 27/27
 ```
 
 ---
@@ -264,44 +290,59 @@ shandong-school_cracked/
 │   ├── constants.py        #   全部常量/密钥/端点表的唯一出口
 │   ├── ciphers.py          #   可插拔密码学原语（pycryptodome→cryptography→纯标准库）
 │   ├── crypto.py           #   签名、字段加解密、滑块混淆、结算码、DES
-│   ├── protocol.py         #   几何、打卡点、轨迹生成、有效性判定、报文构造
+│   ├── protocol.py         #   几何、打卡点、轨迹生成、有效性判定、报文构造、SpeedDynamics（真人速度动力学）
 │   ├── simulator.py        #   传感器仿真（FUCK-RUN- 移植：加速度/步检测/步频漂移）
-│   ├── net.py              #   HTTP 传输层（公共字段、UA、签名、Cookie、代理）
+│   ├── net.py              #   HTTP 传输层（公共字段、UA/鸿蒙口径、签名、Cookie、代理、TLS 伪装）
+│   ├── behavior.py         #   行为链：登录后首页浏览 / 跑后看成绩的真实请求序列（失败静默 + 6h 节流）
 │   ├── walker.py           #   摇杆实走引擎（手动控向、沿路线巡航、采样、打卡）
 │   ├── walk.py             #   实走会话（后台线程推进 + 增量落库 + 干跑/实跑）
 │   ├── captcha.py          #   滑块验证码求解（无 OpenCV）
-│   ├── client.py           #   业务门面：登录→备跑→开跑→上传→结算
+│   ├── client.py           #   业务门面：登录→备跑→开跑→人脸底图→上传→结算
+│   ├── updater.py          #   启动检查更新（GitHub latest release，SDLAB_UPDATE_API 可覆盖）
 │   ├── store.py            #   SQLite 记录库
 │   ├── mock.py             #   离线 Mock 服务端（含服务端侧规则复核）
 │   ├── engine.py           #   运行引擎：一次跑步的完整编排 + 断点续传
 │   ├── bus.py              #   事件总线 + 配置存储
-│   ├── app.py              #   GUI/CLI 共用的应用门面（含导出、记录管理）
+│   ├── app.py              #   GUI/CLI 共用的应用门面（导出、记录管理、退出自动结算 finalize_pending_run）
+│   ├── stderr_filter.py    #   进程级 stderr 接管（过滤 WebKit/GDK 无害警告）
+│   ├── stdio.py            #   Windows GUI 子系统下标准流为 None 的兼容
 │   ├── gui.py              #   pywebview 桌面外壳 / HTTP 降级
 │   ├── cli.py              #   命令行
 │   └── __init__.py, __main__.py
-├── web/                    # 前端（原生 JS，无构建）
-│   ├── index.html  ├── style.css  └── app.js
+├── web/                    # 前端（React 18 + Ant Design 4，esbuild 打包）
+│   ├── src/                #   App.jsx / MapCanvas.jsx / Joystick.jsx / bridge.js /
+│   │                       #   pages/（Login｜Pick｜Home｜Run｜Account｜More）
+│   ├── index.html  ├── style.css  └── app.bundle.js   # 打包产物（已提交，运行时不需 node）
 ├── scripts/
 │   ├── selfcheck.py        # 端到端自检
 │   ├── webcheck.py         #   前端桥自检
 │   ├── gui_probe.py        #   桌面外壳冒烟（真开窗口、点按钮、断言布局）
-│   └── build_bin.py        #   打包单文件可执行程序（Linux/Windows 同一套）
+│   ├── build_bin.py        #   打包单文件可执行程序（Linux/Windows 同一套，支持预发布版本号）
+│   ├── audit_wire.py       #   线缆级回归：报文与原版逐字段对比
+│   ├── pcap_timeline.py    #   真机 pcap → DNS/SNI/HTTP 时间线（行为链节奏对比）
+│   ├── har_diff.py         #   MITM HAR 逐字段对比（18 个路由，含行为链）
+│   ├── upload_server.py    #   上传数据落盘服务（一致性验证用）
+│   └── realcheck.py        #   真实服务端连通性自检
 ├── packaging/              # PyInstaller 配置
 │   ├── shandong-school_cracked.spec          #   打包描述（数据文件、可选 pywebview、图标、版本资源）
 │   ├── launcher.py         #   打包入口（绝对导入）
 │   ├── make_icon.py        #   图标生成脚本
 │   └── icon.png, icon.ico
-└── tests/                  # 单元测试（crypto/protocol/simulator/store/walker/e2e）
+└── tests/                  # 单元测试（crypto/protocol/simulator/store/walker/e2e/behavior/face_check/
+                            #   finalize/rule_load/session/updater/pcap_timeline/stdio_none/stderr_filter …）
 ```
 
 仓库根还放着与本工程配套的东西（不属于应用代码）：
 
 | 路径 | 内容 |
 |---|---|
-| `.github/workflows/build-release.yml` | 打 tag 自动双平台构建 + 发 Release |
+| `.github/workflows/build-release.yml` | 打 tag 自动三平台构建（Linux / Windows / Android APK）+ 发 Release；预发布标签自动标 pre |
 | `docs/desktop/协议说明.md` | 协议与逆向要点 |
 | `docs/desktop/打包与发布.md` | 打包、发版、常见问题 |
-| `docs/desktop/screenshots/` | README 用到的截图 |
+| `docs/desktop/screenshots/` | README 用到的截图（三栏布局时期，仅历史参考） |
+| [`docs/android/接口契约.md`](../../docs/android/接口契约.md) | 安卓版与桌面版的 44 个桥接口唯一权威 |
+| [`docs/capture-huawei.md`](../../docs/capture-huawei.md) | 真机抓包对比指南（pcap 时间线 / MITM HAR） |
+| [`../android/`](../android/) | 安卓版（Chaquopy 整包复用本工程的 Python 业务代码） |
 
 ---
 
